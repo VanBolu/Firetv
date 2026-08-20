@@ -2,14 +2,17 @@ import urllib.request
 from urllib.parse import urljoin
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from difflib import SequenceMatcher
 from html.parser import HTMLParser
+from difflib import SequenceMatcher
+import subprocess
+import json
 import re
 import unicodedata
+import shutil
 
 
 # ============================================================
-# ÇIKTI DOSYALARI
+# DOSYALAR
 # ============================================================
 
 TURKEY_OUTPUT = Path("Turkiye.m3u")
@@ -18,6 +21,12 @@ HOTBIRD_OUTPUT = Path("Hotbird.m3u")
 ASTRA_OUTPUT = Path("Astra.m3u")
 
 TARGET_HEIGHT = 1080
+
+# Bir kanal/dil/sürüm için kaç alternatif detaylı test edilecek
+MAX_CANDIDATES_PER_CHANNEL = 4
+
+# Paralel test
+MAX_WORKERS = 12
 
 
 # ============================================================
@@ -38,26 +47,25 @@ TURKEY_SOURCES = [
         "iptv-org-tr",
         "https://raw.githubusercontent.com/"
         "iptv-org/iptv/master/streams/tr.m3u",
-        110,
+        120,
     ),
     (
         "discevisita",
         "https://raw.githubusercontent.com/"
         "discevisita/iptv/main/tr.m3u",
-        100,
+        105,
     ),
     (
         "suphero",
         "https://raw.githubusercontent.com/"
         "suphero/IPTV/master/TR.m3u8",
-        80,
+        75,
     ),
 ]
 
 
 # ============================================================
-# UYDU FTA KAYNAKLARI
-# lim=500 ile mümkün olduğunca tüm FTA TV kayıtlarını iste
+# UYDU FTA LİSTELERİ
 # ============================================================
 
 TURKSAT_URL = (
@@ -77,8 +85,7 @@ ASTRA_URL = (
 
 
 # ============================================================
-# TÜRKİYE ÖZEL YEDEKLER
-# Ana kaynaklarda yoksa bunlar denenir.
+# TÜRKİYE YEDEKLERİ
 # ============================================================
 
 FALLBACKS = {
@@ -100,8 +107,7 @@ FALLBACKS = {
     "STARTV": [
         (
             "Star TV",
-            "https://dogus.daioncdn.net/"
-            "startv/startv_720p.m3u8"
+            "https://dogus.daioncdn.net/startv/startv_720p.m3u8"
             "?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3",
             720,
         ),
@@ -153,14 +159,12 @@ FALLBACKS = {
         (
             "Habertürk",
             "https://rmtftbjlne.turknet.ercdn.net/"
-            "bpeytmnqyp/haberturktv/"
-            "haberturktv_1080p.m3u8",
+            "bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8",
             1080,
         ),
         (
             "Habertürk",
-            "https://tv.ensonhaber.com/"
-            "haberturk/haberturk.m3u8",
+            "https://tv.ensonhaber.com/haberturk/haberturk.m3u8",
             720,
         ),
     ],
@@ -178,8 +182,7 @@ FALLBACKS = {
         (
             "CNN Türk",
             "https://mn-nl.mncdn.com/"
-            "blutv_cnnturk/"
-            "smil:cnnturk_sd.smil/playlist.m3u8",
+            "blutv_cnnturk/smil:cnnturk_sd.smil/playlist.m3u8",
             480,
         ),
     ],
@@ -245,9 +248,16 @@ FALLBACKS = {
 
 
 # ============================================================
-# ŞİFRELİ / PAY-TV İSİM FİLTRESİ
-# Uydu kaynakları zaten Clear filtresinden geliyor.
-# Bu filtre internet kaynaklarında ek koruma.
+# MASTER URL OLARAK KORUNACAK KANALLAR
+# ============================================================
+
+KEEP_MASTER = {
+    "SHOWTV",
+}
+
+
+# ============================================================
+# İSTENMEYEN PAY-TV
 # ============================================================
 
 BLOCKED_WORDS = [
@@ -265,7 +275,7 @@ BLOCKED_WORDS = [
 
 
 # ============================================================
-# DÜNYA ÜLKE ADLARI
+# ÜLKE İSİMLERİ
 # ============================================================
 
 COUNTRIES = {
@@ -346,20 +356,19 @@ HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 "
         "(Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 "
-        "Chrome/151 Safari/537.36"
+        "AppleWebKit/537.36 Chrome/151 Safari/537.36"
     ),
     "Accept": "*/*",
 }
 
 
 # ============================================================
-# TEMEL YARDIMCILAR
+# NORMALIZE
 # ============================================================
 
 def normalize(text):
 
-    text = text.upper()
+    text = (text or "").upper()
 
     replacements = {
         "İ": "I",
@@ -374,7 +383,10 @@ def normalize(text):
     for old, new in replacements.items():
         text = text.replace(old, new)
 
-    text = unicodedata.normalize("NFKD", text)
+    text = unicodedata.normalize(
+        "NFKD",
+        text
+    )
 
     text = "".join(
         c for c in text
@@ -392,7 +404,6 @@ def match_name(text):
 
     text = normalize(text)
 
-    # çözünürlük ve genel ekleri kaldır
     text = re.sub(
         r"\([^)]*\)",
         "",
@@ -433,7 +444,11 @@ def compact_name(text):
     )
 
 
-def download(url, timeout=25):
+# ============================================================
+# HTTP
+# ============================================================
+
+def download(url, timeout=20):
 
     req = urllib.request.Request(
         url,
@@ -452,7 +467,7 @@ def download(url, timeout=25):
 
 
 # ============================================================
-# M3U PARSER
+# M3U
 # ============================================================
 
 def parse_entries(text, source="", score=0):
@@ -468,19 +483,23 @@ def parse_entries(text, source="", score=0):
         line = lines[i].strip()
 
         if not line.startswith("#EXTINF"):
-
             i += 1
             continue
 
         info = line
+        options = []
 
         j = i + 1
 
-        # #EXTVLCOPT gibi satırları atla
         while (
             j < len(lines)
             and lines[j].strip().startswith("#")
         ):
+
+            options.append(
+                lines[j].strip()
+            )
+
             j += 1
 
         if j >= len(lines):
@@ -497,6 +516,7 @@ def parse_entries(text, source="", score=0):
                 "url": url,
                 "source": source,
                 "source_score": score,
+                "options": options,
             })
 
         i = j + 1
@@ -548,7 +568,7 @@ def replace_group(info, group):
 
 
 # ============================================================
-# FAMELACK ÜLKE KODU
+# FAMELACK ÜLKE
 # ============================================================
 
 def famelack_country(info):
@@ -568,7 +588,7 @@ def famelack_country(info):
 
 
 # ============================================================
-# KINGOFSAT HTML PARSER
+# KINGOFSAT
 # ============================================================
 
 class KingOfSatParser(HTMLParser):
@@ -651,53 +671,42 @@ class KingOfSatParser(HTMLParser):
 
 def get_fta_channels(url):
 
-    print(
-        "FTA uydu listesi indiriliyor:",
-        url
-    )
+    try:
 
-    html = download(
-        url,
-        timeout=35
-    )
+        html = download(
+            url,
+            timeout=35
+        )
+
+    except Exception as error:
+
+        print(
+            "Uydu listesi alınamadı:",
+            error
+        )
+
+        return []
+
 
     parser = KingOfSatParser()
-
-    parser.feed(
-        html
-    )
+    parser.feed(html)
 
     result = []
-
     seen = set()
 
 
     for row in parser.rows:
 
-        # KingOfSat'ın güncel tablosunda kanal satırında
-        # Country / Category / Packages / Encryption alanları var.
-        #
-        # Clear kelimesini bulup geriye doğru kanal adını arıyoruz.
-
-        clear_indexes = []
-
-        for index, cell in enumerate(row):
-
-            if normalize(cell) == "CLEAR":
-
-                clear_indexes.append(
-                    index
-                )
+        clear_indexes = [
+            i
+            for i, cell in enumerate(row)
+            if normalize(cell) == "CLEAR"
+        ]
 
 
         for clear_index in clear_indexes:
 
-            # tipik yapı:
-            # Name | Country | Category | Packages | Clear
-            #
-            # dolayısıyla genellikle 4 hücre geride kanal adı var.
-
-            possible = []
+            candidates = []
 
             for offset in (
                 4,
@@ -705,56 +714,51 @@ def get_fta_channels(url):
                 5,
             ):
 
-                index = (
+                idx = (
                     clear_index
                     - offset
                 )
 
-                if (
-                    index >= 0
-                    and index < len(row)
-                ):
+                if 0 <= idx < len(row):
 
-                    possible.append(
-                        row[index]
+                    candidates.append(
+                        row[idx]
                     )
 
 
             chosen = None
 
-            for candidate in possible:
 
-                c = normalize(
+            for candidate in candidates:
+
+                test = normalize(
                     candidate
                 )
 
-                if (
-                    len(candidate) >= 2
-                    and c not in (
-                        "IMAGE",
-                        "NAME",
-                        "CHANNEL",
-                        "TV",
-                        "GENERAL",
-                        "NEWS",
-                        "SPORT",
-                        "MUSIC",
-                        "MOVIES",
-                        "SERIES",
-                        "RELIGIOUS",
-                        "CLEAR",
-                    )
+                if len(candidate) < 2:
+                    continue
+
+                if test in {
+                    "NAME",
+                    "CHANNEL",
+                    "TV",
+                    "GENERAL",
+                    "NEWS",
+                    "SPORT",
+                    "MUSIC",
+                    "MOVIES",
+                    "CLEAR",
+                }:
+                    continue
+
+                if re.fullmatch(
+                    r"[\d\s.,/+:-]+",
+                    candidate
                 ):
+                    continue
 
-                    # frekans / sayı gibi hücreleri at
-                    if re.fullmatch(
-                        r"[\d\s.,/+:-]+",
-                        candidate
-                    ):
-                        continue
-
-                    chosen = candidate
-                    break
+                chosen = candidate
+                break
 
 
             if not chosen:
@@ -764,6 +768,7 @@ def get_fta_channels(url):
             key = compact_name(
                 chosen
             )
+
 
             if (
                 key
@@ -779,27 +784,23 @@ def get_fta_channels(url):
                 )
 
 
-    print(
-        "FTA kanal adı bulundu:",
-        len(result)
-    )
-
     return result
 
 
 # ============================================================
-# TÜRKİYE GRUPLARI
+# TÜRKİYE GRUP
 # ============================================================
 
 def turkey_group(name):
 
     n = normalize(name)
 
+
     if any(x in n for x in [
         "TRT COCUK",
         "MINIKA",
-        "CARTOON",
         "COCUK",
+        "CARTOON",
     ]):
 
         return "Türkiye • Çocuk"
@@ -827,9 +828,7 @@ def turkey_group(name):
         "HALK TV",
         "BLOOMBERG HT",
         "TV100",
-        "TV 100",
         "TVNET",
-        "TV NET",
         "24 TV",
         "FLASH HABER",
         "ULUSAL KANAL",
@@ -854,11 +853,9 @@ def turkey_group(name):
         "TRT MUZIK",
         "KRAL",
         "NUMBER1",
-        "NUMBER 1",
         "POWER TURK",
         "DREAM TURK",
         "MUZIK",
-        "MUSIC",
     ]):
 
         return "Türkiye • Müzik"
@@ -886,7 +883,7 @@ def turkey_group(name):
 
 
 # ============================================================
-# INTERNET KAYDI FİLTRESİ
+# KÖTÜ KAYIT
 # ============================================================
 
 def rejected(info):
@@ -908,305 +905,10 @@ def rejected(info):
 
 
 # ============================================================
-# ÇÖZÜNÜRLÜK
+# META / DİL / BÖLGE
 # ============================================================
 
-def resolution_score(info):
-
-    match = re.search(
-        r"\((\d{3,4})P\)",
-        info.upper()
-    )
-
-    if match:
-
-        return int(
-            match.group(1)
-        )
-
-    if "4K" in info.upper():
-        return 2160
-
-    return 0
-
-
-# ============================================================
-# HLS MASTER → SABİT ÇÖZÜNÜRLÜK
-# ============================================================
-
-def resolve_variant(url):
-
-    try:
-
-        text = download(
-            url,
-            timeout=8
-        )
-
-        if "#EXTM3U" not in text:
-
-            return None, 0
-
-
-        lines = text.splitlines()
-
-        variants = []
-
-
-        for i, line in enumerate(lines):
-
-            if not line.startswith(
-                "#EXT-X-STREAM-INF:"
-            ):
-                continue
-
-
-            res_match = re.search(
-                r"RESOLUTION=(\d+)x(\d+)",
-                line,
-                re.IGNORECASE
-            )
-
-            bandwidth_match = re.search(
-                r"BANDWIDTH=(\d+)",
-                line,
-                re.IGNORECASE
-            )
-
-
-            height = (
-                int(
-                    res_match.group(2)
-                )
-                if res_match
-                else 0
-            )
-
-
-            bandwidth = (
-                int(
-                    bandwidth_match.group(1)
-                )
-                if bandwidth_match
-                else 0
-            )
-
-
-            j = i + 1
-
-            while (
-                j < len(lines)
-                and (
-                    not lines[j].strip()
-                    or lines[j].startswith("#")
-                )
-            ):
-
-                j += 1
-
-
-            if j >= len(lines):
-                continue
-
-
-            variants.append({
-                "url": urljoin(
-                    url,
-                    lines[j].strip()
-                ),
-                "height": height,
-                "bandwidth": bandwidth,
-            })
-
-
-        # zaten sabit media playlist
-        if not variants:
-
-            return url, 0
-
-
-        # önce 1080p
-        exact = [
-            v for v in variants
-            if v["height"] == TARGET_HEIGHT
-        ]
-
-
-        if exact:
-
-            exact.sort(
-                key=lambda v: v["bandwidth"],
-                reverse=True
-            )
-
-            return (
-                exact[0]["url"],
-                1080
-            )
-
-
-        # sonra 1080 altındaki en yüksek
-        lower = [
-            v for v in variants
-            if (
-                v["height"] > 0
-                and v["height"] < TARGET_HEIGHT
-            )
-        ]
-
-
-        if lower:
-
-            lower.sort(
-                key=lambda v: (
-                    v["height"],
-                    v["bandwidth"]
-                ),
-                reverse=True
-            )
-
-            return (
-                lower[0]["url"],
-                lower[0]["height"]
-            )
-
-
-        # sadece daha yüksek varsa
-        higher = [
-            v for v in variants
-            if v["height"] > TARGET_HEIGHT
-        ]
-
-
-        if higher:
-
-            higher.sort(
-                key=lambda v: (
-                    v["height"],
-                    v["bandwidth"]
-                ),
-                reverse=True
-            )
-
-            return (
-                higher[0]["url"],
-                higher[0]["height"]
-            )
-
-
-        variants.sort(
-            key=lambda v: v["bandwidth"],
-            reverse=True
-        )
-
-
-        return (
-            variants[0]["url"],
-            0
-        )
-
-
-    except Exception:
-
-        return None, 0
-
-
-def stream_works(url):
-
-    try:
-
-        text = download(
-            url,
-            timeout=8
-        )
-
-        return "#EXTM3U" in text
-
-    except Exception:
-
-        return False
-
-
-# ============================================================
-# İSİM EŞLEŞTİRME
-# ============================================================
-
-def similarity(a, b):
-
-    return SequenceMatcher(
-        None,
-        a,
-        b
-    ).ratio()
-
-
-def names_match_score(
-    satellite_name,
-    internet_name
-):
-
-    sat = match_name(
-        satellite_name
-    )
-
-    net = match_name(
-        internet_name
-    )
-
-
-    if (
-        not sat
-        or not net
-    ):
-
-        return 0.0
-
-
-    if sat == net:
-
-        return 1.0
-
-
-    sat_compact = compact_name(
-        sat
-    )
-
-    net_compact = compact_name(
-        net
-    )
-
-
-    if sat_compact == net_compact:
-
-        return 1.0
-
-
-    # uzun isimlerde biri diğerinin tamamını içeriyorsa
-    if (
-        min(
-            len(sat_compact),
-            len(net_compact)
-        ) >= 5
-        and (
-            sat_compact in net_compact
-            or net_compact in sat_compact
-        )
-    ):
-
-        return 0.96
-
-
-    return similarity(
-        sat_compact,
-        net_compact
-    )
-
-
-# ============================================================
-# DİL / BÖLGE VARYANTINI KORUMAK İÇİN ANAHTAR
-# ============================================================
-
-LANGUAGE_WORDS = [
+LANGUAGE_WORDS = {
     "ENGLISH",
     "EN",
     "DEUTSCH",
@@ -1228,43 +930,848 @@ LANGUAGE_WORDS = [
     "TURKCE",
     "POLSKA",
     "POLISH",
-    "RU",
     "RUSSIAN",
-]
+    "RUS",
+}
 
 
-def version_key(name):
-
-    n = match_name(
-        name
-    )
-
-    language = ""
+def language_variant(name):
 
     tokens = set(
-        n.split()
+        match_name(name).split()
     )
 
     for word in LANGUAGE_WORDS:
 
         if word in tokens:
+            return word
 
-            language = word
-            break
+    return ""
 
+
+def version_key(name):
 
     return (
-        compact_name(n),
-        language
+        compact_name(name),
+        language_variant(name)
     )
 
 
 # ============================================================
-# DÜNYA INTERNET KAYNAKLARINI TOPLA
+# ÇÖZÜNÜRLÜK METADATA
+# ============================================================
+
+def advertised_resolution(info):
+
+    match = re.search(
+        r"\((\d{3,4})P\)",
+        info.upper()
+    )
+
+    if match:
+
+        return int(
+            match.group(1)
+        )
+
+    if "4K" in info.upper():
+        return 2160
+
+    return 0
+
+
+# ============================================================
+# HLS MANIFEST ANALİZİ
+# ============================================================
+
+def inspect_hls(url):
+
+    try:
+
+        text = download(
+            url,
+            timeout=10
+        )
+
+    except Exception:
+
+        return None
+
+
+    if "#EXTM3U" not in text:
+
+        return None
+
+
+    lines = text.splitlines()
+
+    variants = []
+
+
+    for i, line in enumerate(lines):
+
+        if not line.startswith(
+            "#EXT-X-STREAM-INF:"
+        ):
+            continue
+
+
+        res = re.search(
+            r"RESOLUTION=(\d+)x(\d+)",
+            line,
+            re.IGNORECASE
+        )
+
+        bw = re.search(
+            r"(?:AVERAGE-)?BANDWIDTH=(\d+)",
+            line,
+            re.IGNORECASE
+        )
+
+        frame = re.search(
+            r"FRAME-RATE=([\d.]+)",
+            line,
+            re.IGNORECASE
+        )
+
+        codecs = re.search(
+            r'CODECS="([^"]+)"',
+            line,
+            re.IGNORECASE
+        )
+
+
+        width = (
+            int(res.group(1))
+            if res
+            else 0
+        )
+
+        height = (
+            int(res.group(2))
+            if res
+            else 0
+        )
+
+        bandwidth = (
+            int(bw.group(1))
+            if bw
+            else 0
+        )
+
+        fps = (
+            float(frame.group(1))
+            if frame
+            else 0.0
+        )
+
+        codec_text = (
+            codecs.group(1)
+            if codecs
+            else ""
+        )
+
+
+        j = i + 1
+
+
+        while (
+            j < len(lines)
+            and (
+                not lines[j].strip()
+                or lines[j].startswith("#")
+            )
+        ):
+
+            j += 1
+
+
+        if j >= len(lines):
+            continue
+
+
+        variants.append({
+            "url": urljoin(
+                url,
+                lines[j].strip()
+            ),
+            "width": width,
+            "height": height,
+            "bandwidth": bandwidth,
+            "fps": fps,
+            "codecs": codec_text,
+        })
+
+
+    return {
+        "master": bool(variants),
+        "variants": variants,
+        "text": text,
+    }
+
+
+# ============================================================
+# HLS VARYANT PUANI
+# ============================================================
+
+def codec_score(codec_text):
+
+    codec = (
+        codec_text or ""
+    ).lower()
+
+    score = 0
+
+
+    # LG webOS için AVC/H264 en güvenli
+    if (
+        "avc1" in codec
+        or "h264" in codec
+    ):
+        score += 500
+
+
+    # HEVC ikinci
+    elif (
+        "hvc1" in codec
+        or "hev1" in codec
+        or "hevc" in codec
+    ):
+        score += 300
+
+
+    # AV1 daha düşük LG uyumluluk puanı
+    elif (
+        "av01" in codec
+        or "av1" in codec
+    ):
+        score += 150
+
+
+    # AAC
+    if (
+        "mp4a" in codec
+        or "aac" in codec
+    ):
+        score += 200
+
+
+    return score
+
+
+def variant_score(v):
+
+    height = v["height"]
+    fps = v["fps"]
+    bitrate = v["bandwidth"]
+
+
+    # 1080p merkezli tercih.
+    if height == 1080:
+        resolution_points = 10000
+
+    elif height == 720:
+        resolution_points = 8500
+
+    elif height > 1080:
+        # 1440/2160 yerine LG'de stabil 1080'i tercih ediyoruz.
+        resolution_points = 9000
+
+    elif height >= 576:
+        resolution_points = 6500
+
+    elif height >= 480:
+        resolution_points = 5000
+
+    else:
+        resolution_points = 2500
+
+
+    fps_points = 0
+
+    if fps >= 49:
+        fps_points = 800
+
+    elif fps >= 29:
+        fps_points = 400
+
+    elif fps >= 24:
+        fps_points = 200
+
+
+    bitrate_points = min(
+        int(bitrate / 10000),
+        600
+    )
+
+
+    return (
+        resolution_points
+        + fps_points
+        + bitrate_points
+        + codec_score(
+            v["codecs"]
+        )
+    )
+
+
+def choose_hls_variant(url):
+
+    result = inspect_hls(url)
+
+
+    if not result:
+
+        return None
+
+
+    # Media playlist zaten sabit stream.
+    if not result["master"]:
+
+        return {
+            "url": url,
+            "height": 0,
+            "fps": 0,
+            "bandwidth": 0,
+            "codecs": "",
+            "manifest_score": 0,
+        }
+
+
+    variants = result[
+        "variants"
+    ]
+
+
+    variants.sort(
+        key=variant_score,
+        reverse=True
+    )
+
+
+    winner = variants[0]
+
+
+    return {
+        **winner,
+        "manifest_score": variant_score(
+            winner
+        ),
+    }
+
+
+# ============================================================
+# FFPROBE
+# ============================================================
+
+def ffprobe_available():
+
+    return shutil.which(
+        "ffprobe"
+    ) is not None
+
+
+def ffprobe_stream(url):
+
+    if not ffprobe_available():
+
+        return {}
+
+
+    command = [
+        "ffprobe",
+
+        "-v",
+        "error",
+
+        "-rw_timeout",
+        "8000000",
+
+        "-analyzeduration",
+        "3000000",
+
+        "-probesize",
+        "3000000",
+
+        "-show_entries",
+        (
+            "stream=codec_type,codec_name,width,height,"
+            "avg_frame_rate,r_frame_rate,bit_rate"
+        ),
+
+        "-of",
+        "json",
+
+        url,
+    ]
+
+
+    try:
+
+        process = subprocess.run(
+            command,
+            capture_output=True,
+            text=True,
+            timeout=15,
+        )
+
+
+        if process.returncode != 0:
+
+            return {}
+
+
+        data = json.loads(
+            process.stdout
+        )
+
+
+        video = None
+        audio = None
+
+
+        for stream in data.get(
+            "streams",
+            []
+        ):
+
+            if (
+                stream.get("codec_type")
+                == "video"
+                and video is None
+            ):
+
+                video = stream
+
+
+            elif (
+                stream.get("codec_type")
+                == "audio"
+                and audio is None
+            ):
+
+                audio = stream
+
+
+        result = {}
+
+
+        if video:
+
+            result["video_codec"] = (
+                video.get(
+                    "codec_name",
+                    ""
+                )
+            )
+
+            result["width"] = int(
+                video.get(
+                    "width",
+                    0
+                )
+                or 0
+            )
+
+            result["height"] = int(
+                video.get(
+                    "height",
+                    0
+                )
+                or 0
+            )
+
+
+            fps_text = (
+                video.get(
+                    "avg_frame_rate"
+                )
+                or video.get(
+                    "r_frame_rate"
+                )
+                or "0/1"
+            )
+
+
+            try:
+
+                num, den = (
+                    fps_text.split("/")
+                )
+
+                result["fps"] = (
+                    float(num)
+                    / float(den)
+                    if float(den)
+                    else 0
+                )
+
+            except Exception:
+
+                result["fps"] = 0
+
+
+            try:
+
+                result["bitrate"] = int(
+                    video.get(
+                        "bit_rate",
+                        0
+                    )
+                    or 0
+                )
+
+            except Exception:
+
+                result["bitrate"] = 0
+
+
+        if audio:
+
+            result["audio_codec"] = (
+                audio.get(
+                    "codec_name",
+                    ""
+                )
+            )
+
+
+        return result
+
+
+    except Exception:
+
+        return {}
+
+
+# ============================================================
+# GERÇEK STREAM PUANI
+# ============================================================
+
+def probe_score(probe):
+
+    score = 0
+
+
+    height = probe.get(
+        "height",
+        0
+    )
+
+    fps = probe.get(
+        "fps",
+        0
+    )
+
+    bitrate = probe.get(
+        "bitrate",
+        0
+    )
+
+
+    video = probe.get(
+        "video_codec",
+        ""
+    ).lower()
+
+    audio = probe.get(
+        "audio_codec",
+        ""
+    ).lower()
+
+
+    # Çözünürlük
+    if height == 1080:
+        score += 10000
+
+    elif height == 720:
+        score += 8500
+
+    elif height > 1080:
+        score += 9000
+
+    elif height >= 576:
+        score += 6500
+
+    elif height >= 480:
+        score += 5000
+
+    else:
+        score += 2500
+
+
+    # FPS
+    if fps >= 49:
+        score += 900
+
+    elif fps >= 29:
+        score += 450
+
+    elif fps >= 24:
+        score += 200
+
+
+    # Codec
+    if video in (
+        "h264",
+        "avc",
+    ):
+        score += 600
+
+    elif video in (
+        "hevc",
+        "h265",
+    ):
+        score += 350
+
+    elif video in (
+        "av1",
+    ):
+        score += 150
+
+
+    # Ses
+    if audio == "aac":
+        score += 250
+
+
+    # Bitrate
+    score += min(
+        int(bitrate / 10000),
+        750
+    )
+
+
+    return score
+
+
+# ============================================================
+# STREAM ANALİZİ
+# ============================================================
+
+def analyze_candidate(entry):
+
+    name = channel_name(
+        entry["info"]
+    )
+
+
+    if not name:
+        return None
+
+
+    if rejected(
+        entry["info"]
+    ):
+        return None
+
+
+    identity = compact_name(
+        name
+    )
+
+
+    original_url = entry[
+        "url"
+    ]
+
+
+    # Show TV benzeri istisnalarda master URL korunur.
+    if identity in KEEP_MASTER:
+
+        hls = inspect_hls(
+            original_url
+        )
+
+
+        if not hls:
+
+            return None
+
+
+        final_url = original_url
+
+        manifest = {
+            "height": advertised_resolution(
+                entry["info"]
+            ),
+            "fps": 0,
+            "bandwidth": 0,
+            "codecs": "",
+            "manifest_score": 0,
+        }
+
+
+    else:
+
+        manifest = choose_hls_variant(
+            original_url
+        )
+
+
+        if not manifest:
+
+            return None
+
+
+        final_url = manifest[
+            "url"
+        ]
+
+
+    # Gerçek codec/fps/çözünürlük
+    probe = ffprobe_stream(
+        final_url
+    )
+
+
+    # ffprobe başarısız olsa bile HLS manifest çalışıyorsa tamamen atma.
+    if probe:
+
+        quality_score = probe_score(
+            probe
+        )
+
+        actual_height = probe.get(
+            "height",
+            0
+        )
+
+        actual_fps = probe.get(
+            "fps",
+            0
+        )
+
+        video_codec = probe.get(
+            "video_codec",
+            ""
+        )
+
+        audio_codec = probe.get(
+            "audio_codec",
+            ""
+        )
+
+        bitrate = probe.get(
+            "bitrate",
+            0
+        )
+
+
+    else:
+
+        quality_score = manifest.get(
+            "manifest_score",
+            0
+        )
+
+        actual_height = manifest.get(
+            "height",
+            0
+        )
+
+        actual_fps = manifest.get(
+            "fps",
+            0
+        )
+
+        video_codec = manifest.get(
+            "codecs",
+            ""
+        )
+
+        audio_codec = ""
+
+        bitrate = manifest.get(
+            "bandwidth",
+            0
+        )
+
+
+    # Kaynak güvenilirliği de ekle.
+    total_score = (
+        quality_score
+        + entry.get(
+            "source_score",
+            0
+        ) * 5
+    )
+
+
+    return {
+        **entry,
+
+        "name": name,
+
+        "identity": identity,
+
+        "final_url": final_url,
+
+        "height": actual_height,
+
+        "fps": actual_fps,
+
+        "video_codec": video_codec,
+
+        "audio_codec": audio_codec,
+
+        "bitrate": bitrate,
+
+        "quality_score": (
+            quality_score
+        ),
+
+        "total_score": (
+            total_score
+        ),
+    }
+
+
+# ============================================================
+# İSİM EŞLEŞTİRME
+# ============================================================
+
+def name_similarity(a, b):
+
+    a = compact_name(a)
+    b = compact_name(b)
+
+
+    if not a or not b:
+        return 0.0
+
+
+    if a == b:
+        return 1.0
+
+
+    if (
+        min(
+            len(a),
+            len(b)
+        ) >= 5
+        and (
+            a in b
+            or b in a
+        )
+    ):
+
+        return 0.96
+
+
+    return SequenceMatcher(
+        None,
+        a,
+        b
+    ).ratio()
+
+
+# ============================================================
+# DÜNYA KAYNAKLARI
 # ============================================================
 
 print(
-    "Famelack dünya listesi indiriliyor..."
+    "Famelack indiriliyor..."
 )
 
 famelack_text = download(
@@ -1274,7 +1781,7 @@ famelack_text = download(
 famelack_entries = parse_entries(
     famelack_text,
     "famelack",
-    70
+    80
 )
 
 
@@ -1289,126 +1796,40 @@ try:
         timeout=45
     )
 
-    iptv_world_entries = parse_entries(
-        iptv_world_text,
-        "iptv-org-world",
-        100
+    iptv_world_entries = (
+        parse_entries(
+            iptv_world_text,
+            "iptv-org-world",
+            110
+        )
     )
 
 except Exception as error:
 
     print(
-        "IPTV-org dünya kaynağı alınamadı:",
+        "IPTV-org world hatası:",
         error
     )
 
     iptv_world_entries = []
 
 
-all_world_candidates = (
-    famelack_entries
-    + iptv_world_entries
-)
-
-
 # ============================================================
-# DUNYA.M3U
-# Famelack'ın ülke bilgisi daha düzenli olduğu için temel kaynak.
+# TÜRKİYE EK KAYNAKLARI
 # ============================================================
 
-world_output = [
-    "#EXTM3U"
-]
-
-world_seen_urls = set()
-
-
-for entry in famelack_entries:
-
-    info = entry["info"]
-    url = entry["url"]
-
-    if url in world_seen_urls:
-        continue
-
-
-    code = famelack_country(
-        info
-    )
-
-
-    if code:
-
-        group = COUNTRIES.get(
-            code,
-            "🌍 " + code.upper()
-        )
-
-    else:
-
-        group = "🌍 Diğer"
-
-
-    world_output.extend([
-        replace_group(
-            info,
-            group
-        ),
-        url
-    ])
-
-
-    world_seen_urls.add(
-        url
-    )
-
-
-WORLD_OUTPUT.write_text(
-    "\n".join(
-        world_output
-    ) + "\n",
-    encoding="utf-8"
-)
-
-
-# ============================================================
-# TÜRKSAT / HOTBIRD / ASTRA FTA LİSTELERİNİ AL
-# ============================================================
-
-turksat_channels = get_fta_channels(
-    TURKSAT_URL
-)
-
-hotbird_channels = get_fta_channels(
-    HOTBIRD_URL
-)
-
-astra_channels = get_fta_channels(
-    ASTRA_URL
-)
-
-
-# ============================================================
-# TÜRKİYE İNTERNET ADAYLARI
-# ============================================================
-
-turkey_candidates = []
+turkey_extra = []
 
 
 for source, url, score in TURKEY_SOURCES:
 
     try:
 
-        print(
-            "Türkiye internet kaynağı:",
-            source
-        )
-
         text = download(
             url
         )
 
-        turkey_candidates.extend(
+        turkey_extra.extend(
             parse_entries(
                 text,
                 source,
@@ -1420,351 +1841,605 @@ for source, url, score in TURKEY_SOURCES:
 
         print(
             source,
-            "alınamadı:",
+            "hatası:",
             error
         )
 
 
-# dünya kaynağındaki Türkiye benzeri kanalları da aramaya izin ver
-turkey_candidates.extend(
-    all_world_candidates
-)
+for fallback_id, alternatives in FALLBACKS.items():
 
+    for name, url, resolution in alternatives:
 
-# fallbackleri ekle
-for identity, alternatives in FALLBACKS.items():
-
-    for (
-        name,
-        url,
-        resolution
-    ) in alternatives:
-
-        turkey_candidates.append({
+        turkey_extra.append({
             "info": (
-                f'#EXTINF:-1 '
-                f'tvg-id="{identity}" '
+                '#EXTINF:-1 '
+                f'tvg-id="{fallback_id}" '
                 f'group-title="{turkey_group(name)}",'
-                f'{name}'
+                f'{name} ({resolution}p)'
             ),
+
             "url": url,
+
             "source": "fallback",
-            "source_score": 105,
-            "forced_resolution": resolution,
+
+            "source_score": 115,
+
+            "options": [],
         })
 
 
 # ============================================================
-# ADAY STREAMİ ANALİZ ET
+# TÜM INTERNET ADAYLARI
 # ============================================================
 
-def analyze_stream(entry, keep_master=False):
+all_candidates = (
+    famelack_entries
+    + iptv_world_entries
+    + turkey_extra
+)
+
+
+# ============================================================
+# ÖN ELEME / KANAL BAŞINA KISA LİSTE
+# ============================================================
+
+def coarse_candidate_score(entry):
+
+    score = (
+        entry.get(
+            "source_score",
+            0
+        )
+    )
+
+
+    advertised = advertised_resolution(
+        entry["info"]
+    )
+
+
+    if advertised == 1080:
+        score += 500
+
+    elif advertised == 720:
+        score += 400
+
+    elif advertised > 1080:
+        score += 450
+
+    elif advertised:
+        score += 250
+
+
+    if entry[
+        "url"
+    ].startswith(
+        "https://"
+    ):
+
+        score += 50
+
+
+    return score
+
+
+# ============================================================
+# DÜNYA - ÜLKE BAZINDA ADAY GRUPLAMA
+# ============================================================
+
+world_groups = {}
+
+
+for entry in all_candidates:
 
     if rejected(
         entry["info"]
     ):
-
-        return None
-
-
-    url = entry["url"]
+        continue
 
 
-    advertised = entry.get(
-        "forced_resolution",
-        resolution_score(
+    name = channel_name(
+        entry["info"]
+    )
+
+
+    if not name:
+        continue
+
+
+    country = (
+        famelack_country(
             entry["info"]
         )
+        if entry["source"]
+        == "famelack"
+        else None
     )
 
 
-    if keep_master:
+    if not country:
 
-        if not stream_works(
-            url
-        ):
-
-            return None
-
-
-        return {
-            **entry,
-            "final_url": url,
-            "resolution": advertised,
-        }
-
-
-    fixed_url, found_res = resolve_variant(
-        url
-    )
-
-
-    if not fixed_url:
-
-        return None
-
-
-    if not stream_works(
-        fixed_url
-    ):
-
-        return None
-
-
-    return {
-        **entry,
-        "final_url": fixed_url,
-        "resolution": (
-            found_res
-            if found_res
-            else advertised
-        ),
-    }
-
-
-# ============================================================
-# UYDU KANAL LİSTESİNİ INTERNET STREAMLERİYLE EŞLEŞTİR
-# ============================================================
-
-def build_satellite_playlist(
-    satellite_channels,
-    internet_candidates,
-    output_path,
-    group_name,
-    turkey_mode=False
-):
-
-    print(
-        "Eşleştirme başlıyor:",
-        group_name
-    )
-
-
-    # önce isim indeksini hazırla
-    indexed = []
-
-    for entry in internet_candidates:
-
-        name = channel_name(
+        # tvg-id çoğunlukla Channel.xx
+        tid = tvg_id(
             entry["info"]
         )
 
-        if not name:
-            continue
+        match = re.search(
+            r"\.([A-Za-z]{2})"
+            r"(?:@|$)",
+            tid
+        )
 
+        if match:
 
-        indexed.append({
-            **entry,
-            "name": name,
-            "match": match_name(name),
-        })
-
-
-    # Her uydu kanalı için güçlü isim eşleşmelerini bul.
-    candidate_matches = []
-
-
-    for sat_name in satellite_channels:
-
-        scored = []
-
-
-        for entry in indexed:
-
-            score = names_match_score(
-                sat_name,
-                entry["name"]
+            country = (
+                match.group(1)
+                .lower()
             )
 
 
-            # düşük benzerliği hiç alma
-            if score < 0.91:
+    if not country:
+
+        country = "xx"
+
+
+    key = (
+        country,
+        version_key(name)
+    )
+
+
+    world_groups.setdefault(
+        key,
+        []
+    ).append(
+        entry
+    )
+
+
+# ============================================================
+# EN İYİ KISA ADAYLAR
+# ============================================================
+
+world_shortlist = []
+
+
+for key, options in world_groups.items():
+
+    options.sort(
+        key=coarse_candidate_score,
+        reverse=True
+    )
+
+
+    world_shortlist.extend(
+        options[
+            :MAX_CANDIDATES_PER_CHANNEL
+        ]
+    )
+
+
+print(
+    "Dünya detaylı test adayı:",
+    len(world_shortlist)
+)
+
+
+# ============================================================
+# TÜM DÜNYA ADAYLARINI AYNI MANTIKLA TEST ET
+# ============================================================
+
+world_tested = []
+
+
+with ThreadPoolExecutor(
+    max_workers=MAX_WORKERS
+) as executor:
+
+    futures = [
+        executor.submit(
+            analyze_candidate,
+            entry
+        )
+
+        for entry in world_shortlist
+    ]
+
+
+    completed = 0
+
+
+    for future in as_completed(
+        futures
+    ):
+
+        try:
+
+            result = (
+                future.result()
+            )
+
+
+            if result:
+
+                world_tested.append(
+                    result
+                )
+
+        except Exception:
+
+            pass
+
+
+        completed += 1
+
+
+        if completed % 100 == 0:
+
+            print(
+                "Dünya analiz:",
+                completed,
+                "/",
+                len(world_shortlist)
+            )
+
+
+# ============================================================
+# DÜNYA - EN İYİ STREAM
+# ============================================================
+
+best_world = {}
+
+
+for entry in world_tested:
+
+    name = entry[
+        "name"
+    ]
+
+
+    country = (
+        famelack_country(
+            entry["info"]
+        )
+        if entry["source"]
+        == "famelack"
+        else None
+    )
+
+
+    if not country:
+
+        tid = tvg_id(
+            entry["info"]
+        )
+
+        m = re.search(
+            r"\.([A-Za-z]{2})"
+            r"(?:@|$)",
+            tid
+        )
+
+        if m:
+
+            country = (
+                m.group(1)
+                .lower()
+            )
+
+
+    country = (
+        country
+        or "xx"
+    )
+
+
+    key = (
+        country,
+        version_key(
+            name
+        )
+    )
+
+
+    current = best_world.get(
+        key
+    )
+
+
+    if (
+        current is None
+        or entry["total_score"]
+        > current["total_score"]
+    ):
+
+        best_world[key] = (
+            entry
+        )
+
+
+# ============================================================
+# DUNYA.M3U
+# ============================================================
+
+world_selected = list(
+    best_world.values()
+)
+
+
+world_selected.sort(
+    key=lambda x: (
+        famelack_country(
+            x["info"]
+        )
+        or "zz",
+        normalize(
+            x["name"]
+        )
+    )
+)
+
+
+world_output = [
+    "#EXTM3U"
+]
+
+
+for entry in world_selected:
+
+    country = (
+        famelack_country(
+            entry["info"]
+        )
+    )
+
+
+    if not country:
+
+        tid = tvg_id(
+            entry["info"]
+        )
+
+        m = re.search(
+            r"\.([A-Za-z]{2})"
+            r"(?:@|$)",
+            tid
+        )
+
+        if m:
+
+            country = (
+                m.group(1)
+                .lower()
+            )
+
+
+    group = COUNTRIES.get(
+        country,
+        "🌍 Diğer"
+    )
+
+
+    info = replace_group(
+        entry["info"],
+        group
+    )
+
+
+    world_output.extend([
+        info,
+        entry["final_url"]
+    ])
+
+
+WORLD_OUTPUT.write_text(
+    "\n".join(
+        world_output
+    ) + "\n",
+    encoding="utf-8"
+)
+
+
+# ============================================================
+# UYDU FTA LİSTELERİ
+# ============================================================
+
+print(
+    "Türksat FTA alınıyor..."
+)
+
+turksat_channels = get_fta_channels(
+    TURKSAT_URL
+)
+
+print(
+    "Hotbird FTA alınıyor..."
+)
+
+hotbird_channels = get_fta_channels(
+    HOTBIRD_URL
+)
+
+print(
+    "Astra FTA alınıyor..."
+)
+
+astra_channels = get_fta_channels(
+    ASTRA_URL
+)
+
+
+# ============================================================
+# UYDU LİSTESİ - DÜNYA EN İYİ STREAMLERİYLE EŞLEŞTİR
+# ============================================================
+
+def build_satellite(
+    satellite_names,
+    group_title,
+    output_path,
+    turkey_mode=False
+):
+
+    selected = []
+
+
+    internet_pool = (
+        world_selected
+        + world_tested
+    )
+
+
+    for satellite_name in satellite_names:
+
+        candidates = []
+
+
+        for entry in internet_pool:
+
+            similarity = (
+                name_similarity(
+                    satellite_name,
+                    entry["name"]
+                )
+            )
+
+
+            if similarity < 0.92:
                 continue
 
 
-            scored.append(
+            rank = (
+                similarity * 100000
+                + entry[
+                    "total_score"
+                ]
+            )
+
+
+            candidates.append(
                 (
-                    score,
+                    rank,
                     entry
                 )
             )
 
 
-        if not scored:
+        # Türkiye özel kaynaklarını da özellikle dahil et.
+        if turkey_mode:
+
+            for entry in world_tested:
+
+                similarity = (
+                    name_similarity(
+                        satellite_name,
+                        entry["name"]
+                    )
+                )
+
+
+                if similarity < 0.92:
+                    continue
+
+
+                rank = (
+                    similarity * 100000
+                    + entry[
+                        "total_score"
+                    ]
+                )
+
+
+                candidates.append(
+                    (
+                        rank,
+                        entry
+                    )
+                )
+
+
+        if not candidates:
             continue
 
 
-        scored.sort(
-            key=lambda x: (
-                x[0],
-                x[1]["source_score"],
-                resolution_score(
-                    x[1]["info"]
-                )
-            ),
+        candidates.sort(
+            key=lambda x: x[0],
             reverse=True
         )
 
 
-        # Her uydu kanalı için en fazla 5 iyi alternatif test edilir.
-        for score, entry in scored[:5]:
-
-            candidate_matches.append({
-                "satellite_name": sat_name,
-                "match_score": score,
-                "entry": entry,
-            })
-
-
-    print(
-        group_name,
-        "internet aday eşleşmesi:",
-        len(candidate_matches)
-    )
-
-
-    # Streamleri paralel test et.
-    tested = []
-
-
-    def test_match(item):
-
-        entry = item["entry"]
-
-
-        keep_master = (
-            turkey_mode
-            and compact_name(
-                item["satellite_name"]
-            ) == "SHOWTV"
+        winner = (
+            candidates[0][1]
         )
-
-
-        result = analyze_stream(
-            entry,
-            keep_master=keep_master
-        )
-
-
-        if not result:
-            return None
-
-
-        result["satellite_name"] = (
-            item["satellite_name"]
-        )
-
-        result["match_score"] = (
-            item["match_score"]
-        )
-
-
-        return result
-
-
-    with ThreadPoolExecutor(
-        max_workers=14
-    ) as executor:
-
-
-        futures = [
-            executor.submit(
-                test_match,
-                item
-            )
-            for item in candidate_matches
-        ]
-
-
-        for future in as_completed(
-            futures
-        ):
-
-            try:
-
-                result = future.result()
-
-                if result:
-                    tested.append(
-                        result
-                    )
-
-            except Exception:
-
-                pass
-
-
-    # Uydu kanalı + dil/bölge sürümü bazında en iyi kaydı seç.
-    grouped = {}
-
-
-    for item in tested:
-
-        key = (
-            compact_name(
-                item["satellite_name"]
-            ),
-            version_key(
-                item["name"]
-            )[1]
-        )
-
-
-        item["rank"] = (
-            item["match_score"] * 100000
-            + item["resolution"] * 100
-            + item["source_score"]
-        )
-
-
-        grouped.setdefault(
-            key,
-            []
-        ).append(
-            item
-        )
-
-
-    selected = []
-
-
-    for key, options in grouped.items():
-
-        options.sort(
-            key=lambda x: x["rank"],
-            reverse=True
-        )
-
-
-        winner = options[0]
 
 
         if turkey_mode:
 
             group = turkey_group(
-                winner["satellite_name"]
+                satellite_name
             )
 
         else:
 
-            group = group_name
+            group = group_title
 
 
-        winner["info"] = (
-            f'#EXTINF:-1 '
+        info = (
+            '#EXTINF:-1 '
             f'group-title="{group}",'
-            f'{winner["satellite_name"]}'
+            f'{satellite_name}'
         )
 
 
-        selected.append(
-            winner
+        selected.append({
+            **winner,
+            "info": info,
+            "satellite_name": (
+                satellite_name
+            ),
+        })
+
+
+    # aynı kanal + dil + bölge yalnız bir kere
+    dedupe = {}
+
+
+    for entry in selected:
+
+        key = version_key(
+            entry[
+                "satellite_name"
+            ]
         )
+
+
+        current = dedupe.get(
+            key
+        )
+
+
+        if (
+            current is None
+            or entry[
+                "total_score"
+            ]
+            > current[
+                "total_score"
+            ]
+        ):
+
+            dedupe[key] = entry
+
+
+    selected = list(
+        dedupe.values()
+    )
 
 
     selected.sort(
         key=lambda x: normalize(
-            x["satellite_name"]
+            x[
+                "satellite_name"
+            ]
         )
     )
 
@@ -1777,20 +2452,24 @@ def build_satellite_playlist(
     seen_urls = set()
 
 
-    for item in selected:
+    for entry in selected:
 
-        if item["final_url"] in seen_urls:
+        if (
+            entry["final_url"]
+            in seen_urls
+        ):
+
             continue
 
 
         output.extend([
-            item["info"],
-            item["final_url"]
+            entry["info"],
+            entry["final_url"]
         ])
 
 
         seen_urls.add(
-            item["final_url"]
+            entry["final_url"]
         )
 
 
@@ -1802,44 +2481,32 @@ def build_satellite_playlist(
     )
 
 
-    print(
-        group_name,
-        "son kanal sayısı:",
-        len(selected)
-    )
-
-
     return selected
 
 
 # ============================================================
-# 4 PLAYLIST
+# 3 UYDU LİSTESİ
 # ============================================================
 
-turkey_selected = build_satellite_playlist(
+turkey_selected = build_satellite(
     turksat_channels,
-    turkey_candidates,
-    TURKEY_OUTPUT,
     "Türkiye",
+    TURKEY_OUTPUT,
     turkey_mode=True
 )
 
 
-hotbird_selected = build_satellite_playlist(
+hotbird_selected = build_satellite(
     hotbird_channels,
-    all_world_candidates,
-    HOTBIRD_OUTPUT,
     "Hotbird 13°E",
-    turkey_mode=False
+    HOTBIRD_OUTPUT
 )
 
 
-astra_selected = build_satellite_playlist(
+astra_selected = build_satellite(
     astra_channels,
-    all_world_candidates,
-    ASTRA_OUTPUT,
     "Astra 19.2°E",
-    turkey_mode=False
+    ASTRA_OUTPUT
 )
 
 
@@ -1852,7 +2519,7 @@ print(
 )
 
 print(
-    "TAMAMLANDI"
+    "LG webOS optimize işlemi tamamlandı"
 )
 
 print(
@@ -1860,78 +2527,104 @@ print(
 )
 
 print(
-    "Türksat FTA TV:",
+    "Dunya:",
+    len(world_selected)
+)
+
+print(
+    "Turkiye:",
+    len(turkey_selected),
+    "/ FTA:",
     len(turksat_channels)
 )
 
 print(
-    "Turkiye.m3u çalışan eşleşme:",
-    len(turkey_selected)
-)
-
-print(
-    "Hotbird FTA TV:",
+    "Hotbird:",
+    len(hotbird_selected),
+    "/ FTA:",
     len(hotbird_channels)
 )
 
 print(
-    "Hotbird.m3u çalışan eşleşme:",
-    len(hotbird_selected)
-)
-
-print(
-    "Astra FTA TV:",
+    "Astra:",
+    len(astra_selected),
+    "/ FTA:",
     len(astra_channels)
 )
 
 print(
-    "Astra.m3u çalışan eşleşme:",
-    len(astra_selected)
+    "ffprobe:",
+    ffprobe_available()
 )
 
-print(
-    "Dunya.m3u:",
-    len(world_seen_urls)
-)
 
 print(
     "================================"
 )
 
+print(
+    "Örnek kaliteli kanallar:"
+)
 
-# Özellikle görmek istediğimiz Türkiye kanalları
-checks = [
-    "SHOW TV",
-    "STAR TV",
-    "KANAL D",
+
+for wanted in [
     "TV8",
-    "ATV",
-    "NOW",
+    "SHOWTV",
+    "KANALD",
+    "STARTV",
+    "TRT1",
     "HABERTURK",
-    "BLOOMBERG HT",
-    "CNN TURK",
-    "NTV",
-    "A HABER",
-    "HABER GLOBAL",
-    "TRT HABER",
-    "TRT 1",
-    "TRT SPOR",
-]
+    "BLOOMBERGHT",
+    "CNNTURK",
+]:
+
+    matches = [
+        x
+        for x in turkey_selected
+        if compact_name(
+            x["satellite_name"]
+        ) == wanted
+    ]
 
 
-turkey_names = {
-    compact_name(
-        item["satellite_name"]
-    )
-    for item in turkey_selected
-}
+    if matches:
 
+        x = matches[0]
 
-for name in checks:
+        print(
+            wanted,
+            "|",
+            x.get(
+                "height",
+                0
+            ),
+            "p |",
+            round(
+                x.get(
+                    "fps",
+                    0
+                ),
+                2
+            ),
+            "fps |",
+            x.get(
+                "video_codec",
+                ""
+            ),
+            "|",
+            x.get(
+                "audio_codec",
+                ""
+            ),
+            "|",
+            x[
+                "final_url"
+            ]
+        )
 
-    print(
-        name,
-        ":",
-        compact_name(name)
-        in turkey_names
-    )
+    else:
+
+        print(
+            wanted,
+            "| YOK"
+        )

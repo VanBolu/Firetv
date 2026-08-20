@@ -3,7 +3,6 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import re
 import unicodedata
-import time
 
 
 # ============================================================
@@ -14,17 +13,17 @@ SOURCES = [
     (
         "iptv-org",
         "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tr.m3u",
-        100
+        100,
     ),
     (
         "discevisita",
         "https://raw.githubusercontent.com/discevisita/iptv/main/tr.m3u",
-        90
+        90,
     ),
     (
         "suphero",
         "https://raw.githubusercontent.com/suphero/IPTV/master/TR.m3u8",
-        70
+        70,
     ),
 ]
 
@@ -40,11 +39,13 @@ TURKEY_OUTPUT = Path("turkey.m3u")
 # ============================================================
 # ÖZEL YEDEK KANALLAR
 #
-# Önce yukarıdaki kaynaklarda aranır.
-# Bulunmaz / çalışmazsa bunlar denenir.
+# Ana kaynaklarda bulunamazsa bu adresler denenir.
+# Bir kanal için birden fazla alternatif olabilir.
 # ============================================================
 
 FALLBACKS = {
+
+    # ---------------- ULUSAL ----------------
 
     "SHOWTVTR": [
         (
@@ -59,6 +60,100 @@ FALLBACKS = {
             720,
         ),
     ],
+
+    "STARTVTR": [
+        (
+            "Star TV",
+            "https://dogus.daioncdn.net/startv/startv_720p.m3u8"
+            "?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3",
+            720,
+        ),
+        (
+            "Star TV",
+            "http://dygvideo.dygdigital.com/live/hls/startv4puhu?m3u8",
+            720,
+        ),
+    ],
+
+    "KANALDTR": [
+        (
+            "Kanal D",
+            "https://demiroren.daioncdn.net/kanald/kanald.m3u8"
+            "?app=kanald_web&ce=3",
+            1080,
+        ),
+    ],
+
+    # TV8 - iki ayrı 1080p + 720p yedek
+    "TV8TR": [
+        (
+            "TV8",
+            "https://tv8.daioncdn.net/tv8/tv8.m3u8"
+            "?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3",
+            1080,
+        ),
+        (
+            "TV8",
+            "https://tv8-live.daioncdn.net/tv8/tv8_1080p.m3u8",
+            1080,
+        ),
+        (
+            "TV8",
+            "https://tv8-live.daioncdn.net/tv8/tv8.m3u8",
+            720,
+        ),
+    ],
+
+    "NOWTVTR": [
+        (
+            "NOW",
+            "https://uycyyuuzyh.turknet.ercdn.net/"
+            "nphindgytw/nowtv/nowtv.m3u8",
+            720,
+        ),
+    ],
+
+    "ATVTR": [
+        (
+            "ATV",
+            "https://rnttwmjcin.turknet.ercdn.net/"
+            "lcpmvefbyo/atv/atv_1080p.m3u8",
+            1080,
+        ),
+    ],
+
+    "KANAL7TR": [
+        (
+            "Kanal 7",
+            "https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8",
+            1080,
+        ),
+        (
+            "Kanal 7",
+            "https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8",
+            720,
+        ),
+    ],
+
+    "BEYAZTVTR": [
+        (
+            "Beyaz TV",
+            "https://beyaztv-live.daioncdn.net/"
+            "beyaztv/beyaztv_1080p.m3u8",
+            1080,
+        ),
+    ],
+
+    "TV360TR": [
+        (
+            "360 TV",
+            "https://turkmedya-live.ercdn.net/"
+            "tv360/tv360_720p.m3u8",
+            720,
+        ),
+    ],
+
+    # ---------------- HABER ----------------
 
     "HABERTURKTVTR": [
         (
@@ -83,7 +178,7 @@ FALLBACKS = {
         ),
         (
             "Bloomberg HT",
-            "https://ensonhaber-live.ercdn.net/"
+            "https://tv.ensonhaber.com/"
             "bloomberght/bloomberght.m3u8",
             720,
         ),
@@ -104,44 +199,21 @@ FALLBACKS = {
         ),
     ],
 
-    "STARTVTR": [
+    "AHABERTR": [
         (
-            "Star TV",
-            "http://dygvideo.dygdigital.com/"
-            "live/hls/startv4puhu?m3u8",
-            720,
-        ),
-    ],
-
-    "KANALDTR": [
-        (
-            "Kanal D",
-            "https://demiroren.daioncdn.net/"
-            "kanald/kanald.m3u8?app=kanald_web&ce=3",
+            "A Haber",
+            "https://rnttwmjcin.turknet.ercdn.net/"
+            "lcpmvefbyo/ahaber/ahaber.m3u8",
             1080,
         ),
     ],
 
-    "TV8TR": [
+    "HALKTVTR": [
         (
-            "TV8",
-            "https://rkhubpaomb.turknet.ercdn.net/"
-            "fwjkgpasof/tv8/tv8_1080p.m3u8",
+            "Halk TV",
+            "https://halktv-live.daioncdn.net/"
+            "halktv/halktv.m3u8",
             1080,
-        ),
-        (
-            "TV8",
-            "https://tv8-live.daioncdn.net/tv8/tv8.m3u8",
-            720,
-        ),
-    ],
-
-    "NOWTVTR": [
-        (
-            "NOW",
-            "https://uycyyuuzyh.turknet.ercdn.net/"
-            "nphindgytw/nowtv/nowtv.m3u8",
-            720,
         ),
     ],
 
@@ -154,14 +226,16 @@ FALLBACKS = {
         ),
     ],
 
-    "HALKTVTR": [
+    "TV24TR": [
         (
-            "Halk TV",
-            "https://halktv-live.daioncdn.net/"
-            "halktv/halktv_1080p.m3u8",
-            1080,
+            "24 TV",
+            "https://turkmedya-live.ercdn.net/"
+            "tv24/tv24.m3u8",
+            720,
         ),
     ],
+
+    # ---------------- TRT ----------------
 
     "TRT1TR": [
         (
@@ -203,63 +277,30 @@ FALLBACKS = {
         ),
     ],
 
-    "ATVTR": [
-        (
-            "ATV",
-            "https://rnttwmjcin.turknet.ercdn.net/"
-            "lcpmvefbyo/atv/atv_1080p.m3u8",
-            1080,
-        ),
-    ],
-
-    "AHABERTR": [
-        (
-            "A Haber",
-            "https://rnttwmjcin.turknet.ercdn.net/"
-            "lcpmvefbyo/ahaber/ahaber_1080p.m3u8",
-            1080,
-        ),
-    ],
+    # ---------------- SPOR ----------------
 
     "ASPORTR": [
         (
             "A Spor",
             "https://rnttwmjcin.turknet.ercdn.net/"
-            "lcpmvefbyo/aspor/aspor_1080p.m3u8",
+            "lcpmvefbyo/aspor/aspor.m3u8",
             1080,
         ),
     ],
 
-    "BEYAZTVTR": [
+    "HTSPORTVTR": [
         (
-            "Beyaz TV",
-            "https://beyaztv-live.daioncdn.net/"
-            "beyaztv/beyaztv_1080p.m3u8",
+            "HT Spor",
+            "https://ciner.daioncdn.net/"
+            "ht-spor/ht-spor.m3u8?app=web",
             1080,
-        ),
-    ],
-
-    "TV360TR": [
-        (
-            "360 TV",
-            "https://turkmedya-live.ercdn.net/"
-            "tv360/tv360_720p.m3u8",
-            720,
-        ),
-    ],
-
-    "TV24TR": [
-        (
-            "24 TV",
-            "https://turkmedya-live.ercdn.net/tv24/tv24.m3u8",
-            720,
         ),
     ],
 }
 
 
 # ============================================================
-# ŞİFRELİ / PAY-TV KANALLARI DIŞARI AT
+# ŞİFRELİ / PAY-TV KANALLARI
 # ============================================================
 
 BLOCKED_WORDS = [
@@ -275,12 +316,11 @@ BLOCKED_WORDS = [
     "SMART SPOR",
     "EUROSPORT",
     "NBA TV",
-    "FIGHT NETWORK",
 ]
 
 
 # ============================================================
-# TÜRKİYE KANAL GRUPLARI
+# METİN NORMALLEŞTİRME
 # ============================================================
 
 def normalize(text):
@@ -289,7 +329,6 @@ def normalize(text):
 
     replacements = {
         "İ": "I",
-        "İ": "I",
         "Ş": "S",
         "Ğ": "G",
         "Ü": "U",
@@ -308,6 +347,10 @@ def normalize(text):
         if not unicodedata.combining(c)
     )
 
+
+# ============================================================
+# KATEGORİLER
+# ============================================================
 
 def turkey_group(name):
 
@@ -344,6 +387,7 @@ def turkey_group(name):
         "HALK TV",
         "SOZCU",
         "BLOOMBERG HT",
+        "BLOOMBERGHT",
         "TV100",
         "TV 100",
         "TVNET",
@@ -361,7 +405,6 @@ def turkey_group(name):
         "DMAX",
         "TLC",
         "BELGESEL",
-        "NATIONAL GEOGRAPHIC",
     ]):
         return "🇹🇷 TÜRKSAT • Belgesel"
 
@@ -391,7 +434,6 @@ def turkey_group(name):
         "TEVE2",
         "A2",
         "360",
-        "TV4",
     ]):
         return "🇹🇷 TÜRKSAT • Ulusal"
 
@@ -420,7 +462,7 @@ GROUP_ORDER = {
 
 
 # ============================================================
-# DOWNLOAD
+# HTTP
 # ============================================================
 
 HEADERS = {
@@ -472,9 +514,7 @@ def parse_entries(text, source, source_score):
             continue
 
         info = line
-
         j = i + 1
-
         options = []
 
         while (
@@ -518,14 +558,14 @@ def channel_name(info):
 
 def tvg_id(info):
 
-    m = re.search(
+    match = re.search(
         r'tvg-id="([^"]*)"',
         info,
         re.IGNORECASE
     )
 
-    if m:
-        return m.group(1).strip()
+    if match:
+        return match.group(1).strip()
 
     return ""
 
@@ -534,17 +574,8 @@ def clean_name(name):
 
     n = normalize(name)
 
-    n = re.sub(
-        r"\([^)]*\)",
-        "",
-        n
-    )
-
-    n = re.sub(
-        r"\[[^\]]*\]",
-        "",
-        n
-    )
+    n = re.sub(r"\([^)]*\)", "", n)
+    n = re.sub(r"\[[^\]]*\]", "", n)
 
     n = re.sub(
         r"\bHD\b|\bSD\b|\b4K\b",
@@ -579,17 +610,39 @@ def canonical_id(info):
 
         aliases = {
             "CNNTURKHDTR": "CNNTURKTR",
-            "HABERTURKTR": "HABERTURKTVTR",
-            "HABERTURKTVTR": "HABERTURKTVTR",
-            "BLOOMBERGHTTR": "BLOOMBERGHTTR",
-            "STARTVTR": "STARTVTR",
-            "SHOWTVTR": "SHOWTVTR",
-            "TV8TR": "TV8TR",
-            "KANALDTR": "KANALDTR",
-            "NOWTR": "NOWTVTR",
-            "NOWTVTR": "NOWTVTR",
-            "TV360TR": "TV360TR",
-            "360TR": "TV360TR",
+
+            "HABERTURKTR":
+                "HABERTURKTVTR",
+
+            "HABERTURKTVTR":
+                "HABERTURKTVTR",
+
+            "BLOOMBERGHTTR":
+                "BLOOMBERGHTTR",
+
+            "STARTVTR":
+                "STARTVTR",
+
+            "SHOWTVTR":
+                "SHOWTVTR",
+
+            "TV8TR":
+                "TV8TR",
+
+            "KANALDTR":
+                "KANALDTR",
+
+            "NOWTR":
+                "NOWTVTR",
+
+            "NOWTVTR":
+                "NOWTVTR",
+
+            "360TR":
+                "TV360TR",
+
+            "TV360TR":
+                "TV360TR",
         }
 
         return aliases.get(
@@ -618,7 +671,10 @@ def resolution_score(info):
     if match:
         return int(match.group(1))
 
-    if "2160P" in upper or "4K" in upper:
+    if "4K" in upper:
+        return 2160
+
+    if "2160P" in upper:
         return 2160
 
     if "1440P" in upper:
@@ -626,6 +682,9 @@ def resolution_score(info):
 
     if "1080P" in upper:
         return 1080
+
+    if "900P" in upper:
+        return 900
 
     if "720P" in upper:
         return 720
@@ -643,7 +702,7 @@ def resolution_score(info):
 
 
 # ============================================================
-# KÖTÜ KAYITLARI ELE
+# İSTENMEYEN KAYIT
 # ============================================================
 
 def rejected_entry(info):
@@ -665,7 +724,7 @@ def rejected_entry(info):
 
 
 # ============================================================
-# STREAM ÇALIŞIYOR MU?
+# STREAM TESTİ
 # ============================================================
 
 def test_stream(url):
@@ -686,7 +745,7 @@ def test_stream(url):
 
         with urllib.request.urlopen(
             req,
-            timeout=8
+            timeout=10
         ) as response:
 
             status = getattr(
@@ -698,9 +757,7 @@ def test_stream(url):
             if status >= 400:
                 return False
 
-            data = response.read(
-                65536
-            )
+            data = response.read(65536)
 
             text = data.decode(
                 "utf-8",
@@ -716,10 +773,7 @@ def test_stream(url):
                 .lower()
             )
 
-            if (
-                "mpegurl" in content_type
-                or "application/octet-stream" in content_type
-            ):
+            if "mpegurl" in content_type:
                 return True
 
             return False
@@ -729,7 +783,7 @@ def test_stream(url):
 
 
 # ============================================================
-# GRUP DEĞİŞTİR
+# M3U METADATA
 # ============================================================
 
 def replace_group(info, group):
@@ -749,23 +803,28 @@ def replace_group(info, group):
     )
 
 
-def make_extinf(name, tid, group, resolution):
+def make_extinf(
+    name,
+    tid,
+    group,
+    resolution
+):
 
-    res = ""
+    suffix = ""
 
     if resolution:
-        res = f" ({resolution}p)"
+        suffix = f" ({resolution}p)"
 
     return (
         f'#EXTINF:-1 '
         f'tvg-id="{tid}" '
         f'group-title="{group}",'
-        f'{name}{res}'
+        f'{name}{suffix}'
     )
 
 
 # ============================================================
-# TÜM TÜRKİYE KAYNAKLARINI İNDİR
+# KAYNAKLARI İNDİR
 # ============================================================
 
 all_candidates = []
@@ -788,30 +847,32 @@ for source_name, url, source_score in SOURCES:
             source_score
         )
 
-        all_candidates.extend(
-            entries
-        )
+        all_candidates.extend(entries)
 
         print(
             source_name,
-            "kayıt:",
+            "kanal:",
             len(entries)
         )
 
-    except Exception as exc:
+    except Exception as error:
 
         print(
             "Kaynak indirilemedi:",
             source_name,
-            exc
+            error
         )
 
 
 # ============================================================
-# FAMELACK TÜRKİYE KANALLARINI DA EKLE
+# FAMELACK
 # ============================================================
 
+famelack_text = ""
+
+
 print("Famelack indiriliyor...")
+
 
 try:
 
@@ -827,11 +888,9 @@ try:
 
     for entry in famelack_entries:
 
-        info = entry["info"]
-
         if re.search(
             r'group-title="famelack \(tr\)',
-            info,
+            entry["info"],
             re.IGNORECASE
         ):
 
@@ -839,43 +898,52 @@ try:
                 entry
             )
 
-except Exception as exc:
+except Exception as error:
 
     print(
         "Famelack alınamadı:",
-        exc
+        error
     )
 
 
 # ============================================================
-# FALLBACKLERİ DE ADAYLARA EKLE
+# FALLBACK KANALLARI ADAYLARA EKLE
 # ============================================================
 
-for identity, fallbacks in FALLBACKS.items():
+for identity, alternatives in FALLBACKS.items():
 
-    for name, url, resolution in fallbacks:
+    for name, url, resolution in alternatives:
 
-        group = turkey_group(
-            name
-        )
+        group = turkey_group(name)
 
         all_candidates.append({
+
             "info": make_extinf(
                 name,
                 identity,
                 group,
                 resolution
             ),
+
             "url": url,
-            "source": "fallback",
-            "source_score": 85,
-            "options": [],
-            "forced_resolution": resolution,
+
+            "source":
+                "fallback",
+
+            # Güvenilir fallback'e yüksek puan
+            "source_score":
+                95,
+
+            "options":
+                [],
+
+            "forced_resolution":
+                resolution,
         })
 
 
 # ============================================================
-# REDDEDİLENLERİ TEMİZLE
+# TEMİZLE + PUANLA
 # ============================================================
 
 filtered = []
@@ -903,37 +971,34 @@ for entry in all_candidates:
         )
     )
 
-    # HTTPS ufak avantaj.
     https_bonus = (
         20
         if entry["url"].startswith("https://")
         else 0
     )
 
+    # Çözünürlük en önemli kriter
     entry["rank"] = (
-        entry["resolution"] * 10
+        entry["resolution"] * 100
         + entry["source_score"]
         + https_bonus
     )
 
-    filtered.append(
-        entry
-    )
+    filtered.append(entry)
 
 
 # ============================================================
-# AYNI URL'LERİ TEKİLLEŞTİR
+# AYNI URL'Yİ TEKİLLEŞTİR
 # ============================================================
 
 unique_urls = {}
+
 
 for entry in filtered:
 
     url = entry["url"]
 
-    current = unique_urls.get(
-        url
-    )
+    current = unique_urls.get(url)
 
     if (
         current is None
@@ -949,13 +1014,20 @@ filtered = list(
 
 
 # ============================================================
-# STREAMLERİ PARALEL TEST ET
+# STREAM TESTİ
 # ============================================================
 
+print("--------------------------------")
+
 print(
-    "Stream testi başlıyor. Aday sayısı:",
+    "Stream testi başlıyor."
+)
+
+print(
+    "Toplam aday:",
     len(filtered)
 )
+
 
 working_urls = {}
 
@@ -982,17 +1054,21 @@ with ThreadPoolExecutor(
         url = futures[future]
 
         try:
+
             working_urls[url] = (
                 future.result()
             )
+
         except Exception:
+
             working_urls[url] = False
 
         completed += 1
 
         if completed % 25 == 0:
+
             print(
-                "Test edilen:",
+                "Test:",
                 completed,
                 "/",
                 len(filtered)
@@ -1000,7 +1076,7 @@ with ThreadPoolExecutor(
 
 
 # ============================================================
-# HER KANAL İÇİN ÇALIŞAN EN İYİ KAYNAĞI SEÇ
+# HER KANALIN EN İYİ ÇALIŞAN KAYNAĞI
 # ============================================================
 
 by_channel = {}
@@ -1022,9 +1098,7 @@ for entry in filtered:
     by_channel.setdefault(
         identity,
         []
-    ).append(
-        entry
-    )
+    ).append(entry)
 
 
 selected = []
@@ -1041,9 +1115,7 @@ for identity, candidates in by_channel.items():
 
     name = winner["name"]
 
-    group = turkey_group(
-        name
-    )
+    group = turkey_group(name)
 
     winner["info"] = replace_group(
         winner["info"],
@@ -1052,9 +1124,7 @@ for identity, candidates in by_channel.items():
 
     winner["group"] = group
 
-    selected.append(
-        winner
-    )
+    selected.append(winner)
 
 
 # ============================================================
@@ -1110,58 +1180,63 @@ world_output = [
 world_seen = set()
 
 
-try:
+if famelack_text:
 
-    all_world = parse_entries(
-        famelack_text,
-        "famelack",
-        50
-    )
+    try:
 
-    for entry in all_world:
-
-        info = entry["info"]
-        url = entry["url"]
-
-        # Türkiye'yi buradan atla.
-        if re.search(
-            r'group-title="famelack \(tr\)',
-            info,
-            re.IGNORECASE
-        ):
-            continue
-
-        if url in world_seen:
-            continue
-
-        world_output.extend([
-            info,
-            url
-        ])
-
-        world_seen.add(
-            url
+        all_world = parse_entries(
+            famelack_text,
+            "famelack",
+            50
         )
 
-except Exception:
-    pass
+        for entry in all_world:
+
+            info = entry["info"]
+            url = entry["url"]
+
+            # Türkiye burada alınmıyor.
+            # Temiz Türkiye listesi aşağıda eklenecek.
+            if re.search(
+                r'group-title="famelack \(tr\)',
+                info,
+                re.IGNORECASE
+            ):
+                continue
+
+            if url in world_seen:
+                continue
+
+            world_output.extend([
+                info,
+                url
+            ])
+
+            world_seen.add(url)
+
+    except Exception as error:
+
+        print(
+            "World oluşturma hatası:",
+            error
+        )
 
 
-# Temiz Türkiye listesini dünyaya ekle
+# Türkiye'yi world listesine ekle
 
 for entry in selected:
 
-    if entry["url"] in world_seen:
+    url = entry["url"]
+
+    if url in world_seen:
         continue
 
     world_output.extend([
         entry["info"],
-        entry["url"]
+        url
     ])
 
-    world_seen.add(
-        entry["url"]
-    )
+    world_seen.add(url)
 
 
 WORLD_OUTPUT.write_text(
@@ -1173,40 +1248,80 @@ WORLD_OUTPUT.write_text(
 
 
 # ============================================================
-# RAPOR
+# SONUÇ RAPORU
 # ============================================================
 
 print("--------------------------------")
-print("Tamamlandı.")
+print("PLAYLIST OLUŞTURULDU")
+print("--------------------------------")
+
 print(
-    "Çalışan Türkiye kanalı:",
+    "Türkiye kanal sayısı:",
     len(selected)
 )
+
 print(
     "Dünya kanal sayısı:",
     len(world_seen)
 )
 
-important_checks = [
-    "SHOWTVTR",
-    "STARTVTR",
-    "HABERTURKTVTR",
-    "BLOOMBERGHTTR",
-    "CNNTURKTR",
-    "KANALDTR",
-    "TV8TR",
-    "NOWTVTR",
-]
 
 available = {
-    entry["identity"]
+    entry["identity"]:
+        entry
+
     for entry in selected
 }
 
+
+important_checks = [
+    "SHOWTVTR",
+    "STARTVTR",
+    "KANALDTR",
+    "TV8TR",
+    "NOWTVTR",
+    "ATVTR",
+    "HABERTURKTVTR",
+    "BLOOMBERGHTTR",
+    "CNNTURKTR",
+    "AHABERTR",
+    "TRTHABERTR",
+    "ASPORTR",
+]
+
+
+print("--------------------------------")
+print("ÖNEMLİ KANAL KONTROLÜ")
+print("--------------------------------")
+
+
 for channel in important_checks:
 
-    print(
-        channel,
-        ":",
-        channel in available
-    )
+    entry = available.get(channel)
+
+    if entry:
+
+        print(
+            channel,
+            ": TRUE",
+            "|",
+            entry["resolution"],
+            "p",
+            "|",
+            entry["source"],
+            "|",
+            entry["url"]
+        )
+
+    else:
+
+        print(
+            channel,
+            ": FALSE"
+        )
+
+
+print("--------------------------------")
+print("Dosya:", TURKEY_OUTPUT)
+print("Dosya:", WORLD_OUTPUT)
+print("--------------------------------")

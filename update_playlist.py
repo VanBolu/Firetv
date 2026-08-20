@@ -4,12 +4,16 @@ import re
 import unicodedata
 
 
+# ============================================================
+# KAYNAKLAR
+# ============================================================
+
 FAMELACK_M3U = (
     "https://raw.githubusercontent.com/"
     "DEvmIb/famelack-channels-m3u/main/m3u/_all.m3u"
 )
 
-IPTVORG_TR = (
+TURKEY_M3U_SOURCE = (
     "https://raw.githubusercontent.com/"
     "iptv-org/iptv/master/streams/tr.m3u"
 )
@@ -18,74 +22,29 @@ WORLD_OUTPUT = Path("world.m3u")
 TURKEY_OUTPUT = Path("turkey.m3u")
 
 
-PRIORITY_CHANNELS = [
-    (
-        "TRT 1",
-        "🇹🇷 TÜRKSAT • Ulusal",
-        "https://tv-trt1.medya.trt.com.tr/master.m3u8"
-    ),
-    (
-        "ATV",
-        "🇹🇷 TÜRKSAT • Ulusal",
-        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8"
-    ),
-    (
-        "A2",
-        "🇹🇷 TÜRKSAT • Ulusal",
-        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8"
-    ),
-    (
-        "TV8",
-        "🇹🇷 TÜRKSAT • Ulusal",
-        "https://tv8-live.daioncdn.net/tv8/tv8.m3u8"
-    ),
-    (
-        "A Haber",
-        "🇹🇷 TÜRKSAT • Haber",
-        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8"
-    ),
-    (
-        "NTV",
-        "🇹🇷 TÜRKSAT • Haber",
-        "https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web"
-    ),
-    (
-        "Haber Global",
-        "🇹🇷 TÜRKSAT • Haber",
-        "https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8"
-    ),
-    (
-        "Habertürk",
-        "🇹🇷 TÜRKSAT • Haber",
-        "https://tv.ensonhaber.com/haberturk/haberturk.m3u8"
-    ),
-    (
-        "TGRT Haber",
-        "🇹🇷 TÜRKSAT • Haber",
-        "https://canli.tgrthaber.com/tgrt.m3u8"
-    ),
-    (
-        "Halk TV",
-        "🇹🇷 TÜRKSAT • Haber",
-        "https://halktv-live.daioncdn.net/halktv/halktv.m3u8"
-    ),
-    (
-        "A Spor",
-        "🇹🇷 TÜRKSAT • Spor",
-        "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8"
-    ),
-    (
-        "HT Spor",
-        "🇹🇷 TÜRKSAT • Spor",
-        "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web"
-    ),
-    (
-        "TJK TV",
-        "🇹🇷 TÜRKSAT • Spor",
-        "https://tjktv-live.tjk.org/tjktv.m3u8"
-    ),
+# ============================================================
+# ŞİFRELİ / PAY-TV / İSTENMEYEN KANALLAR
+# ============================================================
+
+BLOCKED_NAMES = [
+    "BEIN",
+    "S SPORT",
+    "S SPORT 2",
+    "TIVIBU",
+    "D-SMART",
+    "D SMART",
+    "DIGITURK",
+    "SMART SPOR",
+    "MOVIESMART",
+    "EUROSPORT",
+    "NBA TV",
+    "FIGHT NETWORK",
 ]
 
+
+# ============================================================
+# ÜLKE ADLARI
+# ============================================================
 
 COUNTRIES = {
     "tr": "🇹🇷 Türkiye",
@@ -127,47 +86,38 @@ COUNTRIES = {
     "no": "🇳🇴 Norveç",
     "dk": "🇩🇰 Danimarka",
     "fi": "🇫🇮 Finlandiya",
-    "is": "🇮🇸 İzlanda",
     "az": "🇦🇿 Azerbaycan",
     "ge": "🇬🇪 Gürcistan",
-    "am": "🇦🇲 Ermenistan",
     "il": "🇮🇱 İsrail",
-    "lb": "🇱🇧 Lübnan",
-    "jo": "🇯🇴 Ürdün",
-    "iq": "🇮🇶 Irak",
-    "ir": "🇮🇷 İran",
-    "sa": "🇸🇦 Suudi Arabistan",
     "ae": "🇦🇪 BAE",
-    "qa": "🇶🇦 Katar",
+    "sa": "🇸🇦 Suudi Arabistan",
     "eg": "🇪🇬 Mısır",
     "ma": "🇲🇦 Fas",
-    "dz": "🇩🇿 Cezayir",
-    "tn": "🇹🇳 Tunus",
     "za": "🇿🇦 Güney Afrika",
     "in": "🇮🇳 Hindistan",
-    "pk": "🇵🇰 Pakistan",
-    "bd": "🇧🇩 Bangladeş",
     "cn": "🇨🇳 Çin",
     "jp": "🇯🇵 Japonya",
     "kr": "🇰🇷 Güney Kore",
-    "th": "🇹🇭 Tayland",
-    "vn": "🇻🇳 Vietnam",
-    "id": "🇮🇩 Endonezya",
-    "my": "🇲🇾 Malezya",
-    "sg": "🇸🇬 Singapur",
-    "ph": "🇵🇭 Filipinler",
     "au": "🇦🇺 Avustralya",
     "nz": "🇳🇿 Yeni Zelanda",
 }
 
+
+# ============================================================
+# YARDIMCI FONKSİYONLAR
+# ============================================================
 
 def download(url):
     req = urllib.request.Request(
         url,
         headers={"User-Agent": "Mozilla/5.0"}
     )
+
     with urllib.request.urlopen(req, timeout=60) as response:
-        return response.read().decode("utf-8", errors="replace")
+        return response.read().decode(
+            "utf-8",
+            errors="replace"
+        )
 
 
 def parse_entries(text):
@@ -176,15 +126,31 @@ def parse_entries(text):
     i = 0
 
     while i < len(lines):
-        line = lines[i].strip()
 
-        if line.startswith("#EXTINF") and i + 1 < len(lines):
-            url = lines[i + 1].strip()
+        if lines[i].startswith("#EXTINF"):
 
-            if url.startswith(("http://", "https://")):
-                result.append((line, url))
+            info = lines[i].strip()
+            options = []
+            j = i + 1
 
-            i += 2
+            while j < len(lines) and lines[j].startswith("#"):
+                options.append(lines[j].strip())
+                j += 1
+
+            if j < len(lines):
+                url = lines[j].strip()
+
+                if url.startswith(("http://", "https://")):
+                    result.append(
+                        {
+                            "info": info,
+                            "options": options,
+                            "url": url
+                        }
+                    )
+
+            i = j + 1
+
         else:
             i += 1
 
@@ -194,6 +160,19 @@ def parse_entries(text):
 def channel_name(info):
     if "," in info:
         return info.split(",", 1)[1].strip()
+    return ""
+
+
+def tvg_id(info):
+    match = re.search(
+        r'tvg-id="([^"]*)"',
+        info,
+        re.IGNORECASE
+    )
+
+    if match:
+        return match.group(1).strip()
+
     return ""
 
 
@@ -222,14 +201,72 @@ def normalize(text):
 
 def clean_name(name):
     n = normalize(name)
-    n = re.sub(r"\[[^\]]+\]", "", n)
-    n = re.sub(r"\([^)]*\)", "", n)
-    n = re.sub(r"\s+", " ", n)
+
+    n = re.sub(
+        r"\[[^\]]+\]",
+        "",
+        n
+    )
+
+    n = re.sub(
+        r"\([^)]*\)",
+        "",
+        n
+    )
+
+    n = re.sub(
+        r"\s+",
+        " ",
+        n
+    )
+
     return n.strip()
 
 
+def resolution_score(info):
+    match = re.search(
+        r"\((\d{3,4})p\)",
+        info,
+        re.IGNORECASE
+    )
+
+    if match:
+        return int(match.group(1))
+
+    if "4K" in info.upper():
+        return 2160
+
+    return 0
+
+
+def is_bad_entry(info, url):
+
+    upper = info.upper()
+
+    if "[GEO-BLOCKED]" in upper:
+        return True
+
+    if "[NOT 24/7]" in upper:
+        return True
+
+    if not url.startswith("https://"):
+        return True
+
+    name = normalize(
+        channel_name(info)
+    )
+
+    for blocked in BLOCKED_NAMES:
+        if blocked in name:
+            return True
+
+    return False
+
+
 def replace_group(info, group):
+
     if 'group-title="' in info:
+
         return re.sub(
             r'group-title="[^"]*"',
             f'group-title="{group}"',
@@ -244,6 +281,7 @@ def replace_group(info, group):
 
 
 def famelack_country(info):
+
     match = re.search(
         r'group-title="famelack \(([^)]+)\) \[([^\]]+)\]',
         info,
@@ -256,159 +294,234 @@ def famelack_country(info):
     return match.group(2).lower().strip()
 
 
-def make_extinf(name, group):
-    return f'#EXTINF:-1 group-title="{group}",{name}'
-
+# ============================================================
+# TÜRKİYE KATEGORİLERİ
+# ============================================================
 
 def turksat_group(name):
+
     n = normalize(name)
 
     if any(x in n for x in [
-        "TRT COCUK", "MINIKA", "CARTOON", "COCUK"
+        "TRT COCUK",
+        "MINIKA",
+        "CARTOON",
+        "COCUK"
     ]):
         return "🇹🇷 TÜRKSAT • Çocuk"
 
     if any(x in n for x in [
-        "TRT SPOR", "A SPOR", "HT SPOR",
-        "TJK", "SPORT", "SPOR"
+        "TRT SPOR",
+        "A SPOR",
+        "HT SPOR",
+        "TJK",
+        "SPOR"
     ]):
         return "🇹🇷 TÜRKSAT • Spor"
 
     if any(x in n for x in [
-        "TRT HABER", "A HABER", "HABERTURK",
-        "CNN TURK", "NTV", "TGRT HABER",
-        "HABER GLOBAL", "HALK TV",
-        "ULUSAL KANAL", "BLOOMBERG HT",
-        "TV100", "EKOTURK", "A NEWS"
+        "TRT HABER",
+        "A HABER",
+        "HABERTURK",
+        "CNN TURK",
+        "NTV",
+        "TGRT HABER",
+        "HABER GLOBAL",
+        "HALK TV",
+        "BLOOMBERG HT",
+        "TV100",
+        "ULUSAL KANAL",
+        "TVNET"
     ]):
         return "🇹🇷 TÜRKSAT • Haber"
 
     if any(x in n for x in [
-        "TRT MUZIK", "KRAL", "NUMBER1",
-        "DREAM TURK", "POWER TURK",
-        "MUZIK", "MUSIC"
+        "TRT MUZIK",
+        "KRAL",
+        "NUMBER 1",
+        "NUMBER1",
+        "POWER TURK",
+        "MUZIK"
     ]):
         return "🇹🇷 TÜRKSAT • Müzik"
 
     if any(x in n for x in [
-        "TRT BELGESEL", "DMAX", "TLC", "BELGESEL"
+        "TRT BELGESEL",
+        "DMAX",
+        "TLC",
+        "BELGESEL"
     ]):
         return "🇹🇷 TÜRKSAT • Belgesel"
 
     if any(x in n for x in [
-        "TRT 1", "KANAL D", "ATV", "STAR TV",
-        "SHOW TV", "TV8", "NOW", "KANAL 7",
-        "BEYAZ TV", "TEVE2", "360", "A2"
+        "TRT 1",
+        "ATV",
+        "KANAL D",
+        "SHOW TV",
+        "STAR TV",
+        "NOW TV",
+        "NOW",
+        "TV8",
+        "KANAL 7",
+        "BEYAZ TV",
+        "TEVE2",
+        "A2",
+        "360 TV"
     ]):
         return "🇹🇷 TÜRKSAT • Ulusal"
 
     if any(x in n for x in [
-        "TRT TURK", "TRT AVAZ", "TRT ARABI",
-        "TRT WORLD", "TRT KURDI"
+        "TRT TURK",
+        "TRT AVAZ",
+        "TRT KURDI",
+        "TRT WORLD"
     ]):
         return "🇹🇷 TÜRKSAT • TRT Diğer"
 
-    return "🇹🇷 Türkiye • Diğer"
+    return "🇹🇷 TÜRKSAT • Diğer"
 
+
+# ============================================================
+# KAYNAKLARI İNDİR
+# ============================================================
+
+print("Türkiye IPTV kaynağı indiriliyor...")
+
+turkey_text = download(
+    TURKEY_M3U_SOURCE
+)
 
 print("Famelack dünya listesi indiriliyor...")
-famelack_text = download(FAMELACK_M3U)
 
-print("IPTV-org Türkiye listesi indiriliyor...")
-iptvorg_text = download(IPTVORG_TR)
+famelack_text = download(
+    FAMELACK_M3U
+)
 
-world_entries = parse_entries(famelack_text)
-tr_entries = parse_entries(iptvorg_text)
+turkey_entries = parse_entries(
+    turkey_text
+)
+
+world_entries = parse_entries(
+    famelack_text
+)
 
 
-turkey_output = ["#EXTM3U"]
-seen_urls = set()
-seen_names = set()
+# ============================================================
+# TÜRKİYE KANALLARINI TEMİZLE
+# ============================================================
+
+best_channels = {}
 
 
-for name, group, url in PRIORITY_CHANNELS:
-    n = clean_name(name)
+for entry in turkey_entries:
 
-    if url in seen_urls or n in seen_names:
+    info = entry["info"]
+    url = entry["url"]
+
+    if is_bad_entry(info, url):
         continue
 
-    turkey_output.extend([
-        make_extinf(name, group),
-        url
-    ])
-
-    seen_urls.add(url)
-    seen_names.add(n)
-
-
-for info, url in tr_entries:
     name = channel_name(info)
-    n = clean_name(name)
 
     if not name:
         continue
 
-    if url in seen_urls:
-        continue
+    identity = tvg_id(info)
 
-    duplicate_priority = False
+    if not identity:
+        identity = clean_name(name)
 
-    for priority_name, _, _ in PRIORITY_CHANNELS:
-        p = clean_name(priority_name)
+    score = resolution_score(info)
 
-        if p and (
-            n == p
-            or n.startswith(p + " ")
-            or p.startswith(n + " ")
-        ):
-            duplicate_priority = True
-            break
+    current = best_channels.get(
+        identity
+    )
 
-    if duplicate_priority:
-        continue
+    if current is None:
+
+        best_channels[identity] = {
+            "info": info,
+            "url": url,
+            "score": score
+        }
+
+    elif score > current["score"]:
+
+        best_channels[identity] = {
+            "info": info,
+            "url": url,
+            "score": score
+        }
+
+
+# ============================================================
+# TURKEY.M3U OLUŞTUR
+# ============================================================
+
+group_order = {
+    "🇹🇷 TÜRKSAT • Ulusal": 1,
+    "🇹🇷 TÜRKSAT • Haber": 2,
+    "🇹🇷 TÜRKSAT • Spor": 3,
+    "🇹🇷 TÜRKSAT • Çocuk": 4,
+    "🇹🇷 TÜRKSAT • Belgesel": 5,
+    "🇹🇷 TÜRKSAT • Müzik": 6,
+    "🇹🇷 TÜRKSAT • TRT Diğer": 7,
+    "🇹🇷 TÜRKSAT • Diğer": 8,
+}
+
+
+clean_entries = []
+
+
+for channel in best_channels.values():
+
+    info = channel["info"]
+    url = channel["url"]
+
+    name = channel_name(
+        info
+    )
+
+    group = turksat_group(
+        name
+    )
 
     info = replace_group(
         info,
-        turksat_group(name)
+        group
     )
 
-    turkey_output.extend([
-        info,
-        url
-    ])
-
-    seen_urls.add(url)
-    seen_names.add(n)
-
-
-for info, url in world_entries:
-    if famelack_country(info) != "tr":
-        continue
-
-    name = channel_name(info)
-    n = clean_name(name)
-
-    if not name:
-        continue
-
-    if url in seen_urls:
-        continue
-
-    if n in seen_names:
-        continue
-
-    info = replace_group(
-        info,
-        turksat_group(name)
+    clean_entries.append(
+        (
+            group_order.get(group, 99),
+            normalize(name),
+            info,
+            url
+        )
     )
 
-    turkey_output.extend([
-        info,
-        url
-    ])
 
-    seen_urls.add(url)
-    seen_names.add(n)
+clean_entries.sort(
+    key=lambda x: (
+        x[0],
+        x[1]
+    )
+)
+
+
+turkey_output = [
+    "#EXTM3U"
+]
+
+
+for _, _, info, url in clean_entries:
+
+    turkey_output.extend(
+        [
+            info,
+            url
+        ]
+    )
 
 
 TURKEY_OUTPUT.write_text(
@@ -417,23 +530,39 @@ TURKEY_OUTPUT.write_text(
 )
 
 
-world_output = ["#EXTM3U"]
-world_seen_urls = set()
+# ============================================================
+# WORLD.M3U OLUŞTUR
+# ============================================================
+
+world_output = [
+    "#EXTM3U"
+]
+
+world_seen = set()
 
 
-for info, url in world_entries:
-    if url in world_seen_urls:
+for entry in world_entries:
+
+    info = entry["info"]
+    url = entry["url"]
+
+    if url in world_seen:
         continue
 
-    country = famelack_country(info)
+    code = famelack_country(
+        info
+    )
 
-    if country == "tr":
+    # Türkiye'yi burada alma.
+    # Temiz turkey.m3u aşağıda eklenecek.
+    if code == "tr":
         continue
 
-    if country:
+    if code:
+
         group = COUNTRIES.get(
-            country,
-            "🌍 " + country.upper()
+            code,
+            "🌍 " + code.upper()
         )
 
         info = replace_group(
@@ -441,39 +570,35 @@ for info, url in world_entries:
             group
         )
 
-    world_output.extend([
-        info,
+    world_output.extend(
+        [
+            info,
+            url
+        ]
+    )
+
+    world_seen.add(
         url
-    ])
-
-    world_seen_urls.add(url)
+    )
 
 
-turkey_lines = TURKEY_OUTPUT.read_text(
-    encoding="utf-8"
-).splitlines()
+# Temiz Türkiye listesini dünya listesine ekle
 
-i = 1
+for _, _, info, url in clean_entries:
 
-while i < len(turkey_lines):
-    if (
-        turkey_lines[i].startswith("#EXTINF")
-        and i + 1 < len(turkey_lines)
-    ):
-        info = turkey_lines[i]
-        url = turkey_lines[i + 1]
+    if url in world_seen:
+        continue
 
-        if url not in world_seen_urls:
-            world_output.extend([
-                info,
-                url
-            ])
+    world_output.extend(
+        [
+            info,
+            url
+        ]
+    )
 
-            world_seen_urls.add(url)
-
-        i += 2
-    else:
-        i += 1
+    world_seen.add(
+        url
+    )
 
 
 WORLD_OUTPUT.write_text(
@@ -482,9 +607,29 @@ WORLD_OUTPUT.write_text(
 )
 
 
+# ============================================================
+# SONUÇ
+# ============================================================
+
 print("--------------------------------")
-print("Playlistler başarıyla oluşturuldu.")
-print("Türkiye kanal sayısı:", len(seen_urls))
-print("Dünya kanal sayısı:", len(world_seen_urls))
-print("Türkiye dosyası:", TURKEY_OUTPUT)
-print("Dünya dosyası:", WORLD_OUTPUT)
+print("Playlistler oluşturuldu.")
+
+print(
+    "Temiz Türkiye kanal sayısı:",
+    len(clean_entries)
+)
+
+print(
+    "Dünya kanal sayısı:",
+    len(world_seen)
+)
+
+print(
+    "Türkiye dosyası:",
+    TURKEY_OUTPUT
+)
+
+print(
+    "Dünya dosyası:",
+    WORLD_OUTPUT
+)

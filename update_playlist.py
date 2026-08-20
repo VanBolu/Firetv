@@ -6,17 +6,28 @@ import re
 import unicodedata
 
 
-WORLD_OUTPUT = Path("world.m3u")
-TURKEY_OUTPUT = Path("turkey.m3u")
+# ============================================================
+# ÇIKTI DOSYALARI
+# ============================================================
+
+TURKEY_OUTPUT = Path("Turkiye.m3u")
+WORLD_OUTPUT = Path("Dunya.m3u")
+HOTBIRD_OUTPUT = Path("Hotbird.m3u")
+ASTRA_OUTPUT = Path("Astra.m3u")
 
 TARGET_HEIGHT = 1080
+
+
+# ============================================================
+# KAYNAKLAR
+# ============================================================
 
 FAMELACK_M3U = (
     "https://raw.githubusercontent.com/"
     "DEvmIb/famelack-channels-m3u/main/m3u/_all.m3u"
 )
 
-SOURCES = [
+TURKEY_SOURCES = [
     (
         "iptv-org",
         "https://raw.githubusercontent.com/"
@@ -38,7 +49,12 @@ SOURCES = [
 ]
 
 
+# ============================================================
+# TÜRKİYE YEDEK KAYNAKLARI
+# ============================================================
+
 FALLBACKS = {
+
     "SHOWTVTR": [
         (
             "Show TV",
@@ -56,7 +72,8 @@ FALLBACKS = {
     "STARTVTR": [
         (
             "Star TV",
-            "https://dogus.daioncdn.net/startv/startv_720p.m3u8"
+            "https://dogus.daioncdn.net/"
+            "startv/startv_720p.m3u8"
             "?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3",
             720,
         ),
@@ -65,8 +82,8 @@ FALLBACKS = {
     "KANALDTR": [
         (
             "Kanal D",
-            "https://demiroren.daioncdn.net/kanald/kanald.m3u8"
-            "?app=kanald_web&ce=3",
+            "https://demiroren.daioncdn.net/"
+            "kanald/kanald.m3u8?app=kanald_web&ce=3",
             1080,
         ),
     ],
@@ -196,6 +213,10 @@ FALLBACKS = {
 }
 
 
+# ============================================================
+# ŞİFRELİ / PAY-TV
+# ============================================================
+
 BLOCKED_WORDS = [
     "BEIN",
     "S SPORT",
@@ -207,8 +228,243 @@ BLOCKED_WORDS = [
     "MOVIESMART",
     "MOVIE SMART",
     "SMART SPOR",
+    "SKY SPORT",
+    "SKY CINEMA",
+    "CANAL+",
+    "CANAL PLUS",
+    "POLsat SPORT PREMIUM",
 ]
 
+
+# ============================================================
+# DÜNYA ÜLKE İSİMLERİ
+# ============================================================
+
+COUNTRIES = {
+    "tr": "🇹🇷 Türkiye",
+    "de": "🇩🇪 Almanya",
+    "at": "🇦🇹 Avusturya",
+    "ch": "🇨🇭 İsviçre",
+    "fr": "🇫🇷 Fransa",
+    "it": "🇮🇹 İtalya",
+    "es": "🇪🇸 İspanya",
+    "pt": "🇵🇹 Portekiz",
+    "gb": "🇬🇧 Birleşik Krallık",
+    "ie": "🇮🇪 İrlanda",
+    "us": "🇺🇸 ABD",
+    "ca": "🇨🇦 Kanada",
+    "mx": "🇲🇽 Meksika",
+    "br": "🇧🇷 Brezilya",
+    "ar": "🇦🇷 Arjantin",
+    "cl": "🇨🇱 Şili",
+    "co": "🇨🇴 Kolombiya",
+    "nl": "🇳🇱 Hollanda",
+    "be": "🇧🇪 Belçika",
+    "gr": "🇬🇷 Yunanistan",
+    "cy": "🇨🇾 Kıbrıs",
+    "pl": "🇵🇱 Polonya",
+    "cz": "🇨🇿 Çekya",
+    "sk": "🇸🇰 Slovakya",
+    "hu": "🇭🇺 Macaristan",
+    "ro": "🇷🇴 Romanya",
+    "bg": "🇧🇬 Bulgaristan",
+    "hr": "🇭🇷 Hırvatistan",
+    "rs": "🇷🇸 Sırbistan",
+    "si": "🇸🇮 Slovenya",
+    "ba": "🇧🇦 Bosna-Hersek",
+    "al": "🇦🇱 Arnavutluk",
+    "mk": "🇲🇰 Kuzey Makedonya",
+    "ua": "🇺🇦 Ukrayna",
+    "ru": "🇷🇺 Rusya",
+    "se": "🇸🇪 İsveç",
+    "no": "🇳🇴 Norveç",
+    "dk": "🇩🇰 Danimarka",
+    "fi": "🇫🇮 Finlandiya",
+    "is": "🇮🇸 İzlanda",
+    "az": "🇦🇿 Azerbaycan",
+    "ge": "🇬🇪 Gürcistan",
+    "am": "🇦🇲 Ermenistan",
+    "il": "🇮🇱 İsrail",
+    "lb": "🇱🇧 Lübnan",
+    "jo": "🇯🇴 Ürdün",
+    "iq": "🇮🇶 Irak",
+    "ir": "🇮🇷 İran",
+    "sa": "🇸🇦 Suudi Arabistan",
+    "ae": "🇦🇪 BAE",
+    "qa": "🇶🇦 Katar",
+    "eg": "🇪🇬 Mısır",
+    "ma": "🇲🇦 Fas",
+    "dz": "🇩🇿 Cezayir",
+    "tn": "🇹🇳 Tunus",
+    "za": "🇿🇦 Güney Afrika",
+    "in": "🇮🇳 Hindistan",
+    "pk": "🇵🇰 Pakistan",
+    "bd": "🇧🇩 Bangladeş",
+    "cn": "🇨🇳 Çin",
+    "jp": "🇯🇵 Japonya",
+    "kr": "🇰🇷 Güney Kore",
+    "th": "🇹🇭 Tayland",
+    "vn": "🇻🇳 Vietnam",
+    "id": "🇮🇩 Endonezya",
+    "my": "🇲🇾 Malezya",
+    "sg": "🇸🇬 Singapur",
+    "ph": "🇵🇭 Filipinler",
+    "au": "🇦🇺 Avustralya",
+    "nz": "🇳🇿 Yeni Zelanda",
+}
+
+
+# ============================================================
+# ASTRA 19.2E
+#
+# FTA / serbest yayın tarafında sık görülen kanallar.
+# Stream mevcutsa Astra.m3u'ya girer.
+# ============================================================
+
+ASTRA_CHANNELS = [
+    "DAS ERSTE",
+    "ARD",
+    "ZDF",
+    "ZDF NEO",
+    "ZDF INFO",
+    "3SAT",
+    "ARTE",
+    "PHOENIX",
+    "ONE",
+    "TAGESSCHAU24",
+    "ARD ALPHA",
+
+    "BR FERNSEHEN",
+    "HR FERNSEHEN",
+    "MDR",
+    "NDR",
+    "RBB",
+    "SWR",
+    "WDR",
+
+    "SAT.1",
+    "SAT1",
+    "PROSIEBEN",
+    "PRO 7",
+    "KABEL EINS",
+    "KABEL1",
+
+    "RTL",
+    "RTL ZWEI",
+    "RTL2",
+    "VOX",
+    "SUPER RTL",
+    "NITRO",
+    "RTL UP",
+
+    "N-TV",
+    "NTV DE",
+    "WELT",
+
+    "SPORT1",
+    "EUROSPORT 1",
+
+    "SERVUS TV",
+    "SERVUSTV",
+    "ORF 1",
+    "ORF 2",
+    "ORF III",
+
+    "PULS 4",
+    "ATV2",
+
+    "SRF INFO",
+
+    "DELUXE MUSIC",
+    "SCHLAGER DELUXE",
+    "MTV",
+
+    "QVC",
+    "HSE",
+    "HSE24",
+
+    "BIBEL TV",
+    "K-TV",
+]
+
+
+# ============================================================
+# HOTBIRD 13E
+#
+# FTA / açık yayınlarda sık görülen uluslararası kanallar.
+# ============================================================
+
+HOTBIRD_CHANNELS = [
+    "TVP POLONIA",
+    "TV POLONIA",
+    "TVP INFO",
+    "TVP WORLD",
+
+    "POLONIA 1",
+    "TELE 5",
+
+    "RAI 1",
+    "RAI 2",
+    "RAI 3",
+    "RAI NEWS 24",
+    "RAI STORIA",
+    "RAI SCUOLA",
+    "RAI SPORT",
+
+    "MEDIASET ITALIA",
+    "TGCOM24",
+
+    "TV5MONDE",
+    "TV5 MONDE",
+    "FRANCE 24",
+
+    "EURONEWS",
+
+    "BBC WORLD NEWS",
+    "BBC NEWS",
+
+    "CNN INTERNATIONAL",
+
+    "AL JAZEERA",
+    "AL JAZEERA ENGLISH",
+
+    "DW",
+    "DW ENGLISH",
+    "DEUTSCHE WELLE",
+
+    "NHK WORLD",
+    "CGTN",
+    "CGTN DOCUMENTARY",
+
+    "TRT WORLD",
+    "TRT TURK",
+    "TRT ARABI",
+    "TRT AVAZ",
+
+    "PRESS TV",
+    "IRIB",
+    "IRAN INTERNATIONAL",
+
+    "AL ARABIYA",
+    "AL HADATH",
+
+    "FRANCE 24 ARABIC",
+
+    "TVE INTERNACIONAL",
+    "RTVE",
+    "24 HORAS",
+
+    "RTP INTERNACIONAL",
+    "RTP INTERNATIONAL",
+
+    "TBN",
+    "GOD TV",
+]
+
+
+# ============================================================
+# HTTP
+# ============================================================
 
 HEADERS = {
     "User-Agent": (
@@ -221,6 +477,26 @@ HEADERS = {
 }
 
 
+def download(url, timeout=20):
+    request = urllib.request.Request(
+        url,
+        headers=HEADERS
+    )
+
+    with urllib.request.urlopen(
+        request,
+        timeout=timeout
+    ) as response:
+        return response.read().decode(
+            "utf-8",
+            errors="replace"
+        )
+
+
+# ============================================================
+# NORMALIZE
+# ============================================================
+
 def normalize(text):
     text = text.upper()
 
@@ -231,37 +507,43 @@ def normalize(text):
         "Ü": "U",
         "Ö": "O",
         "Ç": "C",
+        "Ä": "A",
+        "Ö": "O",
+        "Ü": "U",
+        "ß": "SS",
+        "É": "E",
+        "È": "E",
+        "À": "A",
+        "Á": "A",
     }
 
     for old, new in replacements.items():
         text = text.replace(old, new)
 
-    text = unicodedata.normalize("NFKD", text)
+    text = unicodedata.normalize(
+        "NFKD",
+        text
+    )
 
-    return "".join(
+    text = "".join(
         c for c in text
         if not unicodedata.combining(c)
     )
 
-
-def download(url, timeout=20):
-    req = urllib.request.Request(
-        url,
-        headers=HEADERS
+    text = re.sub(
+        r"\s+",
+        " ",
+        text
     )
 
-    with urllib.request.urlopen(
-        req,
-        timeout=timeout
-    ) as response:
-
-        return response.read().decode(
-            "utf-8",
-            errors="replace"
-        )
+    return text.strip()
 
 
-def parse_entries(text, source, source_score):
+# ============================================================
+# M3U PARSER
+# ============================================================
+
+def parse_entries(text, source="", score=0):
     lines = text.splitlines()
     result = []
 
@@ -288,12 +570,14 @@ def parse_entries(text, source, source_score):
 
         url = lines[j].strip()
 
-        if url.startswith(("http://", "https://")):
+        if url.startswith(
+            ("http://", "https://")
+        ):
             result.append({
                 "info": info,
                 "url": url,
                 "source": source,
-                "source_score": source_score,
+                "source_score": score,
             })
 
         i = j + 1
@@ -321,103 +605,47 @@ def tvg_id(info):
     return ""
 
 
-def clean_name(name):
-    name = normalize(name)
+# ============================================================
+# COUNTRY
+# ============================================================
 
-    name = re.sub(
-        r"\([^)]*\)",
-        "",
-        name
-    )
-
-    name = re.sub(
-        r"\[[^\]]*\]",
-        "",
-        name
-    )
-
-    name = re.sub(
-        r"\bHD\b|\bSD\b|\b4K\b",
-        "",
-        name
-    )
-
-    name = re.sub(
-        r"[^A-Z0-9]+",
-        "",
-        name
-    )
-
-    return name
-
-
-def canonical_id(info):
-    tid = tvg_id(info)
-
-    if tid:
-        tid = tid.split("@")[0]
-        tid = normalize(tid)
-
-        tid = re.sub(
-            r"[^A-Z0-9]",
-            "",
-            tid
-        )
-
-        aliases = {
-            "CNNTURKHDTR": "CNNTURKTR",
-            "HABERTURKTR": "HABERTURKTVTR",
-            "HABERTURKTVTR": "HABERTURKTVTR",
-            "BLOOMBERGHTTR": "BLOOMBERGHTTR",
-            "NOWTR": "NOWTVTR",
-            "NOWTVTR": "NOWTVTR",
-            "360TR": "TV360TR",
-        }
-
-        return aliases.get(
-            tid,
-            tid
-        )
-
-    return clean_name(
-        channel_name(info)
-    )
-
-
-def resolution_score(info):
-    text = info.upper()
-
+def famelack_country(info):
     match = re.search(
-        r"\((\d{3,4})P\)",
-        text
+        r'group-title="famelack '
+        r'\(([^)]+)\) '
+        r'\[([^\]]+)\]',
+        info,
+        re.IGNORECASE
     )
 
-    if match:
-        return int(
-            match.group(1)
+    if not match:
+        return None
+
+    return match.group(2).lower().strip()
+
+
+# ============================================================
+# GROUP-TITLE
+# ============================================================
+
+def replace_group(info, group):
+    if 'group-title="' in info:
+        return re.sub(
+            r'group-title="[^"]*"',
+            f'group-title="{group}"',
+            info
         )
 
-    if "4K" in text:
-        return 2160
+    return info.replace(
+        "#EXTINF:-1",
+        f'#EXTINF:-1 group-title="{group}"',
+        1
+    )
 
-    return 0
 
-
-def rejected_entry(info):
-    text = normalize(info)
-
-    if "GEO-BLOCKED" in text:
-        return True
-
-    if "NOT 24/7" in text:
-        return True
-
-    for blocked in BLOCKED_WORDS:
-        if normalize(blocked) in text:
-            return True
-
-    return False
-
+# ============================================================
+# TÜRKİYE GRUPLARI
+# ============================================================
 
 def turkey_group(name):
     n = normalize(name)
@@ -425,10 +653,10 @@ def turkey_group(name):
     if any(x in n for x in [
         "TRT COCUK",
         "MINIKA",
-        "COCUK",
         "CARTOON",
+        "COCUK",
     ]):
-        return "🇹🇷 TÜRKSAT • Çocuk"
+        return "Türkiye • Çocuk"
 
     if any(x in n for x in [
         "TRT SPOR",
@@ -437,7 +665,7 @@ def turkey_group(name):
         "TJK",
         "SPOR",
     ]):
-        return "🇹🇷 TÜRKSAT • Spor"
+        return "Türkiye • Spor"
 
     if any(x in n for x in [
         "TRT HABER",
@@ -456,7 +684,7 @@ def turkey_group(name):
         "ULUSAL KANAL",
         "SOZCU",
     ]):
-        return "🇹🇷 TÜRKSAT • Haber"
+        return "Türkiye • Haber"
 
     if any(x in n for x in [
         "TRT BELGESEL",
@@ -464,7 +692,7 @@ def turkey_group(name):
         "TLC",
         "BELGESEL",
     ]):
-        return "🇹🇷 TÜRKSAT • Belgesel"
+        return "Türkiye • Belgesel"
 
     if any(x in n for x in [
         "TRT MUZIK",
@@ -474,7 +702,7 @@ def turkey_group(name):
         "DREAM TURK",
         "MUZIK",
     ]):
-        return "🇹🇷 TÜRKSAT • Müzik"
+        return "Türkiye • Müzik"
 
     if any(x in n for x in [
         "TRT 1",
@@ -490,115 +718,98 @@ def turkey_group(name):
         "A2",
         "360",
     ]):
-        return "🇹🇷 TÜRKSAT • Ulusal"
+        return "Türkiye • Ulusal"
 
-    return "🇹🇷 TÜRKSAT • Diğer"
-
-
-GROUP_ORDER = {
-    "🇹🇷 TÜRKSAT • Ulusal": 1,
-    "🇹🇷 TÜRKSAT • Haber": 2,
-    "🇹🇷 TÜRKSAT • Spor": 3,
-    "🇹🇷 TÜRKSAT • Çocuk": 4,
-    "🇹🇷 TÜRKSAT • Belgesel": 5,
-    "🇹🇷 TÜRKSAT • Müzik": 6,
-    "🇹🇷 TÜRKSAT • Diğer": 7,
-}
+    return "Türkiye • Diğer"
 
 
-def make_extinf(
-    name,
-    identity,
-    group,
-    resolution
-):
-    suffix = ""
+# ============================================================
+# BAD ENTRY
+# ============================================================
 
-    if resolution:
-        suffix = f" ({resolution}p)"
+def rejected(info):
+    n = normalize(info)
 
-    return (
-        f'#EXTINF:-1 '
-        f'tvg-id="{identity}" '
-        f'group-title="{group}",'
-        f'{name}{suffix}'
+    if "GEO-BLOCKED" in n:
+        return True
+
+    if "NOT 24/7" in n:
+        return True
+
+    for word in BLOCKED_WORDS:
+        if normalize(word) in n:
+            return True
+
+    return False
+
+
+# ============================================================
+# ÇÖZÜNÜRLÜK
+# ============================================================
+
+def resolution_score(info):
+    match = re.search(
+        r"\((\d{3,4})P\)",
+        info.upper()
     )
 
-
-def test_stream(url):
-    try:
-        req = urllib.request.Request(
-            url,
-            headers=HEADERS
+    if match:
+        return int(
+            match.group(1)
         )
 
-        with urllib.request.urlopen(
-            req,
-            timeout=8
-        ) as response:
+    if "4K" in info.upper():
+        return 2160
 
-            data = response.read(
-                65536
-            ).decode(
-                "utf-8",
-                errors="ignore"
-            )
-
-            return "#EXTM3U" in data
-
-    except Exception:
-        return False
+    return 0
 
 
-def inspect_hls(url):
+# ============================================================
+# MASTER PLAYLIST → SABİT VARYANT
+# ============================================================
+
+def resolve_variant(url):
     try:
         text = download(
             url,
-            timeout=10
+            timeout=8
         )
 
         if "#EXTM3U" not in text:
-            return {
-                "working": False,
-                "is_master": False,
-                "variants": [],
-            }
+            return None, 0
 
         lines = text.splitlines()
         variants = []
 
         for i, line in enumerate(lines):
-
             if not line.startswith(
                 "#EXT-X-STREAM-INF:"
             ):
                 continue
 
-            res_match = re.search(
+            res = re.search(
                 r"RESOLUTION=(\d+)x(\d+)",
                 line,
                 re.IGNORECASE
             )
 
-            bw_match = re.search(
+            bw = re.search(
                 r"BANDWIDTH=(\d+)",
                 line,
                 re.IGNORECASE
             )
 
-            height = 0
+            height = (
+                int(res.group(2))
+                if res
+                else 0
+            )
 
-            if res_match:
-                height = int(
-                    res_match.group(2)
-                )
-
-            bandwidth = 0
-
-            if bw_match:
-                bandwidth = int(
-                    bw_match.group(1)
-                )
+            bandwidth = (
+                int(bw.group(1))
+                if bw
+                else 0
+            )
 
             j = i + 1
 
@@ -614,177 +825,161 @@ def inspect_hls(url):
             if j >= len(lines):
                 continue
 
-            variant_url = urljoin(
-                url,
-                lines[j].strip()
-            )
-
             variants.append({
-                "url": variant_url,
+                "url": urljoin(
+                    url,
+                    lines[j].strip()
+                ),
                 "height": height,
                 "bandwidth": bandwidth,
             })
 
-        return {
-            "working": True,
-            "is_master": len(variants) > 0,
-            "variants": variants,
-        }
+        # Media playlist, master değil.
+        if not variants:
+            return url, 0
+
+        exact = [
+            x for x in variants
+            if x["height"] == 1080
+        ]
+
+        if exact:
+            exact.sort(
+                key=lambda x: x["bandwidth"],
+                reverse=True
+            )
+
+            return (
+                exact[0]["url"],
+                1080
+            )
+
+        below = [
+            x for x in variants
+            if 0 < x["height"] < 1080
+        ]
+
+        if below:
+            below.sort(
+                key=lambda x: (
+                    x["height"],
+                    x["bandwidth"]
+                ),
+                reverse=True
+            )
+
+            return (
+                below[0]["url"],
+                below[0]["height"]
+            )
+
+        above = [
+            x for x in variants
+            if x["height"] > 1080
+        ]
+
+        if above:
+            above.sort(
+                key=lambda x: (
+                    x["height"],
+                    x["bandwidth"]
+                ),
+                reverse=True
+            )
+
+            return (
+                above[0]["url"],
+                above[0]["height"]
+            )
+
+        return url, 0
 
     except Exception:
-        return {
-            "working": False,
-            "is_master": False,
-            "variants": [],
-        }
-
-
-def choose_fixed_variant(
-    original_url,
-    advertised_resolution
-):
-    info = inspect_hls(
-        original_url
-    )
-
-    if not info["working"]:
-        return None
-
-    if not info["is_master"]:
-        return {
-            "url": original_url,
-            "height": advertised_resolution,
-        }
-
-    variants = info["variants"]
-
-    exact_1080 = [
-        v for v in variants
-        if v["height"] == TARGET_HEIGHT
-    ]
-
-    if exact_1080:
-        exact_1080.sort(
-            key=lambda v: v["bandwidth"],
-            reverse=True
-        )
-
-        winner = exact_1080[0]
-
-        return {
-            "url": winner["url"],
-            "height": 1080,
-        }
-
-    lower = [
-        v for v in variants
-        if (
-            v["height"] > 0
-            and v["height"] < TARGET_HEIGHT
-        )
-    ]
-
-    if lower:
-        lower.sort(
-            key=lambda v: (
-                v["height"],
-                v["bandwidth"]
-            ),
-            reverse=True
-        )
-
-        winner = lower[0]
-
-        return {
-            "url": winner["url"],
-            "height": winner["height"],
-        }
-
-    higher = [
-        v for v in variants
-        if v["height"] > TARGET_HEIGHT
-    ]
-
-    if higher:
-        higher.sort(
-            key=lambda v: (
-                v["height"],
-                v["bandwidth"]
-            ),
-            reverse=True
-        )
-
-        winner = higher[0]
-
-        return {
-            "url": winner["url"],
-            "height": winner["height"],
-        }
-
-    variants.sort(
-        key=lambda v: v["bandwidth"],
-        reverse=True
-    )
-
-    if variants:
-        winner = variants[0]
-
-        return {
-            "url": winner["url"],
-            "height": advertised_resolution,
-        }
-
-    return None
+        return None, 0
 
 
 # ============================================================
-# ADAYLARI TOPLA
+# STREAM TEST
 # ============================================================
 
-all_candidates = []
+def stream_works(url):
+    try:
+        text = download(
+            url,
+            timeout=8
+        )
+
+        return "#EXTM3U" in text
+
+    except Exception:
+        return False
 
 
-for source_name, url, score in SOURCES:
+# ============================================================
+# TURKEY: ID
+# ============================================================
 
+def clean_identity(info):
+    tid = tvg_id(info)
+
+    if tid:
+        tid = tid.split("@")[0]
+        return normalize(
+            tid
+        ).replace(".", "").replace("-", "")
+
+    return re.sub(
+        r"[^A-Z0-9]",
+        "",
+        normalize(
+            channel_name(info)
+        )
+    )
+
+
+# ============================================================
+# TURKIYE KAYNAKLARINI TOPLA
+# ============================================================
+
+turkey_candidates = []
+
+
+for source, url, score in TURKEY_SOURCES:
     try:
         print(
-            "Kaynak:",
-            source_name
+            "Türkiye kaynağı:",
+            source
         )
 
         text = download(url)
 
-        all_candidates.extend(
+        turkey_candidates.extend(
             parse_entries(
                 text,
-                source_name,
+                source,
                 score
             )
         )
 
     except Exception as error:
-
         print(
-            source_name,
+            source,
             "alınamadı:",
             error
         )
 
 
-# ============================================================
-# FALLBACKLER
-# ============================================================
-
+# FALLBACK
 for identity, alternatives in FALLBACKS.items():
 
     for name, url, resolution in alternatives:
 
-        all_candidates.append({
-            "info": make_extinf(
-                name,
-                identity,
-                turkey_group(name),
-                resolution
+        turkey_candidates.append({
+            "info": (
+                f'#EXTINF:-1 '
+                f'tvg-id="{identity}" '
+                f'group-title="{turkey_group(name)}",'
+                f'{name}'
             ),
             "url": url,
             "source": "fallback",
@@ -794,82 +989,73 @@ for identity, alternatives in FALLBACKS.items():
 
 
 # ============================================================
-# TEMİZLE
+# TURKIYE: ÇALIŞAN EN İYİ KANALI SEÇ
 # ============================================================
 
-filtered = []
-
-
-for entry in all_candidates:
-
-    if rejected_entry(
+def analyze_turkey(entry):
+    if rejected(
         entry["info"]
     ):
-        continue
+        return None
 
-    entry["identity"] = canonical_id(
+    identity = clean_identity(
         entry["info"]
     )
 
-    entry["name"] = channel_name(
+    name = channel_name(
         entry["info"]
     )
 
-    entry["advertised_resolution"] = (
-        entry.get(
-            "forced_resolution",
-            resolution_score(
-                entry["info"]
-            )
+    advertised = entry.get(
+        "forced_resolution",
+        resolution_score(
+            entry["info"]
         )
     )
 
-    filtered.append(entry)
+    # Show TV master olarak kalsın.
+    if identity == "SHOWTVTR":
 
-
-# ============================================================
-# BÜTÜN STREAMLERİ ANALİZ ET
-# ============================================================
-
-analysis_results = {}
-
-
-def analyze_candidate(entry):
-
-    # Show TV için master URL'yi olduğu gibi koru.
-    if entry["identity"] == "SHOWTVTR":
-
-        if test_stream(
+        if not stream_works(
             entry["url"]
         ):
-            return (
-                entry["url"],
-                {
-                    "url": entry["url"],
-                    "height": 0,
-                }
-            )
+            return None
 
-        return (
-            entry["url"],
-            None
+        fixed_url = entry["url"]
+        real_res = advertised
+
+    else:
+
+        fixed_url, found_res = resolve_variant(
+            entry["url"]
         )
 
-    fixed = choose_fixed_variant(
-        entry["url"],
-        entry["advertised_resolution"]
-    )
+        if not fixed_url:
+            return None
 
-    return (
-        entry["url"],
-        fixed
-    )
+        if not stream_works(
+            fixed_url
+        ):
+            return None
+
+        real_res = (
+            found_res
+            if found_res
+            else advertised
+        )
+
+    return {
+        "identity": identity,
+        "name": name,
+        "info": entry["info"],
+        "url": fixed_url,
+        "resolution": real_res,
+        "source_score": entry["source_score"],
+        "source": entry["source"],
+    }
 
 
-print(
-    "Toplam aday:",
-    len(filtered)
-)
+turkey_usable = []
 
 
 with ThreadPoolExecutor(
@@ -878,103 +1064,45 @@ with ThreadPoolExecutor(
 
     futures = [
         executor.submit(
-            analyze_candidate,
+            analyze_turkey,
             entry
         )
-        for entry in filtered
+        for entry in turkey_candidates
     ]
-
-    completed = 0
 
     for future in as_completed(
         futures
     ):
+        result = future.result()
 
-        url, result = future.result()
-
-        analysis_results[url] = result
-
-        completed += 1
-
-        if completed % 20 == 0:
-
-            print(
-                "Analiz:",
-                completed,
-                "/",
-                len(filtered)
+        if result:
+            turkey_usable.append(
+                result
             )
 
 
-# ============================================================
-# PUANLA
-# ============================================================
-
-usable = []
+by_identity = {}
 
 
-for entry in filtered:
-
-    result = analysis_results.get(
-        entry["url"]
-    )
-
-    if not result:
-        continue
-
-    fixed_url = result["url"]
-    real_height = result["height"]
-
-    # Show TV master URL için ikinci sabit varyant testi yok.
-    if entry["identity"] != "SHOWTVTR":
-
-        if not test_stream(
-            fixed_url
-        ):
-            continue
-
-    entry["fixed_url"] = fixed_url
-
-    entry["real_resolution"] = (
-        real_height
-        if real_height
-        else entry["advertised_resolution"]
-    )
-
-    https_bonus = (
-        20
-        if fixed_url.startswith("https://")
-        else 0
-    )
+for entry in turkey_usable:
 
     entry["rank"] = (
-        entry["real_resolution"] * 100
+        entry["resolution"] * 100
         + entry["source_score"]
-        + https_bonus
     )
 
-    usable.append(entry)
-
-
-# ============================================================
-# KANAL BAŞINA EN İYİ KAYNAK
-# ============================================================
-
-by_channel = {}
-
-
-for entry in usable:
-
-    by_channel.setdefault(
+    by_identity.setdefault(
         entry["identity"],
         []
-    ).append(entry)
+    ).append(
+        entry
+    )
 
 
-selected = []
+turkey_selected = []
 
 
-for identity, alternatives in by_channel.items():
+for identity, alternatives in by_identity.items():
 
     alternatives.sort(
         key=lambda x: x["rank"],
@@ -987,48 +1115,19 @@ for identity, alternatives in by_channel.items():
         winner["name"]
     )
 
-    winner["group"] = group
+    winner["info"] = replace_group(
+        winner["info"],
+        group
+    )
 
-
-    # --------------------------------------------------------
-    # SHOW TV
-    # --------------------------------------------------------
-
-    if identity == "SHOWTVTR":
-
-        winner["name"] = "Show TV"
-
-        winner["info"] = make_extinf(
-            "Show TV",
-            "SHOWTVTR",
-            "🇹🇷 TÜRKSAT • Ulusal",
-            0
-        )
-
-    else:
-
-        winner["info"] = make_extinf(
-            winner["name"],
-            identity,
-            group,
-            winner["real_resolution"]
-        )
-
-    selected.append(
+    turkey_selected.append(
         winner
     )
 
 
-# ============================================================
-# SIRALA
-# ============================================================
-
-selected.sort(
+turkey_selected.sort(
     key=lambda x: (
-        GROUP_ORDER.get(
-            x["group"],
-            99
-        ),
+        x["info"],
         normalize(
             x["name"]
         )
@@ -1036,20 +1135,16 @@ selected.sort(
 )
 
 
-# ============================================================
-# TURKEY.M3U
-# ============================================================
-
 turkey_output = [
     "#EXTM3U"
 ]
 
 
-for entry in selected:
+for entry in turkey_selected:
 
     turkey_output.extend([
         entry["info"],
-        entry["fixed_url"]
+        entry["url"]
     ])
 
 
@@ -1062,7 +1157,26 @@ TURKEY_OUTPUT.write_text(
 
 
 # ============================================================
-# WORLD.M3U
+# FAMELACK DÜNYA KAYNAĞINI İNDİR
+# ============================================================
+
+print(
+    "Dünya listesi indiriliyor..."
+)
+
+famelack_text = download(
+    FAMELACK_M3U
+)
+
+world_entries = parse_entries(
+    famelack_text,
+    "famelack",
+    50
+)
+
+
+# ============================================================
+# DUNYA.M3U
 # ============================================================
 
 world_output = [
@@ -1072,62 +1186,41 @@ world_output = [
 world_seen = set()
 
 
-try:
+for entry in world_entries:
 
-    famelack_text = download(
-        FAMELACK_M3U
-    )
+    info = entry["info"]
+    url = entry["url"]
 
-    famelack_entries = parse_entries(
-        famelack_text,
-        "famelack",
-        50
-    )
-
-    for entry in famelack_entries:
-
-        info = entry["info"]
-        url = entry["url"]
-
-        if re.search(
-            r'group-title="famelack \(tr\)',
-            info,
-            re.IGNORECASE
-        ):
-            continue
-
-        if url in world_seen:
-            continue
-
-        world_output.extend([
-            info,
-            url
-        ])
-
-        world_seen.add(
-            url
-        )
-
-except Exception as error:
-
-    print(
-        "Famelack world hatası:",
-        error
-    )
-
-
-for entry in selected:
-
-    if entry["fixed_url"] in world_seen:
+    if url in world_seen:
         continue
 
+    code = famelack_country(
+        info
+    )
+
+    if code == "tr":
+        continue
+
+    if code:
+        group = COUNTRIES.get(
+            code,
+            "🌍 " + code.upper()
+        )
+    else:
+        group = "🌍 Diğer"
+
+    info = replace_group(
+        info,
+        group
+    )
+
     world_output.extend([
-        entry["info"],
-        entry["fixed_url"]
+        info,
+        url
     ])
 
     world_seen.add(
-        entry["fixed_url"]
+        url
     )
 
 
@@ -1140,71 +1233,220 @@ WORLD_OUTPUT.write_text(
 
 
 # ============================================================
+# UYDU EŞLEŞTİRME
+# ============================================================
+
+def matches_satellite(
+    channel_name_text,
+    satellite_names
+):
+    n = normalize(
+        channel_name_text
+    )
+
+    # Çözünürlük vb temizle
+    n = re.sub(
+        r"\([^)]*\)",
+        "",
+        n
+    )
+
+    n = re.sub(
+        r"\[[^\]]*\]",
+        "",
+        n
+    )
+
+    for candidate in satellite_names:
+
+        c = normalize(
+            candidate
+        )
+
+        if (
+            n == c
+            or n.startswith(c + " ")
+            or c.startswith(n + " ")
+        ):
+            return True
+
+    return False
+
+
+# ============================================================
+# HOTBIRD.M3U
+# ============================================================
+
+hotbird_output = [
+    "#EXTM3U"
+]
+
+hotbird_seen = set()
+
+
+for entry in world_entries:
+
+    info = entry["info"]
+    url = entry["url"]
+
+    name = channel_name(
+        info
+    )
+
+    if not matches_satellite(
+        name,
+        HOTBIRD_CHANNELS
+    ):
+        continue
+
+    if rejected(
+        info
+    ):
+        continue
+
+    if url in hotbird_seen:
+        continue
+
+    info = replace_group(
+        info,
+        "Hotbird 13°E"
+    )
+
+    hotbird_output.extend([
+        info,
+        url
+    ])
+
+    hotbird_seen.add(
+        url
+    )
+
+
+HOTBIRD_OUTPUT.write_text(
+    "\n".join(
+        hotbird_output
+    ) + "\n",
+    encoding="utf-8"
+)
+
+
+# ============================================================
+# ASTRA.M3U
+# ============================================================
+
+astra_output = [
+    "#EXTM3U"
+]
+
+astra_seen = set()
+
+
+for entry in world_entries:
+
+    info = entry["info"]
+    url = entry["url"]
+
+    name = channel_name(
+        info
+    )
+
+    if not matches_satellite(
+        name,
+        ASTRA_CHANNELS
+    ):
+        continue
+
+    if rejected(
+        info
+    ):
+        continue
+
+    if url in astra_seen:
+        continue
+
+    info = replace_group(
+        info,
+        "Astra 19.2°E"
+    )
+
+    astra_output.extend([
+        info,
+        url
+    ])
+
+    astra_seen.add(
+        url
+    )
+
+
+ASTRA_OUTPUT.write_text(
+    "\n".join(
+        astra_output
+    ) + "\n",
+    encoding="utf-8"
+)
+
+
+# ============================================================
 # RAPOR
 # ============================================================
 
-print("--------------------------------")
-print("TAMAMLANDI")
-print("--------------------------------")
-
 print(
-    "Türkiye kanal sayısı:",
-    len(selected)
+    "--------------------------------"
 )
 
 print(
-    "Dünya kanal sayısı:",
-    len(world_seen)
+    "TAMAMLANDI"
 )
 
+print(
+    "--------------------------------"
+)
 
-important = [
-    "TV8TR",
-    "SHOWTVTR",
-    "STARTVTR",
-    "KANALDTR",
-    "ATVTR",
-    "HABERTURKTVTR",
-    "BLOOMBERGHTTR",
-    "CNNTURKTR",
-    "AHABERTR",
-    "TRTHABERTR",
-    "ASPORTR",
-]
+print(
+    "Turkiye:",
+    len(turkey_selected),
+    "kanal"
+)
 
+print(
+    "Dunya:",
+    len(world_seen),
+    "kanal"
+)
 
-lookup = {
-    item["identity"]: item
-    for item in selected
-}
+print(
+    "Hotbird:",
+    len(hotbird_seen),
+    "kanal"
+)
 
+print(
+    "Astra:",
+    len(astra_seen),
+    "kanal"
+)
 
-print("--------------------------------")
-print("ÖNEMLİ KANALLAR")
-print("--------------------------------")
+print(
+    "--------------------------------"
+)
 
+print(
+    "Dosya:",
+    TURKEY_OUTPUT
+)
 
-for identity in important:
+print(
+    "Dosya:",
+    WORLD_OUTPUT
+)
 
-    entry = lookup.get(
-        identity
-    )
+print(
+    "Dosya:",
+    HOTBIRD_OUTPUT
+)
 
-    if entry:
-
-        print(
-            identity,
-            ": TRUE |",
-            entry["real_resolution"],
-            "p |",
-            entry["source"],
-            "|",
-            entry["fixed_url"]
-        )
-
-    else:
-
-        print(
-            identity,
-            ": FALSE"
-        )
+print(
+    "Dosya:",
+    ASTRA_OUTPUT
+)

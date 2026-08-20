@@ -3943,290 +3943,6 @@ https://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8
 https://lana.psm.mv/live/mtv.m3u8
 #EXTINF:0001 tvg-id="A9wsFdDEQAIayf" tvg-chno="1973" group-title="🌍 MV" tvg-logo="", MMTV
 https://sendlive.online/hls/mmtv.m3u8
-#EXTINF:0001 tvg-id="EEjElvcDWe1Onh" tvg-chno="1974" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", 4U TV
-https://hls.4utv.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="TFUyUrLKl7M3tP" tvg-chno="1975" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", 24 TV
-https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
-#EXTINF:0001 tvg-id="Lrea5Bd65wnCJm" tvg-chno="1976" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", 360
-https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
-#EXTINF:0001 tvg-id="Ohf3AgefWfM8Ln" tvg-chno="1977" group-title="🇹🇷 TÜRKSAT • Haber" tvg-logo="", A Haber
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
-#EXTINF:0001 tvg-id="UyP5uli9gNPXtq" tvg-chno="1978" group-title="🇹🇷 TÜRKSAT • Spor" tvg-logo="", A Spor
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
-#EXTINF:0001 tvg-id="jmLc1Xuh4e3k6k" tvg-chno="1979" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", A2TV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
-#EXTINF:0001 tvg-id="7COae96uG7VRpK" tvg-chno="1980" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Aksu TV
-https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
-#EXTINF:0001 tvg-id="3GgXVbdK2cjuBg" tvg-chno="1981" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Alanya Posta TV
-https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
-#EXTINF:0001 tvg-id="Mmz7MUwsZ62HWK" tvg-chno="1982" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Almahriah TV
-https://starmenajo.com/hls/almahriah/index.m3u8
-#EXTINF:0001 tvg-id="2DmXrOxAFaOLJx" tvg-chno="1983" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Altas TV
-https://edge1.taksimbilisim.com/altastv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="yL3s4jwp0ivExp" tvg-chno="1984" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Anadolu Net TV
-https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
-#EXTINF:0001 tvg-id="laMNKAVyTuHniN" tvg-chno="1985" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", AS TV
-https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
-#EXTINF:0001 tvg-id="UBjqGDOceqJLt2" tvg-chno="1986" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
-#EXTINF:0001 tvg-id="lHa4V9RdrTKUbj" tvg-chno="1987" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", ATV Alanya
-https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
-#EXTINF:0001 tvg-id="OULTM0gM1sr5Ul" tvg-chno="1988" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", BBC Earth Turkiye
-https://nord.ayakkabiparti.lol/bbc/index.m3u8
-#EXTINF:0001 tvg-id="Lp2HSyk6TUB8Wd" tvg-chno="1989" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Box Office 1
-https://nord.ayakkabiparti.lol/box1/index.m3u8
-#EXTINF:0001 tvg-id="rBWQKggGNEhC62" tvg-chno="1990" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Box Office 2
-https://nord.ayakkabiparti.lol/box2/index.m3u8
-#EXTINF:0001 tvg-id="wkMHuYhE60CfLP" tvg-chno="1991" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Box Office 3
-https://nord.ayakkabiparti.lol/box3/index.m3u8
-#EXTINF:0001 tvg-id="gcitZzRCddaZzJ" tvg-chno="1992" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Movies Stars
-https://nord.ayakkabiparti.lol/bsaction1/index.m3u8
-#EXTINF:0001 tvg-id="7vDbUXN6wMyfUG" tvg-chno="1993" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Movies Turk
-https://nord.ayakkabiparti.lol/bsturk/index.m3u8
-#EXTINF:0001 tvg-id="srU5BUChRvVkhn" tvg-chno="1994" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bi Kanal
-https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
-#EXTINF:0001 tvg-id="9cbMZrwOtdSUeq" tvg-chno="1995" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bir TV
-https://edge2.taksimbilisim.com/birtv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="Z7tHup27v1j2Td" tvg-chno="1996" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bodrum Kent TV
-https://edge2.taksimbilisim.com/bodrumkenttv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="lnPH0Jssl2BDkS" tvg-chno="1997" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bric ve Satranc TV
-https://139.162.182.79/live/test/index.m3u8
-#EXTINF:0001 tvg-id="WjndAfYgzOKuol" tvg-chno="1998" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", BRTV
-https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
-#EXTINF:0001 tvg-id="fZsqiYgAagpTuM" tvg-chno="1999" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Cay TV
-https://edge.taksimbilisim.com/caytv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="g52lNlgT4qykk6" tvg-chno="2000" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Cem TV
-https://panel.5gtvhosting.com/hls/cemtv/cemtv.m3u8
-#EXTINF:0001 tvg-id="Sb9t7HbJFX4dw4" tvg-chno="2001" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Ciftci TV
-https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
-#EXTINF:0001 tvg-id="nqxj96I7x3VyQ2" tvg-chno="2002" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Cine 1
-https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8
-#EXTINF:0001 tvg-id="OSKKDWCAHjH9Fa" tvg-chno="2003" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", CNBC-e
-https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
-#EXTINF:0001 tvg-id="1OlKTVorbB1nZr" tvg-chno="2004" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Diyanet TV
-https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="hvA9a09zJ8ENTp" tvg-chno="2005" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Diyar TV
-https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
-#EXTINF:0001 tvg-id="WhJMVtLO9qlGWk" tvg-chno="2006" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Dost TV
-https://dost.stream.emsal.im/tv/live.m3u8
-#EXTINF:0001 tvg-id="xUhiIIzFzr2BeH" tvg-chno="2007" group-title="🇹🇷 TÜRKSAT • Yerel" tvg-logo="", Edessa TV
-https://canli.edessatv.com/hls/stream.m3u8
-#EXTINF:0001 tvg-id="7jyQg4ihSASAyo" tvg-chno="2008" group-title="🇹🇷 TÜRKSAT • Spor" tvg-logo="", Ekol Sports
-https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
-#EXTINF:0001 tvg-id="gSMvZveXTsgLFU" tvg-chno="2009" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Ekol TV
-https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
-#EXTINF:0001 tvg-id="6TzIP2eJ3m8bpX" tvg-chno="2010" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Elsharq TV
-https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
-#EXTINF:0001 tvg-id="NaLDKK2n9zWTIs" tvg-chno="2011" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Erciyes TV
-https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
-#EXTINF:0001 tvg-id="GJHn2TfHunPgwd" tvg-chno="2012" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", ERTV
-https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
-#EXTINF:0001 tvg-id="WHkVQZYPgkweaG" tvg-chno="2013" group-title="🇹🇷 TÜRKSAT • Yerel" tvg-logo="", Erzurum Web TV
-https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
-#EXTINF:0001 tvg-id="4WXm2uY8kIBqU4" tvg-chno="2014" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", ES TV
-https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
-#EXTINF:0001 tvg-id="XeroOQjH9IhpiE" tvg-chno="2015" group-title="🇹🇷 TÜRKSAT • Yerel" tvg-logo="", ETV Kayseri
-https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
-#EXTINF:0001 tvg-id="SSm48TGJZ2ZZyq" tvg-chno="2016" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", FB TV
-https://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="qgqjKHkHjQzR2F" tvg-chno="2017" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Finans Turk TV
-https://yayin30.haber100.com/live/finansturk/playlist.m3u8
-#EXTINF:0001 tvg-id="4WUKZJPvirxz3S" tvg-chno="2018" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", FRT TV
-https://edge1.taksimbilisim.com/frttv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="GOMdLvvyu3y5ss" tvg-chno="2019" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", GZT
-https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
-#EXTINF:0001 tvg-id="HhjGNBJx3fTyee" tvg-chno="2020" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Haber61 TV
-https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
-#EXTINF:0001 tvg-id="1kN0lIgg90V9Ot" tvg-chno="2021" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Halk TV
-https://halktv-live.daioncdn.net/halktv/halktv.m3u8
-#EXTINF:0001 tvg-id="Mrrxz9lN8Itjkn" tvg-chno="2022" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Hunat TV
-https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
-#EXTINF:0001 tvg-id="H0si0IBatHqQh2" tvg-chno="2023" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Icel TV
-https://edge1.taksimbilisim.com/iceltv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="9vMtLv0JIYsKG8" tvg-chno="2024" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Ilke TV
-https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
-#EXTINF:0001 tvg-id="fLm0qdcJhJPt7r" tvg-chno="2025" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 3
-https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
-#EXTINF:0001 tvg-id="2Cw7nBUx9FOzBJ" tvg-chno="2026" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", Kanal 7 Avrupa
-https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
-#EXTINF:0001 tvg-id="ULadG4ZWgyGSE9" tvg-chno="2027" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 12
-https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
-#EXTINF:0001 tvg-id="SIwD5ylBUAOrIu" tvg-chno="2028" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 15
-https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
-#EXTINF:0001 tvg-id="1YeqEExY1ZHarD" tvg-chno="2029" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 19
-https://live.euromediacenter.com/kanal19/tracks-v1a1/playlist.m3u8
-#EXTINF:0001 tvg-id="XQ5tolf0wDwNTz" tvg-chno="2030" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 23
-https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
-#EXTINF:0001 tvg-id="y2961fqTVAJ9qU" tvg-chno="2031" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 26
-https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
-#EXTINF:0001 tvg-id="F2Mb6ARE1l9qx2" tvg-chno="2032" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 33
-https://edge2.taksimbilisim.com/kanal33/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="WlWPbkUSbOHRgd" tvg-chno="2033" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 34
-https://live.euromediacenter.com/kanal34/tracks-v1a1/playlist.m3u8
-#EXTINF:0001 tvg-id="xlr0SwBlM6DpLg" tvg-chno="2034" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 58
-https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
-#EXTINF:0001 tvg-id="HqIl2YxOsapx3V" tvg-chno="2035" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Avrupa
-https://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v2a1/playlist.m3u8
-#EXTINF:0001 tvg-id="s5TJFofoYPgAud" tvg-chno="2036" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal B
-https://tv.kanalb.tr/hls/kanalb/index.m3u8
-#EXTINF:0001 tvg-id="LoETX183ZYEwUc" tvg-chno="2037" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Firat
-https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
-#EXTINF:0001 tvg-id="hGtWqYE7XonF37" tvg-chno="2038" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Hayat
-https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
-#EXTINF:0001 tvg-id="oVWM3Lwlb8W6WS" tvg-chno="2039" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Plus
-https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
-#EXTINF:0001 tvg-id="ZpyGz1uKyGaQ8R" tvg-chno="2040" group-title="🇹🇷 TÜRKSAT • Yerel" tvg-logo="", Kanal Urfa
-https://edge2.taksimbilisim.com/kanalurfa/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="JwNiVAH26fmfiw" tvg-chno="2041" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal V
-https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
-#EXTINF:0001 tvg-id="eSS3Rjhr7Bc3Fu" tvg-chno="2042" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Karadeniz TV
-https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8
-#EXTINF:0001 tvg-id="zbs9DkUTcak0mx" tvg-chno="2043" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kay TV
-https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
-#EXTINF:0001 tvg-id="oNyXUjTAtmHkE7" tvg-chno="2044" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kent Turk
-https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
-#EXTINF:0001 tvg-id="tTuLPLvkfWTeJZ" tvg-chno="2045" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kocaeli TV
-https://edge2.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="axZRIy6sk182NP" tvg-chno="2046" group-title="🇹🇷 TÜRKSAT • Yerel" tvg-logo="", Konya Olay TV
-https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
-#EXTINF:0001 tvg-id="QQopjrBuObsS3K" tvg-chno="2047" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Lalegul TV
-https://lbl.netmedya.net/hls/lalegultv.m3u8
-#EXTINF:0001 tvg-id="sIsIH2RBxpGiQq" tvg-chno="2048" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Life TV
-https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
-#EXTINF:0001 tvg-id="1XTuK8yl6RBDGO" tvg-chno="2049" group-title="🇹🇷 TÜRKSAT • Yerel" tvg-logo="", Line TV
-https://edge2.taksimbilisim.com/linetv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="VOTDSHArm72ENB" tvg-chno="2050" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Luys TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="mtrakHpwzJnbET" tvg-chno="2051" group-title="🇹🇷 TÜRKSAT • Yerel" tvg-logo="", Malatya Vuslat TV
-https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
-#EXTINF:0001 tvg-id="WQHcxODZjwPaLc" tvg-chno="2052" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", MaviKaradeniz TV
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
-#EXTINF:0001 tvg-id="drX7A4kD0qM9Kr" tvg-chno="2053" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Mekameleen TV
-https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="kAe6ZeSL18s1wy" tvg-chno="2054" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Meltem TV
-https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
-#EXTINF:0001 tvg-id="oLXvhYRIcgw3Zr" tvg-chno="2055" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Mercan TV
-https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
-#EXTINF:0001 tvg-id="UuFMTGs8Wi2JhV" tvg-chno="2056" group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-logo="", Minika Cocuk
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
-#EXTINF:0001 tvg-id="2bms8LIelvHhKd" tvg-chno="2057" group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-logo="", Minika Go
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
-#EXTINF:0001 tvg-id="T6sJd0DONpZMP2" tvg-chno="2058" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", National Geographic
-https://nord.ayakkabiparti.lol/natgeo/index.m3u8
-#EXTINF:0001 tvg-id="nc1DjS7LywoSFc" tvg-chno="2059" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", National Geographic Wild
-https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
-#EXTINF:0001 tvg-id="BO4YypoB7kcaVn" tvg-chno="2060" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Neo Haber
-https://edge2.taksimbilisim.com/neohaber/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="Qe2ak6SCt98R2p" tvg-chno="2061" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Number 1 Damar
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
-#EXTINF:0001 tvg-id="yWrfqyUbeSLDpm" tvg-chno="2062" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Number 1 Dance
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
-#EXTINF:0001 tvg-id="pJj7CtCAurdOs8" tvg-chno="2063" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Number 1 TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="0p72M9hjYW3qLy" tvg-chno="2064" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", OlayTurk TV
-https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
-#EXTINF:0001 tvg-id="fEdPdOM5VlxlUw" tvg-chno="2065" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Power Dance
-https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="XNTHGJZeFfDgvw" tvg-chno="2066" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Power Love
-https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="AGEdurc99puGj1" tvg-chno="2067" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Power TV
-https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="0dpxRMyEdoEj6k" tvg-chno="2068" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", PowerTurk Akustik
-https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="ZJBNWGiPmC8D7J" tvg-chno="2069" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", PowerTurk Slow
-https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="7rycRdywaNyoH1" tvg-chno="2070" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", PowerTurk Taptaze
-https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="h3VH5nC3Ffse2G" tvg-chno="2071" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", PowerTurk TV
-https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="4uzKD8gUrU9s8R" tvg-chno="2072" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Rehber TV
-https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/playlist.m3u8
-#EXTINF:0001 tvg-id="h0LixAqfar2ZLy" tvg-chno="2073" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Ruha TV
-https://ruhatv.radyotelekom.com.tr:3515/live/ruhatvlive.m3u8
-#EXTINF:0001 tvg-id="oQ5AK419QlFTfh" tvg-chno="2074" group-title="🇹🇷 TÜRKSAT • Spor" tvg-logo="", S Sport
-https://corestream.siteyaptim.live/s-sport/index.m3u8
-#EXTINF:0001 tvg-id="tBhHjWUW81vL3u" tvg-chno="2075" group-title="🇹🇷 TÜRKSAT • Spor" tvg-logo="", S Sport 2
-https://corestream.siteyaptim.live/s-sport2/index.m3u8
-#EXTINF:0001 tvg-id="73xSFKpT68qZuL" tvg-chno="2076" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Semerkand TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="GOBdXHd7gdoheA" tvg-chno="2077" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Sercem TV
-https://canli.sercemtv.com.tr/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="e6ku1z7iZYh6lv" tvg-chno="2078" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Show Max
-https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
-#EXTINF:0001 tvg-id="1GHn7hBwkPvtBl" tvg-chno="2079" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Sonmez TV
-https://sonmeztv.ozelip.com.tr:3826/live/sonmeztvlive.m3u8
-#EXTINF:0001 tvg-id="MDiKVfb3NSPHvZ" tvg-chno="2080" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Sun RTV
-https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
-#EXTINF:0001 tvg-id="InVI6XNTBkTyM8" tvg-chno="2081" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TBMM TV
-https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:0001 tvg-id="5GoagSnDbPwxmH" tvg-chno="2082" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Tele 1
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
-#EXTINF:0001 tvg-id="pTUvBY4x4L3ji9" tvg-chno="2083" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Telenews
-https://cdn-telenews.yayin.com.tr/telenews/tracks-v1a1/playlist.m3u8
-#EXTINF:0001 tvg-id="rqkOBR323x5UjG" tvg-chno="2084" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Tempo TV
-https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
-#EXTINF:0001 tvg-id="brUJhCIZbgC3FC" tvg-chno="2085" group-title="🇹🇷 TÜRKSAT • Haber" tvg-logo="", TGRT Haber
-https://canli.tgrthaber.com/tgrt.m3u8
-#EXTINF:0001 tvg-id="J9YegrVG7tK0JA" tvg-chno="2086" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Tivi 6
-https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
-#EXTINF:0001 tvg-id="vtSycR8Kbn52EY" tvg-chno="2087" group-title="🇹🇷 TÜRKSAT • Spor" tvg-logo="", TJK TV
-https://tjktv-live.tjk.org/tjktv.m3u8
-#EXTINF:0001 tvg-id="l17N1UMzmQBW55" tvg-chno="2088" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Ton TV
-https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
-#EXTINF:0001 tvg-id="DvCN8WstHjmxKR" tvg-chno="2089" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Trakya Turk
-https://live.euromediacenter.com/trakyaturk/tracks-v1a1/playlist.m3u8
-#EXTINF:0001 tvg-id="e8zax7Tb0zc8Eu" tvg-chno="2090" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", TRT 1
-https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="Tsl1TXkC1cdSTl" tvg-chno="2091" group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-logo="", TRT Arabi
-https://tv-trtarabi.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="9O4Xod3xobbM50" tvg-chno="2092" group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-logo="", TRT Avaz
-https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="aIKbRpQHmkkXLq" tvg-chno="2093" group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-logo="", TRT Diyanet Cocuk
-https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="3JgrZVIyLGdoxu" tvg-chno="2094" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TRT EBA
-https://tv-e-okul01.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="owJJC4tX2SQL4u" tvg-chno="2095" group-title="🇹🇷 TÜRKSAT • Haber" tvg-logo="", TRT Haber
-https://tv-trthaber.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="E5bRl4JchxbV74" tvg-chno="2096" group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-logo="", TRT Kurdi
-https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="C9IVKYDQo5BjBO" tvg-chno="2097" group-title="🇹🇷 TÜRKSAT • Müzik" tvg-logo="", TRT Muzik
-https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="soJFcTUgH4WD3b" tvg-chno="2098" group-title="🇹🇷 TÜRKSAT • Spor" tvg-logo="", TRT Spor
-https://corestream.siteyaptim.live/trt-spor/index.m3u8
-#EXTINF:0001 tvg-id="3plQYqBTSXG2ii" tvg-chno="2099" group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-logo="", TRT Turk
-https://tv-trtturk.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="egFyCvci4RMv2r" tvg-chno="2100" group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-logo="", TRT World
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:0001 tvg-id="MhRzY1TKeTMMWB" tvg-chno="2101" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TurkHaber TV
-https://edge2.taksimbilisim.com/turkhaber/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="3FSzos0dAYiYAN" tvg-chno="2102" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 4
-https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:0001 tvg-id="kNlSvYLttCaBWF" tvg-chno="2103" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 8.5
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8
-#EXTINF:0001 tvg-id="deH7vlwlXSBCxY" tvg-chno="2104" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 41
-https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
-#EXTINF:0001 tvg-id="bgn8mfchHatjpX" tvg-chno="2105" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 52
-https://edge2.taksimbilisim.com/tv52/bant1/chunks.m3u8
-#EXTINF:0001 tvg-id="W5plAUUYqWIZ2k" tvg-chno="2106" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 100
-https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
-#EXTINF:0001 tvg-id="ZdxrMEOa28PZnq" tvg-chno="2107" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 264
-https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="8UTFNpq46IxrH2" tvg-chno="2108" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV Den
-https://canli.tvden.com.tr/hls/live.m3u8
-#EXTINF:0001 tvg-id="fiUFmaRESDKun4" tvg-chno="2109" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TVNET
-https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
-#EXTINF:0001 tvg-id="Dti0xsuIDuqqFU" tvg-chno="2110" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TYT Turk
-https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
-#EXTINF:0001 tvg-id="TKQbSmFlgXq83c" tvg-chno="2111" group-title="🇹🇷 TÜRKSAT • Yerel" tvg-logo="", Urfa Natik TV
-https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
-#EXTINF:0001 tvg-id="97yrWN3tqRiWgB" tvg-chno="2112" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Van 65 TV
-https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
-#EXTINF:0001 tvg-id="o42XfPEZyBkZVI" tvg-chno="2113" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Vav TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
-#EXTINF:0001 tvg-id="HU7t21P03xeEXV" tvg-chno="2114" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Viasat History
-https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
-#EXTINF:0001 tvg-id="z7fzuBK8WkQvBK" tvg-chno="2115" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Zarok TV
-https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
 #EXTINF:0001 tvg-id="79lqDZYF5l4OvA" tvg-chno="2116" group-title="🇻🇳 Vietnam" tvg-logo="", An Ninh TV
 https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
 #EXTINF:0001 tvg-id="n5a2vy0RLNr42v" tvg-chno="2117" group-title="🇻🇳 Vietnam" tvg-logo="", Can Tho TV
@@ -12455,143 +12171,453 @@ https://server.zillarbarta.com/zillarbarta/index.m3u8
 https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
 #EXTINF:0001 tvg-id="R9UIEd40h1hSAD" tvg-chno="6237" group-title="🌍 TD" tvg-logo="", Tele Tchad
 https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8
-#EXTINF:-1 tvg-id="AlRafidainTV.tr@SD" tvg-logo="https://i.imgur.com/rjXDCN5.png" group-title="🇹🇷 Türkiye • Diğer",Al Rafidain (720p) [Not 24/7]
-https://arrafidain.tvplayer.online/arrafidaintv/source/playlist.m3u8
-#EXTINF:-1 tvg-id="AlZahraTVTurkic.tr@SD" tvg-logo="https://i.imgur.com/QEHKGnG.png" group-title="🇹🇷 Türkiye • Diğer",Al-Zahra TV Turkic (720p) [Not 24/7]
-https://live.al-zahratv.com/live/playlist.m3u8
-#EXTINF:-1 tvg-id="AltasTV.tr@SD" tvg-logo="https://i.imgur.com/XaJ7fp6.png" group-title="🇹🇷 Türkiye • Diğer",Altas TV (1080p)
-https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="ArasTV.tr@SD" tvg-logo="https://i.imgur.com/JsDCyWG.png" group-title="🇹🇷 Türkiye • Diğer",ARAS TV (576p) [Not 24/7]
-http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="🇹🇷 TÜRKSAT • Ulusal",ATV (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
-#EXTINF:-1 tvg-id="ATVAvrupa.tr@SD" tvg-logo="https://i.tmgrup.com.tr/aav/site/v1/i/atv-avrupa-logo.png" group-title="🇹🇷 TÜRKSAT • Ulusal",ATV Avrupa (576p)
-https://flaskapihls-atv-avrupa-trkvzlive.onrender.com/hls_stream/master.m3u8
-#EXTINF:-1 tvg-id="BabyTV.uk@Turkiye" tvg-logo="https://i.imgur.com/4BDJ5FT.png" group-title="🇹🇷 Türkiye • Diğer",BabyTV Turkiye (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/babytv/index.m3u8
-#EXTINF:-1 tvg-id="BenguturkTV.tr@SD" tvg-logo="https://i.imgur.com/p3ON1oX.png" group-title="🇹🇷 Türkiye • Diğer",Benguturk TV (1080p)
-http://185.234.111.229:8000/play/a05u
-#EXTINF:-1 tvg-id="BeyazTV.tr@SD" tvg-logo="https://i.imgur.com/uykIdML.png" group-title="🇹🇷 TÜRKSAT • Ulusal",Beyaz TV (720p) [Not 24/7]
-https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
-#EXTINF:-1 tvg-id="BirTV.tr@SD" tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png" group-title="🇹🇷 Türkiye • Diğer",Bir TV (720p)
-https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="BloombergHT.tr@SD" tvg-logo="https://i.imgur.com/bmkXfIE.png" group-title="🇹🇷 Türkiye • Diğer",BloombergHT (720p)
-https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
-#EXTINF:-1 tvg-id="BursaTV.tr@SD" tvg-logo="https://i.imgur.com/9cl1MR8.png" group-title="🇹🇷 TÜRKSAT • Yerel",Bursa TV (720p) [Not 24/7]
-https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8
-#EXTINF:-1 tvg-id="CayTV.tr@SD" tvg-logo="https://i.imgur.com/ndupxwu.png" group-title="🇹🇷 Türkiye • Diğer",Cay TV (720p)
-https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="CekmekoyTV.tr@SD" tvg-logo="https://i.imgur.com/sjAGFWu.png" group-title="🇹🇷 Türkiye • Diğer",Cekmeköy TV (1080p)
-https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
-#EXTINF:-1 tvg-id="DenizPostasiTV.tr@SD" tvg-logo="https://i.imgur.com/Mm8hdfx.png" group-title="🇹🇷 Türkiye • Diğer",Deniz Postası TV (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
-#EXTINF:-1 tvg-id="DHA.tr@SD" tvg-logo="https://i.imgur.com/VZhag2x.png" group-title="🇹🇷 Türkiye • Diğer",DHA (720p) [Not 24/7]
-https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
-#EXTINF:-1 tvg-id="DisneyJr.tr@SD" tvg-logo="https://www.dsmart.com.tr/api/v1/public/images/kanallar/disneyjr.png" group-title="🇹🇷 Türkiye • Diğer",Disney Jr. (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/disneyjunior/index.m3u8
-#EXTINF:-1 tvg-id="DreamTurk.tr@SD" tvg-logo="https://i.imgur.com/vJ8VaZi.png" group-title="🇹🇷 TÜRKSAT • Müzik",Dream Türk (720p)
-https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 tvg-id="ETVManisa.tr@SD" tvg-logo="https://i.ibb.co/QKXtdkz/sOd3INg.png" group-title="🇹🇷 Türkiye • Diğer",ETV Manisa (1080p) [Not 24/7]
-https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="EuroD.tr@SD" tvg-logo="https://i.imgur.com/x9kHsXo.png" group-title="🇹🇷 Türkiye • Diğer",Euro D (720p)
-https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
-#EXTINF:-1 tvg-id="FBTV.tr@SD" tvg-logo="https://i.imgur.com/qBVqtYd.png" group-title="🇹🇷 Türkiye • Diğer",FB TV
-http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="FilmBox.nl@Netherlands" tvg-logo="https://i.imgur.com/VyaslIY.png" group-title="🇹🇷 Türkiye • Diğer",FilmBox
-http://46.149.191.219:9100/play/a015
-#EXTINF:-1 tvg-id="FlashHaberTV.tr@SD" tvg-logo="" group-title="🇹🇷 Türkiye • Diğer",Flash Haber TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="FortunaTV.tr@SD" tvg-logo="https://i.imgur.com/ZbUSlOC.png" group-title="🇹🇷 Türkiye • Diğer",Fortuna TV (720p)
-https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="GuneydoguTV.tr@SD" tvg-logo="https://i.imgur.com/JT5pp3Y.png" group-title="🇹🇷 Türkiye • Diğer",Guneydogu TV (720p)
-https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="HaberGlobal.tr@SD" tvg-logo="https://i.imgur.com/fu6XeGS.png" group-title="🇹🇷 TÜRKSAT • Haber",Haber Global (720p) [Not 24/7]
-https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
-#EXTINF:-1 tvg-id="HaberturkTV.tr@SD" tvg-logo="https://i.imgur.com/6Tw3rUp.png" group-title="🇹🇷 TÜRKSAT • Haber",Habertürk TV (720p) [Not 24/7]
-https://tv.ensonhaber.com/haberturk/haberturk.m3u8
-#EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="🇹🇷 TÜRKSAT • Spor",HTSpor TV (1080p)
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
-#EXTINF:-1 tvg-id="IcelTV.tr@SD" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="🇹🇷 Türkiye • Diğer",Icel TV (720p) [Not 24/7]
-https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="Kanal7.tr@SD" tvg-logo="https://i.imgur.com/0gq9xOm.png" group-title="🇹🇷 TÜRKSAT • Ulusal",Kanal 7 (1080p) [Not 24/7]
-https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
-#EXTINF:-1 tvg-id="Kanal32.tr@SD" tvg-logo="" group-title="🇹🇷 Türkiye • Diğer",Kanal 32 (720p) [Not 24/7]
-https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="Kanal33.tr@SD" tvg-logo="https://i.imgur.com/5WYaoFZ.png" group-title="🇹🇷 Türkiye • Diğer",Kanal 33 (720p) [Not 24/7]
-https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="Kanal34.tr@SD" tvg-logo="https://i.imgur.com/SIaI6Sj.png" group-title="🇹🇷 Türkiye • Diğer",Kanal 34 (720p) [Not 24/7]
-https://vdo.digitalbox.xyz:3266/live/kanal34tvlive.m3u8
-#EXTINF:-1 tvg-id="KanalD.tr@SD" tvg-logo="https://i.imgur.com/9o1atM6.png" group-title="🇹🇷 TÜRKSAT • Ulusal",Kanal D (1080p)
-https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
-#EXTINF:-1 tvg-id="KocaeliTV.tr@SD" tvg-logo="https://i.imgur.com/LeTP4zq.png" group-title="🇹🇷 Türkiye • Diğer",Kocaeli TV (1080p)
-https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="KralPopTV.tr@SD" tvg-logo="https://i.imgur.com/ch365lh.png" group-title="🇹🇷 TÜRKSAT • Müzik",KRAL Pop TV (720p)
-https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 tvg-id="LineTV.tr@SD" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="🇹🇷 TÜRKSAT • Yerel",Line TV (720p) [Not 24/7]
-https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="MedMuzik.tr@SD" tvg-logo="https://i.imgur.com/gtUFmCD.png" group-title="🇹🇷 TÜRKSAT • Müzik",Med Muzik (1080p)
-http://54.36.110.140/live3/live3.m3u8
-#EXTINF:-1 tvg-id="MovieSmartTurk.tr@SD" tvg-logo="https://i.imgur.com/DWN9ulT.png" group-title="🇹🇷 Türkiye • Diğer",MovieSmart Turk (576p)
-http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
-#EXTINF:-1 tvg-id="MTurkTV.tr@SD" tvg-logo="https://i.imgur.com/xj1gvrq.png" group-title="🇹🇷 Türkiye • Diğer",MTürk TV (1080p)
-https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="🇹🇷 Türkiye • Diğer",National Geographic (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/natgeohd/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="🇹🇷 Türkiye • Diğer",National Geographic Wild (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/natgeowild/index.m3u8
-#EXTINF:-1 tvg-id="NaturalTV.tr@SD" tvg-logo="https://i.imgur.com/rfcJ674.png" group-title="🇹🇷 Türkiye • Diğer",Natural TV (720p) [Not 24/7]
-http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="NOWTV.tr@SD" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="🇹🇷 TÜRKSAT • Ulusal",NOW TV (720p)
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
-#EXTINF:-1 tvg-id="NTV.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/NTV_%28Turkey%29_logo.svg/960px-NTV_%28Turkey%29_logo.svg.png" group-title="🇹🇷 TÜRKSAT • Haber",NTV
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal",ATV
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal",A2
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal",TV8
+https://tv8-live.daioncdn.net/tv8/tv8.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",A Haber
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",NTV
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
-#EXTINF:-1 tvg-id="Number1Ask.tr@SD" tvg-logo="https://i.imgur.com/slwbux7.png" group-title="🇹🇷 Türkiye • Diğer",Number 1 Ask (720p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",Haber Global
+https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",Habertürk
+https://tv.ensonhaber.com/haberturk/haberturk.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",TGRT Haber
+https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",Halk TV
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor",A Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor",HT Spor
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor",TJK TV
+https://tjktv-live.tjk.org/tjktv.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="4UTV.tr@SD",4U TV (720p)
+https://hls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="360.tr@SD",360 TV (720p) [Not 24/7]
+https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AfroturkTV.tr@SD",Afroturk TV (1080p)
+https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AksuTV.tr@SD",Aksu TV (720p)
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AlZahraTVTurkic.tr@SD",Al-Zahra TV Turkic (720p) [Not 24/7]
+https://live.al-zahratv.com/live/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AlanyaPostaTV.tr@SD",Alanya Posta TV (1080p)
+https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AlmahriahTV.tr@SD",Almahriah TV (576p)
+https://starmenajo.com/hls/almahriah/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AltasTV.tr@SD",Altas TV (1080p)
+https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AnadoluNetTV.tr@SD",Anadolu Net TV (1080p)
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ArasTV.tr@SD",ARAS TV (576p) [Not 24/7]
+http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BenguturkTV.tr@SD",Benguturk TV (1080p)
+http://185.234.111.229:8000/play/a05u
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BenguturkTV.tr@SD",BENGÜTÜRK TV (720p) [Not 24/7]
+https://tv.ensonhaber.com/benguturk/benguturk.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="BeyazTV.tr@SD",Beyaz TV (720p) [Not 24/7]
+https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BirTV.tr@SD",Bir TV (720p)
+https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="BloombergHT.tr@SD",Bloomberg HT (720p) [Not 24/7]
+https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BloombergHT.tr@SD",BloombergHT (720p)
+https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BRTV.tr@SD",BRTV (720p) [Geo-blocked]
+https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ASTV.tr@SD",Bursa AS TV (900p)
+https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ASTV.tr@SD",Bursa AS TV (720p) [Geo-blocked]
+https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BursaTV.tr@SD",Bursa TV (720p) [Not 24/7]
+https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="CayTV.tr@SD",Cay TV (720p)
+https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="CekmekoyTV.tr@SD",Cekmeköy TV (1080p)
+https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="CiftciTV.tr@SD",Çiftçi TV (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="CNBCe.tr@SD",CNBC-e
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DenizPostasiTV.tr@SD",Deniz Postası TV (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DHA.tr@SD",DHA (720p) [Not 24/7]
+https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DisneyJr.tr@SD",Disney Jr. (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/disneyjunior/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DiyanetTV.tr@SD",Diyanet TV (1080p)
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DiyarTV.tr@SD",Diyar TV (720p)
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DostTV.tr@SD",Dost TV (576p)
+https://dost.stream.emsal.im/tv/live.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="DreamTurk.tr@SD",Dream Türk (720p)
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="EdessaTV.tr@SD",Edessa TV (1080p)
+https://canli.edessatv.com/hls/stream.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ERTV.tr@SD",Er TV (1080p) [Geo-blocked]
+https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ErzurumWebTV.tr@SD",Erzurum Web TV (720p)
+https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ESTV.tr@SD",ES TV (720p)
+https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ETVKayseri.tr@SD",ETV Kayseri (720p)
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ETVManisa.tr@SD",ETV Manisa (1080p) [Not 24/7]
+https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="EuroD.tr@SD",Euro D (720p)
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FBTV.tr@SD",FB TV
+http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FinansTurkTV.tr@SD",Finans Turk TV (720p)
+https://yayin30.haber100.com/live/finansturk/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FlashHaberTV.tr@SD",Flash Haber TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FortunaTV.tr@HD",Fortuna TV (1080p)
+https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FortunaTV.tr@SD",Fortuna TV (720p)
+https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="GuneydoguTV.tr@SD",Guneydogu TV (720p)
+https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="GZT.tr@SD",GZT (1080p)
+https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Haber61TV.tr@SD",Haber61 TV (720p) [Not 24/7]
+https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Haber61TV.tr@SD",Haber61 TV (720p) [Not 24/7]
+https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="HunatTV.tr@SD",Hunat TV (720p) [Geo-blocked]
+https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="HunatTV.tr@SD",Hunat TV (480p) [Not 24/7]
+https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="IcelTV.tr@SD",Icel TV (720p) [Not 24/7]
+https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="IlkeTV.tr@HD",Ilke TV (1080p)
+https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal3.tr@SD",Kanal 3 (1080p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal3.tr@SD",Kanal 3 (1080p) [Not 24/7]
+https://waw2.artiyerelmedya.net/kanal3/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal3.tr@SD",Kanal 3 (720p) [Not 24/7]
+http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal3.tr@SD",Kanal 3 (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="Kanal7.tr@SD",Kanal 7 (1080p) [Not 24/7]
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="Kanal7.tr@SD",Kanal 7 (720p)
+https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="Kanal7Avrupa.tr@SD",Kanal 7 Avrupa (720p) [Not 24/7]
+https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal12.tr@SD",Kanal 12 (720p)
+https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal15.tr@SD",Kanal 15 (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal23.tr@SD",Kanal 23 (1080p)
+https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal23.tr@SD",Kanal 23 (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal26.tr@SD",Kanal 26 (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal32.tr@SD",Kanal 32 (720p) [Not 24/7]
+https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal33.tr@SD",Kanal 33 (720p) [Not 24/7]
+https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal34.tr@SD",Kanal 34 (720p) [Not 24/7]
+https://vdo.digitalbox.xyz:3266/live/kanal34tvlive.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal58.tr@SD",KANAL 58 (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="KanalD.tr@SD",Kanal D (1080p)
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="KanalDDrama.tr@SD",Kanal D Drama (1080p)
+http://190.93.224.42/KANAL-D-DRAMA/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="KanalDDrama.tr@SD",Kanal D Drama (1080p)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KanalFirat.tr@SD",Kanal Firat (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KanalHayat.tr@SD",Kanal Hayat (1080p)
+https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KanalV.tr@SD",Kanal V (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KayTV.tr@SD",Kay TV (576p) [Geo-blocked]
+https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KentTurk.tr@SD",Kent Türk TV (1080p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KentTurk.tr@SD",Kent Türk TV (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KocaeliTV.tr@SD",Kocaeli TV (1080p)
+https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KonyaOlayTV.tr@SD",Konya Olay TV (720p)
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="KralPopTV.tr@SD",KRAL Pop TV (720p)
+https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LalegulTV.tr@SD",Lalegul TV (1080p)
+https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LalegulTV.tr@SD",Lalegül TV (720p) [Not 24/7]
+http://lalegultv.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LalegulTV.tr@SD",Lalegül TV (720p) [Not 24/7]
+http://lalegultv.netmedya.net/lalegul-tv/lalegultv.stream/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LifeTV.tr@SD",Life TV (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LineTV.tr@SD",Line TV (720p) [Not 24/7]
+https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LuysTV.tr@SD",Luys TV (1080p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MaviKaradenizTV.tr@SD",MaviKaradeniz (1080p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="MedMuzik.tr@SD",Med Muzik (1080p)
+http://54.36.110.140/live3/live3.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MekameleenTV.tr@SD",Mekameleen TV (1080p)
+https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MeltemTV.tr@SD",Meltem TV (1080p)
+https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MercanTV.tr@SD",Mercan TV (576p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaCocuk.tr@SD",Minika Cocuk (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaCocuk.tr@SD",Minika Cocuk (576p)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaGo.tr@SD",Minika Go (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaGo.tr@SD",Minika Go (576p)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MovieSmartTurk.tr@SD",MovieSmart Turk (576p)
+http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MTurkTV.tr@SD",MTürk TV (1080p)
+https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="NationalGeographic.tr@SD",National Geographic (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/natgeohd/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="NationalGeographicWild.tr@SD",National Geographic Wild (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/natgeowild/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="NaturalTV.tr@SD",Natural TV (720p) [Not 24/7]
+http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="NaturalTV.tr@SD",Natural TV (720p) [Not 24/7]
+https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="NOWTV.tr@SD",NOW TV (720p)
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="NOWTV.tr@SD",NOW TV
+http://116.202.238.88/FOXTV_TR/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1Ask.tr@SD",Number 1 Ask (720p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
-#EXTINF:-1 tvg-id="On4TV.tr@SD" tvg-logo="https://i.imgur.com/qGRa1KI.png" group-title="🇹🇷 Türkiye • Diğer",On4 TV (1080p)
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1Damar.tr@SD",Number 1 Damar (720p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1Dance.tr@SD",Number 1 Dance (720p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1TV.tr@SD",Number 1 TV (720p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1TV.tr@SD",Number 1 TV (720p)
+https://mn-nl.mncdn.com/blutv_nr12/live.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="OlayTurkTV.tr@SD",Olay Türk TV Kayseri (720p) [Geo-blocked]
+https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="On4TV.tr@SD",On4 TV (1080p)
 https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="QafTV.tr@SD" tvg-logo="https://i.imgur.com/hrk7Uce.png" group-title="🇹🇷 Türkiye • Diğer",Qaf TV (1080p)
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerDance.tr@SD",Power Dance (1080p)
+https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerLove.tr@SD",Power Love (1080p)
+https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="PowerTurkTV.tr@SD",Power Turk (1080p) [Not 24/7]
+https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="PowerTurkAkustik.tr@SD",Power Türk Akustik (1080p)
+https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="PowerTurkSlow.tr@SD",Power Türk Slow (1080p)
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="PowerTurkTaptaze.tr@SD",Power Türk Taptaze (1080p)
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerTV.tr@SD",Power TV (1080p)
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerTV.tr@SD",Power TV (720p)
+https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerTurkTV.tr@SD",PowerTurk TV
+https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerTurkTV.tr@SD",PowerTürk TV (720p)
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="QafTV.tr@SD",Qaf TV (1080p)
 https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8
-#EXTINF:-1 tvg-id="Sat7Turk.cy@SD" tvg-logo="https://i.imgur.com/cKQIK4i.png" group-title="🇹🇷 Türkiye • Diğer",Sat7 Türk (1080p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="SSport.tr@SD",S Sport (720p)
+https://corestream.siteyaptim.live/s-sport/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="SSport2.tr@SD",S Sport 2 (720p)
+https://corestream.siteyaptim.live/s-sport2/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="SSport2.tr@SD",S Sport 2
+https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Sat7Turk.cy@SD",Sat7 Türk (1080p)
 https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
-#EXTINF:-1 tvg-id="BricveSatrancTV.tr@SD" tvg-logo="https://i.imgur.com/TXDV1ty.png" group-title="🇹🇷 Türkiye • Diğer",Satranç TV (480p) [Not 24/7]
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BricveSatrancTV.tr@SD",Satranç TV (480p) [Not 24/7]
 http://139.162.182.79/live/test/index.m3u8
-#EXTINF:-1 tvg-id="ShowTurk.tr@SD" tvg-logo="https://i.imgur.com/fdZpGDj.png" group-title="🇹🇷 Türkiye • Diğer",Show Turk (1080p)
-https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
-#EXTINF:-1 tvg-id="SozcuTV.tr@SD" tvg-logo="https://i.imgur.com/BxpdvsG.png" group-title="🇹🇷 Türkiye • Diğer",Sozcu TV (1080p)
-http://5.178.103.239:55/yt1/szctv.m3u8
-#EXTINF:-1 tvg-id="StarTV.tr@SD" tvg-logo="https://i.imgur.com/9O3DHRB.png" group-title="🇹🇷 TÜRKSAT • Ulusal",Star TV (720p)
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SemerkandTV.tr@SD",Semerkand TV (1080p) [Not 24/7]
+https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SercemTV.tr@HD",Sercem TV (1080p)
+https://canli.sercemtv.com.tr/hls/0/stream.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="StarTV.tr@SD",Star TV (720p)
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 tvg-id="TGRTBelgesel.tr@SD" tvg-logo="https://i.imgur.com/VwWTnf0.png" group-title="🇹🇷 TÜRKSAT • Belgesel",TGRT Belgesel TV (576p) [Not 24/7]
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SunRTV.tr@SD",Sun RTV (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SunRTV.tr@SD",Sun RTV (720p) [Not 24/7]
+https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TBMMTV.tr@SD",TBMM TV (720p)
+https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Tele1.tr@SD",Tele 1 (1080p)
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TempoTV.tr@SD",Tempo TV (720p)
+https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Belgesel" tvg-id="TGRTBelgesel.tr@SD",TGRT Belgesel TV (576p) [Not 24/7]
 https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TJKTV2.tr@SD" tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="🇹🇷 TÜRKSAT • Spor",TJK TV 2 (1080p) [Not 24/7]
-https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8
-#EXTINF:-1 tvg-id="TRT2.tr@SD" tvg-logo="https://i.imgur.com/iOCQdyD.png" group-title="🇹🇷 Türkiye • Diğer",TRT 2 (1440p) [Geo-blocked]
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Tivi6.tr@SD",Tivi 6 (720p)
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TonTV.tr@SD",Ton TV (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="",Torba TV (720p) [Not 24/7]
+https://59cba4d34b678.streamlock.net/canlitv/torbatv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="24TV.tr@SD",TR24 TV (720p) [Not 24/7]
+https://tv.ensonhaber.com/tv24/tv24.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRT2.tr@SD",TRT 2 (1440p) [Geo-blocked]
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRT3.tr@SD" tvg-logo="https://i.imgur.com/JrWFwBd.png" group-title="🇹🇷 Türkiye • Diğer",TRT 3 (720p)
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRT3.tr@SD",TRT 3 (720p)
 https://tv-trt3.live.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTBelgesel.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/960px-TRT_Belgesel_logo_%282019-%29.svg.png" group-title="🇹🇷 TÜRKSAT • Belgesel",TRT Belgesel (720p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTArabi.tr@SD",TRT Arabi (1080p) [Not 24/7]
+https://tv-trtarabi.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTAvaz.tr@SD",TRT Avaz (720p)
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Belgesel" tvg-id="TRTBelgesel.tr@SD",TRT Belgesel (720p)
 https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png" group-title="🇹🇷 TÜRKSAT • Çocuk",TRT Cocuk (1440p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="TRTCocuk.tr@SD",TRT Cocuk (1440p)
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTEBAIlkokul.tr@SD" tvg-logo="https://i.imgur.com/CRBfZi4.png" group-title="🇹🇷 Türkiye • Diğer",TRT EBA Ilkokul (720p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="TRTDiyanetCocuk.tr@SD",TRT Diyanet Çocuk (720p)
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRTEBAIlkokul.tr@SD",TRT EBA Ilkokul (720p)
 https://tv-e-okul00.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTEBALise.tr@SD" tvg-logo="https://i.imgur.com/vj2L2L2.png" group-title="🇹🇷 Türkiye • Diğer",TRT EBA Lise (720p)
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRTEBALise.tr@SD",TRT EBA Lise (720p)
 https://tv-e-okul02.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTSporYildiz.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg/960px-TRT_Spor_Y%C4%B1ld%C4%B1z_Logo.svg.png" group-title="🇹🇷 TÜRKSAT • Spor",TRT Spor Yildiz (1440p) [Geo-blocked]
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRTEBA.tr@SD",TRT EBA Ortaokul (720p)
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="TRTHaber.tr@SD",TRT Haber (720p)
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTKurdi.tr@SD",TRT Kurdî (720p)
+https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="TRTMuzik.tr@SD",TRT Muzik
+https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="TRTMuzik.tr@SD",TRT Müzik (720p)
+https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="TRTSporYildiz.tr@SD",TRT Spor Yildiz (1440p) [Geo-blocked]
 https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
-#EXTINF:-1 tvg-id="TurkHaberTV.tr@SD" tvg-logo="https://i.imgur.com/2AcRKdL.png" group-title="🇹🇷 Türkiye • Diğer",TürkHaber (720p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTTurk.tr@SD",TRT Türk (720p)
+https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTWorld.tr@SD",TRT World (1080p) [Not 24/7]
+https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TurkHaberTV.tr@SD",TürkHaber (720p)
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="TV1.tr@SD" tvg-logo="https://i.imgur.com/8CtrYVb.png" group-title="🇹🇷 Türkiye • Diğer",TV 1 (720p)
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV1.tr@SD",TV 1 (720p)
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="TV8.tr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" group-title="🇹🇷 Türkiye • Diğer",TV 8 (1080p)
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV4.tr@SD",TV4 (720p)
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV8.tr@SD",TV 8 (1080p)
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
-#EXTINF:-1 tvg-id="TV41.tr@SD" tvg-logo="https://i.imgur.com/6T472LM.png" group-title="🇹🇷 Türkiye • Diğer",TV 41 (720p) [Not 24/7]
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="24TV.tr@SD",TV 24 (720p)
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV41.tr@SD",TV 41 (720p) [Not 24/7]
 http://stream.taksimbilisim.com:1935/tv41/bant1/TV41.m3u8
-#EXTINF:-1 tvg-id="TV42.tr@SD" tvg-logo="https://www.tv42.com.tr/logo.png" group-title="🇹🇷 Türkiye • Diğer",TV 42
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV41.tr@SD",TV 41 (720p) [Not 24/7]
+http://stream.taksimbilisim.com:1935/tv41/smil:tv41.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV41.tr@SD",TV 41 (720p) [Not 24/7]
+https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV42.tr@SD",TV 42
 https://canli.tv42.com.tr/memfs/d936e417-c4bd-4d42-89a2-02f289892d1d.m3u8
-#EXTINF:-1 tvg-id="TV52.tr@SD" tvg-logo="https://i.imgur.com/k4R5CzO.png" group-title="🇹🇷 Türkiye • Diğer",TV 52 (720p) [Not 24/7]
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV52.tr@SD",TV 52 (720p) [Not 24/7]
 https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="TVDen.tr@SD" tvg-logo="https://i.imgur.com/Uhg95Ze.png" group-title="🇹🇷 Türkiye • Diğer",TV Den (576p) [Not 24/7]
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV264.tr@SD",TV 264 (1080p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TVDen.tr@SD",TV Den (576p) [Not 24/7]
 http://canli.tvden.com.tr/hls/live.m3u8
-#EXTINF:-1 tvg-id="UlkeTV.tr@SD" tvg-logo="https://i.imgur.com/wdWR7Qk.png" group-title="🇹🇷 Türkiye • Diğer",Ulke TV
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TVNET.tr@SD",TVNET (1080p)
+https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="UlkeTV.tr@SD",Ulke TV
 http://217.174.229.138:8000/play/a0el
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="UrfaNatikTV.tr@SD",Urfa Natik TV (720p)
+https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Van65TV.tr@SD",Van 65 TV
+https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="VavTV.tr@SD",Vav TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ZarokTV.tr@SD",Zarok TV (720p)
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="TRTSpor.tr@SD",TRT Spor (720p)
+https://corestream.siteyaptim.live/trt-spor/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ShowTurk.tr@SD",Show Turk (1080p)
+https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
+#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SozcuTV.tr@SD",Sozcu TV (1080p)
+http://5.178.103.239:55/yt1/szctv.m3u8
+#EXTINF:0001 tvg-id="lHa4V9RdrTKUbj" tvg-chno="1987" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", ATV Alanya
+https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
+#EXTINF:0001 tvg-id="OULTM0gM1sr5Ul" tvg-chno="1988" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", BBC Earth Turkiye
+https://nord.ayakkabiparti.lol/bbc/index.m3u8
+#EXTINF:0001 tvg-id="Lp2HSyk6TUB8Wd" tvg-chno="1989" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Box Office 1
+https://nord.ayakkabiparti.lol/box1/index.m3u8
+#EXTINF:0001 tvg-id="rBWQKggGNEhC62" tvg-chno="1990" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Box Office 2
+https://nord.ayakkabiparti.lol/box2/index.m3u8
+#EXTINF:0001 tvg-id="wkMHuYhE60CfLP" tvg-chno="1991" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Box Office 3
+https://nord.ayakkabiparti.lol/box3/index.m3u8
+#EXTINF:0001 tvg-id="gcitZzRCddaZzJ" tvg-chno="1992" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Movies Stars
+https://nord.ayakkabiparti.lol/bsaction1/index.m3u8
+#EXTINF:0001 tvg-id="7vDbUXN6wMyfUG" tvg-chno="1993" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Movies Turk
+https://nord.ayakkabiparti.lol/bsturk/index.m3u8
+#EXTINF:0001 tvg-id="srU5BUChRvVkhn" tvg-chno="1994" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bi Kanal
+https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
+#EXTINF:0001 tvg-id="Z7tHup27v1j2Td" tvg-chno="1996" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bodrum Kent TV
+https://edge2.taksimbilisim.com/bodrumkenttv/bant1/playlist.m3u8
+#EXTINF:0001 tvg-id="lnPH0Jssl2BDkS" tvg-chno="1997" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bric ve Satranc TV
+https://139.162.182.79/live/test/index.m3u8
+#EXTINF:0001 tvg-id="g52lNlgT4qykk6" tvg-chno="2000" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Cem TV
+https://panel.5gtvhosting.com/hls/cemtv/cemtv.m3u8
+#EXTINF:0001 tvg-id="nqxj96I7x3VyQ2" tvg-chno="2002" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Cine 1
+https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8
+#EXTINF:0001 tvg-id="7jyQg4ihSASAyo" tvg-chno="2008" group-title="🇹🇷 TÜRKSAT • Spor" tvg-logo="", Ekol Sports
+https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
+#EXTINF:0001 tvg-id="gSMvZveXTsgLFU" tvg-chno="2009" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Ekol TV
+https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
+#EXTINF:0001 tvg-id="6TzIP2eJ3m8bpX" tvg-chno="2010" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Elsharq TV
+https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
+#EXTINF:0001 tvg-id="NaLDKK2n9zWTIs" tvg-chno="2011" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Erciyes TV
+https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
+#EXTINF:0001 tvg-id="4WUKZJPvirxz3S" tvg-chno="2018" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", FRT TV
+https://edge1.taksimbilisim.com/frttv/bant1/playlist.m3u8
+#EXTINF:0001 tvg-id="1YeqEExY1ZHarD" tvg-chno="2029" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 19
+https://live.euromediacenter.com/kanal19/tracks-v1a1/playlist.m3u8
+#EXTINF:0001 tvg-id="HqIl2YxOsapx3V" tvg-chno="2035" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Avrupa
+https://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v2a1/playlist.m3u8
+#EXTINF:0001 tvg-id="s5TJFofoYPgAud" tvg-chno="2036" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal B
+https://tv.kanalb.tr/hls/kanalb/index.m3u8
+#EXTINF:0001 tvg-id="oVWM3Lwlb8W6WS" tvg-chno="2039" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Plus
+https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
+#EXTINF:0001 tvg-id="ZpyGz1uKyGaQ8R" tvg-chno="2040" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Urfa
+https://edge2.taksimbilisim.com/kanalurfa/bant1/playlist.m3u8
+#EXTINF:0001 tvg-id="eSS3Rjhr7Bc3Fu" tvg-chno="2042" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Karadeniz TV
+https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8
+#EXTINF:0001 tvg-id="mtrakHpwzJnbET" tvg-chno="2051" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Malatya Vuslat TV
+https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
+#EXTINF:0001 tvg-id="BO4YypoB7kcaVn" tvg-chno="2060" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Neo Haber
+https://edge2.taksimbilisim.com/neohaber/bant1/playlist.m3u8
+#EXTINF:0001 tvg-id="4uzKD8gUrU9s8R" tvg-chno="2072" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Rehber TV
+https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/playlist.m3u8
+#EXTINF:0001 tvg-id="h0LixAqfar2ZLy" tvg-chno="2073" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Ruha TV
+https://ruhatv.radyotelekom.com.tr:3515/live/ruhatvlive.m3u8
+#EXTINF:0001 tvg-id="e6ku1z7iZYh6lv" tvg-chno="2078" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Show Max
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
+#EXTINF:0001 tvg-id="1GHn7hBwkPvtBl" tvg-chno="2079" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Sonmez TV
+https://sonmeztv.ozelip.com.tr:3826/live/sonmeztvlive.m3u8
+#EXTINF:0001 tvg-id="pTUvBY4x4L3ji9" tvg-chno="2083" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Telenews
+https://cdn-telenews.yayin.com.tr/telenews/tracks-v1a1/playlist.m3u8
+#EXTINF:0001 tvg-id="DvCN8WstHjmxKR" tvg-chno="2089" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Trakya Turk
+https://live.euromediacenter.com/trakyaturk/tracks-v1a1/playlist.m3u8
+#EXTINF:0001 tvg-id="MhRzY1TKeTMMWB" tvg-chno="2101" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TurkHaber TV
+https://edge2.taksimbilisim.com/turkhaber/bant1/playlist.m3u8
+#EXTINF:0001 tvg-id="kNlSvYLttCaBWF" tvg-chno="2103" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 8.5
+https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8
+#EXTINF:0001 tvg-id="W5plAUUYqWIZ2k" tvg-chno="2106" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 100
+https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
+#EXTINF:0001 tvg-id="Dti0xsuIDuqqFU" tvg-chno="2110" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TYT Turk
+https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
+#EXTINF:0001 tvg-id="HU7t21P03xeEXV" tvg-chno="2114" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Viasat History
+https://nord.ayakkabiparti.lol/viasathistory/index.m3u8

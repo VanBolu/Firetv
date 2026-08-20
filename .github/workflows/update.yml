@@ -2,8 +2,6 @@ name: Update IPTV Playlists
 
 on:
   schedule:
-    # Her gün Almanya saatiyle yaklaşık 06:00
-    # GitHub cron UTC kullanır.
     - cron: "0 4 * * *"
 
   workflow_dispatch:
@@ -18,11 +16,23 @@ jobs:
     steps:
       - name: Repository'yi al
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Python kur
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+
+      - name: FFmpeg kur
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: FFmpeg kontrol
+        run: |
+          ffmpeg -version
+          ffprobe -version
 
       - name: Playlistleri oluştur
         run: python update_playlist.py
@@ -46,6 +56,13 @@ jobs:
 
           git add Turkiye.m3u Dunya.m3u Hotbird.m3u Astra.m3u
 
-          git diff --cached --quiet || git commit -m "Auto-update IPTV playlists"
+          if git diff --cached --quiet; then
+            echo "Playlistlerde değişiklik yok."
+            exit 0
+          fi
 
-          git push
+          git commit -m "Auto-update IPTV playlists"
+
+          git pull --rebase origin main
+
+          git push origin main

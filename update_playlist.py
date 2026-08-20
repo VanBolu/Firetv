@@ -1,14 +1,13 @@
 import urllib.request
 from pathlib import Path
+import re
 
-# Famelack dünya listesi
-FAMELACK_URL = (
+FAMELACK_M3U = (
     "https://raw.githubusercontent.com/"
-    "famelack/famelack-data/main/famelack-channels-m3u.m3u"
+    "DEvmIb/famelack-channels-m3u/main/m3u/_all.m3u"
 )
 
-# Türkiye için ek açık internet yayınları
-TURKEY_URL = (
+TURKEY_M3U = (
     "https://iptv-org.github.io/iptv/countries/tr.m3u"
 )
 
@@ -16,64 +15,67 @@ OUTPUT = Path("world.m3u")
 
 
 def download(url):
-    request = urllib.request.Request(
+    req = urllib.request.Request(
         url,
         headers={"User-Agent": "Mozilla/5.0"}
     )
 
-    with urllib.request.urlopen(request, timeout=60) as response:
+    with urllib.request.urlopen(req, timeout=60) as response:
         return response.read().decode("utf-8", errors="replace")
 
 
-def get_entries(text):
+def entries(text):
     lines = text.splitlines()
-    entries = []
+    result = []
 
     for i, line in enumerate(lines):
         if line.startswith("#EXTINF") and i + 1 < len(lines):
             url = lines[i + 1].strip()
 
             if url.startswith(("http://", "https://")):
-                entries.append((line.strip(), url))
+                result.append((line.strip(), url))
 
-    return entries
+    return result
 
 
-print("Famelack listesi indiriliyor...")
-famelack = download(FAMELACK_URL)
+print("Famelack dünya listesi indiriliyor...")
+famelack = download(FAMELACK_M3U)
 
 print("Türkiye listesi indiriliyor...")
-turkey = download(TURKEY_URL)
+turkey = download(TURKEY_M3U)
 
-world_entries = get_entries(famelack)
-turkey_entries = get_entries(turkey)
+all_entries = entries(famelack)
+tr_entries = entries(turkey)
 
 output = ["#EXTM3U"]
+seen = set()
 
-existing_urls = set()
+for info, url in all_entries:
+    if url in seen:
+        continue
 
-# Famelack dünya kanalları
-for info, url in world_entries:
-    if url not in existing_urls:
-        output.extend([info, url])
-        existing_urls.add(url)
+    output.extend([info, url])
+    seen.add(url)
 
-# Türkiye'de bulunan ilave yayınlar
-for info, url in turkey_entries:
-
-    if url in existing_urls:
+for info, url in tr_entries:
+    if url in seen:
         continue
 
     if 'group-title="' in info:
-        import re
         info = re.sub(
             r'group-title="[^"]*"',
             'group-title="TÜRKSAT / Türkiye (İnternet)"',
             info
         )
+    else:
+        info = info.replace(
+            "#EXTINF:-1",
+            '#EXTINF:-1 group-title="TÜRKSAT / Türkiye (İnternet)"',
+            1
+        )
 
     output.extend([info, url])
-    existing_urls.add(url)
+    seen.add(url)
 
 
 OUTPUT.write_text(
@@ -81,7 +83,6 @@ OUTPUT.write_text(
     encoding="utf-8"
 )
 
-print("--------------------------------")
 print("Playlist oluşturuldu.")
-print("Toplam kanal:", len(existing_urls))
+print("Toplam kanal:", len(seen))
 print("Dosya:", OUTPUT)

@@ -12173,28 +12173,28 @@ https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
 https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8
 #EXTINF:-1 tvg-id="TV360TR" group-title="🇹🇷 TÜRKSAT • Ulusal",360
 https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+#EXTINF:-1 tvg-id="A2TVTR" group-title="🇹🇷 TÜRKSAT • Ulusal",A2TV (1080p) (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
 #EXTINF:-1 tvg-id="ATVTR" group-title="🇹🇷 TÜRKSAT • Ulusal",ATV (1080p) (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 tvg-id="ATVALANYATR" group-title="🇹🇷 TÜRKSAT • Ulusal",ATV Alanya (1080p) (1080p)
-https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/chunklist_w342726508.m3u8
+https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/chunklist_w1564795412.m3u8
 #EXTINF:-1 tvg-id="BEYAZTVTR" group-title="🇹🇷 TÜRKSAT • Ulusal",BEYAZ TV
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 tvg-id="KANALDTR" group-title="🇹🇷 TÜRKSAT • Ulusal",Kanal D (1080p) (1080p)
-https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=8okr1su7xsfn&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=8olj07mstmer&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
 #EXTINF:-1 tvg-id="KANALDDRAMATR" group-title="🇹🇷 TÜRKSAT • Ulusal",Kanal D Drama (1080p) (1080p)
-https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb513e1e65706c9098c32164d6d325dd844c3bdd0b61cb3071aa448f1298410ddafbb2d3932fff695c811fd5716d340f5b63c009967a05dece0be81168297021c8e3eb3fc69c110eacdb093a59eb38410cab1114d5244341d8ef1b1a8c72e02a525dbb5f2c126089e45dfb7700939d03d82e2d96acdc373860520dce0f40b4a25ca7aee85f11d13da7b67e18af077d36798ffbfe2edee3c666fb1ddf32a4408df1b4da9745c1a4b9599b29c344c4dcbf1fe3ed579cdb49be9abb643c8e782b476435acc3c1b826b4e136c099035b8b3f47df6a56baa6449b2383a0d220a53d8f79a30aa6ae6da8a4b8de454e03bdae6e4c28baecac86fa7a66f336bbeaded47d7896e1073869fd2d89726568cbbdfc1d8a9541cdf63bd3e0205d19d081499eaab781c4b99905c9769d89a7ce7d6146710b0f8312f3cf3c9b1adc7ea9dc1a6e091e13e3c903b6f3b334076b41828f49c7534ae9a9ecadeb4e6a9a2e4b208122be7f007fc720636cef4ea8cb6b8ce893ca79815bb59328dd52c260ad94f657066f7c71bb/117/1920x1080_6046040/index.m3u8
+https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/ts-eu-w1-n2/playlist/amg01602-themahqfrance-vivekanald-samsungspain/cb57391c6573638f84cb3861cef64182be7b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca3094613a15340cf24562399da1b0e842fbc365040bf473d0070c9bb5aa47f0496865996767ad8fbc060382b5b42975c55e0bd08f2f8e20e44dd6ef0b74f19f79374ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9fc96b0f905253134dbf7cea660f11dcbcb57e987823f62ea2db309f00c9d10a8ec47aeaaf1b8282461f6940b3375e88d28ed8a61d36a461950cdfd0adca2b635e914f3cd98b54e72fedcc61196ca1697f90780ba7f182afa882faeb0bd99e6bc814bd3708497b4d00a4b40670b15951d8cae2d8a799328f38e2428521b10f6da4d92d2901e11725f8a8569d11130b0cfc4d68c597599365b79e072d65600239d613d3cd62cff9b2e65c67359d27b6ead2a40ea28cbb122f1a8ccf6466ae5aca06ccb2fbee544828c6beb0a185c11b8e6234f4f2e24880e07abe38477239a750d60134d284909412f0f9a8230c5/98/1920x1080_6046040/index.m3u8
 #EXTINF:-1 tvg-id="NBCNEWSNOWUS" group-title="🇹🇷 TÜRKSAT • Ulusal",NBC News NOW (1080p)
 https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master_5.m3u8
 #EXTINF:-1 tvg-id="NOWNEWS" group-title="🇹🇷 TÜRKSAT • Ulusal",NOW NEWS USA
 https://nowushls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NOWTVTR" group-title="🇹🇷 TÜRKSAT • Ulusal",NOW TV (720p) (720p)
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
-#EXTINF:-1 tvg-id="SHOWTVTR" group-title="🇹🇷 TÜRKSAT • Ulusal",Show TV (1080p) (1080p)
-https://ciner.daioncdn.net/showtv/showtv_1080p.m3u8?ex=10800&st=TlimhW7UlcanuEv8viNO1g&sid=8okr1sjoow3l&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=3
+#EXTINF:-1 tvg-id="SHOWTVTR" group-title="🇹🇷 TÜRKSAT • Ulusal",Show TV
+https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
 #EXTINF:-1 tvg-id="STARTVTR" group-title="🇹🇷 TÜRKSAT • Ulusal",Star TV (720p) (720p)
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 tvg-id="TRT1TR" group-title="🇹🇷 TÜRKSAT • Ulusal",TRT 1 (1440p) (1080p)
-https://tv-trt1.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-id="AHABERTR" group-title="🇹🇷 TÜRKSAT • Haber",A Haber (1080p) (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
 #EXTINF:-1 tvg-id="BLOOMBERGHTTR" group-title="🇹🇷 TÜRKSAT • Haber",BLOOMBERG HT (720p)
@@ -12206,11 +12206,11 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3
 #EXTINF:-1 tvg-id="HALKTVTR" group-title="🇹🇷 TÜRKSAT • Haber",Halk TV (1080p) (1080p)
 https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8
 #EXTINF:-1 tvg-id="NTVTR" group-title="🇹🇷 TÜRKSAT • Haber",NTV (1080p)
-https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8?&sid=8okr1aztt5a5&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=2
+https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8?&sid=8olizmpnqkk9&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=2
 #EXTINF:-1 tvg-id="SOZCUTR" group-title="🇹🇷 TÜRKSAT • Haber",SÖZCÜ TV
 https://yt.tecostream.xyz/live/sozcutelevizyonu?m3u8
 #EXTINF:-1 tvg-id="SOZCUTVTR" group-title="🇹🇷 TÜRKSAT • Haber",Sozcu TV (1080p) (1080p)
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787255691/ei/KweHauK2JLSZzPsPoYSXcA/ip/5.178.103.239/id/ztmY_cCtUl0.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr8---sn-u0g3uxax3-5qcl.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AR3QkAkw7uw8n6agxSXBo03BSbNWN6_vo8brsH-ctTvWaUbPuydr4dpz237O1CBPzDoDzvkRGxOtgbn7/spc/KBGBcqx4RBidKLYZA_wOr86BCW8TnrZjSiuldn9o6LuiYU8m-cLAUiyB6Q-JcMe6/vprv/1/reg/0/playlist_type/DVR/hcs/sd/initcwndbps/491250/met/1787234092,/mh/2L/mm/44/mn/sn-u0g3uxax3-5qcl/ms/lva/mv/m/mvi/8/pl/24/rmhost/rr4---sn-u0g3uxax3-5qcl.googlevideo.com/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51946838/mt/1787233721/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIgYpesaxCjN8fYd1BEcCmVeyE73LrOr8Lzfi22AdlVIlwCIQCfQvbcg9M50vTIOxjwLE04PMt81h7TqTFcMmSIs6SVuw%3D%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms/lsig/APaTxxMwRQIhAK9zQkR5zdHoxN2wVFLpcmbOf6OSeVvcAxB4_ZZvu9UdAiBJ4qxsVB5svTlV4MZtl5lhWD02M7BaEmkjOi1k8TUXIw%3D%3D/playlist/index.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787275732/ei/dFWHapXoA4qPi9oP-6TVgAE/ip/5.178.103.239/id/ztmY_cCtUl0.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr6---sn-u0g3uxax3-5qcs.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AR3QkAnGac2HhbU5At10AuQeYbrENh_2arf0GXWNuYb4FZNbClDHjrXtSzOqkGsVk21udyrIZrUZ17Ho/spc/KBGBcvPsgXetjNAytnCXOKrJHFX2loo4rcM6q-RE6D9MFxCzk8KiNHvduTxqu5of/vprv/1/reg/0/playlist_type/DVR/hcs/sd/initcwndbps/1211250/met/1787254132,/mh/2L/mm/44/mn/sn-u0g3uxax3-5qcs/ms/lva/mv/m/mvi/6/pl/24/rmhost/rr7---sn-u0g3uxax3-5qcs.googlevideo.com/rms/lva,lva/smhost/rr4---sn-u0g3uxax3-5qcl.googlevideo.com/dover/11/pacing/0/keepalive/yes/fexp/51565115,51946838/mt/1787253877/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAJ_B3t7kr3vhquP_HPanqgOgtFeukCcund7coy7ihNwwAiEAvDYtxeY8QqxNBnEeZ8Nl7yP_8U-EHkvnIptKhw5eDdw%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms,smhost/lsig/APaTxxMwRQIhALcu5Fqoxz2NSYPVbzGBpVqE3V-kWAOe8kPX1kFJ4iPPAiBDt3UlAMT3sBH_Xw8b5b0WWocdNhsDLfVEZCDqdBlt-w%3D%3D/playlist/index.m3u8
 #EXTINF:-1 tvg-id="TGRTHABERHDTR" group-title="🇹🇷 TÜRKSAT • Haber",TGRT HABER
 https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-id="TRTHABERTR" group-title="🇹🇷 TÜRKSAT • Haber",TRT Haber (720p) (1080p)
@@ -12220,7 +12220,7 @@ https://tvnet-live.lg.mncdn.com/tvnet/tvnet/chunklist.m3u8
 #EXTINF:-1 tvg-id="ASPORTR" group-title="🇹🇷 TÜRKSAT • Spor",A Spor (1080p) (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 tvg-id="HTSPORTVTR" group-title="🇹🇷 TÜRKSAT • Spor",HTSpor TV (1080p) (1080p)
-https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=8okr0yww8boa&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
+https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=8oliz8i6jqm1&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 #EXTINF:-1 tvg-id="TJKTVTR" group-title="🇹🇷 TÜRKSAT • Spor",TJK TV (1080p) (1080p)
 https://tjktv-live.tjk.org/tjktv_1080p.m3u8
 #EXTINF:-1 tvg-id="TRTSPORTR" group-title="🇹🇷 TÜRKSAT • Spor",TRT Spor (720p) (720p)
@@ -12229,6 +12229,8 @@ https://corestream.siteyaptim.live/trt-spor/tracks-v1a1/mono.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk_720p.m3u8
 #EXTINF:-1 tvg-id="MINIKAGOTR" group-title="🇹🇷 TÜRKSAT • Çocuk",Minika Go (720p) (720p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8
+#EXTINF:-1 tvg-id="TRTCOCUKTR" group-title="🇹🇷 TÜRKSAT • Çocuk",TRT Cocuk (1440p) (1080p)
+https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-id="TRTDIYANETCOCUKTR" group-title="🇹🇷 TÜRKSAT • Çocuk",TRT Diyanet Çocuk (720p) (1080p)
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-id="DREAMTURKTR" group-title="🇹🇷 TÜRKSAT • Müzik",Dream Türk (720p) (720p)
@@ -12236,11 +12238,11 @@ https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8
 #EXTINF:-1 tvg-id="MEDMUZIKTR" group-title="🇹🇷 TÜRKSAT • Müzik",Med Muzik (1080p) (1080p)
 http://54.36.110.140/live3/live3.m3u8
 #EXTINF:-1 tvg-id="POWERTURKAKUSTIKTR" group-title="🇹🇷 TÜRKSAT • Müzik",Power Türk Akustik (1080p) (1080p)
-https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8?nimblesessionid=869678364
+https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8?nimblesessionid=870449540
 #EXTINF:-1 tvg-id="POWERTURKSLOWTR" group-title="🇹🇷 TÜRKSAT • Müzik",Power Türk Slow (1080p) (1080p)
-https://livetv.powerapp.com.tr/pturkslow/slow.smil/chunks.m3u8?nimblesessionid=869678360
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/chunks.m3u8?nimblesessionid=870449536
 #EXTINF:-1 tvg-id="POWERTURKTAPTAZETR" group-title="🇹🇷 TÜRKSAT • Müzik",Power Türk Taptaze (1080p) (1080p)
-https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/chunks.m3u8?nimblesessionid=869678365
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/chunks.m3u8?nimblesessionid=870449539
 #EXTINF:-1 tvg-id="TRTMUZIKTR" group-title="🇹🇷 TÜRKSAT • Müzik",TRT Müzik (720p) (1080p)
 https://tv-trtmuzik.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-id="4UTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",4U TV (720p) (720p)
@@ -12250,19 +12252,19 @@ https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a44
 #EXTINF:-1 tvg-id="ABCNEWSAUSTRALIA" group-title="🇹🇷 TÜRKSAT • Diğer",ABC NEWS AUSTRALIA (720p)
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index_5.m3u8
 #EXTINF:-1 tvg-id="AFROTURKTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Afroturk TV (1080p) (1080p)
-https://edge1.taksimbilisim.com:443/naturaltv/bant1/chunks.m3u8?nimblesessionid=1671116328
+https://edge1.taksimbilisim.com:443/naturaltv/bant1/chunks.m3u8?nimblesessionid=1671653276
 #EXTINF:-1 tvg-id="AKSUTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Aksu TV (720p) (720p)
-https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8?nimblesessionid=3746259585
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8?nimblesessionid=3748139614
 #EXTINF:-1 tvg-id="ALJAZEERAENGLISHTR" group-title="🇹🇷 TÜRKSAT • Diğer",Al Jazeera (1080p)
 https://live-hls-apps-aje-fa.getaj.net/AJE/01.m3u8
 #EXTINF:-1 tvg-id="ALANYAPOSTATVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Alanya Posta TV (1080p) (1080p)
-https://api-tv3.yayin.com.tr/postatv/postatv/chunklist_w1654233670.m3u8
+https://api-tv3.yayin.com.tr/postatv/postatv/chunklist_w1116466335.m3u8
 #EXTINF:-1 tvg-id="ALMAHRIAHTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Almahriah TV (576p) (576p)
 https://starmenajo.com/hls/almahriah/index.m3u8
 #EXTINF:-1 tvg-id="ALTASTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Altas TV (1080p) (720p)
-https://edge2.taksimbilisim.com:443/altastv/bant1/chunks.m3u8?nimblesessionid=444497384
+https://edge1.taksimbilisim.com:443/altastv/bant1/chunks.m3u8?nimblesessionid=1671653273
 #EXTINF:-1 tvg-id="ANADOLUNETTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Anadolu Net TV (1080p) (1080p)
-https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/chunks.m3u8?nimblesessionid=3746259586
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/chunks.m3u8?nimblesessionid=3748139617
 #EXTINF:-1 tvg-id="ARDALPHADE" group-title="🇹🇷 TÜRKSAT • Diğer",ARD Alpha (1080p)
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master1080p5000.m3u8
 #EXTINF:-1 tvg-id="AUGSBURGTV" group-title="🇹🇷 TÜRKSAT • Diğer",Augsburg TV (1080p)
@@ -12274,17 +12276,17 @@ https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_ch
 #EXTINF:-1 tvg-id="BENGUTURKTR" group-title="🇹🇷 TÜRKSAT • Diğer",BENGU TURK
 https://ensonhaber-live.ercdn.net/benguturk/benguturk_720p.m3u8
 #EXTINF:-1 tvg-id="BIRTV" group-title="🇹🇷 TÜRKSAT • Diğer",BIR TV (720p)
-https://edge1.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=1671116557
+https://edge1.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=1671653546
 #EXTINF:-1 tvg-id="BIRTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Bir TV (720p) (720p)
-https://edge1.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=1671116330
+https://edge1.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=1671653282
 #EXTINF:-1 tvg-id="BRNORDDE" group-title="🇹🇷 TÜRKSAT • Diğer",BR Nord (1080p)
 https://mcdn.br.de/br/fs/bfs_nord/hls/de/master1080p5000.m3u8
 #EXTINF:-1 tvg-id="BRT1HDTR" group-title="🇹🇷 TÜRKSAT • Diğer",BRT 1 (720p)
-https://edge.kuzeykibrissmart.tv/brt1hd/bant1/chunks.m3u8?nimblesessionid=209563928&hash=575af483b73a7e1874add233dc58aae1.m3u818ff5c7b2289.m3u8
+https://edge.kuzeykibrissmart.tv/brt1hd/bant1/chunks.m3u8?nimblesessionid=209736505&hash=575af483b73a7e1874add233dc58aae1.m3u818ff5c7b2289.m3u8
 #EXTINF:-1 tvg-id="ASTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Bursa AS TV (900p) (1080p)
-https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8?nimblesessionid=3746259642
+https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8?nimblesessionid=3748139615
 #EXTINF:-1 tvg-id="CAYTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Cay TV (720p) (720p)
-https://edge1.taksimbilisim.com:443/caytv/bant1/chunks.m3u8?nimblesessionid=1671116352
+https://edge2.taksimbilisim.com:443/caytv/bant1/chunks.m3u8?nimblesessionid=444722375
 #EXTINF:-1 tvg-id="CBCNEWS" group-title="🇹🇷 TÜRKSAT • Diğer",CBC News (720p)
 https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master_9.m3u8
 #EXTINF:-1 tvg-id="CGTN" group-title="🇹🇷 TÜRKSAT • Diğer",CGTN (1080p)
@@ -12294,11 +12296,11 @@ https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master1080p.m3
 #EXTINF:-1 tvg-id="CHANNELNEWSASIA" group-title="🇹🇷 TÜRKSAT • Diğer",CHANNEL NEWS ASIA (1080p)
 http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1 tvg-id="CIFTCITV" group-title="🇹🇷 TÜRKSAT • Diğer",ÇİFTÇİ TV (720p)
-https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8?nimblesessionid=3746260574
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8?nimblesessionid=3748140815
 #EXTINF:-1 tvg-id="CNBCETR" group-title="🇹🇷 TÜRKSAT • Diğer",CNBC-e (1080p)
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_1080p.m3u8
 #EXTINF:-1 tvg-id="CNNINT" group-title="🇹🇷 TÜRKSAT • Diğer",CNN INT (1080p)
-https://d3508xo7u38fy2.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-j79jq28qz6knd/d6badb5e-b3c0-4f6a-9bf7-12669c25eeaa/0.m3u8
+https://d3508xo7u38fy2.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-j79jq28qz6knd/ddbf6fc0-6649-4fb5-933a-9ea2d1783351/0.m3u8
 #EXTINF:-1 tvg-id="DASERSTE" group-title="🇹🇷 TÜRKSAT • Diğer",Das Erste (1080p)
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master1080p5000.m3u8
 #EXTINF:-1 tvg-id="DELUXEMUSICDE" group-title="🇹🇷 TÜRKSAT • Diğer",DELUXE MUSIC (720p)
@@ -12306,21 +12308,21 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/6a8660d1a495c_1
 #EXTINF:-1 tvg-id="DELUXEMUSICDANCEBYDE" group-title="🇹🇷 TÜRKSAT • Diğer",DELUXE MUSIC DANCE (1080p)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/6a8578116f9f9_33669357_2608190932_5.m3u8
 #EXTINF:-1 tvg-id="DELUXEMUSICDEUTSCHPOPDE" group-title="🇹🇷 TÜRKSAT • Diğer",DELUXE MUSIC Deutsch Pop (720p)
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/6d84e377-437f-48ea-8f82-5d0303b899a1/0.m3u8
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/72bea86f-4cde-41d7-9539-eb122d64fade/0.m3u8
 #EXTINF:-1 tvg-id="DELUXEMUSICRAPDE" group-title="🇹🇷 TÜRKSAT • Diğer",DELUXE MUSIC RAP (1080p)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/6a86f9cb911ea_33669365_2608201257_5.m3u8
 #EXTINF:-1 tvg-id="DELUXEMUSICWINTERTIMEDE" group-title="🇹🇷 TÜRKSAT • Diğer",DELUXE MUSIC Winter Time (720p)
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/621a2d85-3354-4e43-b420-1fae3afc2b40/0.m3u8
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/c990e379-eb6a-4ff6-9bcc-55ee81056e2c/0.m3u8
 #EXTINF:-1 tvg-id="DISCOVERINGCHINATR" group-title="🇹🇷 TÜRKSAT • Diğer",Discovering China (1080p)
-https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/cb513e1e65706c9098c32164d6d325dd844c3bdd0b61cb3071aa448f1298410ddafbb2d3932fff695c811fd5716d340f5b63c009967a05dece0be81168297021c8e3eb3fc69c110eacdb093a59eb38410cab1114d5244341d8ef1b1a8c72e02a525dbb5f2c1261dcb90ca57f00c29d03d82e2d96acdc3738600857c95840edf15ca5aee15d42d939f3b37e18af077d36798ffbfe2edee3c666fb1ddf32a4408df1b4da9745c1a4b9599b29c344c4dcbf1fe3ed579cdb49be9abb643c8e782b476435acc3c1b826b4e136c099035b8b3f47df6a56baa6449b2383a0d220a53d8f79a30aa6ae6da8a4b8de454e03bdae6e4c28baecac86fa7a66f336bbeaded47d7896e1073869fd2d89726568cbbdfc1d8a9541cdf63bd3e0205d19d081499eaab781c4b99905c9769d89a7ce7d6146710b0f8312f3cf3c9b1adc7ea9dc1a6e091e13e3c903b6f3b334076b41828f49c7534ae9a9ecadeb4e6a9a2e4b208122be7f007fc720636cef4fadc9dc0d34e6f63153d00bc5171ee7573d260ce6bbd2fbf482/43/1920x1080_4681598/index.m3u8
+https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/cb57391c6573638f84cb3861cef64182be7b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca3094613a15340cf24562399da1b0e842fbc365040bf473d0070c9bb51f92551c5875f96767ad8fbc060382b5b42975d59e0bd59f6fae40e47d968a5b81d1bf79374ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9fc96b0f905253134dbf7cea660f11dcbcb57e987823f62ea2db309f00c9d10a8ec47aeaaf1b8282461f6940b3375e88d28ed8a61d36a461950cdfd0adca2b635e914f3cd98b54e72fedcc61196ca1697f90780ba7f182afa882faeb0bd99e6bc814bd3708497b4d00a4b40670b15951d8cae2d8a799328f38e2428521b10f6da4d92d2901e11725f8a8569d11130b0cfc4d68c597599365b79e072d65600239d613d3cd62cff9b2e65c67359d27b6ead2a40ea28cbb122f1a8ccf6466ae5aca06ccb2fbee544828c6beb0a185c11b8e6234f4f2f2c83b9866c9faa3ef1823bb102b8c83463dd639b50cd5f1ae95f/137/1920x1080_4681598/index.m3u8
 #EXTINF:-1 tvg-id="DIYANETTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Diyanet TV (1080p) (1080p)
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/mt_0.m3u8
 #EXTINF:-1 tvg-id="DIYARTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Diyar TV (720p) (720p)
-https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8?nimblesessionid=3746259677
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8?nimblesessionid=3748139742
 #EXTINF:-1 tvg-id="DOCUMENTARY" group-title="🇹🇷 TÜRKSAT • Diğer",Documentary+ (1080p)
-https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/4ec5f006-acd5-4858-8ad8-e04f1935e08d/0.m3u8
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/f6ffa322-54a7-41d8-a055-753681462799/0.m3u8
 #EXTINF:-1 tvg-id="DOCUMENTARYPLUS" group-title="🇹🇷 TÜRKSAT • Diğer",DocumentaryPlus (1080p)
-https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/0ddeabe7-1a0c-4017-baea-869aa27c9367/0.m3u8
+https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/ca605958-dc87-44ef-ad7b-8a5055a1ab87/0.m3u8
 #EXTINF:-1 tvg-id="DOSTTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Dost TV (576p) (576p)
 https://dost.stream.emsal.im/tv/live.m3u8
 #EXTINF:-1 tvg-id="DWENGLISHDE" group-title="🇹🇷 TÜRKSAT • Diğer",DW (1080p)
@@ -12328,21 +12330,21 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/strea
 #EXTINF:-1 tvg-id="EDESSATVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Edessa TV (1080p) (1080p)
 https://canli.edessatv.com/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="ERZURUMWEBTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Erzurum Web TV (720p) (720p)
-https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/chunklist_w431508176.m3u8
+https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/chunklist_w57745652.m3u8
 #EXTINF:-1 tvg-id="ESTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",ES TV (720p) (720p)
-https://live.artidijitalmedya.com/artidijital_estv/estv/chunks.m3u8?nimblesessionid=3746259701
+https://live.artidijitalmedya.com/artidijital_estv/estv/chunks.m3u8?nimblesessionid=3748139744
 #EXTINF:-1 tvg-id="ETVKAYSERITR" group-title="🇹🇷 TÜRKSAT • Diğer",ETV Kayseri (720p) (720p)
-https://live.artidijitalmedya.com/artidijital_etv/etv/chunks.m3u8?nimblesessionid=3746259698
+https://live.artidijitalmedya.com/artidijital_etv/etv/chunks.m3u8?nimblesessionid=3748139743
 #EXTINF:-1 tvg-id="EURODTR" group-title="🇹🇷 TÜRKSAT • Diğer",Euro D (720p) (720p)
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 #EXTINF:-1 tvg-id="EURONEWSDEUTSCHDE" group-title="🇹🇷 TÜRKSAT • Diğer",Euronews Deutsch (720p)
-https://575b7833.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0RldXRzY2hfSExT/ec44c358-4407-4f01-9cca-11c94985dfee/5.m3u8
+https://575b7833.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0RldXRzY2hfSExT/e1402c64-7731-430c-92f0-529445478d04/5.m3u8
 #EXTINF:-1 tvg-id="EURONEWSTR" group-title="🇹🇷 TÜRKSAT • Diğer",EURONEWS EN (720p)
 https://cdn-euronews.akamaized.net/live/eds/euronews-en/25080/euronews-en-avc1_3300000=9-mp4a_143200_eng=2.m3u8
 #EXTINF:-1 tvg-id="FILMSCREENTR" group-title="🇹🇷 TÜRKSAT • Diğer",Film Screen HD (1080p)
 https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/video_10801920_p_1.m3u8
 #EXTINF:-1 tvg-id="FINANSTURKTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Finans Turk TV (720p) (720p)
-https://yayin30.haber100.com/live/finansturk/chunklist_w416778383.m3u8
+https://yayin30.haber100.com/live/finansturk/chunklist_w1535700452.m3u8
 #EXTINF:-1 tvg-id="FOXNEWS" group-title="🇹🇷 TÜRKSAT • Diğer",FOX NEWS (720p)
 https://fox-foxnewsnow-vizio.amagi.tv/playlist720-p.m3u8
 #EXTINF:-1 tvg-id="FRANCE24" group-title="🇹🇷 TÜRKSAT • Diğer",France 24
@@ -12352,7 +12354,7 @@ https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/bitrate1-audi
 #EXTINF:-1 tvg-id="GLOBALNEWS" group-title="🇹🇷 TÜRKSAT • Diğer",GLOBAL NEWS (720p)
 https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/live-audio_1=96000-video=2499968.m3u8
 #EXTINF:-1 tvg-id="GUNEYDOGUTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Guneydogu TV (720p) (720p)
-https://edge2.taksimbilisim.com:443/gtv/bant1/chunks.m3u8?nimblesessionid=444497406
+https://edge1.taksimbilisim.com:443/gtv/bant1/chunks.m3u8?nimblesessionid=1671653330
 #EXTINF:-1 tvg-id="GZTTR" group-title="🇹🇷 TÜRKSAT • Diğer",GZT (1080p) (1080p)
 https://gzttv-live.lg.mncdn.com/gzttv/gzttv/chunklist.m3u8
 #EXTINF:-1 tvg-id="HRDE" group-title="🇹🇷 TÜRKSAT • Diğer",HR (720p)
@@ -12362,7 +12364,7 @@ https://i24newsenglish-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="ILKETVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Ilke TV (1080p) (1080p)
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTINF:-1 tvg-id="KANAL12TR" group-title="🇹🇷 TÜRKSAT • Diğer",Kanal 12 (720p) (720p)
-https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/chunks.m3u8?nimblesessionid=3746259779
+https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/chunks.m3u8?nimblesessionid=3748139879
 #EXTINF:-1 tvg-id="KANAL23TR" group-title="🇹🇷 TÜRKSAT • Diğer",Kanal 23 (1080p) (1080p)
 https://cdn-kanal23.yayin.com.tr/kanal23/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="KANALHAYATTR" group-title="🇹🇷 TÜRKSAT • Diğer",Kanal Hayat (1080p) (1080p)
@@ -12370,19 +12372,19 @@ https://tbn02a.ltnschedule.com/hls/internal-ve-hls-pull-tgt-8871b930-50b5-47de-9
 #EXTINF:-1 tvg-id="KANAL24TR" group-title="🇹🇷 TÜRKSAT • Diğer",KANAL24
 https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 #EXTINF:-1 tvg-id="KOCAELITVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Kocaeli TV (1080p) (1080p)
-https://edge2.taksimbilisim.com:443/kocaelitv/bant1/chunks.m3u8?nimblesessionid=444497416
+https://edge2.taksimbilisim.com:443/kocaelitv/bant1/chunks.m3u8?nimblesessionid=444722392
 #EXTINF:-1 tvg-id="KONYAOLAYTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Konya Olay TV (720p) (720p)
-https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u8?nimblesessionid=3746259861
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u8?nimblesessionid=3748139878
 #EXTINF:-1 tvg-id="KUZEYKIBRISTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Kuzey Kıbrıs TV
 http://old.kuzeykibris.tv/m3u8/kktv.m3u8
 #EXTINF:-1 tvg-id="LALEGULTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Lalegul TV (1080p) (1080p)
 https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTINF:-1 tvg-id="LIDERHABERTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",LİDER HABER (1080p)
-http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/chunklist_w1623365155.m3u8
+http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/chunklist_w43973783.m3u8
 #EXTINF:-1 tvg-id="LUYSTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Luys TV (1080p) (1080p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_0.m3u8
 #EXTINF:-1 tvg-id="MCTR" group-title="🇹🇷 TÜRKSAT • Diğer",MC TV (720p)
-https://n2.cdn.jetstre.am/session/abf7f249b5a9991aa1d36c0df993977e/sz/mceutv/wowza4/live/mc2/chunklist.m3u8
+https://n2.cdn.jetstre.am/session/028c8379d965a8098a8d9f8d59bd369d/sz/mceutv/wowza4/live/mc2/chunklist.m3u8
 #EXTINF:-1 tvg-id="MEDYAHABERTV" group-title="🇹🇷 TÜRKSAT • Diğer",MedyaHaber TV (1080p)
 https://hlspackager.akamaized.net/live/DB/MEDYA_HABER/HLS/MEDYA_HABER-avc1_2500000=10002.m3u8
 #EXTINF:-1 tvg-id="MEKAMELEENTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Mekameleen TV (1080p) (1080p)
@@ -12390,9 +12392,9 @@ https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b3128000.m3u
 #EXTINF:-1 tvg-id="MELTEMTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Meltem TV (1080p) (1080p)
 https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
 #EXTINF:-1 tvg-id="MKTV" group-title="🇹🇷 TÜRKSAT • Diğer",MK TV (720p)
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8?nimblesessionid=3746260487
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8?nimblesessionid=3748140666
 #EXTINF:-1 tvg-id="MTURKTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",MTürk TV (1080p) (1080p)
-https://edge2.taksimbilisim.com:443/muglaturk/bant1/chunks.m3u8?nimblesessionid=444497427
+https://edge1.taksimbilisim.com:443/muglaturk/bant1/chunks.m3u8?nimblesessionid=1671653381
 #EXTINF:-1 tvg-id="NDRFERNSEHENHAMBURGDE" group-title="🇹🇷 TÜRKSAT • Diğer",NDR Hamburg (1080p)
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-1080p-5000.m3u8
 #EXTINF:-1 tvg-id="NDRFERNSEHENINTERNATIONALDE" group-title="🇹🇷 TÜRKSAT • Diğer",NDR International (1080p)
@@ -12408,29 +12410,29 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa
 #EXTINF:-1 tvg-id="NUMBER1TVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Number 1 TV (720p) (720p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/chunklist_b400000.m3u8
 #EXTINF:-1 tvg-id="POWERDANCETR" group-title="🇹🇷 TÜRKSAT • Diğer",Power Dance (1080p) (1080p)
-https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=869678366
+https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=870449538
 #EXTINF:-1 tvg-id="POWERLOVETR" group-title="🇹🇷 TÜRKSAT • Diğer",Power Love (1080p) (1080p)
-https://livetv.powerapp.com.tr/plove/love.smil/chunks.m3u8?nimblesessionid=869678361
+https://livetv.powerapp.com.tr/plove/love.smil/chunks.m3u8?nimblesessionid=870449535
 #EXTINF:-1 tvg-id="POWERTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Power TV (1080p) (1080p)
-https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b7596000_sltur.m3u8?nimblesessionid=869678362
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b7596000_sltur.m3u8?nimblesessionid=870449537
 #EXTINF:-1 tvg-id="POWERTURKTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",PowerTürk TV (720p) (1080p)
-https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/chunks.m3u8?nimblesessionid=3746260090
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/chunks.m3u8?nimblesessionid=3748140167
 #EXTINF:-1 tvg-id="RTDEUTSCHDE" group-title="🇹🇷 TÜRKSAT • Diğer",RT DEUTSCH (1080p)
 https://rt-ger.rttv.com/live/rtdeutsch/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="RTNEWS" group-title="🇹🇷 TÜRKSAT • Diğer",RT NEWS (1080p)
 https://rt-glb.rttv.com/live/rtnews/playlist_4500Kb.m3u8
 #EXTINF:-1 tvg-id="RTLDE" group-title="🇹🇷 TÜRKSAT • Diğer",RTL (720p)
 https://ma.anixa.tv/clips/stream/rtl/playlist.php
-#EXTINF:-1 tvg-id="SAT7TURKCY" group-title="🇹🇷 TÜRKSAT • Diğer",Sat7 Türk (1080p) (1080p)
-https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/sat7turkpublish/sat7turk_source/chunks.m3u8
+#EXTINF:-1 tvg-id="SAT7TURKCY" group-title="🇹🇷 TÜRKSAT • Diğer",Sat7 Türk (1080p) (720p)
+https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/chunks.m3u8?nimblesessionid=3748140168
 #EXTINF:-1 tvg-id="SERCEMTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Sercem TV (1080p) (1080p)
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="SHOWTURKTR" group-title="🇹🇷 TÜRKSAT • Diğer",Show Turk (1080p) (1080p)
-https://ciner-live.ercdn.net/showturk/showturk_1080p.m3u8?e=1787241809&st=1JeqtKCLoVFfHYs3Xkgcfw&tv=1
+https://ciner-live.ercdn.net/showturk/showturk_1080p.m3u8?e=1787262328&st=AeVYIcMQLKCcizFOfY00LA&tv=1
 #EXTINF:-1 tvg-id="SRFERNSEHENDE" group-title="🇹🇷 TÜRKSAT • Diğer",SR (720p)
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/master-720p-3328.m3u8
 #EXTINF:-1 tvg-id="TABIITVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Tabii TV HD (1080p)
-https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8?sid=3L6YW8ByWEGhuw9OtbFMMA&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=2800000
+https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8?sid=WvdK3FNankG9loqzgY1wcQ&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=2800000
 #EXTINF:-1 tvg-id="TAGESSCHAU24DE" group-title="🇹🇷 TÜRKSAT • Diğer",Tagesschau24 (720p)
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-720p-3328.m3u8
 #EXTINF:-1 tvg-id="TBMMTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",TBMM TV (720p) (720p)
@@ -12438,13 +12440,13 @@ https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8?e=&st=
 #EXTINF:-1 tvg-id="TELE1TR" group-title="🇹🇷 TÜRKSAT • Diğer",Tele 1 (1080p) (1080p)
 https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8
 #EXTINF:-1 tvg-id="TEMPOTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Tempo TV (720p) (720p)
-https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8?nimblesessionid=3746260146
+https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8?nimblesessionid=3748140330
 #EXTINF:-1 tvg-id="TERRAMATERWILD" group-title="🇹🇷 TÜRKSAT • Diğer",Terra Mater WILD (1080p)
-https://53ff3982.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/42cfa705-cb1a-4de6-bc2a-bb42619aa3cd/5.m3u8
+https://53ff3982.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/58156a9c-cd79-4602-a40e-4c6ad1ec7e12/5.m3u8
 #EXTINF:-1 tvg-id="TERRAMATERWILDENG" group-title="🇹🇷 TÜRKSAT • Diğer",Terra Mater WILD ENG (1080p)
-https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01775-amg01775c1-amgplt0343/320ca648-9ca4-11f1-94e1-d601ee22f6fd/77/1920x1080_4300000/index.m3u8
+https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01775-amg01775c1-amgplt0343/f913e1dd-9ccf-11f1-ac4b-f2558d2c7c0f/122/1920x1080_4300000/index.m3u8
 #EXTINF:-1 tvg-id="TIVI6TR" group-title="🇹🇷 TÜRKSAT • Diğer",Tivi 6 (720p) (720p)
-https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/chunks.m3u8?nimblesessionid=3746260400
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/chunks.m3u8?nimblesessionid=3748140628
 #EXTINF:-1 tvg-id="TRACEURBAN" group-title="🇹🇷 TÜRKSAT • Diğer",TRACE URBAN (1080p)
 https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 tvg-id="TRTAVAZTR" group-title="🇹🇷 TÜRKSAT • Diğer",TRT Avaz (720p) (1080p)
@@ -12462,9 +12464,9 @@ https://tv-trtturk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-id="TRTWORLDHDTR" group-title="🇹🇷 TÜRKSAT • Diğer",TRT WORLD (1080p)
 https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 tvg-id="TURKHABERTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",TürkHaber (720p) (1080p)
-https://edge2.taksimbilisim.com:443/turkhaber/bant1/chunks.m3u8?nimblesessionid=444497472
+https://edge1.taksimbilisim.com:443/turkhaber/bant1/chunks.m3u8?nimblesessionid=1671653493
 #EXTINF:-1 tvg-id="TV1TR" group-title="🇹🇷 TÜRKSAT • Diğer",TV 1 (720p) (720p)
-https://edge2.taksimbilisim.com:443/tv1/bant1/chunks.m3u8?nimblesessionid=444497470
+https://edge2.taksimbilisim.com:443/tv1/bant1/chunks.m3u8?nimblesessionid=444722450
 #EXTINF:-1 tvg-id="TV100TR" group-title="🇹🇷 TÜRKSAT • Diğer",TV 100
 https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
 #EXTINF:-1 tvg-id="24TVTR" group-title="🇹🇷 TÜRKSAT • Diğer",TV 24 (720p) (720p)
@@ -12472,7 +12474,7 @@ https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
 #EXTINF:-1 tvg-id="TV264TR" group-title="🇹🇷 TÜRKSAT • Diğer",TV 264 (1080p) (1080p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/mt_0.m3u8
 #EXTINF:-1 tvg-id="TV8TR" group-title="🇹🇷 TÜRKSAT • Diğer",TV 8 (1080p) (1080p)
-https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=8okr1teys3zd&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=8olj089xv3an&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:-1 tvg-id="TV4TR" group-title="🇹🇷 TÜRKSAT • Diğer",TV4 (720p) (720p)
 https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8
 #EXTINF:-1 tvg-id="ULKETVTR" group-title="🇹🇷 TÜRKSAT • Diğer",UlkeTV (720p)
@@ -12480,17 +12482,17 @@ https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8
 #EXTINF:-1 tvg-id="ULUSALKANALTR" group-title="🇹🇷 TÜRKSAT • Diğer",ULUSAL TV
 https://internettv.guventechnology.com/hls/ulusaltv/index.m3u8
 #EXTINF:-1 tvg-id="URFANATIKTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Urfa Natik TV (720p) (1080p)
-https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/chunks.m3u8?nimblesessionid=3746260321
+https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/chunks.m3u8?nimblesessionid=3748140457
 #EXTINF:-1 tvg-id="VAN65TVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Van 65 TV (720p)
-https://live.artidijitalmedya.com/artidijital_van65/van65/chunks.m3u8?nimblesessionid=3746260324
+https://live.artidijitalmedya.com/artidijital_van65/van65/chunks.m3u8?nimblesessionid=3748140458
 #EXTINF:-1 tvg-id="VAVTVTR" group-title="🇹🇷 TÜRKSAT • Diğer",Vav TV (1080p)
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/0.m3u8
 #EXTINF:-1 tvg-id="VEVOHPRB" group-title="🇹🇷 TÜRKSAT • Diğer",VEVO HP RB (1080p)
-https://amg00056-amg00056c14-rakuten-fr-3244.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevohiphopandrbfr-rakutenfr/cb513e1e65706c9098c32164d6d325dd844c3bdd0b61cb3071aa448f1298410ddafbb2d3932fff695c811fd5716d340f5b63c009967a05dece0be81168297021c8e3eb3fc69c110eacdb093a59eb38410cab1114d5244341d8ef1b1a8c72e02a525dbb5f2c1261d9b80da57e5bc39d03d82e2d96acdc373860085c9a0e40e1f50bf2f6e458118a6cf7b71662af0e14b3c12d98894decd9bb08c612d828a448bfa7cab8da1184e4c159816f639f943a581facb33bfefc53bfce9f6d79af6529521b4694dbf99c601df68ac7c19a85a6916aed07c6c9048c6525b2039935e47aea39ec612f863f2368407b02c11b84bdc352a4651eb4b25b7f5c9c6bfeb0e0de7233bafe1d7b46ce62e23b410dbdf2d11d88cf14d9e36dd5f4212a31ce954a8c8ef2addbf0dc1ad2759187c39133141a38441ad009ebda4ccb39d17d9fcb110a55590bf8c9028ad58f1e136a5d898d5b9b424ee89bb882d90f29c32f4e09bf2e8a0d7719a65e5b75eb29f68d2f2cd87678e21b09bb0965ce1286d16e9283def60d2fbacecd20ad360fd488120ab6cfcdd37a8f66123335309dc5fd86b12279/29/1920x1080_7333040/index.m3u8
+https://amg00056-amg00056c14-rakuten-fr-3244.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevohiphopandrbfr-rakutenfr/cb57391c6573638f84cb3861cef64182be7b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca3094613a15340cf24562399da1b0e842fbc365040bf473d0070c9bb0bf92506c5890d96767ad8fbc060382b5b42970f0cb7bd0fa1fde50c4cda38a8e01a4f9f057fc6d3168abb4de6d18302f110de27af4ac8ced2bee9238b8797011566884c61d989e0fbfa1ba6fa1fdbef94602d997568750a54f2a6808c3656e469622c357b56dd1f923dc19b31892016b6058a468731f004c2f762622cd2c598d747583caaca5e2355c802150e9947518a5f81c5dec47c7190f8133220a30880707b68c2af837c0ca464c256f4a5569b3918b9317edbbc23d0d510cdddf96fa4e6f99d2f4b4d624b268353b49f7fe130b74d85c10928504145e2cf1b94c69169396c4b89974d943d2ff98adbcd8f557bfd69150cbc3b9943533885744d6cf521fcad396ea22f1eca606eac1666d602dfb03efaaadeaa576ee49ef443f96efdbc4587a555e73e6a2b77d9981b564b4872c7fd265c600ba46bd0939bb139597a85b5aadac54033133607586edeb307112f5d3d9d7b7227e6e950b88406b242121cfc2c6580/51/1920x1080_7333040/index.m3u8
 #EXTINF:-1 tvg-id="VEVOPOP" group-title="🇹🇷 TÜRKSAT • Diğer",VEVO POP (1080p)
-https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/cb513e1e65706c9098c32164d6d325dd844c3bdd0b61cb3071aa448f1298410ddafbb2d3932fff695c811fd5716d340f5b63c009967a05dece0be81168297021c8e3eb3fc69c110eacdb093a59eb38410cab1114d5244341d8ef1b1a8c72e02a525dbb5f2c1261d9e80aaa735b979d03d82e2d96acdc373860535bca5c40b1a65ea2aab45f478e6af7e57e18af077d36798ffbfe2edee3c666fb1ddf32a4408df1b4da9745c1a4b9599b29c344c4dcbf1fe3ed579cdb49be9abb643c8e782b476435acc3c1b826b4e136c099035b8b3f47df6a56baa6449b2383a0d220a53d8f79a30aa6ae6da8a4b8de454e03bdae6e4c28baecac86fa7a66f336bbeaded47d7896e1073869fd2d89726568cbbdfc1d8a9541cdf63bd3e0205d19d081499eaab781c4b99905c9769d89a7ce7d6146710b0f8312f3cf3c9b1adc7ea9dc1a6e091e13e3c903b6f3b334076b41828f49c7534ae9a9ecadeb4e6a9a2e4b208122be7f007fc720636cef4ea8cb6c8ce8a7ca79815bd8fc29465888ef95c5defa8600a0ac1b/110/1920x1080_7333040/index.m3u8
+https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/cb57391c6573638f84cb3861cef64182be7b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca3094613a15340cf24562399da1b0e842fbc365040bf473d0070c9bb0bfe745393845896767ad8fbc060382b5b42cd595fe0bd0aa5fcb45f45d964a3e7184af79374ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9fc96b0f905253134dbf7cea660f11dcbcb57e987823f62ea2db309f00c9d10a8ec47aeaaf1b8282461f6940b3375e88d28ed8a61d36a461950cdfd0adca2b635e914f3cd98b54e72fedcc61196ca1697f90780ba7f182afa882faeb0bd99e6bc814bd3708497b4d00a4b40670b15951d8cae2d8a799328f38e2428521b10f6da4d92d2901e11725f8a8569d11130b0cfc4d68c597599365b79e072d65600239d613d3cd62cff9b2e65c67359d27b6ead2a40ea28cbb122f1a8ccf6466ae5aca06ccb2fbee544828c6beb0a185c11b8e6234f4f2e29870e07b9e38477234c32d16332201f644444e46cc1a5d502/47/1920x1080_7333040/index.m3u8
 #EXTINF:-1 tvg-id="VEVOPOPFAST" group-title="🇹🇷 TÜRKSAT • Diğer",VEVO POP FAST (1080p)
-https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/cb513e1e65706c9098c32164d6d325dd844c3bdd0b61cb3071aa448f1298410ddafbb2d3932fff695c811fd5716d340f5b63c009967a05dece0be81168297021c8e3eb3fc69c110eacdb093a59eb38410cab1114d5244341d8ef1b1a8c72e02a525dbb5f2c1261d9e80ca97104c29d03d82e2d96acdc3738600b5a9f5d40b3f55faafeb70f13df38a7e27e18af077d36798ffbfe2edee3c666fb1ddf32a4408df1b4da9745c1a4b9599b29c344c4dcbf1fe3ed579cdb49be9abb643c8e782b476435acc3c1b826b4e136c099035b8b3f47df6a56baa6449b2383a0d220a53d8f79a30aa6ae6da8a4b8de454e03bdae6e4c28baecac86fa7a66f336bbeaded47d7896e1073869fd2d89726568cbbdfc1d8a9541cdf63bd3e0205d19d081499eaab781c4b99905c9769d89a7ce7d6146710b0f8312f3cf3c9b1adc7ea9dc1a6e091e13e3c903b6f3b334076b41828f49c7534ae9a9ecadeb4e6a9a2e4b208122be7f007fc720636cef4ea8cd698ce8a7ca79815b7b6239dd6438dbd94598b716e218b605/175/1920x1080_7333040/index.m3u8
+https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/cb57391c6573638f84cb3861cef64182be7b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca3094613a15340cf24562399da1b0e842fbc365040bf473d0070c9bb0bfe730197865f96767ad8fbc060382b5b42ce5f0ee1bd5ef2aee65b4d8a38f0b24f1df79374ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9fc96b0f905253134dbf7cea660f11dcbcb57e987823f62ea2db309f00c9d10a8ec47aeaaf1b8282461f6940b3375e88d28ed8a61d36a461950cdfd0adca2b635e914f3cd98b54e72fedcc61196ca1697f90780ba7f182afa882faeb0bd99e6bc814bd3708497b4d00a4b40670b15951d8cae2d8a799328f38e2428521b10f6da4d92d2901e11725f8a8569d11130b0cfc4d68c597599365b79e072d65600239d613d3cd62cff9b2e65c67359d27b6ead2a40ea28cbb122f1a8ccf6466ae5aca06ccb2fbee544828c6beb0a185c11b8e6234f4f2d2c308fd2decdcda5157213054f56bb881d24ffe27c85bef8/1/1920x1080_7333040/index.m3u8
 #EXTINF:-1 tvg-id="VIASATHISTORYTR" group-title="🇹🇷 TÜRKSAT • Diğer",Viasat History (720p) (720p)
 https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
 #EXTINF:-1 tvg-id="WDRDE" group-title="🇹🇷 TÜRKSAT • Diğer",WDR (720p)

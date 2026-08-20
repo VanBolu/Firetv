@@ -1,7 +1,9 @@
-name: Update IPTV Playlist
+name: Update IPTV Playlists
 
 on:
   schedule:
+    # Her gün Almanya saatiyle yaklaşık 06:00
+    # GitHub cron UTC kullanır.
     - cron: "0 4 * * *"
 
   workflow_dispatch:
@@ -25,12 +27,24 @@ jobs:
       - name: Playlistleri oluştur
         run: python update_playlist.py
 
+      - name: Oluşturulan dosyaları kontrol et
+        run: |
+          echo "Oluşturulan M3U dosyaları:"
+          ls -lh *.m3u
+
+          echo ""
+          echo "Kanal sayıları:"
+          echo "Turkiye: $(( $(wc -l < Turkiye.m3u) / 2 ))"
+          echo "Dunya: $(( $(wc -l < Dunya.m3u) / 2 ))"
+          echo "Hotbird: $(( $(wc -l < Hotbird.m3u) / 2 ))"
+          echo "Astra: $(( $(wc -l < Astra.m3u) / 2 ))"
+
       - name: Playlistleri GitHub'a kaydet
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add world.m3u turkey.m3u
+          git add Turkiye.m3u Dunya.m3u Hotbird.m3u Astra.m3u
 
           git diff --cached --quiet || git commit -m "Auto-update IPTV playlists"
 

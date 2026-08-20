@@ -1,72 +1,160 @@
 #EXTM3U
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="24TV.tr@SD",TV 24 (720p)
-https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="4UTV.tr@SD",4U TV (720p)
 https://hls.4utv.live/hls/stream.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ASTV.tr@SD",Bursa AS TV (900p)
-https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8?nimblesessionid=3748414240
+#EXTINF:-1 tvg-id="ABCNews" tvg-logo="https://i.ibb.co/yBXSH1x6/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", ABC News
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index_5.m3u8
+#EXTINF:-1 tvg-id="ABC NEWS AUSTRALIA" tvg-name="ABC NEWS AUSTRALIA" tvg-logo="https://i.ibb.co/mBTzvw8/Abcau.png" group-title="Türkiye • Diğer", ABC NEWS AUSTRALIA
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index_5.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="AfroturkTV.tr@SD",Afroturk TV (1080p)
-https://edge1.taksimbilisim.com:443/naturaltv/bant1/chunks.m3u8?nimblesessionid=1671723040
+https://edge1.taksimbilisim.com:443/naturaltv/bant1/chunks.m3u8?nimblesessionid=1671735858
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="AksuTV.tr@SD",Aksu TV (720p)
-https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8?nimblesessionid=3748414207
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8?nimblesessionid=3748461371
+#EXTINF:-1 tvg-id="ALJAZEERAENGLISH.tr" tvg-name="Al Jazeera" tvg-logo="https://i.ibb.co/gM1FtVHQ/aljaz2.png"  group-title="Türkiye • Diğer", Al Jazeera
+https://live-hls-apps-aje-fa.getaj.net/AJE/01.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="AlanyaPostaTV.tr@SD",Alanya Posta TV (1080p)
-https://api-tv3.yayin.com.tr/postatv/postatv/chunklist_w1765955338.m3u8
+https://api-tv3.yayin.com.tr/postatv/postatv/chunklist_w9583471.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="AlmahriahTV.tr@SD",Almahriah TV (576p)
 https://starmenajo.com/hls/almahriah/index.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="AltasTV.tr@SD",Altas TV (1080p)
-https://edge1.taksimbilisim.com:443/altastv/bant1/chunks.m3u8?nimblesessionid=1671723037
+https://edge1.taksimbilisim.com:443/altastv/bant1/chunks.m3u8?nimblesessionid=1671735857
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="AnadoluNetTV.tr@SD",Anadolu Net TV (1080p)
-https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/chunks.m3u8?nimblesessionid=3748414206
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/chunks.m3u8?nimblesessionid=3748461374
+#EXTINF:-1 tvg-id="ARD Alpha.de" tvg-name="ARD Alpha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/640px-ARD_alpha.svg.png" tvg-id="ARDalpha.de" group-title="Türkiye • Diğer",ARD Alpha
+https://mcdn.br.de/br/fs/ard_alpha/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="AugsburgTV" tvg-name="AugsburgTV" tvg-logo="https://i.hizliresim.com/skimnkz.png" group-title="Türkiye • Diğer", Augsburg TV
+https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/chunklist_b3628000.m3u8
+#EXTINF:-1 tvg-id="BBCEARTH.tr" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="Türkiye • Diğer", BBC Earth
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist1080p.m3u8
+#EXTINF:-1 tvg-id="BBCWorldNews.tr" tvg-name="BBCWorldNews.tr" tvg-logo="https://i.ibb.co/dPmZMqq/bbcn.png" group-title="Türkiye • Diğer", BBC NEWS
+https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv10/b=1604032/main.m3u8
+#EXTINF:-1 tvg-id="BENGÜTÜRK.tr" tvg-name="BENGÜTÜRK.tr" tvg-logo="https://i.ibb.co/CHWhMvQ/bengu-turk.png" group-title="Türkiye • Diğer", BENGU TURK
+https://ensonhaber-live.ercdn.net/benguturk/benguturk_720p.m3u8
+#EXTINF:-1 tvg-name="BIR TV" tvg-id="BIR TV" tvg-logo="https://i.ibb.co/dDdPMWq/birtv.png" group-title="Türkiye • Diğer", BIR TV
+https://edge2.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=444756016
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="BirTV.tr@SD",Bir TV (720p)
-https://edge2.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=444751186
+https://edge2.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=444755831
+#EXTINF:-1 tvg-id="BR Nord.de" tvg-name="BR Nord" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/768px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenNord.de" group-title="Türkiye • Diğer",BR Nord
+https://mcdn.br.de/br/fs/bfs_nord/hls/de/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="BRT 1 HD.tr" tvg-name="BRT 1 HD.tr" tvg-logo="https://i.imgur.com/gOPAi2c.png" group-title="Türkiye • Diğer", BRT 1
+https://edge.kuzeykibrissmart.tv/brt1hd/bant1/chunks.m3u8?nimblesessionid=209758616&hash=575af483b73a7e1874add233dc58aae1.m3u818ff5c7b2289.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ASTV.tr@SD",Bursa AS TV (900p)
+https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8?nimblesessionid=3748461460
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="CayTV.tr@SD",Cay TV (720p)
+https://edge2.taksimbilisim.com:443/caytv/bant1/chunks.m3u8?nimblesessionid=444755840
+#EXTINF:-1 tvg-id="CBCNews" tvg-name="CBCNews" tvg-logo="https://i.ibb.co/YD3G64y/cbs.jpg" group-title="Türkiye • Diğer", CBC News
+https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master_9.m3u8
+#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://i.hizliresim.com/26pfuli.png" group-title="Türkiye • Diğer", CGTN
+https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
+#EXTINF:-1 tvg-id="CGTNDocumentary" tvg-logo="https://i.ibb.co/VWnymrbY/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", CGTN Documentry
+https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master1080p.m3u8
+#EXTINF:-1 tvg-id="CHANNEL NEWS ASIA" tvg-name="CHANNEL NEWS ASIA" tvg-logo="https://i.ibb.co/7J24bwVD/cnaid.png" group-title="Türkiye • Diğer", CHANNEL NEWS ASIA
+http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
+#EXTINF:-1 tvg-id="ÇİFTÇİ TV" tvg-name="ÇİFTÇİ TV" tvg-logo="https://i.ibb.co/vHwMgx0/ciftci.png" group-title="Türkiye • Diğer",ÇİFTÇİ TV
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8?nimblesessionid=3748463387
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="CNBCe.tr@SD",CNBC-e
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e_1080p.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="CayTV.tr@SD",Cay TV (720p)
-https://edge1.taksimbilisim.com:443/caytv/bant1/chunks.m3u8?nimblesessionid=1671723075
+#EXTINF:-1 tvg-id="CNN INT" tvg-name="CNN INT" tvg-logo="https://i.ibb.co/XbSHxd5/cnn.png" group-title="Türkiye • Diğer", CNN INT
+https://d3508xo7u38fy2.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-j79jq28qz6knd/bc2b98ec-9d3c-48a7-a6f7-f655ed69874d/0.m3u8
+#EXTINF:-1 tvg-id="Das Erste" tvg-name="Das Erste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/640px-Das_Erste_2014.svg.png" group-title="Türkiye • Diğer", Das Erste
+https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master1080p5000.m3u8
+#EXTINF:-1 tvg-id="DELUXEMUSIC.de" tvg-name="DELUXE MUSIC" tvg-logo="https://i.imgur.com/E65GQN9.png" tvg-id="DeluxeMusic.de" group-title="Türkiye • Diğer", DELUXE MUSIC
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/6a8660d1a495c_13018905_2608200205_1.m3u8
+#EXTINF:-1 tvg-id="DeluxeMusicDanceBy.de" tvg-name="DELUXE MUSIC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/666px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" group-title="Türkiye • Diğer", DELUXE MUSIC DANCE
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/6a8578116f9f9_33669357_2608190932_5.m3u8
+#EXTINF:-1 tvg-id="DELUXE MUSIC Deutsch Pop.de" tvg-name="DELUXE MUSIC Deutsch Pop" tvg-logo="https://i.ibb.co/6RvHVvn/dlxdtschpp.png" group-title="Türkiye • Diğer", DELUXE MUSIC Deutsch Pop
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/5a849be7-b96a-41fe-8a35-00203578454b/0.m3u8
+#EXTINF:-1 tvg-id="DeLuxeMusicRap.de" tvg-name="DELUXE MUSIC RAP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/666px-Deluxe_Rap_Logo_2023.svg.png" group-title="Türkiye • Diğer", DELUXE MUSIC RAP
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/6a86f9cb911ea_33669365_2608201257_5.m3u8
+#EXTINF:-1 tvg-id="DELUXEMUSICWinterTime.de" tvg-name="DELUXE MUSIC Winter Time" tvg-logo="https://i.ibb.co/1KhQxpd/dlxwnt.png" group-title="Türkiye • Diğer", DELUXE MUSIC Winter Time
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/cb140bae-353a-4d40-a752-5730a6fcf484/0.m3u8
+#EXTINF:-1 tvg-id="Discovering China.tr" tvg-logo="https://i.ibb.co/xt5Kx7SN/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", Discovering China
+https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/cb543d1d7e6c648f93d43861cef045a4f9631fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a6d09bc5148853a522788a92909833ca7704a46bb5e200564cff90bae7704cd8958836220d8f9db7c387c0c5e820f0cb6a243abaae55d14df69f4e04f1b974d15ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9f3b42e6ec02fcb3b897c0e44c1bf93eca95c1953b47efb8c77247ae54aa70cb5e84da1e298d74b4238a3cb61784d95c8af90f2393fbc29aeecb99d3b4b90f8107750da2df6166b69c0b39b4fc4f41c98e077def4714b6c89d1648b8dbe86d8b58f6195318592a7cf73111823270a9452af9f228a7c8c389bcf15204e440bf8c9028ad58f2c450825b18950d01c0caa9bdad3ad6915fe204a0aa630a332470be8317f77f122e9905e35dec66b7d9fc04f3edb8373a587f083720c25aaea8af9b6b6/97/1920x1080_4681598/index.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="DiyanetTV.tr@SD",Diyanet TV (1080p)
 https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/mt_0.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="DiyarTV.tr@SD",Diyar TV (720p)
-https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8?nimblesessionid=3748414280
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/chunks.m3u8?nimblesessionid=3748461533
+#EXTINF:-1 tvg-id="Documentary+" tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Türkiye • Diğer", Documentary+
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/2b674c11-584c-49e5-8f9b-9f3adffcb59e/0.m3u8
+#EXTINF:-1 tvg-id="DocumentaryPlus" tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Türkiye • Diğer", DocumentaryPlus
+https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/1f53b435-0929-461e-9d7e-00e6c670fccb/0.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="DostTV.tr@SD",Dost TV (576p)
 https://dost.stream.emsal.im/tv/live.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ESTV.tr@SD",ES TV (720p)
-https://live.artidijitalmedya.com/artidijital_estv/estv/chunks.m3u8?nimblesessionid=3748414358
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ETVKayseri.tr@SD",ETV Kayseri (720p)
-https://live.artidijitalmedya.com/artidijital_etv/etv/chunks.m3u8?nimblesessionid=3748414359
+#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="Türkiye • Diğer", DW
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="EdessaTV.tr@SD",Edessa TV (1080p)
 https://canli.edessatv.com/hls/0/stream.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ErzurumWebTV.tr@SD",Erzurum Web TV (720p)
-https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/chunklist_w76513768.m3u8
+https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/chunklist_w938845705.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ESTV.tr@SD",ES TV (720p)
+https://live.artidijitalmedya.com/artidijital_estv/estv/chunks.m3u8?nimblesessionid=3748461598
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ETVKayseri.tr@SD",ETV Kayseri (720p)
+https://live.artidijitalmedya.com/artidijital_etv/etv/chunks.m3u8?nimblesessionid=3748461670
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="EuroD.tr@SD",Euro D (720p)
-https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
+#EXTINF:-1 tvg-id="Euronews Deutsch.de" tvg-name="Euronews Deutsch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png"  group-title="Türkiye • Diğer", Euronews Deutsch
+https://575b7833.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0RldXRzY2hfSExT/ac3ad82a-bb9d-48c3-8d8c-e6da89a11900/5.m3u8
+#EXTINF:-1 tvg-id="EURONEWS.tr" tvg-name="EURONEWS.tr" tvg-logo="https://i.ibb.co/R4xVMYc/enews.png" group-title="Türkiye • Diğer", EURONEWS EN
+https://cdn-euronews.akamaized.net/live/eds/euronews-en/25080/euronews-en-avc1_3300000=9-mp4a_143200_eng=2.m3u8
+#EXTINF:-1 tvg-id="FILM.SCREEN.tr" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Türkiye • Diğer", Film Screen HD
+https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/video_10801920_p_1.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="FinansTurkTV.tr@SD",Finans Turk TV (720p)
-https://yayin30.haber100.com/live/finansturk/chunklist_w1757542923.m3u8
+https://yayin30.haber100.com/live/finansturk/chunklist_w881240630.m3u8
+#EXTINF:-1 tvg-id="Fox News" tvg-name="Fox News" tvg-logo="https://i.ibb.co/hdBrzcc/fox.png" group-title="Türkiye • Diğer", FOX NEWS
+https://fox-foxnewsnow-vizio.amagi.tv/playlist720-p.m3u8
+#EXTINF:-1 tvg-id="France 24" tvg-name="France 24" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="Türkiye • Diğer", France 24
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-id="GB NEWS" tvg-name="GB NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" group-title="Türkiye • Diğer", GB NEWS
+https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/bitrate1-audio_0=192000-video=4499968.m3u8
+#EXTINF:-1 tvg-id="GLOBAL NEWS" tvg-name="GLOBAL NEWS" tvg-logo="https://i.ibb.co/q0FfqdV/Globalnews.png" group-title="Türkiye • Diğer", GLOBAL NEWS
+https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/live-audio_1=96000-video=2499968.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="GuneydoguTV.tr@SD",Guneydogu TV (720p)
+https://edge1.taksimbilisim.com:443/gtv/bant1/chunks.m3u8?nimblesessionid=1671735969
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="GZT.tr@SD",GZT (1080p)
 https://gzttv-live.lg.mncdn.com/gzttv/gzttv/chunklist.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="GuneydoguTV.tr@SD",Guneydogu TV (720p)
-https://edge2.taksimbilisim.com:443/gtv/bant1/chunks.m3u8?nimblesessionid=444751216
+#EXTINF:-1 tvg-id="HR.de" tvg-name="HR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/640px-HR-Fernsehen_Logo_2023.svg.png" tvg-id="HRFernsehen.de" group-title="Türkiye • Diğer",HR
+https://hrhls.akamaized.net/hls/live/2024525/hrhls/master-720p-3200.m3u8
+#EXTINF:-1 tvg-id="i24 NEWS EN" tvg-name="i24 NEWS EN" tvg-logo="https://i.ibb.co/j68q1Bp/i24.png" group-title="Türkiye • Diğer",i24 NEWS EN
+https://i24newsenglish-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="IlkeTV.tr@HD",Ilke TV (1080p)
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Kanal12.tr@SD",Kanal 12 (720p)
-https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/chunks.m3u8?nimblesessionid=3748414554
+https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/chunks.m3u8?nimblesessionid=3748461798
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Kanal23.tr@SD",Kanal 23 (1080p)
 https://cdn-kanal23.yayin.com.tr/kanal23/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="KanalHayat.tr@SD",Kanal Hayat (1080p)
 https://tbn02a.ltnschedule.com/hls/internal-ve-hls-pull-tgt-8871b930-50b5-47de-93a5-e589b1a95e6f/index.m3u8
+#EXTINF:-1 tvg-id="KANAL24.tr" tvg-name="KANAL24.tr" tvg-logo="https://i.ibb.co/tHQpWvn/24.png" group-title="Türkiye • Diğer", KANAL24
+https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="KocaeliTV.tr@SD",Kocaeli TV (1080p)
-https://edge2.taksimbilisim.com:443/kocaelitv/bant1/chunks.m3u8?nimblesessionid=444751232
+https://edge1.taksimbilisim.com:443/kocaelitv/bant1/chunks.m3u8?nimblesessionid=1671736006
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="KonyaOlayTV.tr@SD",Konya Olay TV (720p)
-https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u8?nimblesessionid=3748414560
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="LIDERHABERTV.tr" tvg-logo="https://i.ibb.co/0j6pWsPt/Liderhaber.png", LİDER HABER
-http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/chunklist_w903936572.m3u8
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/chunks.m3u8?nimblesessionid=3748461919
+#EXTINF:-1 tvg-id="Kuzey Kıbrıs TV.tr" tvg-name="Kuzey Kıbrıs TV.tr" tvg-logo="Kuzey Kıbrıs TV.tr" tvg-logo="" group-title="Türkiye • Diğer", Kuzey Kıbrıs TV
+http://old.kuzeykibris.tv/m3u8/kktv.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="LalegulTV.tr@SD",Lalegul TV (1080p)
 https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="LIDERHABERTV.tr" tvg-logo="https://i.ibb.co/0j6pWsPt/Liderhaber.png", LİDER HABER
+http://nrttn172.kesintisizyayin.com:29010/lidertv/lidertv/chunklist_w450528698.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="LuysTV.tr@SD",Luys TV (1080p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_0.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="MTurkTV.tr@SD",MTürk TV (1080p)
-https://edge1.taksimbilisim.com:443/muglaturk/bant1/chunks.m3u8?nimblesessionid=1671723186
+#EXTINF:-1 tvg-id="MC.tr" tvg-name="MC" tvg-logo="https://i.ibb.co/W4WmBN67/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", MC TV
+https://n1.cdn.jetstre.am/session/b29175311c425105d5a3f1ab116b0c32/sz/mceutv/wowza4/live/mc2/chunklist.m3u8
+#EXTINF:-1 tvg-name="MedyaHaber TV" tvg-id="MedyaHaber TV" tvg-logo="https://i.ibb.co/8HZyRDN/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", MedyaHaber TV
+https://hlspackager.akamaized.net/live/DB/MEDYA_HABER/HLS/MEDYA_HABER-avc1_2500000=10002.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="MekameleenTV.tr@SD",Mekameleen TV (1080p)
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b3128000.m3u8
+#EXTINF:-1 tvg-id="MELTEM TV.tr" tvg-name="MELTEM TV.tr" tvg-logo="https://i.ibb.co/Fq0ZvYG/meltemtvt.png" group-title="Türkiye • Diğer", MELTEM TV
+http://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
+#EXTINF:-1 tvg-id="MK TV" tvg-name="MK TV" tvg-logo=" https://i.ibb.co/wrMn5rgQ/mktv.png" group-title="Türkiye • Diğer", MK TV
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8?nimblesessionid=3748463246
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="MTurkTV.tr@SD",MTürk TV (1080p)
+https://edge2.taksimbilisim.com:443/muglaturk/bant1/chunks.m3u8?nimblesessionid=444755897
+#EXTINF:-1 tvg-id="NDRFernsehenHamburg.de" tvg-name="NDR Hamburg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/578px-Logo_NDR_Fernsehen_2017.svg.png" group-title="Türkiye • Diğer", NDR Hamburg
+https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-1080p-5000.m3u8
+#EXTINF:-1 tvg-id="NDRFernsehenInternational.de" tvg-name="NDR International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/578px-Logo_NDR_Fernsehen_2017.svg.png" group-title="Türkiye • Diğer",NDR International
+https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master-1080p-5000.m3u8
+#EXTINF:-1 tvg-id="tvg-id="NHK WORLD" tvg-logo="https://i.ibb.co/JCjsXZm/nhk.png" group-title="Türkiye • Diğer", NHK WORLD
+https://media-tyo.hls.nhkworld.jp/hls/w/live/1/sig/e52230f79050aa333c4ac6430f40a08f0898e6ec1c43d5cb9bcb82f9573797c4/v2.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Number1Ask.tr@SD",Number 1 Ask (720p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/chunklist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Number1Damar.tr@SD",Number 1 Damar (720p)
@@ -74,71 +162,117 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Number1Dance.tr@SD",Number 1 Dance (720p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/chunklist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Number1TV.tr@SD",Number 1 TV (720p)
-https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
+https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/chunklist_b400000.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="PowerDance.tr@SD",Power Dance (1080p)
-https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=870538318
+https://livetv.powerapp.com.tr/dance/dance.smil/chunks.m3u8?nimblesessionid=870553553
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="PowerLove.tr@SD",Power Love (1080p)
-https://livetv.powerapp.com.tr/plove/love.smil/chunks.m3u8?nimblesessionid=870538317
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="PowerTV.tr@SD",Power TV (720p)
-https://live.artidijitalmedya.com/artidijital_powertv/powertv/chunks.m3u8?nimblesessionid=3748414958
+https://livetv.powerapp.com.tr/plove/love.smil/chunks.m3u8?nimblesessionid=870553556
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="PowerTV.tr@SD",Power TV (1080p)
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/chunklist_b7596000_sltur.m3u8?nimblesessionid=870553561
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="PowerTurkTV.tr@SD",PowerTürk TV (720p)
-https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/chunks.m3u8?nimblesessionid=3748414957
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/chunks.m3u8?nimblesessionid=3748462306
+#EXTINF:-1 tvg-id="RT DEUTSCH.de" tvg-name="RT DEUTSCH" tvg-logo="https://i.ibb.co/D7w9h7Q/rt.png" group-title="Türkiye • Diğer", RT DEUTSCH
+https://rt-ger.rttv.com/live/rtdeutsch/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-id="RT NEWS" tvg-name="RT NEWS" tvg-logo="https://i.ibb.co/D7w9h7Q/rt.png" group-title="Türkiye • Diğer", RT NEWS
+https://rt-glb.rttv.com/live/rtnews/playlist_4500Kb.m3u8
+#EXTINF:-1 tvg-id="RTL.de" tvg-name="RTL.de" tvg-logo="https://download.avm.de/tv/logos/rtl.png" group-title="Türkiye • Diğer", RTL
+https://ma.anixa.tv/clips/stream/rtl/playlist.php
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Sat7Turk.cy@SD",Sat7 Türk (1080p)
 https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/sat7turkpublish/sat7turk_source/chunks.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="SercemTV.tr@HD",Sercem TV (1080p)
 https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ShowTurk.tr@SD",Show Turk (1080p)
 https://ciner-live.ercdn.net/showturk/showturk_1080p.m3u8?e=1787262328&st=AeVYIcMQLKCcizFOfY00LA&tv=1
+#EXTINF:-1 tvg-id="SRFernsehen.de" tvg-name="SR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/538px-SR_Fernsehen_Logo_2023.svg.png" group-title="Türkiye • Diğer",SR
+https://srfs.akamaized.net/hls/live/689649/srfsgeo/master-720p-3328.m3u8
+#EXTINF:-1 tvg-id="tabii.TV.tr" tvg-logo=" " group-title="Türkiye • Diğer", Tabii TV HD
+https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8?sid=AFDth7c-9Uizb2jU-HcWAA&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=2800000
+#EXTINF:-1 tvg-id="tagesschau24.de" tvg-name="Tagesschau24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/640px-Tagesschau24-2012.svg.png" group-title="Türkiye • Diğer", Tagesschau24
+https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-720p-3328.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TBMMTV.tr@SD",TBMM TV (720p)
-https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+https://meclistv-live.ercdn.net/meclistv/meclistv_720p.m3u8?e=&st=
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Tele1.tr@SD",Tele 1 (1080p)
+https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TempoTV.tr@SD",Tempo TV (720p)
+https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8?nimblesessionid=3748462478
+#EXTINF:-1tvg-id="Terra Mater WILD" tvg-logo="https://i.ibb.co/1Jsb4wgP/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", Terra Mater WILD
+https://53ff3982.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/29549605-fe17-4bde-aa72-c430ceab54d2/5.m3u8
+#EXTINF:-1 tvg-id="Terra Mater WILD ENG" tvg-logo="https://i.ibb.co/1Jsb4wgP/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer",Terra Mater WILD ENG
+https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01775-amg01775c1-amgplt0343/b36777ff-9cd6-11f1-94e1-d601ee22f6fd/21/1920x1080_4300000/index.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Tivi6.tr@SD",Tivi 6 (720p)
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/chunks.m3u8?nimblesessionid=3748462481
+#EXTINF:-1 tvg-id="TRACE URBAN" tvg-logo="https://i.ibb.co/2hgmDs6/traceurb.png" group-title="Türkiye • Diğer",TRACE URBAN
+https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TRTAvaz.tr@SD",TRT Avaz (720p)
 https://tv-trtavaz.medya.trt.com.tr/master_1080.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TRTEBA.tr@SD",TRT EBA Ortaokul (720p)
-https://tv-e-okul01.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TRTEBAIlkokul.tr@SD",TRT EBA Ilkokul (720p)
 https://tv-e-okul00.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TRTEBALise.tr@SD",TRT EBA Lise (720p)
 https://tv-e-okul02.medya.trt.com.tr/master_720.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TRTEBA.tr@SD",TRT EBA Ortaokul (720p)
+https://tv-e-okul01.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TRTKurdi.tr@SD",TRT Kurdî (720p)
 https://tv-trtkurdi.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TRTTurk.tr@SD",TRT Türk (720p)
 https://tv-trtturk.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 tvg-id="TRT.World.HD.tr" tvg-name="TRT World HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="Türkiye • Diğer", TRT WORLD
+https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TurkHaberTV.tr@SD",TürkHaber (720p)
+https://edge1.taksimbilisim.com:443/turkhaber/bant1/chunks.m3u8?nimblesessionid=1671736230
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TV1.tr@SD",TV 1 (720p)
-https://edge2.taksimbilisim.com:443/tv1/bant1/chunks.m3u8?nimblesessionid=444751295
+https://edge2.taksimbilisim.com:443/tv1/bant1/chunks.m3u8?nimblesessionid=444755975
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TV100.tr@SD",TV 100
 https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="24TV.tr@SD",TV 24 (720p)
+https://turkmedya-live.ercdn.net/tv24/tv24_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TV264.tr@SD",TV 264 (1080p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/mt_0.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TV4.tr@SD",TV4 (720p)
-https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TV8.tr@SD",TV 8 (1080p)
-https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=8olmmvnjivuc&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Tele1.tr@SD",Tele 1 (1080p)
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TempoTV.tr@SD",Tempo TV (720p)
-https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/chunks.m3u8?nimblesessionid=3748415097
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Tivi6.tr@SD",Tivi 6 (720p)
-https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/chunks.m3u8?nimblesessionid=3748415093
-#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TurkHaberTV.tr@SD",TürkHaber (720p)
-https://edge2.taksimbilisim.com:443/turkhaber/bant1/chunks.m3u8?nimblesessionid=444751293
+https://tv8.daioncdn.net/tv8/tv8_1080p.m3u8?&sid=8olna0xdm2si&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="TV4.tr@SD",TV4 (720p)
+https://turkmedya-live.ercdn.net/tv4/tv4_1080p.m3u8
+#EXTINF:-1 tvg-id="UlkeTV.tr" tvg-name="UlkeTV.tr" tvg-logo="https://i.ibb.co/ZXts607/ulketv.png" group-title="Türkiye • Diğer", UlkeTV
+https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8
+#EXTINF:-1 tvg-id="ULUSAL KANAL.tr" tvg-name="ULUSAL KANAL.tr" tvg-logo="https://i.ibb.co/vvZss13/ulusal-tv.png" group-title="Türkiye • Diğer", ULUSAL TV
+https://internettv.guventechnology.com/hls/ulusaltv/index.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="UrfaNatikTV.tr@SD",Urfa Natik TV (720p)
-https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/chunks.m3u8?nimblesessionid=3748415326
+https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/chunks.m3u8?nimblesessionid=3748462796
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="Van65TV.tr@SD",Van 65 TV
-https://live.artidijitalmedya.com/artidijital_van65/van65/chunks.m3u8?nimblesessionid=3748415342
+https://live.artidijitalmedya.com/artidijital_van65/van65/chunks.m3u8?nimblesessionid=3748462790
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="VavTV.tr@SD",Vav TV
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist/0.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/WFQ0NCF/vevohprb.png" group-title="Türkiye • Diğer",VEVO HP RB
+https://amg00056-amg00056c14-rakuten-fr-3244.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevohiphopandrbfr-rakutenfr/cb543d1d7e6c648f93d43861cef045a4f9631fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a6d09bc5148853a522788a92909833ca7704a46bb5e200564cff90baa7655c1855cde6220d8f9db7c387c0c5e82545ab4a443a5fde35d13dc68f4e44a4f95256fdda3139d9773eadd850cc72cd52ea04ac3c7aca9e62ab18f9065cb07884c61d989e0fbfa1ba6fa1fdbef94602d997568750a54f2a6808c3656e469622c357b56dd1f923dc19b31892016b6058a468731f00be069f5a72628caca5c87ba9de44479415e38d6234f00210b1d2c9483e4d861759af75b5b4fc06ed92524028997fe398bd91c9aba22cae1274d7888a64c9599bd94fcf0a37edc749a89a4c37d75476d5256dd1dbacc399269fc68b8c21616594f6fa48e1a91d58e1063340fa5884cdb1e1ef68aded29f3d3acc610953a7358a0c4b3f9a4619168f1af09438639e354ad4654f9c7601c013acf67c8fce9982223ea6d5d34def658dec5d3297fd0390883ff3d411f5e4d3567ac15c7311de3757ef/97/1920x1080_7333040/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/brFBnw8/vevopop.png" group-title="Türkiye • Diğer",VEVO POP
+https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/cb543d1d7e6c648f93d43861cef045a4f9631fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a6d09bc5148853a522788a92909833ca7704a46bb5e200564cff90bab2351c28708de6220d8f9db7c387c0c5e820f58edf443aafde45911de3aa5e41e1dc34d15ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9f3b42e6ec02fcb3b897c0e44c1bf93eca95c1953b47efb8c77247ae54aa70cb5e84da1e298d74b4238a3cb61784d95c8af90f2393fbc29aeecb99d3b4b90f8107750da2df6166b69c0b39b4fc4f41c98e077def4714b6c89d1648b8dbe86d8b58f6195318592a7cf73111823270a9452af9f228a7c8c389bcf15204e440bf8c9028ad58f2c450825b18950d01c0caa9bdad3ad6915fe204a0aa630a332470be8317f77f122e9905e38d1c66b7a9fc04f3e12253aa5a517f16fc5d468e9908f1859/48/1920x1080_7333040/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/brFBnw8/vevopop.png" group-title="Türkiye • Diğer",VEVO POP FAST
+https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/cb543d1d7e6c648f93d43861cef045a4f9631fde1d6988693eb5518975d1073edce2a59caa08ff16388f1ede7f0a66413a3e951fda77118fd87eb141453c5728cfffe729a2c05616b7db083429b56a6d09bc5148853a522788a92909833ca7704a46bb5e200564cff90bab2357c5865f8a6220d8f9db7c387c0c5e820c55e7f643abaee05840d164a1e21b1c954d15ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9f3b42e6ec02fcb3b897c0e44c1bf93eca95c1953b47efb8c77247ae54aa70cb5e84da1e298d74b4238a3cb61784d95c8af90f2393fbc29aeecb99d3b4b90f8107750da2df6166b69c0b39b4fc4f41c98e077def4714b6c89d1648b8dbe86d8b58f6195318592a7cf73111823270a9452af9f228a7c8c389bcf15204e440bf8c9028ad58f2c450825b18950d01c0caa9bdad3ad6915fe204a0aa630a332470be8317f77f122e9905f3ddd75eae4ca9706ec53a1d798d308f1e897794fe924acf829d9/143/1920x1080_7333040/index.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ViasatHistory.tr@SD",Viasat History (720p)
 https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
+#EXTINF:-1 tvg-id="WDR.de" tvg-name="WDR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wdr_fernsehen_logo_2016.svg/640px-Wdr_fernsehen_logo_2016.svg.png" group-title="Türkiye • Diğer",WDR
+https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master_3328.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer" tvg-id="ZarokTV.tr@SD",Zarok TV (720p)
 https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber" tvg-id="AHaber.tr@SD",A Haber (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
+#EXTINF:-1 tvg-id="BloombergHT.tr" tvg-name="BLOOMBERG HT" tvg-logo="https://i.ibb.co/HXKrJRC/blght22.png" group-title="Türkiye • Haber", BLOOMBERG HT
+https://ensonhaber-live.ercdn.net/bloomberght/bloomberght_720p.m3u8
+#EXTINF:-1 tvg-id="HABERGLOBAL.tr" tvg-name="HABER GLOBAL"  tvg-logo="https://i.ibb.co/k58p7P2/hglobal.png" group-title="Türkiye • Haber", HABER GLOBAL
+https://tv.ensonhaber.com/haberglobal/haberglobal_720p.m3u8
+#EXTINF:-1 tvg-id="HABERTURK.tr" tvg-name="HABER TURK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/haberturk-tr.png" group-title="Türkiye • Haber",HABERTURK
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
+#EXTINF:-1 tvg-id="HABERTURKTVTR" group-title="Türkiye • Haber",Habertürk
+https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber" tvg-id="HalkTV.tr@SD",Halk TV (1080p)
 https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber" tvg-id="NTV.tr@SD",NTV
-https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8?&sid=8olmmmmhk00r&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=2
+https://dogus.daioncdn.net/ntv/ntv_1080p.m3u8?&sid=8oln9qhb5fck&app=c68bddbe-3dbf-49f7-892a-93de5ae37f1f&ce=2
+#EXTINF:-1 tvg-id="sozcu.tr" tvg-name="SÖZCÜ TV.tr" tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" group-title="Türkiye • Haber", SÖZCÜ TV
+https://yt.tecostream.xyz/live/sozcutelevizyonu?m3u8
 #EXTINF:-1 group-title="Türkiye • Haber" tvg-id="SozcuTV.tr@SD",Sozcu TV (1080p)
-http://5.178.103.239:55/yt1/szctv.m3u8
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1787275732/ei/dFWHapXoA4qPi9oP-6TVgAE/ip/5.178.103.239/id/ztmY_cCtUl0.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr6---sn-u0g3uxax3-5qcs.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AR3QkAnGac2HhbU5At10AuQeYbrENh_2arf0GXWNuYb4FZNbClDHjrXtSzOqkGsVk21udyrIZrUZ17Ho/spc/KBGBcvPsgXetjNAytnCXOKrJHFX2loo4rcM6q-RE6D9MFxCzk8KiNHvduTxqu5of/vprv/1/reg/0/playlist_type/DVR/hcs/sd/initcwndbps/1211250/met/1787254132,/mh/2L/mm/44/mn/sn-u0g3uxax3-5qcs/ms/lva/mv/m/mvi/6/pl/24/rmhost/rr7---sn-u0g3uxax3-5qcs.googlevideo.com/rms/lva,lva/smhost/rr4---sn-u0g3uxax3-5qcl.googlevideo.com/dover/11/pacing/0/keepalive/yes/fexp/51565115,51946838/mt/1787253877/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRgIhAJ_B3t7kr3vhquP_HPanqgOgtFeukCcund7coy7ihNwwAiEAvDYtxeY8QqxNBnEeZ8Nl7yP_8U-EHkvnIptKhw5eDdw%3D/lsparams/hls_chunk_host,hcs,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rmhost,rms,smhost/lsig/APaTxxMwRQIhALcu5Fqoxz2NSYPVbzGBpVqE3V-kWAOe8kPX1kFJ4iPPAiBDt3UlAMT3sBH_Xw8b5b0WWocdNhsDLfVEZCDqdBlt-w%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-id="TGRT HABER HD.tr" tvg-name="TGRT HABER HD.tr" tvg-logo="https://i.ibb.co/K5frjVY/tgrt-haber.png" group-title="Türkiye • Haber", TGRT HABER
+https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber" tvg-id="TGRTHaber.tr@SD",TGRT Haber (720p)
 https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber" tvg-id="TRTHaber.tr@SD",TRT Haber (720p)
@@ -146,37 +280,49 @@ https://tv-trthaber.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber" tvg-id="TVNET.tr@SD",TVNET (1080p)
 https://tvnet-live.lg.mncdn.com/tvnet/tvnet/chunklist.m3u8
 #EXTINF:-1 group-title="Türkiye • Müzik" tvg-id="DreamTurk.tr@SD",Dream Türk (720p)
-https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye • Müzik" tvg-id="MedMuzik.tr@SD",Med Muzik (1080p)
 http://54.36.110.140/live3/live3.m3u8
 #EXTINF:-1 group-title="Türkiye • Müzik" tvg-id="PowerTurkAkustik.tr@SD",Power Türk Akustik (1080p)
-https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8?nimblesessionid=870538353
+https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/chunks.m3u8?nimblesessionid=870553555
 #EXTINF:-1 group-title="Türkiye • Müzik" tvg-id="PowerTurkSlow.tr@SD",Power Türk Slow (1080p)
-https://livetv.powerapp.com.tr/pturkslow/slow.smil/chunks.m3u8?nimblesessionid=870538352
+https://livetv.powerapp.com.tr/pturkslow/slow.smil/chunks.m3u8?nimblesessionid=870553560
 #EXTINF:-1 group-title="Türkiye • Müzik" tvg-id="PowerTurkTaptaze.tr@SD",Power Türk Taptaze (1080p)
-https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/chunks.m3u8?nimblesessionid=870538354
+https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/chunks.m3u8?nimblesessionid=870553563
 #EXTINF:-1 group-title="Türkiye • Müzik" tvg-id="TRTMuzik.tr@SD",TRT Müzik (720p)
 https://tv-trtmuzik.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Türkiye • Spor" tvg-id="ASpor.tr@SD",A Spor (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Spor" tvg-id="HTSporTV.tr@SD",HTSpor TV (1080p)
-https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=8olmmhpmac7t&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
+https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=8oln9l7z9f3w&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 #EXTINF:-1 group-title="Türkiye • Spor" tvg-id="TJKTV.tr@SD",TJK TV (1080p)
 https://tjktv-live.tjk.org/tjktv_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Spor" tvg-id="TRTSpor.tr@SD",TRT Spor (720p)
 https://corestream.siteyaptim.live/trt-spor/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="360.tr" tvg-name="360"  tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/360-tr.png" group-title="Türkiye • Ulusal", 360
+https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 #EXTINF:-1 group-title="Türkiye • Ulusal" tvg-id="A2TV.tr@SD",A2TV (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_1080p.m3u8
-#EXTINF:-1 group-title="Türkiye • Ulusal" tvg-id="ATV.tr@SD",ATV (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 group-title="Türkiye • Ulusal" tvg-id="ATV.tr@SD",ATV (360p)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
 #EXTINF:-1 group-title="Türkiye • Ulusal" tvg-id="ATVAlanya.tr@SD",ATV Alanya (1080p)
-https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/chunklist_w926731168.m3u8
+https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/chunklist_w224517293.m3u8
+#EXTINF:-1 tvg-id="BEYAZTV.tr" tvg-name="BEYAZ TV" tvg-logo="https://i.ibb.co/0tc3PYz/beyaz22b.png" group-title="Türkiye • Ulusal", BEYAZ TV
+https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Ulusal" tvg-id="KanalD.tr@SD",Kanal D (1080p)
-https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=8olmmisuczyo&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=8oln9m1iulk4&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
 #EXTINF:-1 group-title="Türkiye • Ulusal" tvg-id="KanalDDrama.tr@SD",Kanal D Drama (1080p)
 http://190.93.224.42/KANAL-D-DRAMA/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="NBCNewsNOW.us" tvg-name="NBCNewsNOW.us" tvg-logo="https://i.imgur.com/JZt2qh5.png" group-title="Türkiye • Ulusal", NBC News NOW
+https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master_5.m3u8
+#EXTINF:-1 tvg-id="NOW NEWS GLOBAL" tvg-name="NOW NEWS GLOBAL" tvg-logo="https://i.ibb.co/JRcZNxdk/nownews.png"group-title="Türkiye • Ulusal", NOW NEWS GLOBAL
+https://nowhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="NOW NEWS" tvg-name="NOW NEWS" tvg-logo="https://i.ibb.co/JRcZNxdk/nownews.png" group-title="Türkiye • Ulusal", NOW NEWS USA
+https://nowushls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Türkiye • Ulusal" tvg-id="NOWTV.tr@SD",NOW TV (720p)
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
+#EXTINF:-1 tvg-id="SHOWTVTR" group-title="Türkiye • Ulusal",Show TV
+https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
 #EXTINF:-1 group-title="Türkiye • Ulusal" tvg-id="StarTV.tr@SD",Star TV (720p)
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 #EXTINF:-1 group-title="Türkiye • Çocuk" tvg-id="MinikaCocuk.tr@SD",Minika Cocuk (576p)
@@ -187,153 +333,3 @@ http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago_720p.m3u8
 https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Türkiye • Çocuk" tvg-id="TRTDiyanetCocuk.tr@SD",TRT Diyanet Çocuk (720p)
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_1080.m3u8
-#EXTINF:-1 tvg-id="360.tr" tvg-name="360"  tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/360-tr.png" group-title="Türkiye • Ulusal", 360
-https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
-#EXTINF:-1 tvg-id="ABC NEWS AUSTRALIA" tvg-name="ABC NEWS AUSTRALIA" tvg-logo="https://i.ibb.co/mBTzvw8/Abcau.png" group-title="Türkiye • Diğer", ABC NEWS AUSTRALIA
-https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index_5.m3u8
-#EXTINF:-1 tvg-id="ABCNews" tvg-logo="https://i.ibb.co/yBXSH1x6/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", ABC News
-https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index_5.m3u8
-#EXTINF:-1 tvg-id="ALJAZEERAENGLISH.tr" tvg-name="Al Jazeera" tvg-logo="https://i.ibb.co/gM1FtVHQ/aljaz2.png"  group-title="Türkiye • Diğer", Al Jazeera
-https://live-hls-apps-aje-fa.getaj.net/AJE/01.m3u8
-#EXTINF:-1 tvg-id="ARD Alpha.de" tvg-name="ARD Alpha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/640px-ARD_alpha.svg.png" tvg-id="ARDalpha.de" group-title="Türkiye • Diğer",ARD Alpha
-https://mcdn.br.de/br/fs/ard_alpha/hls/de/master1080p5000.m3u8
-#EXTINF:-1 tvg-id="AugsburgTV" tvg-name="AugsburgTV" tvg-logo="https://i.hizliresim.com/skimnkz.png" group-title="Türkiye • Diğer", Augsburg TV
-https://stream02.welocal.stream/stream/fhd-augsburgtv_104951/ngrp:stream_all/chunklist_b3628000.m3u8
-#EXTINF:-1 tvg-id="BBCEARTH.tr" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="Türkiye • Diğer", BBC Earth
-https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist1080p.m3u8
-#EXTINF:-1 tvg-id="BBCWorldNews.tr" tvg-name="BBCWorldNews.tr" tvg-logo="https://i.ibb.co/dPmZMqq/bbcn.png" group-title="Türkiye • Diğer", BBC NEWS
-https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv10/b=1604032/main.m3u8
-#EXTINF:-1 tvg-id="BENGÜTÜRK.tr" tvg-name="BENGÜTÜRK.tr" tvg-logo="https://i.ibb.co/CHWhMvQ/bengu-turk.png" group-title="Türkiye • Diğer", BENGU TURK
-https://ensonhaber-live.ercdn.net/benguturk/benguturk.m3u8
-#EXTINF:-1 tvg-id="BEYAZTV.tr" tvg-name="BEYAZ TV" tvg-logo="https://i.ibb.co/0tc3PYz/beyaz22b.png" group-title="Türkiye • Ulusal", BEYAZ TV
-https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
-#EXTINF:-1 tvg-id="BR Nord.de" tvg-name="BR Nord" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Logo_BR_Fernsehen_2021.svg/768px-Logo_BR_Fernsehen_2021.svg.png" tvg-id="BRFernsehenNord.de" group-title="Türkiye • Diğer",BR Nord
-https://mcdn.br.de/br/fs/bfs_nord/hls/de/master1080p5000.m3u8
-#EXTINF:-1 tvg-id="BRT 1 HD.tr" tvg-name="BRT 1 HD.tr" tvg-logo="https://i.imgur.com/gOPAi2c.png" group-title="Türkiye • Diğer", BRT 1
-https://edge.kuzeykibrissmart.tv/brt1hd/bant1/chunks.m3u8?nimblesessionid=209755274&hash=575af483b73a7e1874add233dc58aae1.m3u818ff5c7b2289.m3u8
-#EXTINF:-1 tvg-id="BloombergHT.tr" tvg-name="BLOOMBERG HT" tvg-logo="https://i.ibb.co/HXKrJRC/blght22.png" group-title="Türkiye • Haber", BLOOMBERG HT
-https://ensonhaber-live.ercdn.net/bloomberght/bloomberght_720p.m3u8
-#EXTINF:-1 tvg-id="CBCNews" tvg-name="CBCNews" tvg-logo="https://i.ibb.co/YD3G64y/cbs.jpg" group-title="Türkiye • Diğer", CBC News
-https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master_9.m3u8
-#EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://i.hizliresim.com/26pfuli.png" group-title="Türkiye • Diğer", CGTN
-https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
-#EXTINF:-1 tvg-id="CGTNDocumentary" tvg-logo="https://i.ibb.co/VWnymrbY/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", CGTN Documentry
-https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master1080p.m3u8
-#EXTINF:-1 tvg-id="CHANNEL NEWS ASIA" tvg-name="CHANNEL NEWS ASIA" tvg-logo="https://i.ibb.co/7J24bwVD/cnaid.png" group-title="Türkiye • Diğer", CHANNEL NEWS ASIA
-http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
-#EXTINF:-1 tvg-id="CNN INT" tvg-name="CNN INT" tvg-logo="https://i.ibb.co/XbSHxd5/cnn.png" group-title="Türkiye • Diğer", CNN INT
-https://d3508xo7u38fy2.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-j79jq28qz6knd/a1cb5e61-279b-4ce0-9a37-49491ba3ee77/0.m3u8
-#EXTINF:-1 tvg-id="CNN.TÜRK.HD.tr" tvg-name="CNN TURK"  tvg-logo="https://i.ibb.co/bFsmkwJ/cnn-turk.png" group-title="Türkiye • Haber", CNN TURK
-https://raw.githubusercontent.com/pinkisso/mored/refs/heads/main/res/ytbe/cnnturk.m3u8
-#EXTINF:-1 tvg-id="DELUXE MUSIC Deutsch Pop.de" tvg-name="DELUXE MUSIC Deutsch Pop" tvg-logo="https://i.ibb.co/6RvHVvn/dlxdtschpp.png" group-title="Türkiye • Diğer", DELUXE MUSIC Deutsch Pop
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/66a66df3-cd8b-481c-b5ae-a9882ca190e7/0.m3u8
-#EXTINF:-1 tvg-id="DELUXEMUSIC.de" tvg-name="DELUXE MUSIC" tvg-logo="https://i.imgur.com/E65GQN9.png" tvg-id="DeluxeMusic.de" group-title="Türkiye • Diğer", DELUXE MUSIC
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/6a8660d1a495c_13018905_2608200205_1.m3u8
-#EXTINF:-1 tvg-id="DELUXEMUSICWinterTime.de" tvg-name="DELUXE MUSIC Winter Time" tvg-logo="https://i.ibb.co/1KhQxpd/dlxwnt.png" group-title="Türkiye • Diğer", DELUXE MUSIC Winter Time
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/33aa1359-0598-4450-9b0b-5ce71dbf0f10/0.m3u8
-#EXTINF:-1 tvg-id="DWEnglish.de" tvg-name="DW" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="Türkiye • Diğer", DW
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="Das Erste" tvg-name="Das Erste.de" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Das_Erste_2014.svg/640px-Das_Erste_2014.svg.png" group-title="Türkiye • Diğer", Das Erste
-https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master1080p5000.m3u8
-#EXTINF:-1 tvg-id="DeLuxeMusicRap.de" tvg-name="DELUXE MUSIC RAP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Deluxe_Rap_Logo_2023.svg/666px-Deluxe_Rap_Logo_2023.svg.png" group-title="Türkiye • Diğer", DELUXE MUSIC RAP
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/6a86f9cb911ea_33669365_2608201257_5.m3u8
-#EXTINF:-1 tvg-id="DeluxeMusicDanceBy.de" tvg-name="DELUXE MUSIC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Deluxe_Dance_by_Kontor_Logo_2023.svg/666px-Deluxe_Dance_by_Kontor_Logo_2023.svg.png" group-title="Türkiye • Diğer", DELUXE MUSIC DANCE
-https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/6a8578116f9f9_33669357_2608190932_5.m3u8
-#EXTINF:-1 tvg-id="Discovering China.tr" tvg-logo="https://i.ibb.co/xt5Kx7SN/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", Discovering China
-https://amg01314-amg01314c8-distrotv-us-10218.playouts.now.amagi.tv/ts-us-w2-n2/playlist/amg01314-cgtn-cgtndiscoveringchina-distrotvus/cb573e1e6573658884cb3667cef94682be7b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca3094613a15340cf24562399da1b0e842fbc365040bf473d0070c9bf59fb700493d40b96767adfa8c060382b5b42cd5e5be2bd5ea5f9e05b4dd069a6b21f1cf78e74ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9e296dde342253136cffed8b76cf114da862bc3135f0b82052df652bc4ad06191e85ca7a4b5d6430b5ecea1093370f4b2f2c093bd54cc8fdaa26c6d495fb98fdaae45d6d431118b780f9e8164a5ce1084bf2084fb47182fffa84a8996889a8585a045862cc6cbf5d7680c1e234c358f53a6957ac869f34ce89f436f0c16049a935b92d2821e28341bcfc07fc40317bcec8e81f4072f8535480da6338f1b2664de3b6179aa7caccb7c5f88200b973c72ae0b62ce11aaca599fcdecec083fbac9d402ae3f9dd224e6b653f9236c236bf195085a564769dffe6c6c6099a2c2422e7e875409ce9ad311104dcaf01b88886146f2/0/1920x1080_4681598/index.m3u8
-#EXTINF:-1 tvg-id="Documentary+" tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Türkiye • Diğer", Documentary+
-https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/4ab2f172-c18f-4111-b45e-b12e1038f9f3/0.m3u8
-#EXTINF:-1 tvg-id="DocumentaryPlus" tvg-logo="https://i.imgur.com/x57klfS.png" group-title="Türkiye • Diğer", DocumentaryPlus
-https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/40db59df-910b-4f1b-8ab2-dddc53374eae/0.m3u8
-#EXTINF:-1 tvg-id="EURONEWS.tr" tvg-name="EURONEWS.tr" tvg-logo="https://i.ibb.co/R4xVMYc/enews.png" group-title="Türkiye • Diğer", EURONEWS EN
-https://cdn-euronews.akamaized.net/live/eds/euronews-en/25080/euronews-en-avc1_3300000=9-mp4a_143200_eng=2.m3u8
-#EXTINF:-1 tvg-id="Euronews Deutsch.de" tvg-name="Euronews Deutsch" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Euronews_2022.svg/640px-Euronews_2022.svg.png"  group-title="Türkiye • Diğer", Euronews Deutsch
-https://575b7833.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0RldXRzY2hfSExT/dbe16f12-4371-460c-8caf-7d6af287dd23/5.m3u8
-#EXTINF:-1 tvg-id="FILM.SCREEN.tr" tvg-logo="https://feo.kablowebtv.com/resize/168A635D265A4328C2883FB4CD8FF/0/0/Vod/HLS/7d58e86c-d38e-4ef5-8ee0-fda0a7e65914.png" group-title="Türkiye • Diğer", Film Screen HD
-https://edge-e3.evrideo.tv/f2dcbecf-5af0-47db-a82e-032112050a23_1000027346_HLS/video_10801920_p_1.m3u8
-#EXTINF:-1 tvg-id="Fox News" tvg-name="Fox News" tvg-logo="https://i.ibb.co/hdBrzcc/fox.png" group-title="Türkiye • Diğer", FOX NEWS
-https://fox-foxnewsnow-vizio.amagi.tv/playlist720-p.m3u8
-#EXTINF:-1 tvg-id="France 24" tvg-name="France 24" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="Türkiye • Diğer", France 24
-https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="GB NEWS" tvg-name="GB NEWS" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png" group-title="Türkiye • Diğer", GB NEWS
-https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/bitrate1-audio_0=192000-video=4499968.m3u8
-#EXTINF:-1 tvg-id="GLOBAL NEWS" tvg-name="GLOBAL NEWS" tvg-logo="https://i.ibb.co/q0FfqdV/Globalnews.png" group-title="Türkiye • Diğer", GLOBAL NEWS
-https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/live-audio_1=96000-video=2499968.m3u8
-#EXTINF:-1 tvg-id="HABERGLOBAL.tr" tvg-name="HABER GLOBAL"  tvg-logo="https://i.ibb.co/k58p7P2/hglobal.png" group-title="Türkiye • Haber", HABER GLOBAL
-https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
-#EXTINF:-1 tvg-id="HABERTURK.tr" tvg-name="HABER TURK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/turkey/haberturk-tr.png" group-title="Türkiye • Haber",HABERTURK
-https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
-#EXTINF:-1 tvg-id="HABERTURKTVTR" group-title="Türkiye • Haber",Habertürk
-https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3u8
-#EXTINF:-1 tvg-id="HR.de" tvg-name="HR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/640px-HR-Fernsehen_Logo_2023.svg.png" tvg-id="HRFernsehen.de" group-title="Türkiye • Diğer",HR
-https://hrhls.akamaized.net/hls/live/2024525/hrhls/master-720p-3200.m3u8
-#EXTINF:-1 tvg-id="ILKE TV.tr" tvg-name="ILKE TV.tr" tvg-logo="https://i.ibb.co/gLhpBRK8/ilke.png" group-title="Türkiye • Diğer", İLKE TV
-https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
-#EXTINF:-1 tvg-id="KANAL24.tr" tvg-name="KANAL24.tr" tvg-logo="https://i.ibb.co/tHQpWvn/24.png" group-title="Türkiye • Diğer", KANAL24
-https://turkmedya-live.ercdn.net/tv24/tv24_720p.m3u8
-#EXTINF:-1 tvg-id="Kuzey Kıbrıs TV.tr" tvg-name="Kuzey Kıbrıs TV.tr" tvg-logo="Kuzey Kıbrıs TV.tr" tvg-logo="" group-title="Türkiye • Diğer", Kuzey Kıbrıs TV
-http://old.kuzeykibris.tv/m3u8/kktv.m3u8
-#EXTINF:-1 tvg-id="MC.tr" tvg-name="MC" tvg-logo="https://i.ibb.co/W4WmBN67/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", MC TV
-https://n2.cdn.jetstre.am/session/af833ca86930f7b98f140eb88ec6662b/sz/mceutv/wowza4/live/mc2/chunklist.m3u8
-#EXTINF:-1 tvg-id="MELTEM TV.tr" tvg-name="MELTEM TV.tr" tvg-logo="https://i.ibb.co/Fq0ZvYG/meltemtvt.png" group-title="Türkiye • Diğer", MELTEM TV
-http://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
-#EXTINF:-1 tvg-id="MK TV" tvg-name="MK TV" tvg-logo=" https://i.ibb.co/wrMn5rgQ/mktv.png" group-title="Türkiye • Diğer", MK TV
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8?nimblesessionid=3748415695
-#EXTINF:-1 tvg-id="NBCNewsNOW.us" tvg-name="NBCNewsNOW.us" tvg-logo="https://i.imgur.com/JZt2qh5.png" group-title="Türkiye • Ulusal", NBC News NOW
-https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master_5.m3u8
-#EXTINF:-1 tvg-id="NDRFernsehenHamburg.de" tvg-name="NDR Hamburg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/578px-Logo_NDR_Fernsehen_2017.svg.png" group-title="Türkiye • Diğer", NDR Hamburg
-https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master-1080p-5000.m3u8
-#EXTINF:-1 tvg-id="NDRFernsehenInternational.de" tvg-name="NDR International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/578px-Logo_NDR_Fernsehen_2017.svg.png" group-title="Türkiye • Diğer",NDR International
-https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master-1080p-5000.m3u8
-#EXTINF:-1 tvg-id="NOW NEWS GLOBAL" tvg-name="NOW NEWS GLOBAL" tvg-logo="https://i.ibb.co/JRcZNxdk/nownews.png"group-title="Türkiye • Ulusal", NOW NEWS GLOBAL
-https://nowhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="NOW NEWS" tvg-name="NOW NEWS" tvg-logo="https://i.ibb.co/JRcZNxdk/nownews.png" group-title="Türkiye • Ulusal", NOW NEWS USA
-https://nowushls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RT DEUTSCH.de" tvg-name="RT DEUTSCH" tvg-logo="https://i.ibb.co/D7w9h7Q/rt.png" group-title="Türkiye • Diğer", RT DEUTSCH
-https://rt-ger.rttv.com/live/rtdeutsch/playlist_4500Kb.m3u8
-#EXTINF:-1 tvg-id="RT NEWS" tvg-name="RT NEWS" tvg-logo="https://i.ibb.co/D7w9h7Q/rt.png" group-title="Türkiye • Diğer", RT NEWS
-https://rt-glb.rttv.com/live/rtnews/playlist_4500Kb.m3u8
-#EXTINF:-1 tvg-id="RTL.de" tvg-name="RTL.de" tvg-logo="https://download.avm.de/tv/logos/rtl.png" group-title="Türkiye • Diğer", RTL
-https://ma.anixa.tv/clips/stream/rtl/playlist.php
-#EXTINF:-1 tvg-id="SHOWTVTR" group-title="Türkiye • Ulusal",Show TV
-https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558
-#EXTINF:-1 tvg-id="SRFernsehen.de" tvg-name="SR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/538px-SR_Fernsehen_Logo_2023.svg.png" group-title="Türkiye • Diğer",SR
-https://srfs.akamaized.net/hls/live/689649/srfsgeo/master-720p-3328.m3u8
-#EXTINF:-1 tvg-id="TGRT HABER HD.tr" tvg-name="TGRT HABER HD.tr" tvg-logo="https://i.ibb.co/K5frjVY/tgrt-haber.png" group-title="Türkiye • Haber", TGRT HABER
-https://canli.tgrthaber.com/tgrt.m3u8
-#EXTINF:-1 tvg-id="TRACE URBAN" tvg-logo="https://i.ibb.co/2hgmDs6/traceurb.png" group-title="Türkiye • Diğer",TRACE URBAN
-https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 tvg-id="TRT.World.HD.tr" tvg-name="TRT World HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png" group-title="Türkiye • Diğer", TRT WORLD
-https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
-#EXTINF:-1 tvg-id="Terra Mater WILD ENG" tvg-logo="https://i.ibb.co/1Jsb4wgP/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer",Terra Mater WILD ENG
-https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01775-amg01775c1-amgplt0343/b13e6d8c-9cd5-11f1-b308-6227f0d1f69b/182/1920x1080_4300000/index.m3u8
-#EXTINF:-1 tvg-id="ULUSAL KANAL.tr" tvg-name="ULUSAL KANAL.tr" tvg-logo="https://i.ibb.co/vvZss13/ulusal-tv.png" group-title="Türkiye • Diğer", ULUSAL TV
-https://internettv.guventechnology.com/hls/ulusaltv/index.m3u8
-#EXTINF:-1 tvg-id="UlkeTV.tr" tvg-name="UlkeTV.tr" tvg-logo="https://i.ibb.co/ZXts607/ulketv.png" group-title="Türkiye • Diğer", UlkeTV
-https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8
-#EXTINF:-1 tvg-id="WDR.de" tvg-name="WDR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wdr_fernsehen_logo_2016.svg/640px-Wdr_fernsehen_logo_2016.svg.png" group-title="Türkiye • Diğer",WDR
-https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master_3328.m3u8
-#EXTINF:-1 tvg-id="i24 NEWS EN" tvg-name="i24 NEWS EN" tvg-logo="https://i.ibb.co/j68q1Bp/i24.png" group-title="Türkiye • Diğer",i24 NEWS EN
-https://i24newsenglish-cdn.encoders.immergo.tv/2/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="sozcu.tr" tvg-name="SÖZCÜ TV.tr" tvg-logo="https://i.ibb.co/B40rjP3/szc1.png" group-title="Türkiye • Haber", SÖZCÜ TV
-https://yt.tecostream.xyz/live/sozcutelevizyonu?m3u8
-#EXTINF:-1 tvg-id="tabii.TV.tr" tvg-logo=" " group-title="Türkiye • Diğer", Tabii TV HD
-https://ceokzokgtd.erbvr.com/tabiitv/tabiitv_1080p.m3u8?sid=hsFFQptc2EyIJ51pfs7jeg&bvr_flags=10&bvr_ch=tabiitv&bvr_bw=2800000
-#EXTINF:-1 tvg-id="tagesschau24.de" tvg-name="Tagesschau24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tagesschau24-2012.svg/640px-Tagesschau24-2012.svg.png" group-title="Türkiye • Diğer", Tagesschau24
-https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-720p-3328.m3u8
-#EXTINF:-1 tvg-id="tvg-id="NHK WORLD" tvg-logo="https://i.ibb.co/JCjsXZm/nhk.png" group-title="Türkiye • Diğer", NHK WORLD
-https://media-tyo.hls.nhkworld.jp/hls/w/live/1/sig/e52230f79050aa333c4ac6430f40a08f0898e6ec1c43d5cb9bcb82f9573797c4/v2.m3u8
-#EXTINF:-1 tvg-id="ÇİFTÇİ TV" tvg-name="ÇİFTÇİ TV" tvg-logo="https://i.ibb.co/vHwMgx0/ciftci.png" group-title="Türkiye • Diğer",ÇİFTÇİ TV
-https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8?nimblesessionid=3748415901
-#EXTINF:-1 tvg-logo="https://i.ibb.co/WFQ0NCF/vevohprb.png" group-title="Türkiye • Diğer",VEVO HP RB
-https://amg00056-amg00056c14-rakuten-fr-3244.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevohiphopandrbfr-rakutenfr/cb573e1e6573658884cb3667cef94682be7b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca3094613a15340cf24562399da1b0e842fbc365040bf473d0070c9bf5afb750496d25c96767adfa8c060382b5b42cd0b0fb4bd56a5fab05543dc69f3b71b1b9f057fc6d3168abb4de6d18302f110de27af4ac8ced2bee9238b8797010866884c61d989e0fbfa1ba6fa1fdbef94602d997568750a54f2a6808c3656e469622c357b56dd1f923dc19b31892016b6058a468731f01ac29a78252cd2c78cde514930aac34f6e29e296c83a79a851cf04cd8393b545758bf11d764ec827bf484e6ac2aa9f43d6897d1ed1526c95699888fab265e2536481f00964793c6555a4bee81c4f4b710d0187128c9f7ae410d26aa3f40a4b69604bb79359c887960b7e320fceb757da1714aec8cbadeb4e6a9a2e4b01a857d05553389774742ab164b9bb2c7c85233d803716f24c7ad511abf67fa3e7f8ed1434b8db8813aa3eaf860bd4f710a022690a55fda17a2d302617e7e768093f6ed005b583b886593d40bda783aeba3a7a601d1241079fedf77af8df9471fd774df5dbd412d651454e56c03bb5874f37f9b3988220/148/1920x1080_7333040/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/brFBnw8/vevopop.png" group-title="Türkiye • Diğer",VEVO POP
-https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/cb573e1e6573658884cb3667cef94682be7b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca3094613a15340cf24562399da1b0e842fbc365040bf473d0070c9bf5afb275293d40896767adfa8c060382b5b42ce0f5fe7bd08a1fae55f478c6bf3e51d1df78e74ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9e296dde342253136cffed8b76cf114da862bc3135f0b82052df652bc4ad06191e85ca7a4b5d6430b5ecea1093370f4b2f2c093bd54cc8fdaa26c6d495fb98fdaae45d6d431118b780f9e8164a5ce1084bf2084fb47182fffa84a8996889a8585a045862cc6cbf5d7680c1e234c358f53a6957ac869f34ce89f436f0c16049a935b92d2821e28341bcfc07fc40317bcec8e81f4072f8535480da6338f1b2664de3b6179aa7caccb7c5f88200b973c72ae0b62ce11aaca599fcdecec083fbac9d402ae3f9dd224e6b653f9236c236bf195085a564769dffe6c6f6821232468753755117ec964075a6c1ee5ab448a5dd8c46993/88/1920x1080_7333040/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/brFBnw8/vevopop.png" group-title="Türkiye • Diğer",VEVO POP FAST
-https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/cb573e1e6573658884cb3667cef94682be7b3dcb0e6c886470af4a9765d97800dbe8ae84ae5b910c4c9e1fc061017d360439cd1dd56c49c1da63b820743c4b21fdcde00080dd0d0cb1df11292ca3094613a15340cf24562399da1b0e842fbc365040bf473d0070c9bf5afb245291d40d96767adfa8c060382b5b42ce555fb3bd56f2fee4584cd06cf2b64848f78e74ddaa7a182fd189aae63efd51bb13af4dd9c7a49bb054d3c2c4208b7f8856277952b01d1d1be9a473b9c88e6179bd7c2d541756e7d9e296dde342253136cffed8b76cf114da862bc3135f0b82052df652bc4ad06191e85ca7a4b5d6430b5ecea1093370f4b2f2c093bd54cc8fdaa26c6d495fb98fdaae45d6d431118b780f9e8164a5ce1084bf2084fb47182fffa84a8996889a8585a045862cc6cbf5d7680c1e234c358f53a6957ac869f34ce89f436f0c16049a935b92d2821e28341bcfc07fc40317bcec8e81f4072f8535480da6338f1b2664de3b6179aa7caccb7c5f88200b973c72ae0b62ce11aaca599fcdecec083fbac9d402ae3f9dd224e6b653f9236c236bf195085a564769dffe6c6c6399a2c9422e7e87ea4d2a5a9959e103c2d97f9435a01441/3/1920x1080_7333040/index.m3u8
-#EXTINF:-1 tvg-name="BIR TV" tvg-id="BIR TV" tvg-logo="https://i.ibb.co/dDdPMWq/birtv.png" group-title="Türkiye • Diğer", BIR TV
-https://edge1.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=1671723409
-#EXTINF:-1 tvg-name="MedyaHaber TV" tvg-id="MedyaHaber TV" tvg-logo="https://i.ibb.co/8HZyRDN/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", MedyaHaber TV
-https://hlspackager.akamaized.net/live/DB/MEDYA_HABER/HLS/MEDYA_HABER-avc1_2500000=10002.m3u8
-#EXTINF:-1tvg-id="Terra Mater WILD" tvg-logo="https://i.ibb.co/1Jsb4wgP/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="Türkiye • Diğer", Terra Mater WILD
-https://53ff3982.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/756aa271-b9c0-4bb3-ba04-5f023e1caef7/5.m3u8

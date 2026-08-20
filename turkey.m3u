@@ -7,12 +7,14 @@ https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
 #EXTINF:0001 tvg-id="UBjqGDOceqJLt2" tvg-chno="1986" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", ATV
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="ATV.tr@SD",ATV (360p)
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="ATV.tr@SD",ATV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="ATVAlanya.tr@SD",ATV Alanya (1080p)
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 #EXTINF:-1 tvg-id="BEYAZTVTR" group-title="🇹🇷 TÜRKSAT • Ulusal",Beyaz TV (1080p)
 https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
+#EXTINF:-1 tvg-id="KANAL7TR" group-title="🇹🇷 TÜRKSAT • Ulusal",Kanal 7 (1080p)
+https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
 #EXTINF:0001 tvg-id="2Cw7nBUx9FOzBJ" tvg-chno="2026" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", Kanal 7 Avrupa
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="KanalD.tr@SD",Kanal D (1080p)
@@ -37,12 +39,10 @@ https://tv-trt1.medya.trt.com.tr/master.m3u8
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:0001 tvg-id="kNlSvYLttCaBWF" tvg-chno="2103" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", TV 8.5
 https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="TV4.tr@SD",TV4 (720p)
-https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="AHaber.tr@SD",A Haber (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
 #EXTINF:-1 tvg-id="BLOOMBERGHTTR" group-title="🇹🇷 TÜRKSAT • Haber",Bloomberg HT (720p)
-https://ensonhaber-live.ercdn.net/bloomberght/bloomberght.m3u8
+https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="CNBCe.tr@SD",CNBC-e
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 tvg-id="CNNTURKTR" group-title="🇹🇷 TÜRKSAT • Haber",CNN Türk (720p)
@@ -85,10 +85,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
 https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-name="DMAX" tvg-id="DMAX.tr" tvg-logo="https://i.ibb.co/WvCvVrrz/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="🇹🇷 TÜRKSAT • Belgesel", DMAX
 http://dygvideo.dygdigital.com/live/hls/dmaxdai?m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Belgesel" tvg-id="NationalGeographic.tr@SD",National Geographic
-https://nord.ayakkabiparti.lol/natgeo/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Belgesel" tvg-id="NationalGeographicWild.tr@SD",National Geographic Wild
-https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
 #EXTINF:-1 tvg-name="TLC" tvg-id="TLC.tr" tvg-logo="https://i.ibb.co/KpCxxsXd/Ekran-g-r-nt-s-2026-07-25-103937.jpg" group-title="🇹🇷 TÜRKSAT • Belgesel", TLC
 http://dygvideo.dygdigital.com/live/hls/tlctvdai?m3u8
 #EXTINF:-1 tvg-id="DELUXEMUSIC.de" tvg-name="DELUXE MUSIC" tvg-logo="https://i.imgur.com/E65GQN9.png" tvg-id="DeluxeMusic.de" group-title="🇹🇷 TÜRKSAT • Müzik", DELUXE MUSIC
@@ -361,6 +357,10 @@ https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="MTurkTV.tr@SD",MTürk TV (1080p)
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="NationalGeographic.tr@SD",National Geographic
+https://nord.ayakkabiparti.lol/natgeo/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="NationalGeographicWild.tr@SD",National Geographic Wild
+https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehenHamburg.de" tvg-name="NDR Hamburg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/578px-Logo_NDR_Fernsehen_2017.svg.png" group-title="🇹🇷 TÜRKSAT • Diğer", NDR Hamburg
 https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8
 #EXTINF:-1 tvg-id="NDRFernsehenInternational.de" tvg-name="NDR International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/578px-Logo_NDR_Fernsehen_2017.svg.png" group-title="🇹🇷 TÜRKSAT • Diğer",NDR International
@@ -457,6 +457,8 @@ https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
 https://edge2.taksimbilisim.com/tv52/bant1/chunks.m3u8
 #EXTINF:0001 tvg-id="8UTFNpq46IxrH2" tvg-chno="2108" group-title="🇹🇷 TÜRKSAT • Diğer" tvg-logo="", TV Den
 https://canli.tvden.com.tr/hls/live.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TV4.tr@SD",TV4 (720p)
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
 #EXTINF:0001 tvg-id="Dti0xsuIDuqqFU" tvg-chno="2110" group-title="🇹🇷 TÜRKSAT • Diğer" tvg-logo="", TYT Turk
 https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
 #EXTINF:-1 tvg-id="UlkeTV.tr" tvg-name="UlkeTV.tr" tvg-logo="https://i.ibb.co/ZXts607/ulketv.png" group-title="🇹🇷 TÜRKSAT • Diğer", UlkeTV

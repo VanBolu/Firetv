@@ -565,11 +565,11 @@ https://streamer20.multimedia.blue/Eltrona/merschTV/playlist.m3u8
 https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
 #EXTINF:0001 tvg-id="4HFk1EIyyY3Rms" tvg-chno="283" group-title="🌍 LU" tvg-logo="", Today Radio
 https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
-#EXTINF:0001 tvg-id="lDxRAC8VIZPSTr" tvg-chno="284" group-title="🇹🇳 Tunus" tvg-logo="", El Watania 1
+#EXTINF:0001 tvg-id="lDxRAC8VIZPSTr" tvg-chno="284" group-title="🌍 TN" tvg-logo="", El Watania 1
 https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8
-#EXTINF:0001 tvg-id="4B3FCVdFtbVK3X" tvg-chno="285" group-title="🇹🇳 Tunus" tvg-logo="", El Watania 2
+#EXTINF:0001 tvg-id="4B3FCVdFtbVK3X" tvg-chno="285" group-title="🌍 TN" tvg-logo="", El Watania 2
 https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR
-#EXTINF:0001 tvg-id="0vWRP5qYJXkBiC" tvg-chno="286" group-title="🇹🇳 Tunus" tvg-logo="", Mosaique FM
+#EXTINF:0001 tvg-id="0vWRP5qYJXkBiC" tvg-chno="286" group-title="🌍 TN" tvg-logo="", Mosaique FM
 https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR
 #EXTINF:0001 tvg-id="1PJE0RldSK4FL3" tvg-chno="287" group-title="🌍 EC" tvg-logo="", America Estereo Guayaquil
 https://video.makrodigital.com/americaestereoguayaquil/americaestereoguayaquil/playlist.m3u8
@@ -835,97 +835,97 @@ https://7nyaler.streamhostingcdn.top/stream/19/index.m3u8
 https://fastly.live.brightcove.com/6384196213112/eu-west-1/1555966122001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieDl2YzlnLmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiMTU1NTk2NjEyMjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyIxNTU1OTY2MTIyMDAxIl0sImp0aSI6IjYzODQxOTYyMTMxMTIifQ.Co2xR3kmJBoxTaFTpwU0b37lJ05vNt-y32-SwfM26EA/chunklist.m3u8
 #EXTINF:0001 tvg-id="cq6tthzEoEuekR" tvg-chno="418" group-title="🌍 HK" tvg-logo="", Pet Club TV
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-petclub-samsungnz/playlist.m3u8
-#EXTINF:0001 tvg-id="9hKNWF9xXo3HVH" tvg-chno="419" group-title="🇹🇭 Tayland" tvg-logo="", 3HD
+#EXTINF:0001 tvg-id="9hKNWF9xXo3HVH" tvg-chno="419" group-title="🌍 TH" tvg-logo="", 3HD
 https://live-us1.thaimomo.com/live-as/ch3hd-3/playlist.m3u8
-#EXTINF:0001 tvg-id="fgt71QAXBWF0xr" tvg-chno="420" group-title="🇹🇭 Tayland" tvg-logo="", 13 Siam Thai
+#EXTINF:0001 tvg-id="fgt71QAXBWF0xr" tvg-chno="420" group-title="🌍 TH" tvg-logo="", 13 Siam Thai
 https://live.x2.co.th/live/13livetv-th.m3u8
-#EXTINF:0001 tvg-id="8jiJPk9xiCpTar" tvg-chno="421" group-title="🇹🇭 Tayland" tvg-logo="", Amarin TV
+#EXTINF:0001 tvg-id="8jiJPk9xiCpTar" tvg-chno="421" group-title="🌍 TH" tvg-logo="", Amarin TV
 https://live-us1.thaimomo.com/live-as/chamarin-3/playlist.m3u8
-#EXTINF:0001 tvg-id="rP9ZVv3iYUdlq8" tvg-chno="422" group-title="🇹🇭 Tayland" tvg-logo="", Baan Baan TV 73
+#EXTINF:0001 tvg-id="rP9ZVv3iYUdlq8" tvg-chno="422" group-title="🌍 TH" tvg-logo="", Baan Baan TV 73
 https://vdo.plathong.net/live8794/live8794/playlist.m3u8
-#EXTINF:0001 tvg-id="BWaFZgSUSFWAMm" tvg-chno="423" group-title="🇹🇭 Tayland" tvg-logo="", Boonniyom TV
+#EXTINF:0001 tvg-id="BWaFZgSUSFWAMm" tvg-chno="423" group-title="🌍 TH" tvg-logo="", Boonniyom TV
 https://live.x2.co.th/live/bntv.m3u8
-#EXTINF:0001 tvg-id="Lf5XxACaHEAHOt" tvg-chno="424" group-title="🇹🇭 Tayland" tvg-logo="", Channel 5
+#EXTINF:0001 tvg-id="Lf5XxACaHEAHOt" tvg-chno="424" group-title="🌍 TH" tvg-logo="", Channel 5
 https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8
-#EXTINF:0001 tvg-id="KZkJsCVZ7Xwjbn" tvg-chno="425" group-title="🇹🇭 Tayland" tvg-logo="", Channel 7
+#EXTINF:0001 tvg-id="KZkJsCVZ7Xwjbn" tvg-chno="425" group-title="🌍 TH" tvg-logo="", Channel 7
 https://live-us1.thaimomo.com/live-as/ch7hd-3/playlist.m3u8
-#EXTINF:0001 tvg-id="GMu3IGmhWA0K7T" tvg-chno="426" group-title="🇹🇭 Tayland" tvg-logo="", Channel 8
+#EXTINF:0001 tvg-id="GMu3IGmhWA0K7T" tvg-chno="426" group-title="🌍 TH" tvg-logo="", Channel 8
 https://live-us1.thaimomo.com/live-as/cheight-3/playlist.m3u8
-#EXTINF:0001 tvg-id="NBTaGoi9vazZJI" tvg-chno="427" group-title="🇹🇭 Tayland" tvg-logo="", Charoen Cable 37 TV
+#EXTINF:0001 tvg-id="NBTaGoi9vazZJI" tvg-chno="427" group-title="🌍 TH" tvg-logo="", Charoen Cable 37 TV
 https://www5.cabletv.co.th/StreamToCTV/cablechannel/playlist.m3u8
-#EXTINF:0001 tvg-id="ZPk578ujZjTXPa" tvg-chno="428" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 1
+#EXTINF:0001 tvg-id="ZPk578ujZjTXPa" tvg-chno="428" group-title="🌍 TH" tvg-logo="", DLTV 1
 https://cdn-live.dltv.ac.th/dltv01.m3u8
-#EXTINF:0001 tvg-id="FH7NvrC8IdGbek" tvg-chno="429" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 2
+#EXTINF:0001 tvg-id="FH7NvrC8IdGbek" tvg-chno="429" group-title="🌍 TH" tvg-logo="", DLTV 2
 https://cdn-live.dltv.ac.th/dltv02.m3u8
-#EXTINF:0001 tvg-id="28rjnzXjPjea82" tvg-chno="430" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 4
+#EXTINF:0001 tvg-id="28rjnzXjPjea82" tvg-chno="430" group-title="🌍 TH" tvg-logo="", DLTV 4
 https://cdn-live.dltv.ac.th/dltv04.m3u8
-#EXTINF:0001 tvg-id="RfFYZpw2B1Tu6O" tvg-chno="431" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 5
+#EXTINF:0001 tvg-id="RfFYZpw2B1Tu6O" tvg-chno="431" group-title="🌍 TH" tvg-logo="", DLTV 5
 https://cdn-live.dltv.ac.th/dltv05.m3u8
-#EXTINF:0001 tvg-id="SBNkYWrTHUHlU6" tvg-chno="432" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 6
+#EXTINF:0001 tvg-id="SBNkYWrTHUHlU6" tvg-chno="432" group-title="🌍 TH" tvg-logo="", DLTV 6
 https://cdn-live.dltv.ac.th/dltv06.m3u8
-#EXTINF:0001 tvg-id="5n7uTj1v7KJgAK" tvg-chno="433" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 7
+#EXTINF:0001 tvg-id="5n7uTj1v7KJgAK" tvg-chno="433" group-title="🌍 TH" tvg-logo="", DLTV 7
 https://cdn-live.dltv.ac.th/dltv07.m3u8
-#EXTINF:0001 tvg-id="AtqNekEK9bqlpP" tvg-chno="434" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 8
+#EXTINF:0001 tvg-id="AtqNekEK9bqlpP" tvg-chno="434" group-title="🌍 TH" tvg-logo="", DLTV 8
 https://cdn-live.dltv.ac.th/dltv08.m3u8
-#EXTINF:0001 tvg-id="ReBKejReML00hL" tvg-chno="435" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 9
+#EXTINF:0001 tvg-id="ReBKejReML00hL" tvg-chno="435" group-title="🌍 TH" tvg-logo="", DLTV 9
 https://cdn-live.dltv.ac.th/dltv09.m3u8
-#EXTINF:0001 tvg-id="J2tWh2yACsVBKq" tvg-chno="436" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 10
+#EXTINF:0001 tvg-id="J2tWh2yACsVBKq" tvg-chno="436" group-title="🌍 TH" tvg-logo="", DLTV 10
 https://cdn-live.dltv.ac.th/dltv10.m3u8
-#EXTINF:0001 tvg-id="sfr4boA9nNaI9M" tvg-chno="437" group-title="🇹🇭 Tayland" tvg-logo="", DLTV 15
+#EXTINF:0001 tvg-id="sfr4boA9nNaI9M" tvg-chno="437" group-title="🌍 TH" tvg-logo="", DLTV 15
 https://cdn-live.dltv.ac.th/dltv15.m3u8
-#EXTINF:0001 tvg-id="omZ8ESluZncX8u" tvg-chno="438" group-title="🇹🇭 Tayland" tvg-logo="", GMM 25
+#EXTINF:0001 tvg-id="omZ8ESluZncX8u" tvg-chno="438" group-title="🌍 TH" tvg-logo="", GMM 25
 https://live-us1.thaimomo.com/live-as/chgmmchannel-3/playlist.m3u8
-#EXTINF:0001 tvg-id="KwVTrDVsb8DLW2" tvg-chno="439" group-title="🇹🇭 Tayland" tvg-logo="", Halal TV
+#EXTINF:0001 tvg-id="KwVTrDVsb8DLW2" tvg-chno="439" group-title="🌍 TH" tvg-logo="", Halal TV
 https://vdo.plathong.net/Halaltv/Halaltv/playlist.m3u8
-#EXTINF:0001 tvg-id="229FKBkhihgZiC" tvg-chno="440" group-title="🇹🇭 Tayland" tvg-logo="", Lanthung TV
+#EXTINF:0001 tvg-id="229FKBkhihgZiC" tvg-chno="440" group-title="🌍 TH" tvg-logo="", Lanthung TV
 https://live-us1.thaimomo.com/live-as/chlantung-2/playlist.m3u8
-#EXTINF:0001 tvg-id="7Y9OONvhoyZDMD" tvg-chno="441" group-title="🇹🇭 Tayland" tvg-logo="", MCOT HD
+#EXTINF:0001 tvg-id="7Y9OONvhoyZDMD" tvg-chno="441" group-title="🌍 TH" tvg-logo="", MCOT HD
 https://live-us1.thaimomo.com/live-as/chmcothd-3/playlist.m3u8
-#EXTINF:0001 tvg-id="txJF8huRbSMhOz" tvg-chno="442" group-title="🇹🇭 Tayland" tvg-logo="", MONO 29
+#EXTINF:0001 tvg-id="txJF8huRbSMhOz" tvg-chno="442" group-title="🌍 TH" tvg-logo="", MONO 29
 https://live-us1.thaimomo.com/live-as/chmono29-2/playlist.m3u8
-#EXTINF:0001 tvg-id="n8EtzlvDQLCNLL" tvg-chno="443" group-title="🇹🇭 Tayland" tvg-logo="", Nation TV
+#EXTINF:0001 tvg-id="n8EtzlvDQLCNLL" tvg-chno="443" group-title="🌍 TH" tvg-logo="", Nation TV
 https://live-us1.thaimomo.com/live-as/chNation-3/playlist.m3u8
-#EXTINF:0001 tvg-id="Vhaf6oXPlNRudx" tvg-chno="444" group-title="🇹🇭 Tayland" tvg-logo="", NBT 2 HD
+#EXTINF:0001 tvg-id="Vhaf6oXPlNRudx" tvg-chno="444" group-title="🌍 TH" tvg-logo="", NBT 2 HD
 https://cdn-edge.iiptvcdn.com/live_event/smil:f180-054a-38d7-ce66-f7cf.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="AFJGzB67QsmTOE" tvg-chno="445" group-title="🇹🇭 Tayland" tvg-logo="", NBT World
+#EXTINF:0001 tvg-id="AFJGzB67QsmTOE" tvg-chno="445" group-title="🌍 TH" tvg-logo="", NBT World
 https://cdn-edge.iiptvcdn.com/live_event/smil:d36f-93c1-9c58-fdcc-427f.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="ckulPa2dGBuJLP" tvg-chno="446" group-title="🇹🇭 Tayland" tvg-logo="", News1
+#EXTINF:0001 tvg-id="ckulPa2dGBuJLP" tvg-chno="446" group-title="🌍 TH" tvg-logo="", News1
 https://live-us1.thaimomo.com/live-as/chnews1-2/playlist.m3u8
-#EXTINF:0001 tvg-id="h8VnZhVFMHAfjk" tvg-chno="447" group-title="🇹🇭 Tayland" tvg-logo="", One 31
+#EXTINF:0001 tvg-id="h8VnZhVFMHAfjk" tvg-chno="447" group-title="🌍 TH" tvg-logo="", One 31
 https://live-us1.thaimomo.com/live-as/chone-3/playlist.m3u8
-#EXTINF:0001 tvg-id="chmBg2GBFNqXoJ" tvg-chno="448" group-title="🇹🇭 Tayland" tvg-logo="", Police TV
+#EXTINF:0001 tvg-id="chmBg2GBFNqXoJ" tvg-chno="448" group-title="🌍 TH" tvg-logo="", Police TV
 https://cdn-th-vip.livestreaming.in.th/policetv/policetv/playlist.m3u8
-#EXTINF:0001 tvg-id="3GZ46w4Jr2xtDE" tvg-chno="449" group-title="🇹🇭 Tayland" tvg-logo="", Rama Channel
+#EXTINF:0001 tvg-id="3GZ46w4Jr2xtDE" tvg-chno="449" group-title="🌍 TH" tvg-logo="", Rama Channel
 https://ramach.ddns.net/live/ramalive/index.m3u8
-#EXTINF:0001 tvg-id="IC0ZQA3k7HadtW" tvg-chno="450" group-title="🇹🇭 Tayland" tvg-logo="", SBB TV
+#EXTINF:0001 tvg-id="IC0ZQA3k7HadtW" tvg-chno="450" group-title="🌍 TH" tvg-logo="", SBB TV
 https://cdn-th-vip2.livestreaming.in.th/watsanghathan/watsanghathan/playlist.m3u8
-#EXTINF:0001 tvg-id="tvrptnaG6ItFq0" tvg-chno="451" group-title="🇹🇭 Tayland" tvg-logo="", STOU Channel
+#EXTINF:0001 tvg-id="tvrptnaG6ItFq0" tvg-chno="451" group-title="🌍 TH" tvg-logo="", STOU Channel
 https://stream1.stou.ac.th/live/stou_720p/playlist.m3u8
-#EXTINF:0001 tvg-id="bvkcq09Cd3U8lf" tvg-chno="452" group-title="🇹🇭 Tayland" tvg-logo="", Suwannabhumi Channel
+#EXTINF:0001 tvg-id="bvkcq09Cd3U8lf" tvg-chno="452" group-title="🌍 TH" tvg-logo="", Suwannabhumi Channel
 https://live.bangkokstream.com:19360/suwannabhumi/suwannabhumi.m3u8
-#EXTINF:0001 tvg-id="8y46OzXMIQWutZ" tvg-chno="453" group-title="🇹🇭 Tayland" tvg-logo="", T Sports 7
+#EXTINF:0001 tvg-id="8y46OzXMIQWutZ" tvg-chno="453" group-title="🌍 TH" tvg-logo="", T Sports 7
 https://live-us1.thaimomo.com/live-as/chtsport-1/playlist.m3u8
-#EXTINF:0001 tvg-id="dB7dtyb4s8KVBG" tvg-chno="454" group-title="🇹🇭 Tayland" tvg-logo="", Thai Chaiyo
+#EXTINF:0001 tvg-id="dB7dtyb4s8KVBG" tvg-chno="454" group-title="🌍 TH" tvg-logo="", Thai Chaiyo
 https://live.thaichaiyo.tv/tcy/live-transmux.m3u8
-#EXTINF:0001 tvg-id="ztLXAJFpTRNVhe" tvg-chno="455" group-title="🇹🇭 Tayland" tvg-logo="", Thai Parliament Television
+#EXTINF:0001 tvg-id="ztLXAJFpTRNVhe" tvg-chno="455" group-title="🌍 TH" tvg-logo="", Thai Parliament Television
 https://tv-live.tpchannel.org/live/tv.m3u8
-#EXTINF:0001 tvg-id="VDGTa2zgqbVjQZ" tvg-chno="456" group-title="🇹🇭 Tayland" tvg-logo="", Thairath TV
+#EXTINF:0001 tvg-id="VDGTa2zgqbVjQZ" tvg-chno="456" group-title="🌍 TH" tvg-logo="", Thairath TV
 https://live-us1.thaimomo.com/live-as/chthairathhd-3/playlist.m3u8
-#EXTINF:0001 tvg-id="5JqI2VGAgHJcuu" tvg-chno="457" group-title="🇹🇭 Tayland" tvg-logo="", TNN16
+#EXTINF:0001 tvg-id="5JqI2VGAgHJcuu" tvg-chno="457" group-title="🌍 TH" tvg-logo="", TNN16
 https://live-us1.thaimomo.com/live-as/chtnn24-2/playlist.m3u8
-#EXTINF:0001 tvg-id="NKLScQ6EvdyLLB" tvg-chno="458" group-title="🇹🇭 Tayland" tvg-logo="", Top News
+#EXTINF:0001 tvg-id="NKLScQ6EvdyLLB" tvg-chno="458" group-title="🌍 TH" tvg-logo="", Top News
 https://live.topnews.co.th/hls/topnews_a_720.m3u8
-#EXTINF:0001 tvg-id="OuZE6TNCnLN0JD" tvg-chno="459" group-title="🇹🇭 Tayland" tvg-logo="", True4U
+#EXTINF:0001 tvg-id="OuZE6TNCnLN0JD" tvg-chno="459" group-title="🌍 TH" tvg-logo="", True4U
 https://live-us1.thaimomo.com/live-as/chTrue4u-2/playlist.m3u8
-#EXTINF:0001 tvg-id="xP0smrBM1w21kH" tvg-chno="460" group-title="🇹🇭 Tayland" tvg-logo="", TV Muslim Thailand
+#EXTINF:0001 tvg-id="xP0smrBM1w21kH" tvg-chno="460" group-title="🌍 TH" tvg-logo="", TV Muslim Thailand
 https://vdo.plathong.net/tvmuslim/tvmuslim/playlist.m3u8
-#EXTINF:0001 tvg-id="N5z6F9fOLnl1v1" tvg-chno="461" group-title="🇹🇭 Tayland" tvg-logo="", Umm TV
+#EXTINF:0001 tvg-id="N5z6F9fOLnl1v1" tvg-chno="461" group-title="🌍 TH" tvg-logo="", Umm TV
 https://live-us1.thaimomo.com/live-as/chtvb-2/playlist.m3u8
-#EXTINF:0001 tvg-id="SmqI12Dj5RFaAG" tvg-chno="462" group-title="🇹🇭 Tayland" tvg-logo="", Vipa TV
+#EXTINF:0001 tvg-id="SmqI12Dj5RFaAG" tvg-chno="462" group-title="🌍 TH" tvg-logo="", Vipa TV
 https://fastly.live.brightcove.com/1846248737588002042/ap-southeast-1/6075037809001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoibzRoaGc2LmVncmVzcy5zYjBmOGsiLCJhY2NvdW50X2lkIjoiNjA3NTAzNzgwOTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDc1MDM3ODA5MDAxIl0sImp0aSI6IjE4NDYyNDg3Mzc1ODgwMDIwNDIifQ.HbjGHxGv87ivAdsCtAdEDjj2SVCfRnCUMYWn2fCkVPY/playlist-hls.m3u8
-#EXTINF:0001 tvg-id="qAUjz7SsHCH8vp" tvg-chno="463" group-title="🇹🇭 Tayland" tvg-logo="", Workpoint TV
+#EXTINF:0001 tvg-id="qAUjz7SsHCH8vp" tvg-chno="463" group-title="🌍 TH" tvg-logo="", Workpoint TV
 https://live-us1.thaimomo.com/live-as/chworkpointt-3/playlist.m3u8
-#EXTINF:0001 tvg-id="3j6DuTgbZOrvSb" tvg-chno="464" group-title="🇹🇭 Tayland" tvg-logo="", Zabb Channel
+#EXTINF:0001 tvg-id="3j6DuTgbZOrvSb" tvg-chno="464" group-title="🌍 TH" tvg-logo="", Zabb Channel
 https://vdo.plathong.net/flash7057/flash7057/playlist.m3u8
 #EXTINF:0001 tvg-id="H2De4PzC2SAkQG" tvg-chno="465" group-title="🇨🇿 Çekya" tvg-logo="", Ballcasterz
 https://antik.streaming.tivio.studio/channels/yXDwkH0CbFfkhU7ZnHlT/index.m3u8
@@ -1509,207 +1509,207 @@ https://shift03.isp.bg/ViasatExplorer_HD/index.m3u8
 https://shift03.isp.bg/ViasatHistory_HD/index.m3u8
 #EXTINF:0001 tvg-id="grL6LmvbHNpgqD" tvg-chno="755" group-title="🇧🇬 Bulgaristan" tvg-logo="", Viasat Nature
 https://shift03.isp.bg/ViasatNature_HD/index.m3u8
-#EXTINF:0001 tvg-id="DNvXN4cXK8bo20" tvg-chno="756" group-title="🇮🇩 Endonezya" tvg-logo="", AFBTV Kupang
+#EXTINF:0001 tvg-id="DNvXN4cXK8bo20" tvg-chno="756" group-title="🌍 ID" tvg-logo="", AFBTV Kupang
 https://afbtv.siar.us/live/afbtv.m3u8
-#EXTINF:0001 tvg-id="vNzaBFNwp2L4XM" tvg-chno="757" group-title="🇮🇩 Endonezya" tvg-logo="", AKTV
+#EXTINF:0001 tvg-id="vNzaBFNwp2L4XM" tvg-chno="757" group-title="🌍 ID" tvg-logo="", AKTV
 https://akativi.siar.us/live/akativi.m3u8
-#EXTINF:0001 tvg-id="aGem6cqP5Ol9m7" tvg-chno="758" group-title="🇮🇩 Endonezya" tvg-logo="", Al Wafa Tarim
+#EXTINF:0001 tvg-id="aGem6cqP5Ol9m7" tvg-chno="758" group-title="🌍 ID" tvg-logo="", Al Wafa Tarim
 https://ammedia.siar.us/ammedia/live/playlist.m3u8
-#EXTINF:0001 tvg-id="jhyn7Gf0kasCsu" tvg-chno="759" group-title="🇮🇩 Endonezya" tvg-logo="", Al-Iman TV
+#EXTINF:0001 tvg-id="jhyn7Gf0kasCsu" tvg-chno="759" group-title="🌍 ID" tvg-logo="", Al-Iman TV
 https://tv.aliman.id/aliman/live.m3u8
-#EXTINF:0001 tvg-id="o2PfBDwt7tySj4" tvg-chno="760" group-title="🇮🇩 Endonezya" tvg-logo="", Angel TV Indonesia
+#EXTINF:0001 tvg-id="o2PfBDwt7tySj4" tvg-chno="760" group-title="🌍 ID" tvg-logo="", Angel TV Indonesia
 https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8
-#EXTINF:0001 tvg-id="TKjF9Dh5jBDraW" tvg-chno="761" group-title="🇮🇩 Endonezya" tvg-logo="", Ashiil TV
+#EXTINF:0001 tvg-id="TKjF9Dh5jBDraW" tvg-chno="761" group-title="🌍 ID" tvg-logo="", Ashiil TV
 https://5bf7b725107e5.streamlock.net/ashiiltv/ashiiltv/playlist.m3u8
-#EXTINF:0001 tvg-id="wgCHFkD8F6PNpc" tvg-chno="762" group-title="🇮🇩 Endonezya" tvg-logo="", Astha TV
+#EXTINF:0001 tvg-id="wgCHFkD8F6PNpc" tvg-chno="762" group-title="🌍 ID" tvg-logo="", Astha TV
 https://hgmtv.com:19360/asthatv/asthatv.m3u8
-#EXTINF:0001 tvg-id="YJjt1kMM9xV6J0" tvg-chno="763" group-title="🇮🇩 Endonezya" tvg-logo="", Astro Blitar TV
+#EXTINF:0001 tvg-id="YJjt1kMM9xV6J0" tvg-chno="763" group-title="🌍 ID" tvg-logo="", Astro Blitar TV
 https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
-#EXTINF:0001 tvg-id="KOhwshxakg9PIS" tvg-chno="764" group-title="🇮🇩 Endonezya" tvg-logo="", Banjar TV
+#EXTINF:0001 tvg-id="KOhwshxakg9PIS" tvg-chno="764" group-title="🌍 ID" tvg-logo="", Banjar TV
 https://banjartv.siar.us/banjartv/live/playlist.m3u8
-#EXTINF:0001 tvg-id="Oc19gUQD1UBDsM" tvg-chno="765" group-title="🇮🇩 Endonezya" tvg-logo="", Banten TV
+#EXTINF:0001 tvg-id="Oc19gUQD1UBDsM" tvg-chno="765" group-title="🌍 ID" tvg-logo="", Banten TV
 https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
-#EXTINF:0001 tvg-id="cRaI25IFiA9iJp" tvg-chno="766" group-title="🇮🇩 Endonezya" tvg-logo="", BMS TV
+#EXTINF:0001 tvg-id="cRaI25IFiA9iJp" tvg-chno="766" group-title="🌍 ID" tvg-logo="", BMS TV
 https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
-#EXTINF:0001 tvg-id="lV8zHLVhKEPFpW" tvg-chno="767" group-title="🇮🇩 Endonezya" tvg-logo="", BRTV
+#EXTINF:0001 tvg-id="lV8zHLVhKEPFpW" tvg-chno="767" group-title="🌍 ID" tvg-logo="", BRTV
 https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
-#EXTINF:0001 tvg-id="u2sCANZ3ft5IKm" tvg-chno="768" group-title="🇮🇩 Endonezya" tvg-logo="", Bungo TV
+#EXTINF:0001 tvg-id="u2sCANZ3ft5IKm" tvg-chno="768" group-title="🌍 ID" tvg-logo="", Bungo TV
 https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
-#EXTINF:0001 tvg-id="csTsVz553duuxV" tvg-chno="769" group-title="🇮🇩 Endonezya" tvg-logo="", Caruban TV
+#EXTINF:0001 tvg-id="csTsVz553duuxV" tvg-chno="769" group-title="🌍 ID" tvg-logo="", Caruban TV
 https://stream.carubantv.id/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="vd1yZSp74MjEYU" tvg-chno="770" group-title="🇮🇩 Endonezya" tvg-logo="", DAAI TV
+#EXTINF:0001 tvg-id="vd1yZSp74MjEYU" tvg-chno="770" group-title="🌍 ID" tvg-logo="", DAAI TV
 https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
-#EXTINF:0001 tvg-id="JTbs2lIH8ln5ro" tvg-chno="771" group-title="🇮🇩 Endonezya" tvg-logo="", Davika TV
+#EXTINF:0001 tvg-id="JTbs2lIH8ln5ro" tvg-chno="771" group-title="🌍 ID" tvg-logo="", Davika TV
 https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8
-#EXTINF:0001 tvg-id="ksjOnBMCR8R7y0" tvg-chno="772" group-title="🇮🇩 Endonezya" tvg-logo="", Dhamma TV
+#EXTINF:0001 tvg-id="ksjOnBMCR8R7y0" tvg-chno="772" group-title="🌍 ID" tvg-logo="", Dhamma TV
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
-#EXTINF:0001 tvg-id="baEpAaJEKajwBU" tvg-chno="773" group-title="🇮🇩 Endonezya" tvg-logo="", Dhoho TV
+#EXTINF:0001 tvg-id="baEpAaJEKajwBU" tvg-chno="773" group-title="🌍 ID" tvg-logo="", Dhoho TV
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
-#EXTINF:0001 tvg-id="hyCTO5BIpsuj6K" tvg-chno="774" group-title="🇮🇩 Endonezya" tvg-logo="", DMI TV
+#EXTINF:0001 tvg-id="hyCTO5BIpsuj6K" tvg-chno="774" group-title="🌍 ID" tvg-logo="", DMI TV
 https://tvstreamcast.com/tawaftv.m3u8
-#EXTINF:0001 tvg-id="U2wJ3BI8Zw3hJZ" tvg-chno="775" group-title="🇮🇩 Endonezya" tvg-logo="", E International Asia
+#EXTINF:0001 tvg-id="U2wJ3BI8Zw3hJZ" tvg-chno="775" group-title="🌍 ID" tvg-logo="", E International Asia
 https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp315.520.789:8060.m3u8
-#EXTINF:0001 tvg-id="2IWnSWLY0ULkRO" tvg-chno="776" group-title="🇮🇩 Endonezya" tvg-logo="", E International Europe
+#EXTINF:0001 tvg-id="2IWnSWLY0ULkRO" tvg-chno="776" group-title="🌍 ID" tvg-logo="", E International Europe
 https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp410.310.578:2020.m3u8
-#EXTINF:0001 tvg-id="Eg0R1qmDu85lEs" tvg-chno="777" group-title="🇮🇩 Endonezya" tvg-logo="", Efarina TV
+#EXTINF:0001 tvg-id="Eg0R1qmDu85lEs" tvg-chno="777" group-title="🌍 ID" tvg-logo="", Efarina TV
 https://live.efarinatv.com/hls/bgtaufikganteng.m3u8
-#EXTINF:0001 tvg-id="swg1noloxNDS5D" tvg-chno="778" group-title="🇮🇩 Endonezya" tvg-logo="", Ficom Channel
+#EXTINF:0001 tvg-id="swg1noloxNDS5D" tvg-chno="778" group-title="🌍 ID" tvg-logo="", Ficom Channel
 https://v3.siar.us/ficomchannel/live/playlist.m3u8
-#EXTINF:0001 tvg-id="LISekcgicAyOGd" tvg-chno="779" group-title="🇮🇩 Endonezya" tvg-logo="", Garuda TV
+#EXTINF:0001 tvg-id="LISekcgicAyOGd" tvg-chno="779" group-title="🌍 ID" tvg-logo="", Garuda TV
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
-#EXTINF:0001 tvg-id="ZJini95ORzUQDh" tvg-chno="780" group-title="🇮🇩 Endonezya" tvg-logo="", Groovia Kanal
+#EXTINF:0001 tvg-id="ZJini95ORzUQDh" tvg-chno="780" group-title="🌍 ID" tvg-logo="", Groovia Kanal
 https://gist.githubusercontent.com/iptvonlinetv/02d209207082846012c15305f7471c55/raw/4439b54b986e696e6fcfba7a53380d85b27bbbc1/udp450.500.723:6050.m3u8
-#EXTINF:0001 tvg-id="VB5Y2IgDFOp8I1" tvg-chno="781" group-title="🇮🇩 Endonezya" tvg-logo="", Groovia Kids
+#EXTINF:0001 tvg-id="VB5Y2IgDFOp8I1" tvg-chno="781" group-title="🌍 ID" tvg-logo="", Groovia Kids
 https://gist.githubusercontent.com/iptvonlinetv/244b66c61f162a7c0c2b4fa59b528139/raw/2376b7ba1989ebbd383301ec7d645e222a6c9338/udp780.510.345:4545.m3u8
-#EXTINF:0001 tvg-id="4XTEtIon4adh6d" tvg-chno="782" group-title="🇮🇩 Endonezya" tvg-logo="", Indonesiana.TV
+#EXTINF:0001 tvg-id="4XTEtIon4adh6d" tvg-chno="782" group-title="🌍 ID" tvg-logo="", Indonesiana.TV
 https://tvstreamcast.com/indonesiana.m3u8
-#EXTINF:0001 tvg-id="T3RkIVyDffmjkr" tvg-chno="783" group-title="🇮🇩 Endonezya" tvg-logo="", Izzah TV
+#EXTINF:0001 tvg-id="T3RkIVyDffmjkr" tvg-chno="783" group-title="🌍 ID" tvg-logo="", Izzah TV
 https://streaming.radiosalamjambi.com/izzahtv.m3u8
-#EXTINF:0001 tvg-id="AwWVoTg8nnvs2w" tvg-chno="784" group-title="🇮🇩 Endonezya" tvg-logo="", Jambi TV
+#EXTINF:0001 tvg-id="AwWVoTg8nnvs2w" tvg-chno="784" group-title="🌍 ID" tvg-logo="", Jambi TV
 https://jambitv.globaldigitalcore.com/hls/sah5tu7Eiveepohyieyie3OoteL2anga.m3u8
-#EXTINF:0001 tvg-id="0xr9dDKplwszmy" tvg-chno="785" group-title="🇮🇩 Endonezya" tvg-logo="", Kids TV
+#EXTINF:0001 tvg-id="0xr9dDKplwszmy" tvg-chno="785" group-title="🌍 ID" tvg-logo="", Kids TV
 https://origin5.mediacdn.ru/live/kidstv/index.m3u8
-#EXTINF:0001 tvg-id="Ootv8lcMdtj5Da" tvg-chno="786" group-title="🇮🇩 Endonezya" tvg-logo="", Kilisuci TV
+#EXTINF:0001 tvg-id="Ootv8lcMdtj5Da" tvg-chno="786" group-title="🌍 ID" tvg-logo="", Kilisuci TV
 https://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8
-#EXTINF:0001 tvg-id="0KL7HXYYAtsJlk" tvg-chno="787" group-title="🇮🇩 Endonezya" tvg-logo="", Lingkar TV
+#EXTINF:0001 tvg-id="0KL7HXYYAtsJlk" tvg-chno="787" group-title="🌍 ID" tvg-logo="", Lingkar TV
 https://lingkartv.my.id/hls/lingkartv.m3u8
-#EXTINF:0001 tvg-id="ImH0HN1MdNlCn0" tvg-chno="788" group-title="🇮🇩 Endonezya" tvg-logo="", Madu TV
+#EXTINF:0001 tvg-id="ImH0HN1MdNlCn0" tvg-chno="788" group-title="🌍 ID" tvg-logo="", Madu TV
 https://re1.siar.us/madutv/hd720/playlist.m3u8
-#EXTINF:0001 tvg-id="ayjkn7ZDTaMfjh" tvg-chno="789" group-title="🇮🇩 Endonezya" tvg-logo="", Magna Channel
+#EXTINF:0001 tvg-id="ayjkn7ZDTaMfjh" tvg-chno="789" group-title="🌍 ID" tvg-logo="", Magna Channel
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="6Oy6l4nSQLXeVV" tvg-chno="790" group-title="🇮🇩 Endonezya" tvg-logo="", Matrix TV Yogyakarta
+#EXTINF:0001 tvg-id="6Oy6l4nSQLXeVV" tvg-chno="790" group-title="🌍 ID" tvg-logo="", Matrix TV Yogyakarta
 https://stream.matrixtv.id/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="VYzPIJkb2iBgYd" tvg-chno="791" group-title="🇮🇩 Endonezya" tvg-logo="", MGSTV
+#EXTINF:0001 tvg-id="VYzPIJkb2iBgYd" tvg-chno="791" group-title="🌍 ID" tvg-logo="", MGSTV
 https://mgstv.siar.us/live/mgstv.m3u8
-#EXTINF:0001 tvg-id="AL5enZ9zRbuM0T" tvg-chno="792" group-title="🇮🇩 Endonezya" tvg-logo="", MQTV
+#EXTINF:0001 tvg-id="AL5enZ9zRbuM0T" tvg-chno="792" group-title="🌍 ID" tvg-logo="", MQTV
 https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
-#EXTINF:0001 tvg-id="L5BvWuf8rlqBr4" tvg-chno="793" group-title="🇮🇩 Endonezya" tvg-logo="", Music Information Channel
+#EXTINF:0001 tvg-id="L5BvWuf8rlqBr4" tvg-chno="793" group-title="🌍 ID" tvg-logo="", Music Information Channel
 https://mic.siar.us/mic/live/mic.m3u8
-#EXTINF:0001 tvg-id="D6GBQhdMfQr39B" tvg-chno="794" group-title="🇮🇩 Endonezya" tvg-logo="", Naajiya TV
+#EXTINF:0001 tvg-id="D6GBQhdMfQr39B" tvg-chno="794" group-title="🌍 ID" tvg-logo="", Naajiya TV
 https://www.naajiyatv.com/live/livestream.m3u8
-#EXTINF:0001 tvg-id="ZAMsD9HhaPz9Bn" tvg-chno="795" group-title="🇮🇩 Endonezya" tvg-logo="", Nusantara TV
+#EXTINF:0001 tvg-id="ZAMsD9HhaPz9Bn" tvg-chno="795" group-title="🌍 ID" tvg-logo="", Nusantara TV
 https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-#EXTINF:0001 tvg-id="WBUDfuwdrsRZbo" tvg-chno="796" group-title="🇮🇩 Endonezya" tvg-logo="", PKTV
+#EXTINF:0001 tvg-id="WBUDfuwdrsRZbo" tvg-chno="796" group-title="🌍 ID" tvg-logo="", PKTV
 https://streaming.id18.tunnel.my.id/hls/stream.m3u8
-#EXTINF:0001 tvg-id="ggkBalQqNc86oy" tvg-chno="797" group-title="🇮🇩 Endonezya" tvg-logo="", Puja TV Aceh
+#EXTINF:0001 tvg-id="ggkBalQqNc86oy" tvg-chno="797" group-title="🌍 ID" tvg-logo="", Puja TV Aceh
 https://pujatv.siar.us/live/pujatv.m3u8
-#EXTINF:0001 tvg-id="3v2UZx2WqrnRDM" tvg-chno="798" group-title="🇮🇩 Endonezya" tvg-logo="", Radar Tasikmalaya TV
+#EXTINF:0001 tvg-id="3v2UZx2WqrnRDM" tvg-chno="798" group-title="🌍 ID" tvg-logo="", Radar Tasikmalaya TV
 https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
-#EXTINF:0001 tvg-id="VC5E0MneSZlKkr" tvg-chno="799" group-title="🇮🇩 Endonezya" tvg-logo="", Rajawali TV
+#EXTINF:0001 tvg-id="VC5E0MneSZlKkr" tvg-chno="799" group-title="🌍 ID" tvg-logo="", Rajawali TV
 https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
-#EXTINF:0001 tvg-id="2osdXOCanj9JNQ" tvg-chno="800" group-title="🇮🇩 Endonezya" tvg-logo="", RCTV
+#EXTINF:0001 tvg-id="2osdXOCanj9JNQ" tvg-chno="800" group-title="🌍 ID" tvg-logo="", RCTV
 https://v10.siar.us/rctv/live/playlist.m3u8
-#EXTINF:0001 tvg-id="GyYMyUUtPptNeI" tvg-chno="801" group-title="🇮🇩 Endonezya" tvg-logo="", Rinjani TV
+#EXTINF:0001 tvg-id="GyYMyUUtPptNeI" tvg-chno="801" group-title="🌍 ID" tvg-logo="", Rinjani TV
 https://rinjanitv.cloud/hls/tvkabel.m3u8
-#EXTINF:0001 tvg-id="FbrCzMwlpQjYEF" tvg-chno="802" group-title="🇮🇩 Endonezya" tvg-logo="", Rodja TV
+#EXTINF:0001 tvg-id="FbrCzMwlpQjYEF" tvg-chno="802" group-title="🌍 ID" tvg-logo="", Rodja TV
 https://rodjatv.com/rodjatv/live.m3u8
-#EXTINF:0001 tvg-id="4XHmhUHFvR9eAr" tvg-chno="803" group-title="🇮🇩 Endonezya" tvg-logo="", RRI Net
+#EXTINF:0001 tvg-id="4XHmhUHFvR9eAr" tvg-chno="803" group-title="🌍 ID" tvg-logo="", RRI Net
 https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8
-#EXTINF:0001 tvg-id="qWijccdHGumaJp" tvg-chno="804" group-title="🇮🇩 Endonezya" tvg-logo="", Salira TV
+#EXTINF:0001 tvg-id="qWijccdHGumaJp" tvg-chno="804" group-title="🌍 ID" tvg-logo="", Salira TV
 https://live.salira.tv:3870/stream/play.m3u8
-#EXTINF:0001 tvg-id="Cx1Butu3HjYB81" tvg-chno="805" group-title="🇮🇩 Endonezya" tvg-logo="", Sampit TV
+#EXTINF:0001 tvg-id="Cx1Butu3HjYB81" tvg-chno="805" group-title="🌍 ID" tvg-logo="", Sampit TV
 https://sampit-tv.siar.us/live/sampit-tv.m3u8
-#EXTINF:0001 tvg-id="4WttbEI2P66IMh" tvg-chno="806" group-title="🇮🇩 Endonezya" tvg-logo="", Sangaji TV
+#EXTINF:0001 tvg-id="4WttbEI2P66IMh" tvg-chno="806" group-title="🌍 ID" tvg-logo="", Sangaji TV
 https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
-#EXTINF:0001 tvg-id="pJu6TwMXSbyJfF" tvg-chno="807" group-title="🇮🇩 Endonezya" tvg-logo="", SMTV
+#EXTINF:0001 tvg-id="pJu6TwMXSbyJfF" tvg-chno="807" group-title="🌍 ID" tvg-logo="", SMTV
 https://e.siar.us/live/smtv.m3u8
-#EXTINF:0001 tvg-id="0cfFq7pSzUjjN2" tvg-chno="808" group-title="🇮🇩 Endonezya" tvg-logo="", Sriwijaya TV
+#EXTINF:0001 tvg-id="0cfFq7pSzUjjN2" tvg-chno="808" group-title="🌍 ID" tvg-logo="", Sriwijaya TV
 https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
-#EXTINF:0001 tvg-id="ig8Heof5b0HbF8" tvg-chno="809" group-title="🇮🇩 Endonezya" tvg-logo="", Stara TV Bandung
+#EXTINF:0001 tvg-id="ig8Heof5b0HbF8" tvg-chno="809" group-title="🌍 ID" tvg-logo="", Stara TV Bandung
 https://bandung.staratv.id/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="KbDB4QEpUzNUxH" tvg-chno="810" group-title="🇮🇩 Endonezya" tvg-logo="", Stara TV Bojonegoro
+#EXTINF:0001 tvg-id="KbDB4QEpUzNUxH" tvg-chno="810" group-title="🌍 ID" tvg-logo="", Stara TV Bojonegoro
 https://bojonegoro.staratv.id/hls/stream.m3u8
-#EXTINF:0001 tvg-id="wQh13Um5b8b6uA" tvg-chno="811" group-title="🇮🇩 Endonezya" tvg-logo="", Stara TV Cianjur
+#EXTINF:0001 tvg-id="wQh13Um5b8b6uA" tvg-chno="811" group-title="🌍 ID" tvg-logo="", Stara TV Cianjur
 https://cianjur.staratv.id/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="ZoNXvmHxoV9FP6" tvg-chno="812" group-title="🇮🇩 Endonezya" tvg-logo="", Stara TV Jakarta
+#EXTINF:0001 tvg-id="ZoNXvmHxoV9FP6" tvg-chno="812" group-title="🌍 ID" tvg-logo="", Stara TV Jakarta
 https://jakarta.staratv.id/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="2p68S1VfZNBPKr" tvg-chno="813" group-title="🇮🇩 Endonezya" tvg-logo="", Stara TV Malang
+#EXTINF:0001 tvg-id="2p68S1VfZNBPKr" tvg-chno="813" group-title="🌍 ID" tvg-logo="", Stara TV Malang
 https://malang.staratv.id/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="VlTqmmCrkrzowb" tvg-chno="814" group-title="🇮🇩 Endonezya" tvg-logo="", Stara TV Parahyangan
+#EXTINF:0001 tvg-id="VlTqmmCrkrzowb" tvg-chno="814" group-title="🌍 ID" tvg-logo="", Stara TV Parahyangan
 https://parahyangan.staratv.id/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="JQzmFk2NU8wzUf" tvg-chno="815" group-title="🇮🇩 Endonezya" tvg-logo="", Stara TV Sumedang & Majalengka
+#EXTINF:0001 tvg-id="JQzmFk2NU8wzUf" tvg-chno="815" group-title="🌍 ID" tvg-logo="", Stara TV Sumedang & Majalengka
 https://stream.staratv.id/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="DoFmcYHnbbjDFG" tvg-chno="816" group-title="🇮🇩 Endonezya" tvg-logo="", TATV
+#EXTINF:0001 tvg-id="DoFmcYHnbbjDFG" tvg-chno="816" group-title="🌍 ID" tvg-logo="", TATV
 https://v2.siar.us/tatv/live.sdp/playlist.m3u8
-#EXTINF:0001 tvg-id="x4lyf4pNwLJhfT" tvg-chno="817" group-title="🇮🇩 Endonezya" tvg-logo="", The Indonesia Channel
+#EXTINF:0001 tvg-id="x4lyf4pNwLJhfT" tvg-chno="817" group-title="🌍 ID" tvg-logo="", The Indonesia Channel
 https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8
-#EXTINF:0001 tvg-id="MldkU5TeMLyeQs" tvg-chno="818" group-title="🇮🇩 Endonezya" tvg-logo="", TV 9 Nusantara
+#EXTINF:0001 tvg-id="MldkU5TeMLyeQs" tvg-chno="818" group-title="🌍 ID" tvg-logo="", TV 9 Nusantara
 https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
-#EXTINF:0001 tvg-id="Pu17TwY3OoDiLo" tvg-chno="819" group-title="🇮🇩 Endonezya" tvg-logo="", TV Mu
+#EXTINF:0001 tvg-id="Pu17TwY3OoDiLo" tvg-chno="819" group-title="🌍 ID" tvg-logo="", TV Mu
 https://e.siar.us/live/tvmu.m3u8
-#EXTINF:0001 tvg-id="Q5bB6xe7tPE7vf" tvg-chno="820" group-title="🇮🇩 Endonezya" tvg-logo="", TV Tabalong
+#EXTINF:0001 tvg-id="Q5bB6xe7tPE7vf" tvg-chno="820" group-title="🌍 ID" tvg-logo="", TV Tabalong
 https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
-#EXTINF:0001 tvg-id="AIvndURhkfCKoa" tvg-chno="821" group-title="🇮🇩 Endonezya" tvg-logo="", TVKU
+#EXTINF:0001 tvg-id="AIvndURhkfCKoa" tvg-chno="821" group-title="🌍 ID" tvg-logo="", TVKU
 https://tvku.tv/hlsstream/hls/live.m3u8
-#EXTINF:0001 tvg-id="ItdiUzCLxUhI0G" tvg-chno="822" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI
+#EXTINF:0001 tvg-id="ItdiUzCLxUhI0G" tvg-chno="822" group-title="🌍 ID" tvg-logo="", TVRI
 https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
-#EXTINF:0001 tvg-id="XJ4dEYCzTYDhWM" tvg-chno="823" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Aceh
+#EXTINF:0001 tvg-id="XJ4dEYCzTYDhWM" tvg-chno="823" group-title="🌍 ID" tvg-logo="", TVRI Aceh
 https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
-#EXTINF:0001 tvg-id="F0wNTAcxVnBo4B" tvg-chno="824" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Bali
+#EXTINF:0001 tvg-id="F0wNTAcxVnBo4B" tvg-chno="824" group-title="🌍 ID" tvg-logo="", TVRI Bali
 https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8
-#EXTINF:0001 tvg-id="sN4o2leEYvu2mV" tvg-chno="825" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Bangka Belitung
+#EXTINF:0001 tvg-id="sN4o2leEYvu2mV" tvg-chno="825" group-title="🌍 ID" tvg-logo="", TVRI Bangka Belitung
 https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8
-#EXTINF:0001 tvg-id="Wl58rN1gU5bK4Q" tvg-chno="826" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Bengkulu
+#EXTINF:0001 tvg-id="Wl58rN1gU5bK4Q" tvg-chno="826" group-title="🌍 ID" tvg-logo="", TVRI Bengkulu
 https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8
-#EXTINF:0001 tvg-id="4rgiWj82tXQkHf" tvg-chno="827" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Gorontalo
+#EXTINF:0001 tvg-id="4rgiWj82tXQkHf" tvg-chno="827" group-title="🌍 ID" tvg-logo="", TVRI Gorontalo
 https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8
-#EXTINF:0001 tvg-id="tK8jLP45RZVKpL" tvg-chno="828" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Jakarta
+#EXTINF:0001 tvg-id="tK8jLP45RZVKpL" tvg-chno="828" group-title="🌍 ID" tvg-logo="", TVRI Jakarta
 https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8
-#EXTINF:0001 tvg-id="NaUc6ArGQbtf0k" tvg-chno="829" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Jambi
+#EXTINF:0001 tvg-id="NaUc6ArGQbtf0k" tvg-chno="829" group-title="🌍 ID" tvg-logo="", TVRI Jambi
 https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8
-#EXTINF:0001 tvg-id="tNmidmZ11402xS" tvg-chno="830" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Jawa Barat
+#EXTINF:0001 tvg-id="tNmidmZ11402xS" tvg-chno="830" group-title="🌍 ID" tvg-logo="", TVRI Jawa Barat
 https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
-#EXTINF:0001 tvg-id="sSY5aRAP59glcD" tvg-chno="831" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Jawa Tengah
+#EXTINF:0001 tvg-id="sSY5aRAP59glcD" tvg-chno="831" group-title="🌍 ID" tvg-logo="", TVRI Jawa Tengah
 https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8
-#EXTINF:0001 tvg-id="Hch4jnCIdQX0Fi" tvg-chno="832" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Jawa Timur
+#EXTINF:0001 tvg-id="Hch4jnCIdQX0Fi" tvg-chno="832" group-title="🌍 ID" tvg-logo="", TVRI Jawa Timur
 https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
-#EXTINF:0001 tvg-id="mdPE8daQzbZFSj" tvg-chno="833" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Kalimantan Barat
+#EXTINF:0001 tvg-id="mdPE8daQzbZFSj" tvg-chno="833" group-title="🌍 ID" tvg-logo="", TVRI Kalimantan Barat
 https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8
-#EXTINF:0001 tvg-id="V9RgtBNmc3nzI5" tvg-chno="834" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Kalimantan Selatan
+#EXTINF:0001 tvg-id="V9RgtBNmc3nzI5" tvg-chno="834" group-title="🌍 ID" tvg-logo="", TVRI Kalimantan Selatan
 https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8
-#EXTINF:0001 tvg-id="YJ98rmQV21LGlF" tvg-chno="835" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Kalimantan Tengah
+#EXTINF:0001 tvg-id="YJ98rmQV21LGlF" tvg-chno="835" group-title="🌍 ID" tvg-logo="", TVRI Kalimantan Tengah
 https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8
-#EXTINF:0001 tvg-id="UZtbdlM4AtLRh4" tvg-chno="836" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Kalimantan Timur
+#EXTINF:0001 tvg-id="UZtbdlM4AtLRh4" tvg-chno="836" group-title="🌍 ID" tvg-logo="", TVRI Kalimantan Timur
 https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8
-#EXTINF:0001 tvg-id="aKhPxO0qIJnOmB" tvg-chno="837" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Lampung
+#EXTINF:0001 tvg-id="aKhPxO0qIJnOmB" tvg-chno="837" group-title="🌍 ID" tvg-logo="", TVRI Lampung
 https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8
-#EXTINF:0001 tvg-id="xAe3wKMPLdjB8T" tvg-chno="838" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Maluku
+#EXTINF:0001 tvg-id="xAe3wKMPLdjB8T" tvg-chno="838" group-title="🌍 ID" tvg-logo="", TVRI Maluku
 https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8
-#EXTINF:0001 tvg-id="4lgXnmhGxV9Mm5" tvg-chno="839" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI North Sulawesi
+#EXTINF:0001 tvg-id="4lgXnmhGxV9Mm5" tvg-chno="839" group-title="🌍 ID" tvg-logo="", TVRI North Sulawesi
 https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8
-#EXTINF:0001 tvg-id="IFuLYd1zf8pEZM" tvg-chno="840" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI North Sumatra
+#EXTINF:0001 tvg-id="IFuLYd1zf8pEZM" tvg-chno="840" group-title="🌍 ID" tvg-logo="", TVRI North Sumatra
 https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8
-#EXTINF:0001 tvg-id="cfLATw44Elyjwj" tvg-chno="841" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Nusa Tenggara Barat
+#EXTINF:0001 tvg-id="cfLATw44Elyjwj" tvg-chno="841" group-title="🌍 ID" tvg-logo="", TVRI Nusa Tenggara Barat
 https://ott-balancer.tvri.go.id/live/eds/NTB/hls/NTB.m3u8
-#EXTINF:0001 tvg-id="UeJJoisyDzx5D1" tvg-chno="842" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Nusa Tenggara Timur
+#EXTINF:0001 tvg-id="UeJJoisyDzx5D1" tvg-chno="842" group-title="🌍 ID" tvg-logo="", TVRI Nusa Tenggara Timur
 https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8
-#EXTINF:0001 tvg-id="cOrygxH7QFbjGa" tvg-chno="843" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Papua
+#EXTINF:0001 tvg-id="cOrygxH7QFbjGa" tvg-chno="843" group-title="🌍 ID" tvg-logo="", TVRI Papua
 https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8
-#EXTINF:0001 tvg-id="MehwfGmaYpHRPe" tvg-chno="844" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Riau
+#EXTINF:0001 tvg-id="MehwfGmaYpHRPe" tvg-chno="844" group-title="🌍 ID" tvg-logo="", TVRI Riau
 https://ott-balancer.tvri.go.id/live/eds/Riau/hls/Riau.m3u8
-#EXTINF:0001 tvg-id="cSiW0KDziigtPl" tvg-chno="845" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Sulawesi Barat
+#EXTINF:0001 tvg-id="cSiW0KDziigtPl" tvg-chno="845" group-title="🌍 ID" tvg-logo="", TVRI Sulawesi Barat
 https://ott-balancer.tvri.go.id/live/eds/Sulbar/hls/Sulbar.m3u8
-#EXTINF:0001 tvg-id="5BD8NXhLlxGRfy" tvg-chno="846" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Sulawesi Selatan
+#EXTINF:0001 tvg-id="5BD8NXhLlxGRfy" tvg-chno="846" group-title="🌍 ID" tvg-logo="", TVRI Sulawesi Selatan
 https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8
-#EXTINF:0001 tvg-id="TDtA1ok3J1ZDYf" tvg-chno="847" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Sulawesi Tengah
+#EXTINF:0001 tvg-id="TDtA1ok3J1ZDYf" tvg-chno="847" group-title="🌍 ID" tvg-logo="", TVRI Sulawesi Tengah
 https://ott-balancer.tvri.go.id/live/eds/Sulteng/hls/Sulteng.m3u8
-#EXTINF:0001 tvg-id="Z3T1pXv7DuaEVH" tvg-chno="848" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Sulawesi Tenggara
+#EXTINF:0001 tvg-id="Z3T1pXv7DuaEVH" tvg-chno="848" group-title="🌍 ID" tvg-logo="", TVRI Sulawesi Tenggara
 https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8
-#EXTINF:0001 tvg-id="X4H5Pu8n7KzSfo" tvg-chno="849" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Sumatera Barat
+#EXTINF:0001 tvg-id="X4H5Pu8n7KzSfo" tvg-chno="849" group-title="🌍 ID" tvg-logo="", TVRI Sumatera Barat
 https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8
-#EXTINF:0001 tvg-id="OiwSD38h5Rq2nc" tvg-chno="850" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Sumatera Selatan
+#EXTINF:0001 tvg-id="OiwSD38h5Rq2nc" tvg-chno="850" group-title="🌍 ID" tvg-logo="", TVRI Sumatera Selatan
 https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8
-#EXTINF:0001 tvg-id="m5b5e8rYhGOpbt" tvg-chno="851" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI West Papua
+#EXTINF:0001 tvg-id="m5b5e8rYhGOpbt" tvg-chno="851" group-title="🌍 ID" tvg-logo="", TVRI West Papua
 https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8
-#EXTINF:0001 tvg-id="LOyzBz4raU7KUo" tvg-chno="852" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI World
+#EXTINF:0001 tvg-id="LOyzBz4raU7KUo" tvg-chno="852" group-title="🌍 ID" tvg-logo="", TVRI World
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
-#EXTINF:0001 tvg-id="UM1CVLiIjzrIdV" tvg-chno="853" group-title="🇮🇩 Endonezya" tvg-logo="", TVRI Yogyakarta
+#EXTINF:0001 tvg-id="UM1CVLiIjzrIdV" tvg-chno="853" group-title="🌍 ID" tvg-logo="", TVRI Yogyakarta
 https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
-#EXTINF:0001 tvg-id="g5xZd9yme6tjFT" tvg-chno="854" group-title="🇮🇩 Endonezya" tvg-logo="", U Channel
+#EXTINF:0001 tvg-id="g5xZd9yme6tjFT" tvg-chno="854" group-title="🌍 ID" tvg-logo="", U Channel
 https://srs.u-channel.tv/live/uchannel-tv.m3u8
-#EXTINF:0001 tvg-id="SlDXX35NImvk2c" tvg-chno="855" group-title="🇮🇩 Endonezya" tvg-logo="", UGTV
+#EXTINF:0001 tvg-id="SlDXX35NImvk2c" tvg-chno="855" group-title="🌍 ID" tvg-logo="", UGTV
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
-#EXTINF:0001 tvg-id="1lNNrVKg7dpBUl" tvg-chno="856" group-title="🇮🇩 Endonezya" tvg-logo="", YOY International
+#EXTINF:0001 tvg-id="1lNNrVKg7dpBUl" tvg-chno="856" group-title="🌍 ID" tvg-logo="", YOY International
 https://gist.githubusercontent.com/iptvonlinetv/8a6b2f12e5e968537378f1245cea02c9/raw/78bf84476f8e24cc8ea9d5ac24855078c61b18db/udp305.575.530:3030.m3u8
 #EXTINF:0001 tvg-id="ODGy5xci7GyHGP" tvg-chno="857" group-title="🌍 KN" tvg-logo="", Television Caribbean
 https://live.kingdom-tv.com:3545/stream/play.m3u8
@@ -3399,23 +3399,23 @@ https://stream.mcquack.net/29/index.m3u8
 https://stream.mcquack.net/375/index.m3u8
 #EXTINF:0001 tvg-id="Mm9rlnBN8JBOMs" tvg-chno="1701" group-title="🌍 LT" tvg-logo="", TV8
 https://stream.mcquack.net/374/index.m3u8
-#EXTINF:0001 tvg-id="nNFimxQyKo4XVv" tvg-chno="1702" group-title="🇦🇲 Ermenistan" tvg-logo="", Armenia 1
+#EXTINF:0001 tvg-id="nNFimxQyKo4XVv" tvg-chno="1702" group-title="🌍 AM" tvg-logo="", Armenia 1
 https://ifl01eu-new.bozztv.com/am1abr/index.m3u8
-#EXTINF:0001 tvg-id="QtcUq072FGwBxQ" tvg-chno="1703" group-title="🇦🇲 Ermenistan" tvg-logo="", Armenia 1 Sattelite
+#EXTINF:0001 tvg-id="QtcUq072FGwBxQ" tvg-chno="1703" group-title="🌍 AM" tvg-logo="", Armenia 1 Sattelite
 https://amtv.tulixcdn.com/amtv2/am2abr/index.m3u8
-#EXTINF:0001 tvg-id="WYGFKQdrOFbKnq" tvg-chno="1704" group-title="🇦🇲 Ermenistan" tvg-logo="", Armenia 2
+#EXTINF:0001 tvg-id="WYGFKQdrOFbKnq" tvg-chno="1704" group-title="🌍 AM" tvg-logo="", Armenia 2
 https://amtv.tulixcdn.com/amtv3/am3abr/index.m3u8
-#EXTINF:0001 tvg-id="dDnyN8zimYOf3P" tvg-chno="1705" group-title="🇦🇲 Ermenistan" tvg-logo="", Armenia Premium
+#EXTINF:0001 tvg-id="dDnyN8zimYOf3P" tvg-chno="1705" group-title="🌍 AM" tvg-logo="", Armenia Premium
 https://stream.mcquack.net/123/index.m3u8
-#EXTINF:0001 tvg-id="bYYMwaB9DMbAOl" tvg-chno="1706" group-title="🇦🇲 Ermenistan" tvg-logo="", Armenia TV Satellite
+#EXTINF:0001 tvg-id="bYYMwaB9DMbAOl" tvg-chno="1706" group-title="🌍 AM" tvg-logo="", Armenia TV Satellite
 https://stream.mcquack.net/175/index.m3u8
-#EXTINF:0001 tvg-id="w1yuY9lAC47A0r" tvg-chno="1707" group-title="🇦🇲 Ermenistan" tvg-logo="", ATV
+#EXTINF:0001 tvg-id="w1yuY9lAC47A0r" tvg-chno="1707" group-title="🌍 AM" tvg-logo="", ATV
 https://stream.mcquack.net/36/index.m3u8
-#EXTINF:0001 tvg-id="pKOdpT5WzCBSuI" tvg-chno="1708" group-title="🇦🇲 Ermenistan" tvg-logo="", First Channel News
+#EXTINF:0001 tvg-id="pKOdpT5WzCBSuI" tvg-chno="1708" group-title="🌍 AM" tvg-logo="", First Channel News
 https://amtvusdvr.tulix.tv/am3abr/index.m3u8
-#EXTINF:0001 tvg-id="AUEpwvT4164Iec" tvg-chno="1709" group-title="🇦🇲 Ermenistan" tvg-logo="", Kentron TV
+#EXTINF:0001 tvg-id="AUEpwvT4164Iec" tvg-chno="1709" group-title="🌍 AM" tvg-logo="", Kentron TV
 https://stream.mcquack.net/39/index.m3u8
-#EXTINF:0001 tvg-id="HXm42acAaPJsWI" tvg-chno="1710" group-title="🇦🇲 Ermenistan" tvg-logo="", Shant TV
+#EXTINF:0001 tvg-id="HXm42acAaPJsWI" tvg-chno="1710" group-title="🌍 AM" tvg-logo="", Shant TV
 https://stream.mcquack.net/37/index.m3u8
 #EXTINF:0001 tvg-id="pNzTqn1VuRMufb" tvg-chno="1711" group-title="🌍 YE" tvg-logo="", Al Masirah
 https://live.cdnbridge.tv/Almasirah/Almasirah_all/playlist.m3u8
@@ -3943,97 +3943,97 @@ https://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8
 https://lana.psm.mv/live/mtv.m3u8
 #EXTINF:0001 tvg-id="A9wsFdDEQAIayf" tvg-chno="1973" group-title="🌍 MV" tvg-logo="", MMTV
 https://sendlive.online/hls/mmtv.m3u8
-#EXTINF:0001 tvg-id="79lqDZYF5l4OvA" tvg-chno="2116" group-title="🇻🇳 Vietnam" tvg-logo="", An Ninh TV
+#EXTINF:0001 tvg-id="79lqDZYF5l4OvA" tvg-chno="2116" group-title="🌍 VN" tvg-logo="", An Ninh TV
 https://live.fptplay53.net/fnxhd2/anninhtv_vhls.smil/chunklist.m3u8
-#EXTINF:0001 tvg-id="n5a2vy0RLNr42v" tvg-chno="2117" group-title="🇻🇳 Vietnam" tvg-logo="", Can Tho TV
+#EXTINF:0001 tvg-id="n5a2vy0RLNr42v" tvg-chno="2117" group-title="🌍 VN" tvg-logo="", Can Tho TV
 https://live.canthotv.vn/live/tv/chunklist.m3u8
-#EXTINF:0001 tvg-id="w9iKnoeRBQ99pR" tvg-chno="2118" group-title="🇻🇳 Vietnam" tvg-logo="", Can Tho TV 2
+#EXTINF:0001 tvg-id="w9iKnoeRBQ99pR" tvg-chno="2118" group-title="🌍 VN" tvg-logo="", Can Tho TV 2
 https://live.canthotv.vn/cs2/live.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="9mkVX2EDgu3ZHf" tvg-chno="2119" group-title="🇻🇳 Vietnam" tvg-logo="", Can Tho TV 3
+#EXTINF:0001 tvg-id="9mkVX2EDgu3ZHf" tvg-chno="2119" group-title="🌍 VN" tvg-logo="", Can Tho TV 3
 https://live.canthotv.vn/cs3/tv/chunklist.m3u8
-#EXTINF:0001 tvg-id="Sk5ADelRPJvLlV" tvg-chno="2120" group-title="🇻🇳 Vietnam" tvg-logo="", Cao Bang TV
+#EXTINF:0001 tvg-id="Sk5ADelRPJvLlV" tvg-chno="2120" group-title="🌍 VN" tvg-logo="", Cao Bang TV
 https://stream.thingnet.vn/live/smil:CRTV.smil/chunklist.m3u8
-#EXTINF:0001 tvg-id="YbJKFpPbkRwCoQ" tvg-chno="2121" group-title="🇻🇳 Vietnam" tvg-logo="", Dien Bien TV
+#EXTINF:0001 tvg-id="YbJKFpPbkRwCoQ" tvg-chno="2121" group-title="🌍 VN" tvg-logo="", Dien Bien TV
 https://stream.langsontv.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/playlist.m3u8
-#EXTINF:0001 tvg-id="uqY1lmyz1EQJF2" tvg-chno="2122" group-title="🇻🇳 Vietnam" tvg-logo="", Dong Nai TV 2
+#EXTINF:0001 tvg-id="uqY1lmyz1EQJF2" tvg-chno="2122" group-title="🌍 VN" tvg-logo="", Dong Nai TV 2
 https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8
-#EXTINF:0001 tvg-id="QnYbafq8SSO9v0" tvg-chno="2123" group-title="🇻🇳 Vietnam" tvg-logo="", HanoiTV1
+#EXTINF:0001 tvg-id="QnYbafq8SSO9v0" tvg-chno="2123" group-title="🌍 VN" tvg-logo="", HanoiTV1
 https://cloudstreamhntv.tek4tv.vn/capture/smil:HN1.smil/chunklist.m3u8
-#EXTINF:0001 tvg-id="YXhIUBVYB9tHBa" tvg-chno="2124" group-title="🇻🇳 Vietnam" tvg-logo="", HTV Sports
+#EXTINF:0001 tvg-id="YXhIUBVYB9tHBa" tvg-chno="2124" group-title="🌍 VN" tvg-logo="", HTV Sports
 https://live.fptplay53.net/epzhd1/htvcthethao_vhls.smil/chunklist.m3u8
-#EXTINF:0001 tvg-id="6EdtrtcTzJTHBM" tvg-chno="2125" group-title="🇻🇳 Vietnam" tvg-logo="", HTV4
+#EXTINF:0001 tvg-id="6EdtrtcTzJTHBM" tvg-chno="2125" group-title="🌍 VN" tvg-logo="", HTV4
 https://freem3u.xyz/api/live/play.m3u8?vid=9
-#EXTINF:0001 tvg-id="tZZYFUzbbvaZ5U" tvg-chno="2126" group-title="🇻🇳 Vietnam" tvg-logo="", HTV9
+#EXTINF:0001 tvg-id="tZZYFUzbbvaZ5U" tvg-chno="2126" group-title="🌍 VN" tvg-logo="", HTV9
 https://live.fptplay53.net/epzhd1/htv9hd_vhls.smil/chunklist.m3u8
-#EXTINF:0001 tvg-id="mBI5by4rAF4VMT" tvg-chno="2127" group-title="🇻🇳 Vietnam" tvg-logo="", Khanh Hoa TV
+#EXTINF:0001 tvg-id="mBI5by4rAF4VMT" tvg-chno="2127" group-title="🌍 VN" tvg-logo="", Khanh Hoa TV
 https://cdnbaokhanhhoa.com/live/1332e3a79e27.m3u8?vhost=video
-#EXTINF:0001 tvg-id="nfUMYUgBEhhJaP" tvg-chno="2128" group-title="🇻🇳 Vietnam" tvg-logo="", Lao SV TV
+#EXTINF:0001 tvg-id="nfUMYUgBEhhJaP" tvg-chno="2128" group-title="🌍 VN" tvg-logo="", Lao SV TV
 https://livefta.malimarcdn.com/ftaedge00/laosvtv.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="GYggfQq3olGvXb" tvg-chno="2129" group-title="🇻🇳 Vietnam" tvg-logo="", Lao-Thai TV
+#EXTINF:0001 tvg-id="GYggfQq3olGvXb" tvg-chno="2129" group-title="🌍 VN" tvg-logo="", Lao-Thai TV
 https://livefta.malimarcdn.com/ftaedge00/laothaius.sdp/playlist.m3u8
-#EXTINF:0001 tvg-id="zEnOIJjdfrBmTS" tvg-chno="2130" group-title="🇻🇳 Vietnam" tvg-logo="", Ninh Thuan TV
+#EXTINF:0001 tvg-id="zEnOIJjdfrBmTS" tvg-chno="2130" group-title="🌍 VN" tvg-logo="", Ninh Thuan TV
 https://cdnbaokhanhhoa.com/live/90405a889081.m3u8?vhost=video
-#EXTINF:0001 tvg-id="n1mpNPkxhPEQcZ" tvg-chno="2131" group-title="🇻🇳 Vietnam" tvg-logo="", ON Kids
+#EXTINF:0001 tvg-id="n1mpNPkxhPEQcZ" tvg-chno="2131" group-title="🌍 VN" tvg-logo="", ON Kids
 https://freem3u.xyz/api/live/play.m3u8?vid=179
-#EXTINF:0001 tvg-id="ZaL0G4IX2UbO5f" tvg-chno="2132" group-title="🇻🇳 Vietnam" tvg-logo="", ON Life
+#EXTINF:0001 tvg-id="ZaL0G4IX2UbO5f" tvg-chno="2132" group-title="🌍 VN" tvg-logo="", ON Life
 https://freem3u.xyz/api/live/play.m3u8?vid=188
-#EXTINF:0001 tvg-id="mhvyiXoz4qgSYK" tvg-chno="2133" group-title="🇻🇳 Vietnam" tvg-logo="", ON Movies
+#EXTINF:0001 tvg-id="mhvyiXoz4qgSYK" tvg-chno="2133" group-title="🌍 VN" tvg-logo="", ON Movies
 https://freem3u.xyz/api/live/play.m3u8?vid=181
-#EXTINF:0001 tvg-id="xoIo8RqyHZqZsa" tvg-chno="2134" group-title="🇻🇳 Vietnam" tvg-logo="", ON Vie Drama
+#EXTINF:0001 tvg-id="xoIo8RqyHZqZsa" tvg-chno="2134" group-title="🌍 VN" tvg-logo="", ON Vie Drama
 https://dvrfl05.bozztv.com/vch_vchannel18/index.m3u8
-#EXTINF:0001 tvg-id="1Z09wt5wx76BFs" tvg-chno="2135" group-title="🇻🇳 Vietnam" tvg-logo="", QPVN
+#EXTINF:0001 tvg-id="1Z09wt5wx76BFs" tvg-chno="2135" group-title="🌍 VN" tvg-logo="", QPVN
 https://qpvn.vn/live/qpvn/master.m3u8
-#EXTINF:0001 tvg-id="bO53QaWUMkNQTa" tvg-chno="2136" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV2
+#EXTINF:0001 tvg-id="bO53QaWUMkNQTa" tvg-chno="2136" group-title="🌍 VN" tvg-logo="", SCTV2
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv2/master.m3u8
-#EXTINF:0001 tvg-id="9Bc1NWY7WKYsr6" tvg-chno="2137" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV3
+#EXTINF:0001 tvg-id="9Bc1NWY7WKYsr6" tvg-chno="2137" group-title="🌍 VN" tvg-logo="", SCTV3
 https://vtvgolive-sctvdrm.vtvdigital.vn/bsod999cuteptgyoutuber/1234567890/manifest/sctv3/master.m3u8
-#EXTINF:0001 tvg-id="wkFlSgnzUPYh8q" tvg-chno="2138" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV4
+#EXTINF:0001 tvg-id="wkFlSgnzUPYh8q" tvg-chno="2138" group-title="🌍 VN" tvg-logo="", SCTV4
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv4/master.m3u8
-#EXTINF:0001 tvg-id="8kdpWxJQ1i1LcH" tvg-chno="2139" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV6
+#EXTINF:0001 tvg-id="8kdpWxJQ1i1LcH" tvg-chno="2139" group-title="🌍 VN" tvg-logo="", SCTV6
 https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist.m3u8
-#EXTINF:0001 tvg-id="WDpo6d5ejxs4be" tvg-chno="2140" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV7
+#EXTINF:0001 tvg-id="WDpo6d5ejxs4be" tvg-chno="2140" group-title="🌍 VN" tvg-logo="", SCTV7
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv7/master.m3u8
-#EXTINF:0001 tvg-id="jQi7fnVzAGbIPK" tvg-chno="2141" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV9
+#EXTINF:0001 tvg-id="jQi7fnVzAGbIPK" tvg-chno="2141" group-title="🌍 VN" tvg-logo="", SCTV9
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv9/master.m3u8
-#EXTINF:0001 tvg-id="5b9jEODV2ZV6m3" tvg-chno="2142" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV11
+#EXTINF:0001 tvg-id="5b9jEODV2ZV6m3" tvg-chno="2142" group-title="🌍 VN" tvg-logo="", SCTV11
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv11/master.m3u8
-#EXTINF:0001 tvg-id="qzOpOHIQbhaaz4" tvg-chno="2143" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV12
+#EXTINF:0001 tvg-id="qzOpOHIQbhaaz4" tvg-chno="2143" group-title="🌍 VN" tvg-logo="", SCTV12
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv12/master.m3u8
-#EXTINF:0001 tvg-id="elaBk5LcJ5tYh4" tvg-chno="2144" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV13
+#EXTINF:0001 tvg-id="elaBk5LcJ5tYh4" tvg-chno="2144" group-title="🌍 VN" tvg-logo="", SCTV13
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv13/master.m3u8
-#EXTINF:0001 tvg-id="PtNGgQnZDXvlcI" tvg-chno="2145" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV14
+#EXTINF:0001 tvg-id="PtNGgQnZDXvlcI" tvg-chno="2145" group-title="🌍 VN" tvg-logo="", SCTV14
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv14/master.m3u8
-#EXTINF:0001 tvg-id="Wo8fpFkweOsxrT" tvg-chno="2146" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV16
+#EXTINF:0001 tvg-id="Wo8fpFkweOsxrT" tvg-chno="2146" group-title="🌍 VN" tvg-logo="", SCTV16
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv16/master.m3u8
-#EXTINF:0001 tvg-id="M05odDNtYgQQJN" tvg-chno="2147" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV18
+#EXTINF:0001 tvg-id="M05odDNtYgQQJN" tvg-chno="2147" group-title="🌍 VN" tvg-logo="", SCTV18
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv18/master.m3u8
-#EXTINF:0001 tvg-id="ehPjIuRierqOaC" tvg-chno="2148" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV19
+#EXTINF:0001 tvg-id="ehPjIuRierqOaC" tvg-chno="2148" group-title="🌍 VN" tvg-logo="", SCTV19
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv19/master.m3u8
-#EXTINF:0001 tvg-id="X4tYDhUYfh2xFy" tvg-chno="2149" group-title="🇻🇳 Vietnam" tvg-logo="", SCTV20
+#EXTINF:0001 tvg-id="X4tYDhUYfh2xFy" tvg-chno="2149" group-title="🌍 VN" tvg-logo="", SCTV20
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv20/master.m3u8
-#EXTINF:0001 tvg-id="PeuKDLkczo4q33" tvg-chno="2150" group-title="🇻🇳 Vietnam" tvg-logo="", Son La TV
+#EXTINF:0001 tvg-id="PeuKDLkczo4q33" tvg-chno="2150" group-title="🌍 VN" tvg-logo="", Son La TV
 https://kenhdp-vtvgo.vtvdigital.vn/kenhdp/sonla-720p.m3u8
-#EXTINF:0001 tvg-id="78sapvlwKrQ0tt" tvg-chno="2151" group-title="🇻🇳 Vietnam" tvg-logo="", Tay Ninh TV
+#EXTINF:0001 tvg-id="78sapvlwKrQ0tt" tvg-chno="2151" group-title="🌍 VN" tvg-logo="", Tay Ninh TV
 https://live-hq.evgcdn.net/live/2851dc2c9af68834814a89e61db0faee561/chunklist.m3u8
-#EXTINF:0001 tvg-id="P3wFK2is4nhE2c" tvg-chno="2152" group-title="🇻🇳 Vietnam" tvg-logo="", Tea TV
+#EXTINF:0001 tvg-id="P3wFK2is4nhE2c" tvg-chno="2152" group-title="🌍 VN" tvg-logo="", Tea TV
 https://livefta.malimarcdn.com/ftaedge00/teatv.sdp/playlist.m3u8
-#EXTINF:0001 tvg-id="pr9APH9dYjEJHa" tvg-chno="2153" group-title="🇻🇳 Vietnam" tvg-logo="", Thai Nguyen TV
+#EXTINF:0001 tvg-id="pr9APH9dYjEJHa" tvg-chno="2153" group-title="🌍 VN" tvg-logo="", Thai Nguyen TV
 https://streaming.thainguyentv.vn/hls/livestream.m3u8
-#EXTINF:0001 tvg-id="kykLIpB1I5quZw" tvg-chno="2154" group-title="🇻🇳 Vietnam" tvg-logo="", Thua Thien Hue TV
+#EXTINF:0001 tvg-id="kykLIpB1I5quZw" tvg-chno="2154" group-title="🌍 VN" tvg-logo="", Thua Thien Hue TV
 https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8
-#EXTINF:0001 tvg-id="3ssQc7PdBXGpNU" tvg-chno="2155" group-title="🇻🇳 Vietnam" tvg-logo="", Tien Giang TV
+#EXTINF:0001 tvg-id="3ssQc7PdBXGpNU" tvg-chno="2155" group-title="🌍 VN" tvg-logo="", Tien Giang TV
 https://618b88f69e53b.streamlock.net/THDT2/thdttv2/chunklist.m3u8
-#EXTINF:0001 tvg-id="4VBfGEAGOsSdAE" tvg-chno="2156" group-title="🇻🇳 Vietnam" tvg-logo="", Tra Vinh TV
+#EXTINF:0001 tvg-id="4VBfGEAGOsSdAE" tvg-chno="2156" group-title="🌍 VN" tvg-logo="", Tra Vinh TV
 https://freem3u.xyz/api/live/play.m3u8?vid=91
-#EXTINF:0001 tvg-id="OHw1zTMDs2YTrv" tvg-chno="2157" group-title="🇻🇳 Vietnam" tvg-logo="", TVB Vietnam
+#EXTINF:0001 tvg-id="OHw1zTMDs2YTrv" tvg-chno="2157" group-title="🌍 VN" tvg-logo="", TVB Vietnam
 https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8
-#EXTINF:0001 tvg-id="gh2TkRWTUyBId2" tvg-chno="2158" group-title="🇻🇳 Vietnam" tvg-logo="", Uniquely Thai
+#EXTINF:0001 tvg-id="gh2TkRWTUyBId2" tvg-chno="2158" group-title="🌍 VN" tvg-logo="", Uniquely Thai
 https://livefta.malimarcdn.com/ftaedge00/uniquely.sdp/playlist.m3u8
-#EXTINF:0001 tvg-id="ixbj5BMW5hNHQj" tvg-chno="2159" group-title="🇻🇳 Vietnam" tvg-logo="", Vietnam Today
+#EXTINF:0001 tvg-id="ixbj5BMW5hNHQj" tvg-chno="2159" group-title="🌍 VN" tvg-logo="", Vietnam Today
 https://amagi-live.ondemandkorea.com/amgplt0456.m3u8
-#EXTINF:0001 tvg-id="so5fgKy39odQZy" tvg-chno="2160" group-title="🇻🇳 Vietnam" tvg-logo="", VSBet HD
+#EXTINF:0001 tvg-id="so5fgKy39odQZy" tvg-chno="2160" group-title="🌍 VN" tvg-logo="", VSBet HD
 https://live05.meung.app/live/16226575.m3u8
-#EXTINF:0001 tvg-id="rlPI4ZEttqiyTy" tvg-chno="2161" group-title="🇻🇳 Vietnam" tvg-logo="", VTV10
+#EXTINF:0001 tvg-id="rlPI4ZEttqiyTy" tvg-chno="2161" group-title="🌍 VN" tvg-logo="", VTV10
 https://live.fptplay53.net/fnxhd1/vtvcantho_vhls.smil/chunklist.m3u8
 #EXTINF:0001 tvg-id="f4J3TEsOIcCxKd" tvg-chno="2162" group-title="🌍 PY" tvg-logo="", 4Dmas Noticias TV
 https://rds3.desdeparaguay.net/4dmasnoticiastv/4dmasnoticiastv/playlist.m3u8
@@ -4153,11 +4153,11 @@ https://www.khuwemultimedia.com/hls/reinoinfantiltv/reinoinfantiltv.m3u8
 https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
 #EXTINF:0001 tvg-id="HY7rVLsoZbudni" tvg-chno="2220" group-title="🌍 MZ" tvg-logo="", TV Vitoria
 https://stmv1.srvif.com/tvvitoriamz/tvvitoriamz/playlist.m3u8
-#EXTINF:0001 tvg-id="tmU8g7gIv8cUFI" tvg-chno="2221" group-title="🇩🇿 Cezayir" tvg-logo="", AL24 News
+#EXTINF:0001 tvg-id="tmU8g7gIv8cUFI" tvg-chno="2221" group-title="🌍 DZ" tvg-logo="", AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
-#EXTINF:0001 tvg-id="3spET73XcwPAv7" tvg-chno="2222" group-title="🇩🇿 Cezayir" tvg-logo="", El-Heddaf TV
+#EXTINF:0001 tvg-id="3spET73XcwPAv7" tvg-chno="2222" group-title="🌍 DZ" tvg-logo="", El-Heddaf TV
 https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
-#EXTINF:0001 tvg-id="ofHo5b95IBOhZz" tvg-chno="2223" group-title="🇩🇿 Cezayir" tvg-logo="", Elwatania TV
+#EXTINF:0001 tvg-id="ofHo5b95IBOhZz" tvg-chno="2223" group-title="🌍 DZ" tvg-logo="", Elwatania TV
 https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8
 #EXTINF:0001 tvg-id="AlDXkZl2YdyPD4" tvg-chno="2224" group-title="🌍 MO" tvg-logo="", Lotus TV
 https://play-sh.quklive.com/live/1780907795235397.m3u8
@@ -4325,27 +4325,27 @@ https://lbs-us1.suprememastertv.com/720p.m3u8
 https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 #EXTINF:0001 tvg-id="0Dll7iEE7yiI7N" tvg-chno="2306" group-title="🌍 TW" tvg-logo="", WXTV
 https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
-#EXTINF:0001 tvg-id="4f1EFJwCPB3ths" tvg-chno="2307" group-title="🇯🇴 Ürdün" tvg-logo="", Altaghier TV
+#EXTINF:0001 tvg-id="4f1EFJwCPB3ths" tvg-chno="2307" group-title="🌍 JO" tvg-logo="", Altaghier TV
 https://jmc-live.ercdn.net/altaghier/altaghier.m3u8
-#EXTINF:0001 tvg-id="pmWQ07XSqyy8GG" tvg-chno="2308" group-title="🇯🇴 Ürdün" tvg-logo="", Amman TV
+#EXTINF:0001 tvg-id="pmWQ07XSqyy8GG" tvg-chno="2308" group-title="🌍 JO" tvg-logo="", Amman TV
 https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8
-#EXTINF:0001 tvg-id="6FpSz42sPdEMNz" tvg-chno="2309" group-title="🇯🇴 Ürdün" tvg-logo="", Jordan Archive
+#EXTINF:0001 tvg-id="6FpSz42sPdEMNz" tvg-chno="2309" group-title="🌍 JO" tvg-logo="", Jordan Archive
 https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Archive/playlist.m3u8
-#EXTINF:0001 tvg-id="yQMuoatPHbGi75" tvg-chno="2310" group-title="🇯🇴 Ürdün" tvg-logo="", Jordan Comedy
+#EXTINF:0001 tvg-id="yQMuoatPHbGi75" tvg-chno="2310" group-title="🌍 JO" tvg-logo="", Jordan Comedy
 https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Comedy/playlist.m3u8
-#EXTINF:0001 tvg-id="v4Dbw80p8X5RYF" tvg-chno="2311" group-title="🇯🇴 Ürdün" tvg-logo="", Jordan Drama
+#EXTINF:0001 tvg-id="v4Dbw80p8X5RYF" tvg-chno="2311" group-title="🌍 JO" tvg-logo="", Jordan Drama
 https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Drama/playlist.m3u8
-#EXTINF:0001 tvg-id="CPUFPutREQebmN" tvg-chno="2312" group-title="🇯🇴 Ürdün" tvg-logo="", Jordan Kitchen
+#EXTINF:0001 tvg-id="CPUFPutREQebmN" tvg-chno="2312" group-title="🌍 JO" tvg-logo="", Jordan Kitchen
 https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/cooking/playlist.m3u8
-#EXTINF:0001 tvg-id="u6ZkGLLqixazm2" tvg-chno="2313" group-title="🇯🇴 Ürdün" tvg-logo="", Jordan Songs
+#EXTINF:0001 tvg-id="u6ZkGLLqixazm2" tvg-chno="2313" group-title="🌍 JO" tvg-logo="", Jordan Songs
 https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Song/playlist.m3u8
-#EXTINF:0001 tvg-id="5y6EYwtqdTyabX" tvg-chno="2314" group-title="🇯🇴 Ürdün" tvg-logo="", Jordan Sport
+#EXTINF:0001 tvg-id="5y6EYwtqdTyabX" tvg-chno="2314" group-title="🌍 JO" tvg-logo="", Jordan Sport
 https://93.184.10.248/JordanSport/index.m3u8
-#EXTINF:0001 tvg-id="qKAl8NiXFdyK7W" tvg-chno="2315" group-title="🇯🇴 Ürdün" tvg-logo="", Jordan Tourism
+#EXTINF:0001 tvg-id="qKAl8NiXFdyK7W" tvg-chno="2315" group-title="🌍 JO" tvg-logo="", Jordan Tourism
 https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Tourism/playlist.m3u8
-#EXTINF:0001 tvg-id="30l6X98ALn4Bjb" tvg-chno="2316" group-title="🇯🇴 Ürdün" tvg-logo="", Jordan TV
+#EXTINF:0001 tvg-id="30l6X98ALn4Bjb" tvg-chno="2316" group-title="🌍 JO" tvg-logo="", Jordan TV
 https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8
-#EXTINF:0001 tvg-id="8JZH2jVeoWilfK" tvg-chno="2317" group-title="🇯🇴 Ürdün" tvg-logo="", Melody FM
+#EXTINF:0001 tvg-id="8JZH2jVeoWilfK" tvg-chno="2317" group-title="🌍 JO" tvg-logo="", Melody FM
 https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8
 #EXTINF:0001 tvg-id="5hvDWEbETQmbqQ" tvg-chno="2318" group-title="🌍 MD" tvg-logo="", Busuioc TV
 https://tt.nfthost.net/static/streaming-playlists/hls/bb907ca9-5cb5-49dd-b276-d77721a9bc6d/master.m3u8
@@ -5193,37 +5193,37 @@ https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
 https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8
 #EXTINF:0001 tvg-id="wOuKcaJXWEMKNa" tvg-chno="2740" group-title="🌍 UY" tvg-logo="", UCL
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
-#EXTINF:0001 tvg-id="7ynlCad0Y1lkdJ" tvg-chno="2741" group-title="🇧🇩 Bangladeş" tvg-logo="", Ananda TV
+#EXTINF:0001 tvg-id="7ynlCad0Y1lkdJ" tvg-chno="2741" group-title="🌍 BD" tvg-logo="", Ananda TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="GPyu3zvadmUURC" tvg-chno="2742" group-title="🇧🇩 Bangladeş" tvg-logo="", ATN Music
+#EXTINF:0001 tvg-id="GPyu3zvadmUURC" tvg-chno="2742" group-title="🌍 BD" tvg-logo="", ATN Music
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="YbLnTmWsjNcPHn" tvg-chno="2743" group-title="🇧🇩 Bangladeş" tvg-logo="", Bangla Vision
+#EXTINF:0001 tvg-id="YbLnTmWsjNcPHn" tvg-chno="2743" group-title="🌍 BD" tvg-logo="", Bangla Vision
 https://tvsen5.aynaott.com/banglavision/index.m3u8
-#EXTINF:0001 tvg-id="7AOHjcyPOlQEZK" tvg-chno="2744" group-title="🇧🇩 Bangladeş" tvg-logo="", Boishakhi TV
+#EXTINF:0001 tvg-id="7AOHjcyPOlQEZK" tvg-chno="2744" group-title="🌍 BD" tvg-logo="", Boishakhi TV
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
-#EXTINF:0001 tvg-id="uXMcPHTew9graP" tvg-chno="2745" group-title="🇧🇩 Bangladeş" tvg-logo="", Channel S
+#EXTINF:0001 tvg-id="uXMcPHTew9graP" tvg-chno="2745" group-title="🌍 BD" tvg-logo="", Channel S
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="KFm0NDZdja9VIZ" tvg-chno="2746" group-title="🇧🇩 Bangladeş" tvg-logo="", Gazi TV
+#EXTINF:0001 tvg-id="KFm0NDZdja9VIZ" tvg-chno="2746" group-title="🌍 BD" tvg-logo="", Gazi TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="29x0D5l70jxbBR" tvg-chno="2747" group-title="🇧🇩 Bangladeş" tvg-logo="", Green TV
+#EXTINF:0001 tvg-id="29x0D5l70jxbBR" tvg-chno="2747" group-title="🌍 BD" tvg-logo="", Green TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="1SZ3d2PoIArVIA" tvg-chno="2748" group-title="🇧🇩 Bangladeş" tvg-logo="", Maasranga TV
+#EXTINF:0001 tvg-id="1SZ3d2PoIArVIA" tvg-chno="2748" group-title="🌍 BD" tvg-logo="", Maasranga TV
 https://tvsen5.aynaott.com/maasrangatv/index.m3u8
-#EXTINF:0001 tvg-id="ecpZNzhGiUTI3F" tvg-chno="2749" group-title="🇧🇩 Bangladeş" tvg-logo="", My TV
+#EXTINF:0001 tvg-id="ecpZNzhGiUTI3F" tvg-chno="2749" group-title="🌍 BD" tvg-logo="", My TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="dm1aFguTzJoeDM" tvg-chno="2750" group-title="🇧🇩 Bangladeş" tvg-logo="", NAN TV
+#EXTINF:0001 tvg-id="dm1aFguTzJoeDM" tvg-chno="2750" group-title="🌍 BD" tvg-logo="", NAN TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="rgVQGjTFB5iqnx" tvg-chno="2751" group-title="🇧🇩 Bangladeş" tvg-logo="", NTV
+#EXTINF:0001 tvg-id="rgVQGjTFB5iqnx" tvg-chno="2751" group-title="🌍 BD" tvg-logo="", NTV
 https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
-#EXTINF:0001 tvg-id="tzTABG45l31V9t" tvg-chno="2752" group-title="🇧🇩 Bangladeş" tvg-logo="", Peace TV Bangla
+#EXTINF:0001 tvg-id="tzTABG45l31V9t" tvg-chno="2752" group-title="🌍 BD" tvg-logo="", Peace TV Bangla
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
-#EXTINF:0001 tvg-id="rxGkYuJllm8fkD" tvg-chno="2753" group-title="🇧🇩 Bangladeş" tvg-logo="", Rajdhani TV
+#EXTINF:0001 tvg-id="rxGkYuJllm8fkD" tvg-chno="2753" group-title="🌍 BD" tvg-logo="", Rajdhani TV
 https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
-#EXTINF:0001 tvg-id="K8OFg70tOZ5TpR" tvg-chno="2754" group-title="🇧🇩 Bangladeş" tvg-logo="", RTV
+#EXTINF:0001 tvg-id="K8OFg70tOZ5TpR" tvg-chno="2754" group-title="🌍 BD" tvg-logo="", RTV
 https://tvsen5.aynaott.com/RtvHD/index.m3u8
-#EXTINF:0001 tvg-id="nw7Gl0g9Hyfl04" tvg-chno="2755" group-title="🇧🇩 Bangladeş" tvg-logo="", Rupashi Bangla TV
+#EXTINF:0001 tvg-id="nw7Gl0g9Hyfl04" tvg-chno="2755" group-title="🌍 BD" tvg-logo="", Rupashi Bangla TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8
-#EXTINF:0001 tvg-id="J7BmdiABqVkDMa" tvg-chno="2756" group-title="🇧🇩 Bangladeş" tvg-logo="", T Sports
+#EXTINF:0001 tvg-id="J7BmdiABqVkDMa" tvg-chno="2756" group-title="🌍 BD" tvg-logo="", T Sports
 https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
 #EXTINF:0001 tvg-id="a6UlcJ86l0A6vJ" tvg-chno="2757" group-title="🇦🇱 Arnavutluk" tvg-logo="", AlbKanale Music TV
 https://secured.albportal.net:2083/AlbKanaleMusicTv/index.m3u8
@@ -5299,143 +5299,143 @@ https://5ca9af4645e15.streamlock.net/mayas/videomayas/playlist.m3u8
 https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8
 #EXTINF:0001 tvg-id="CIC3OB0eRrwRa3" tvg-chno="2793" group-title="🌍 GT" tvg-logo="", Vision TV
 https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8
-#EXTINF:0001 tvg-id="fggC9IDaIV7QIQ" tvg-chno="2794" group-title="🇮🇷 İran" tvg-logo="", 4 Music
+#EXTINF:0001 tvg-id="fggC9IDaIV7QIQ" tvg-chno="2794" group-title="🌍 IR" tvg-logo="", 4 Music
 https://itthls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="H6MgSXQWhc1xON" tvg-chno="2795" group-title="🇮🇷 İran" tvg-logo="", 4Kurd
+#EXTINF:0001 tvg-id="H6MgSXQWhc1xON" tvg-chno="2795" group-title="🌍 IR" tvg-logo="", 4Kurd
 https://4kuhls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="oKPWYpqDC2QiXh" tvg-chno="2796" group-title="🇮🇷 İran" tvg-logo="", 247 Box TV
+#EXTINF:0001 tvg-id="oKPWYpqDC2QiXh" tvg-chno="2796" group-title="🌍 IR" tvg-logo="", 247 Box TV
 https://hls.247box.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="8de166DRNsy84Z" tvg-chno="2797" group-title="🇮🇷 İran" tvg-logo="", AFN TV
+#EXTINF:0001 tvg-id="8de166DRNsy84Z" tvg-chno="2797" group-title="🌍 IR" tvg-logo="", AFN TV
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
-#EXTINF:0001 tvg-id="bKVDPOqP22My4g" tvg-chno="2798" group-title="🇮🇷 İran" tvg-logo="", Afra Film
+#EXTINF:0001 tvg-id="bKVDPOqP22My4g" tvg-chno="2798" group-title="🌍 IR" tvg-logo="", Afra Film
 https://afrafhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="sVMuojFlIFBAT6" tvg-chno="2799" group-title="🇮🇷 İran" tvg-logo="", Al Wilayah
+#EXTINF:0001 tvg-id="sVMuojFlIFBAT6" tvg-chno="2799" group-title="🌍 IR" tvg-logo="", Al Wilayah
 https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8
-#EXTINF:0001 tvg-id="uo4r4AgtnKSByN" tvg-chno="2800" group-title="🇮🇷 İran" tvg-logo="", Arax TV
+#EXTINF:0001 tvg-id="uo4r4AgtnKSByN" tvg-chno="2800" group-title="🌍 IR" tvg-logo="", Arax TV
 https://araxhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="swHhXk1zbqpEhe" tvg-chno="2801" group-title="🇮🇷 İran" tvg-logo="", Arko TV
+#EXTINF:0001 tvg-id="swHhXk1zbqpEhe" tvg-chno="2801" group-title="🌍 IR" tvg-logo="", Arko TV
 https://arkhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="Fr9iAxQAFp5S9O" tvg-chno="2802" group-title="🇮🇷 İran" tvg-logo="", Arvan TV
+#EXTINF:0001 tvg-id="Fr9iAxQAFp5S9O" tvg-chno="2802" group-title="🌍 IR" tvg-logo="", Arvan TV
 https://arvhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="7UH7D0PeeD0PV4" tvg-chno="2803" group-title="🇮🇷 İran" tvg-logo="", Asil TV
+#EXTINF:0001 tvg-id="7UH7D0PeeD0PV4" tvg-chno="2803" group-title="🌍 IR" tvg-logo="", Asil TV
 https://live.asil.tv/asiltv/index.m3u8
-#EXTINF:0001 tvg-id="7IAAjOwAYELwdi" tvg-chno="2804" group-title="🇮🇷 İran" tvg-logo="", Atrina TV
+#EXTINF:0001 tvg-id="7IAAjOwAYELwdi" tvg-chno="2804" group-title="🌍 IR" tvg-logo="", Atrina TV
 https://atrihls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="2FlUnahRPoXRU8" tvg-chno="2805" group-title="🇮🇷 İran" tvg-logo="", AVA Series
+#EXTINF:0001 tvg-id="2FlUnahRPoXRU8" tvg-chno="2805" group-title="🌍 IR" tvg-logo="", AVA Series
 https://avaserieshls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="sM7rYQFLMt6qyU" tvg-chno="2806" group-title="🇮🇷 İran" tvg-logo="", Bravo Farsi TV
+#EXTINF:0001 tvg-id="sM7rYQFLMt6qyU" tvg-chno="2806" group-title="🌍 IR" tvg-logo="", Bravo Farsi TV
 https://bravoohls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="JIDClGIovnJEWq" tvg-chno="2807" group-title="🇮🇷 İran" tvg-logo="", Cafe Film
+#EXTINF:0001 tvg-id="JIDClGIovnJEWq" tvg-chno="2807" group-title="🌍 IR" tvg-logo="", Cafe Film
 https://cafefhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="3FibakB882ByKy" tvg-chno="2808" group-title="🇮🇷 İran" tvg-logo="", Classic TV
+#EXTINF:0001 tvg-id="3FibakB882ByKy" tvg-chno="2808" group-title="🌍 IR" tvg-logo="", Classic TV
 https://clshls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="44xxX5UC9CRU0p" tvg-chno="2809" group-title="🇮🇷 İran" tvg-logo="", Datis TV
+#EXTINF:0001 tvg-id="44xxX5UC9CRU0p" tvg-chno="2809" group-title="🌍 IR" tvg-logo="", Datis TV
 https://ronhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="r9svBVfKjlDKfR" tvg-chno="2810" group-title="🇮🇷 İran" tvg-logo="", Dej TV
+#EXTINF:0001 tvg-id="r9svBVfKjlDKfR" tvg-chno="2810" group-title="🌍 IR" tvg-logo="", Dej TV
 https://rdejhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="J5HDeVjO016Oz1" tvg-chno="2811" group-title="🇮🇷 İran" tvg-logo="", EPlanet TV
+#EXTINF:0001 tvg-id="J5HDeVjO016Oz1" tvg-chno="2811" group-title="🌍 IR" tvg-logo="", EPlanet TV
 https://eplhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="5S85oBbAlyHm6s" tvg-chno="2812" group-title="🇮🇷 İran" tvg-logo="", FX 1
+#EXTINF:0001 tvg-id="5S85oBbAlyHm6s" tvg-chno="2812" group-title="🌍 IR" tvg-logo="", FX 1
 https://fxtvhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="Kg8Y9N9U1Cs1tP" tvg-chno="2813" group-title="🇮🇷 İran" tvg-logo="", FX 2
+#EXTINF:0001 tvg-id="Kg8Y9N9U1Cs1tP" tvg-chno="2813" group-title="🌍 IR" tvg-logo="", FX 2
 https://toonixhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="QCb8mMbBKkmfSE" tvg-chno="2814" group-title="🇮🇷 İran" tvg-logo="", GEM Pixel
+#EXTINF:0001 tvg-id="QCb8mMbBKkmfSE" tvg-chno="2814" group-title="🌍 IR" tvg-logo="", GEM Pixel
 https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
-#EXTINF:0001 tvg-id="c6W4AcGWKSc8qs" tvg-chno="2815" group-title="🇮🇷 İran" tvg-logo="", Gold Star
+#EXTINF:0001 tvg-id="c6W4AcGWKSc8qs" tvg-chno="2815" group-title="🌍 IR" tvg-logo="", Gold Star
 https://moviethls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="A3MFn4yUihk4dh" tvg-chno="2816" group-title="🇮🇷 İran" tvg-logo="", Grand Cinema
+#EXTINF:0001 tvg-id="A3MFn4yUihk4dh" tvg-chno="2816" group-title="🌍 IR" tvg-logo="", Grand Cinema
 https://gcinemahls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="3IdSqyUsjeV7nB" tvg-chno="2817" group-title="🇮🇷 İran" tvg-logo="", ICC plus
+#EXTINF:0001 tvg-id="3IdSqyUsjeV7nB" tvg-chno="2817" group-title="🌍 IR" tvg-logo="", ICC plus
 https://icchls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="PdKuN3BQgxSz80" tvg-chno="2818" group-title="🇮🇷 İran" tvg-logo="", ICnet 2
+#EXTINF:0001 tvg-id="PdKuN3BQgxSz80" tvg-chno="2818" group-title="🌍 IR" tvg-logo="", ICnet 2
 https://icnet2hls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="ZkSJuMrIZoal1s" tvg-chno="2819" group-title="🇮🇷 İran" tvg-logo="", icnet 3
+#EXTINF:0001 tvg-id="ZkSJuMrIZoal1s" tvg-chno="2819" group-title="🌍 IR" tvg-logo="", icnet 3
 https://ic3hls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="HW3VPKyt6mpMGb" tvg-chno="2820" group-title="🇮🇷 İran" tvg-logo="", iFilm 2
+#EXTINF:0001 tvg-id="HW3VPKyt6mpMGb" tvg-chno="2820" group-title="🌍 IR" tvg-logo="", iFilm 2
 https://live.presstv.ir/hls/ifilm2.m3u8
-#EXTINF:0001 tvg-id="FThMLWk2PqeTHZ" tvg-chno="2821" group-title="🇮🇷 İran" tvg-logo="", iFilm Arabic
+#EXTINF:0001 tvg-id="FThMLWk2PqeTHZ" tvg-chno="2821" group-title="🌍 IR" tvg-logo="", iFilm Arabic
 https://live.presstv.ir/hls/ifilmar.m3u8
-#EXTINF:0001 tvg-id="ELGjlFyEtfJ19e" tvg-chno="2822" group-title="🇮🇷 İran" tvg-logo="", iFilm English
+#EXTINF:0001 tvg-id="ELGjlFyEtfJ19e" tvg-chno="2822" group-title="🌍 IR" tvg-logo="", iFilm English
 https://live.presstv.ir/hls/ifilmen.m3u8
-#EXTINF:0001 tvg-id="g3vaXRs7MKcSOW" tvg-chno="2823" group-title="🇮🇷 İran" tvg-logo="", iFilm Persian
+#EXTINF:0001 tvg-id="g3vaXRs7MKcSOW" tvg-chno="2823" group-title="🌍 IR" tvg-logo="", iFilm Persian
 https://live.presstv.ir/hls/ifilmfa.m3u8
-#EXTINF:0001 tvg-id="R9FnmV2MnrJvNR" tvg-chno="2824" group-title="🇮🇷 İran" tvg-logo="", Iran Nama
+#EXTINF:0001 tvg-id="R9FnmV2MnrJvNR" tvg-chno="2824" group-title="🌍 IR" tvg-logo="", Iran Nama
 https://iran613hls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="bO295QluU8GdVM" tvg-chno="2825" group-title="🇮🇷 İran" tvg-logo="", Iran National Revolution TV
+#EXTINF:0001 tvg-id="bO295QluU8GdVM" tvg-chno="2825" group-title="🌍 IR" tvg-logo="", Iran National Revolution TV
 https://hls.irannrtv.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="WqlviZN2uXxQxE" tvg-chno="2826" group-title="🇮🇷 İran" tvg-logo="", Iran Press
+#EXTINF:0001 tvg-id="WqlviZN2uXxQxE" tvg-chno="2826" group-title="🌍 IR" tvg-logo="", Iran Press
 https://live.presstv.ir/hls/presstv_5_482/index.m3u8
-#EXTINF:0001 tvg-id="RPzsbGvay5vzZl" tvg-chno="2827" group-title="🇮🇷 İran" tvg-logo="", Khalij TV
+#EXTINF:0001 tvg-id="RPzsbGvay5vzZl" tvg-chno="2827" group-title="🌍 IR" tvg-logo="", Khalij TV
 https://khalijhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="1h3TgefRfR3aSM" tvg-chno="2828" group-title="🇮🇷 İran" tvg-logo="", Maah TV
+#EXTINF:0001 tvg-id="1h3TgefRfR3aSM" tvg-chno="2828" group-title="🌍 IR" tvg-logo="", Maah TV
 https://hls.maahtv.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="r3pcMeCTNiXCm8" tvg-chno="2829" group-title="🇮🇷 İran" tvg-logo="", Meta Film TV
+#EXTINF:0001 tvg-id="r3pcMeCTNiXCm8" tvg-chno="2829" group-title="🌍 IR" tvg-logo="", Meta Film TV
 https://metafilmhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="mOhUb3tHaXu2I9" tvg-chno="2830" group-title="🇮🇷 İran" tvg-logo="", Mihan TV
+#EXTINF:0001 tvg-id="mOhUb3tHaXu2I9" tvg-chno="2830" group-title="🌍 IR" tvg-logo="", Mihan TV
 https://iptv.mihantv.com/mihantv/playlist.m3u8
-#EXTINF:0001 tvg-id="2NOtI7fQ0BMhTi" tvg-chno="2831" group-title="🇮🇷 İran" tvg-logo="", National Iranian Congress TV
+#EXTINF:0001 tvg-id="2NOtI7fQ0BMhTi" tvg-chno="2831" group-title="🌍 IR" tvg-logo="", National Iranian Congress TV
 https://tv.iraniancongress.com/stream/tv.m3u8
-#EXTINF:0001 tvg-id="RYW8cokw1YUAPH" tvg-chno="2832" group-title="🇮🇷 İran" tvg-logo="", NewFlix
+#EXTINF:0001 tvg-id="RYW8cokw1YUAPH" tvg-chno="2832" group-title="🌍 IR" tvg-logo="", NewFlix
 https://newfhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="Hq5kvgoL2uBOds" tvg-chno="2833" group-title="🇮🇷 İran" tvg-logo="", OXIR TV
+#EXTINF:0001 tvg-id="Hq5kvgoL2uBOds" tvg-chno="2833" group-title="🌍 IR" tvg-logo="", OXIR TV
 https://hls.oxir.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="G9AYfGVY8dfNSq" tvg-chno="2834" group-title="🇮🇷 İran" tvg-logo="", Payvand TV
+#EXTINF:0001 tvg-id="G9AYfGVY8dfNSq" tvg-chno="2834" group-title="🌍 IR" tvg-logo="", Payvand TV
 https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
-#EXTINF:0001 tvg-id="6Tz1v2Gda1zHcO" tvg-chno="2835" group-title="🇮🇷 İran" tvg-logo="", Persiana Cinema
+#EXTINF:0001 tvg-id="6Tz1v2Gda1zHcO" tvg-chno="2835" group-title="🌍 IR" tvg-logo="", Persiana Cinema
 https://cinehls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="pjKu0XmbXTkJlc" tvg-chno="2836" group-title="🇮🇷 İran" tvg-logo="", Persiana Comedy
+#EXTINF:0001 tvg-id="pjKu0XmbXTkJlc" tvg-chno="2836" group-title="🌍 IR" tvg-logo="", Persiana Comedy
 https://comedyhls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="6nVDnHEbOf1hio" tvg-chno="2837" group-title="🇮🇷 İran" tvg-logo="", Persiana Docs
+#EXTINF:0001 tvg-id="6nVDnHEbOf1hio" tvg-chno="2837" group-title="🌍 IR" tvg-logo="", Persiana Docs
 https://scihls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="Le8JNyyzvdvGX9" tvg-chno="2838" group-title="🇮🇷 İran" tvg-logo="", Persiana Family
+#EXTINF:0001 tvg-id="Le8JNyyzvdvGX9" tvg-chno="2838" group-title="🌍 IR" tvg-logo="", Persiana Family
 https://familyhls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="T0WISoye0VXycS" tvg-chno="2839" group-title="🇮🇷 İran" tvg-logo="", Persiana Fight
+#EXTINF:0001 tvg-id="T0WISoye0VXycS" tvg-chno="2839" group-title="🌍 IR" tvg-logo="", Persiana Fight
 https://fighthls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="BKwwWetfO9R72v" tvg-chno="2840" group-title="🇮🇷 İran" tvg-logo="", Persiana Folk
+#EXTINF:0001 tvg-id="BKwwWetfO9R72v" tvg-chno="2840" group-title="🌍 IR" tvg-logo="", Persiana Folk
 https://sonhls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="UwXUhaGhsJsbJY" tvg-chno="2841" group-title="🇮🇷 İran" tvg-logo="", Persiana Iranian
+#EXTINF:0001 tvg-id="UwXUhaGhsJsbJY" tvg-chno="2841" group-title="🌍 IR" tvg-logo="", Persiana Iranian
 https://irhls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="QNDhisv50dVPjl" tvg-chno="2843" group-title="🇮🇷 İran" tvg-logo="", Persiana Korea
+#EXTINF:0001 tvg-id="QNDhisv50dVPjl" tvg-chno="2843" group-title="🌍 IR" tvg-logo="", Persiana Korea
 https://korhls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="fcecLpv40jkIKK" tvg-chno="2844" group-title="🇮🇷 İran" tvg-logo="", Persiana Latino
+#EXTINF:0001 tvg-id="fcecLpv40jkIKK" tvg-chno="2844" group-title="🌍 IR" tvg-logo="", Persiana Latino
 https://latinohls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="plcbFbhZX5D3nx" tvg-chno="2845" group-title="🇮🇷 İran" tvg-logo="", Persiana Medical
+#EXTINF:0001 tvg-id="plcbFbhZX5D3nx" tvg-chno="2845" group-title="🌍 IR" tvg-logo="", Persiana Medical
 https://phd2hls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="eCX0RwFfFIFc73" tvg-chno="2846" group-title="🇮🇷 İran" tvg-logo="", Persiana Nostalgia
+#EXTINF:0001 tvg-id="eCX0RwFfFIFc73" tvg-chno="2846" group-title="🌍 IR" tvg-logo="", Persiana Nostalgia
 https://noshls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="p3UIBhQreTrSmL" tvg-chno="2847" group-title="🇮🇷 İran" tvg-logo="", Persiana Plus
+#EXTINF:0001 tvg-id="p3UIBhQreTrSmL" tvg-chno="2847" group-title="🌍 IR" tvg-logo="", Persiana Plus
 https://euhls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="P7HHjZISueKx11" tvg-chno="2848" group-title="🇮🇷 İran" tvg-logo="", Persiana Reality
+#EXTINF:0001 tvg-id="P7HHjZISueKx11" tvg-chno="2848" group-title="🌍 IR" tvg-logo="", Persiana Reality
 https://twohls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="pyxg7WrXUVQ7nj" tvg-chno="2849" group-title="🇮🇷 İran" tvg-logo="", Persiana Series
+#EXTINF:0001 tvg-id="pyxg7WrXUVQ7nj" tvg-chno="2849" group-title="🌍 IR" tvg-logo="", Persiana Series
 https://onehls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="pGp24DvGOMHEiZ" tvg-chno="2850" group-title="🇮🇷 İran" tvg-logo="", Persiana Turkiye
+#EXTINF:0001 tvg-id="pGp24DvGOMHEiZ" tvg-chno="2850" group-title="🌍 IR" tvg-logo="", Persiana Turkiye
 https://turkhls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="bfGRrhHvnRbjYO" tvg-chno="2851" group-title="🇮🇷 İran" tvg-logo="", Persiana Vibe
+#EXTINF:0001 tvg-id="bfGRrhHvnRbjYO" tvg-chno="2851" group-title="🌍 IR" tvg-logo="", Persiana Vibe
 https://raphls.persiana.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="Z0k0qEYEWnFz7F" tvg-chno="2852" group-title="🇮🇷 İran" tvg-logo="", Press TV
+#EXTINF:0001 tvg-id="Z0k0qEYEWnFz7F" tvg-chno="2852" group-title="🌍 IR" tvg-logo="", Press TV
 https://live.presstv.ir/hls/presstv.m3u8
-#EXTINF:0001 tvg-id="xRGq4FvGDTWgUJ" tvg-chno="2853" group-title="🇮🇷 İran" tvg-logo="", RasoulallahTv
+#EXTINF:0001 tvg-id="xRGq4FvGDTWgUJ" tvg-chno="2853" group-title="🌍 IR" tvg-logo="", RasoulallahTv
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
-#EXTINF:0001 tvg-id="UxlWXKU576oMex" tvg-chno="2854" group-title="🇮🇷 İran" tvg-logo="", RJTV
+#EXTINF:0001 tvg-id="UxlWXKU576oMex" tvg-chno="2854" group-title="🌍 IR" tvg-logo="", RJTV
 https://rjtvhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="8ASIayZG97M5CC" tvg-chno="2855" group-title="🇮🇷 İran" tvg-logo="", SL 1
+#EXTINF:0001 tvg-id="8ASIayZG97M5CC" tvg-chno="2855" group-title="🌍 IR" tvg-logo="", SL 1
 https://slonehls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="917SD3APUmI0IC" tvg-chno="2856" group-title="🇮🇷 İran" tvg-logo="", SL 2
+#EXTINF:0001 tvg-id="917SD3APUmI0IC" tvg-chno="2856" group-title="🌍 IR" tvg-logo="", SL 2
 https://sltwohls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="cu7YGaPAVwkgGg" tvg-chno="2857" group-title="🇮🇷 İran" tvg-logo="", T2 TV
+#EXTINF:0001 tvg-id="cu7YGaPAVwkgGg" tvg-chno="2857" group-title="🌍 IR" tvg-logo="", T2 TV
 https://t2hls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="twF2oDz7S9EOtz" tvg-chno="2858" group-title="🇮🇷 İran" tvg-logo="", TBN Nejat TV
+#EXTINF:0001 tvg-id="twF2oDz7S9EOtz" tvg-chno="2858" group-title="🌍 IR" tvg-logo="", TBN Nejat TV
 https://hls.nejat.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="ME0BNcj7isVnrR" tvg-chno="2859" group-title="🇮🇷 İran" tvg-logo="", TM TV
+#EXTINF:0001 tvg-id="ME0BNcj7isVnrR" tvg-chno="2859" group-title="🌍 IR" tvg-logo="", TM TV
 https://hls.tmtv.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="PDYUVQOORGvET6" tvg-chno="2860" group-title="🇮🇷 İran" tvg-logo="", TV ITN
+#EXTINF:0001 tvg-id="PDYUVQOORGvET6" tvg-chno="2860" group-title="🌍 IR" tvg-logo="", TV ITN
 https://itnhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="hukeqny6nOwPuT" tvg-chno="2861" group-title="🇮🇷 İran" tvg-logo="", WiseHumanTv
+#EXTINF:0001 tvg-id="hukeqny6nOwPuT" tvg-chno="2861" group-title="🌍 IR" tvg-logo="", WiseHumanTv
 https://avr.host247.net/live/WiseHumanTv/playlist.m3u8
-#EXTINF:0001 tvg-id="3CG7FQ47ykhGlU" tvg-chno="2862" group-title="🇮🇷 İran" tvg-logo="", YourTime TV
+#EXTINF:0001 tvg-id="3CG7FQ47ykhGlU" tvg-chno="2862" group-title="🌍 IR" tvg-logo="", YourTime TV
 https://live.yourtime.tv/hls/stream.m3u8
-#EXTINF:0001 tvg-id="sufBrIYaOUMBHf" tvg-chno="2863" group-title="🇮🇷 İran" tvg-logo="", Zed TV
+#EXTINF:0001 tvg-id="sufBrIYaOUMBHf" tvg-chno="2863" group-title="🌍 IR" tvg-logo="", Zed TV
 https://zedhls.wns.live/hls/stream.m3u8
 #EXTINF:0001 tvg-id="Ou3oJIMU5rmNeQ" tvg-chno="2864" group-title="🌍 TT" tvg-logo="", Riddim & Hope TV
 https://6zklxwavdw9b-hls-live.5centscdn.com/RIDDIMNHOPE/0954119dc19d9003dd5f4bb37b3f559e.sdp/playlist.m3u8
@@ -5965,13 +5965,13 @@ https://savane24.tv:5443/LiveApp/streams/Y4fyif69Q0ll6MeH2190896734859843.m3u8
 https://goliveafrica.media:9998/live/625965017ed69/index.m3u8
 #EXTINF:0001 tvg-id="MDX7kTUwhzRCnt" tvg-chno="3127" group-title="🌍 TZ" tvg-logo="", Mahaasin TV
 https://mahaasintv.livebox.co.in/mahaasintvhls/mahaasintv.m3u8
-#EXTINF:0001 tvg-id="u2iS7uczBAriSJ" tvg-chno="3128" group-title="🇸🇬 Singapur" tvg-logo="", Aniplus Asia
+#EXTINF:0001 tvg-id="u2iS7uczBAriSJ" tvg-chno="3128" group-title="🌍 SG" tvg-logo="", Aniplus Asia
 https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
-#EXTINF:0001 tvg-id="gS3BIgZPeKUpbg" tvg-chno="3129" group-title="🇸🇬 Singapur" tvg-logo="", CNA
+#EXTINF:0001 tvg-id="gS3BIgZPeKUpbg" tvg-chno="3129" group-title="🌍 SG" tvg-logo="", CNA
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:0001 tvg-id="HJhyKYuHh72Bmv" tvg-chno="3130" group-title="🇸🇬 Singapur" tvg-logo="", CNA Originals
+#EXTINF:0001 tvg-id="HJhyKYuHh72Bmv" tvg-chno="3130" group-title="🌍 SG" tvg-logo="", CNA Originals
 https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:0001 tvg-id="y1OGn4C9pf6ycf" tvg-chno="3131" group-title="🇸🇬 Singapur" tvg-logo="", ZooMoo
+#EXTINF:0001 tvg-id="y1OGn4C9pf6ycf" tvg-chno="3131" group-title="🌍 SG" tvg-logo="", ZooMoo
 https://d1bpufuvfayfg8.cloudfront.net/ZooMoo.m3u8
 #EXTINF:0001 tvg-id="b4DxI8ch5wAZzU" tvg-chno="3132" group-title="🌍 ET" tvg-logo="", EBS
 https://rpn.bozztv.com/ebstv/ebstv/index.m3u8
@@ -6041,37 +6041,37 @@ https://cc-r5hupcym5oehh.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73d
 https://cc-up9j649x4thrj.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-up9j649x4thrj/f935ee75-bf1b-4bf6-a30c-1f096a0083c5/0.m3u8
 #EXTINF:0001 tvg-id="zoKJMDHzQaixA6" tvg-chno="3165" group-title="🌍 NP" tvg-logo="", TV Today Janakpur
 https://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8
-#EXTINF:0001 tvg-id="2H7AGmwfBbb0P2" tvg-chno="3166" group-title="🇶🇦 Katar" tvg-logo="", Al Araby TV
+#EXTINF:0001 tvg-id="2H7AGmwfBbb0P2" tvg-chno="3166" group-title="🌍 QA" tvg-logo="", Al Araby TV
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
-#EXTINF:0001 tvg-id="VyhE2uMDKGWvi8" tvg-chno="3167" group-title="🇶🇦 Katar" tvg-logo="", Al Araby TV 2
+#EXTINF:0001 tvg-id="VyhE2uMDKGWvi8" tvg-chno="3167" group-title="🌍 QA" tvg-logo="", Al Araby TV 2
 https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="o5kbiFCgZZTyJH" tvg-chno="3168" group-title="🇶🇦 Katar" tvg-logo="", Al Jazeera 2
+#EXTINF:0001 tvg-id="o5kbiFCgZZTyJH" tvg-chno="3168" group-title="🌍 QA" tvg-logo="", Al Jazeera 2
 https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8
-#EXTINF:0001 tvg-id="mIaAqLMCDH73r4" tvg-chno="3169" group-title="🇶🇦 Katar" tvg-logo="", Al Jazeera Arabic
+#EXTINF:0001 tvg-id="mIaAqLMCDH73r4" tvg-chno="3169" group-title="🌍 QA" tvg-logo="", Al Jazeera Arabic
 https://live-hls-apps-aja-fa.getaj.net/AJA/index.m3u8
-#EXTINF:0001 tvg-id="uBMBUsrNVel77O" tvg-chno="3170" group-title="🇶🇦 Katar" tvg-logo="", Al Jazeera English
+#EXTINF:0001 tvg-id="uBMBUsrNVel77O" tvg-chno="3170" group-title="🌍 QA" tvg-logo="", Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
-#EXTINF:0001 tvg-id="zXY3iyHS9joFvJ" tvg-chno="3171" group-title="🇶🇦 Katar" tvg-logo="", Al Jazeera Mubasher
+#EXTINF:0001 tvg-id="zXY3iyHS9joFvJ" tvg-chno="3171" group-title="🌍 QA" tvg-logo="", Al Jazeera Mubasher
 https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8
-#EXTINF:0001 tvg-id="WVCjkBMypSAImO" tvg-chno="3172" group-title="🇶🇦 Katar" tvg-logo="", Al Jazeera Mubasher 24
+#EXTINF:0001 tvg-id="WVCjkBMypSAImO" tvg-chno="3172" group-title="🌍 QA" tvg-logo="", Al Jazeera Mubasher 24
 https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8
-#EXTINF:0001 tvg-id="pPCtUkOMoSQ0hW" tvg-chno="3173" group-title="🇶🇦 Katar" tvg-logo="", Al Jazeera Mubasher Broadcast 2
+#EXTINF:0001 tvg-id="pPCtUkOMoSQ0hW" tvg-chno="3173" group-title="🌍 QA" tvg-logo="", Al Jazeera Mubasher Broadcast 2
 https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
-#EXTINF:0001 tvg-id="HHV5a8cn94GYcS" tvg-chno="3174" group-title="🇶🇦 Katar" tvg-logo="", Al Maaref TV
+#EXTINF:0001 tvg-id="HHV5a8cn94GYcS" tvg-chno="3174" group-title="🌍 QA" tvg-logo="", Al Maaref TV
 https://bucharest.zeuscdn724.com/lb0/CH-AL-MA/index.m3u8
-#EXTINF:0001 tvg-id="z0QVI0gadd5X4p" tvg-chno="3175" group-title="🇶🇦 Katar" tvg-logo="", Al Rayyan Old TV
+#EXTINF:0001 tvg-id="z0QVI0gadd5X4p" tvg-chno="3175" group-title="🌍 QA" tvg-logo="", Al Rayyan Old TV
 https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8
-#EXTINF:0001 tvg-id="WhmO3Ns2GASpVE" tvg-chno="3176" group-title="🇶🇦 Katar" tvg-logo="", Al Rayyan TV
+#EXTINF:0001 tvg-id="WhmO3Ns2GASpVE" tvg-chno="3176" group-title="🌍 QA" tvg-logo="", Al Rayyan TV
 https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8
-#EXTINF:0001 tvg-id="K2pY7DHGd3QmlJ" tvg-chno="3177" group-title="🇶🇦 Katar" tvg-logo="", Libya Al Ahrar TV
+#EXTINF:0001 tvg-id="K2pY7DHGd3QmlJ" tvg-chno="3177" group-title="🌍 QA" tvg-logo="", Libya Al Ahrar TV
 https://stream-hls.castr.net/64490fcefe045f1b63012886/live_22d9a1f0c69c11ee9441219c2cc6d61f/index.fmp4.m3u8
-#EXTINF:0001 tvg-id="sCYZ4Box9Vsqsi" tvg-chno="3178" group-title="🇶🇦 Katar" tvg-logo="", Qatar Television
+#EXTINF:0001 tvg-id="sCYZ4Box9Vsqsi" tvg-chno="3178" group-title="🌍 QA" tvg-logo="", Qatar Television
 https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
-#EXTINF:0001 tvg-id="nRS5DLp96YBtfJ" tvg-chno="3179" group-title="🇶🇦 Katar" tvg-logo="", Qatar Television 2
+#EXTINF:0001 tvg-id="nRS5DLp96YBtfJ" tvg-chno="3179" group-title="🌍 QA" tvg-logo="", Qatar Television 2
 https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
-#EXTINF:0001 tvg-id="NomK7G7r84yUBH" tvg-chno="3180" group-title="🇶🇦 Katar" tvg-logo="", Qatar TV The Holy Quran
+#EXTINF:0001 tvg-id="NomK7G7r84yUBH" tvg-chno="3180" group-title="🌍 QA" tvg-logo="", Qatar TV The Holy Quran
 https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8
-#EXTINF:0001 tvg-id="1ivzt9CdjGwK6L" tvg-chno="3181" group-title="🇶🇦 Katar" tvg-logo="", QBC
+#EXTINF:0001 tvg-id="1ivzt9CdjGwK6L" tvg-chno="3181" group-title="🌍 QA" tvg-logo="", QBC
 https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8
 #EXTINF:0001 tvg-id="Wd5LQK7QYkvnE1" tvg-chno="3182" group-title="🇫🇮 Finlandiya" tvg-logo="", 5-Minute Craft
 https://soul-5mincrafteng-rakuten.amagi.tv/playlist.m3u8
@@ -6505,125 +6505,125 @@ https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
 https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8
 #EXTINF:0001 tvg-id="poBLTECPZ1p4X6" tvg-chno="3397" group-title="🇦🇹 Avusturya" tvg-logo="", W24
 https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="tRJLm7iZgOpKay" tvg-chno="3398" group-title="🇮🇶 Irak" tvg-logo="", ABNsat
+#EXTINF:0001 tvg-id="tRJLm7iZgOpKay" tvg-chno="3398" group-title="🌍 IQ" tvg-logo="", ABNsat
 https://mediaserver.abnvideos.com/streams/abnsat.m3u8
-#EXTINF:0001 tvg-id="FTvSSHqDu7zXUY" tvg-chno="3399" group-title="🇮🇶 Irak" tvg-logo="", Afaq TV
+#EXTINF:0001 tvg-id="FTvSSHqDu7zXUY" tvg-chno="3399" group-title="🌍 IQ" tvg-logo="", Afaq TV
 https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8
-#EXTINF:0001 tvg-id="ddrr8smWgDPaNo" tvg-chno="3400" group-title="🇮🇶 Irak" tvg-logo="", Afarin Baxcha
+#EXTINF:0001 tvg-id="ddrr8smWgDPaNo" tvg-chno="3400" group-title="🌍 IQ" tvg-logo="", Afarin Baxcha
 https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8
-#EXTINF:0001 tvg-id="AeG4E88wj1aN3z" tvg-chno="3401" group-title="🇮🇶 Irak" tvg-logo="", Afarin TV
+#EXTINF:0001 tvg-id="AeG4E88wj1aN3z" tvg-chno="3401" group-title="🌍 IQ" tvg-logo="", Afarin TV
 https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
-#EXTINF:0001 tvg-id="CM6FuW5WtTCo5H" tvg-chno="3402" group-title="🇮🇶 Irak" tvg-logo="", Al Rasheed TV
+#EXTINF:0001 tvg-id="CM6FuW5WtTCo5H" tvg-chno="3402" group-title="🌍 IQ" tvg-logo="", Al Rasheed TV
 https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8
-#EXTINF:0001 tvg-id="0MeH4u5WZGBr4b" tvg-chno="3403" group-title="🇮🇶 Irak" tvg-logo="", Al Sharqiya
+#EXTINF:0001 tvg-id="0MeH4u5WZGBr4b" tvg-chno="3403" group-title="🌍 IQ" tvg-logo="", Al Sharqiya
 https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
-#EXTINF:0001 tvg-id="uIjblLy9ix24di" tvg-chno="3404" group-title="🇮🇶 Irak" tvg-logo="", Al Sharqiya News
+#EXTINF:0001 tvg-id="uIjblLy9ix24di" tvg-chno="3404" group-title="🌍 IQ" tvg-logo="", Al Sharqiya News
 https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8
-#EXTINF:0001 tvg-id="gqagHcGI6e4lYf" tvg-chno="3405" group-title="🇮🇶 Irak" tvg-logo="", Al-Jawadain TV
+#EXTINF:0001 tvg-id="gqagHcGI6e4lYf" tvg-chno="3405" group-title="🌍 IQ" tvg-logo="", Al-Jawadain TV
 https://live.aljawadain.org/live/aljawadaintv/playlist.m3u8
-#EXTINF:0001 tvg-id="R7SX5bbq2ADuZ9" tvg-chno="3406" group-title="🇮🇶 Irak" tvg-logo="", Alawla TV
+#EXTINF:0001 tvg-id="R7SX5bbq2ADuZ9" tvg-chno="3406" group-title="🌍 IQ" tvg-logo="", Alawla TV
 https://live.alawla.tv/hls/stream.m3u8
-#EXTINF:0001 tvg-id="oH3JHlocRjrWih" tvg-chno="3407" group-title="🇮🇶 Irak" tvg-logo="", Alquran
+#EXTINF:0001 tvg-id="oH3JHlocRjrWih" tvg-chno="3407" group-title="🌍 IQ" tvg-logo="", Alquran
 https://ktvlive.online/stream/hls/ch1.m3u8
-#EXTINF:0001 tvg-id="kWWdIE2o9smmGw" tvg-chno="3408" group-title="🇮🇶 Irak" tvg-logo="", Amozhgary TV
+#EXTINF:0001 tvg-id="kWWdIE2o9smmGw" tvg-chno="3408" group-title="🌍 IQ" tvg-logo="", Amozhgary TV
 https://app-live.org/live/3268334b/index.m3u8
-#EXTINF:0001 tvg-id="62oTY1cpZiXnL5" tvg-chno="3409" group-title="🇮🇶 Irak" tvg-logo="", AVA Family
+#EXTINF:0001 tvg-id="62oTY1cpZiXnL5" tvg-chno="3409" group-title="🌍 IQ" tvg-logo="", AVA Family
 https://familyhls.avatv.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="IUX8TFnb9XiEJu" tvg-chno="3410" group-title="🇮🇶 Irak" tvg-logo="", AVA Media
+#EXTINF:0001 tvg-id="IUX8TFnb9XiEJu" tvg-chno="3410" group-title="🌍 IQ" tvg-logo="", AVA Media
 https://ava2.store/upload/ava.m3u8
-#EXTINF:0001 tvg-id="I677KvGkPDPSil" tvg-chno="3411" group-title="🇮🇶 Irak" tvg-logo="", Avar TV
+#EXTINF:0001 tvg-id="I677KvGkPDPSil" tvg-chno="3411" group-title="🌍 IQ" tvg-logo="", Avar TV
 https://avr.host247.net/live/AvarTv/playlist.m3u8
-#EXTINF:0001 tvg-id="bBdVVt0cpWEQfg" tvg-chno="3412" group-title="🇮🇶 Irak" tvg-logo="", BeitolAbbas TV Channel
+#EXTINF:0001 tvg-id="bBdVVt0cpWEQfg" tvg-chno="3412" group-title="🌍 IQ" tvg-logo="", BeitolAbbas TV Channel
 https://live.beitolabbas.tv/live/beitolabbastv.m3u8
-#EXTINF:0001 tvg-id="MIpBDCxySOyKyM" tvg-chno="3413" group-title="🇮🇶 Irak" tvg-logo="", Dijlah TV
+#EXTINF:0001 tvg-id="MIpBDCxySOyKyM" tvg-chno="3413" group-title="🌍 IQ" tvg-logo="", Dijlah TV
 https://ghaasiflu.online/Dijlah/index.m3u8
-#EXTINF:0001 tvg-id="umvB9tV3Rb1OXe" tvg-chno="3414" group-title="🇮🇶 Irak" tvg-logo="", EmanTv
+#EXTINF:0001 tvg-id="umvB9tV3Rb1OXe" tvg-chno="3414" group-title="🌍 IQ" tvg-logo="", EmanTv
 https://avr.host247.net/live/emantv/playlist.m3u8
-#EXTINF:0001 tvg-id="HF0s5qptKRRfON" tvg-chno="3415" group-title="🇮🇶 Irak" tvg-logo="", FarmodaTV
+#EXTINF:0001 tvg-id="HF0s5qptKRRfON" tvg-chno="3415" group-title="🌍 IQ" tvg-logo="", FarmodaTV
 https://avr.host247.net/live/FarmodaTV/playlist.m3u8
-#EXTINF:0001 tvg-id="5F2s1uM9md4N38" tvg-chno="3416" group-title="🇮🇶 Irak" tvg-logo="", I News
+#EXTINF:0001 tvg-id="5F2s1uM9md4N38" tvg-chno="3416" group-title="🌍 IQ" tvg-logo="", I News
 https://live.i-news.tv/hls/stream.m3u8
-#EXTINF:0001 tvg-id="HjSyVfRfsJOuSb" tvg-chno="3417" group-title="🇮🇶 Irak" tvg-logo="", Iraq Future
+#EXTINF:0001 tvg-id="HjSyVfRfsJOuSb" tvg-chno="3417" group-title="🌍 IQ" tvg-logo="", Iraq Future
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8
-#EXTINF:0001 tvg-id="X9gLOfHKZiwazd" tvg-chno="3418" group-title="🇮🇶 Irak" tvg-logo="", Ishtar TV
+#EXTINF:0001 tvg-id="X9gLOfHKZiwazd" tvg-chno="3418" group-title="🌍 IQ" tvg-logo="", Ishtar TV
 https://stream.ishtartv.com/live/iShtarHD/playlist.m3u8
-#EXTINF:0001 tvg-id="ydI9RzI56VdmqS" tvg-chno="3419" group-title="🇮🇶 Irak" tvg-logo="", Karbala Documentary
+#EXTINF:0001 tvg-id="ydI9RzI56VdmqS" tvg-chno="3419" group-title="🌍 IQ" tvg-logo="", Karbala Documentary
 https://ktvlive.online/stream/hls/ch3.m3u8
-#EXTINF:0001 tvg-id="GNcGmADBjc6NVP" tvg-chno="3420" group-title="🇮🇶 Irak" tvg-logo="", Kurd Channel
+#EXTINF:0001 tvg-id="GNcGmADBjc6NVP" tvg-chno="3420" group-title="🌍 IQ" tvg-logo="", Kurd Channel
 https://kurdchhls.wns.live/hls/stream.m3u8
-#EXTINF:0001 tvg-id="faiEJeoJRI6lw5" tvg-chno="3421" group-title="🇮🇶 Irak" tvg-logo="", Kurdistan 24
+#EXTINF:0001 tvg-id="faiEJeoJRI6lw5" tvg-chno="3421" group-title="🌍 IQ" tvg-logo="", Kurdistan 24
 https://hlspackager.akamaized.net/live/DB/K24/HLS/K24.m3u8
-#EXTINF:0001 tvg-id="9RdvwjYBwgdvbP" tvg-chno="3422" group-title="🇮🇶 Irak" tvg-logo="", Kurdistan TV
+#EXTINF:0001 tvg-id="9RdvwjYBwgdvbP" tvg-chno="3422" group-title="🌍 IQ" tvg-logo="", Kurdistan TV
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="8YNFXXuZHnJiGA" tvg-chno="3423" group-title="🇮🇶 Irak" tvg-logo="", Kurdsat
+#EXTINF:0001 tvg-id="8YNFXXuZHnJiGA" tvg-chno="3423" group-title="🌍 IQ" tvg-logo="", Kurdsat
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
-#EXTINF:0001 tvg-id="SjoOeqUrGyldOw" tvg-chno="3424" group-title="🇮🇶 Irak" tvg-logo="", Kurdsat News
+#EXTINF:0001 tvg-id="SjoOeqUrGyldOw" tvg-chno="3424" group-title="🌍 IQ" tvg-logo="", Kurdsat News
 https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
-#EXTINF:0001 tvg-id="XqC5PVMCK6bt9P" tvg-chno="3425" group-title="🇮🇶 Irak" tvg-logo="", Manu Chat
+#EXTINF:0001 tvg-id="XqC5PVMCK6bt9P" tvg-chno="3425" group-title="🌍 IQ" tvg-logo="", Manu Chat
 https://vmi747311.contaboserver.net/hls/livetv.m3u8
-#EXTINF:0001 tvg-id="zm44xwiDL9fsin" tvg-chno="3426" group-title="🇮🇶 Irak" tvg-logo="", Marjaeyat TV Arabic
+#EXTINF:0001 tvg-id="zm44xwiDL9fsin" tvg-chno="3426" group-title="🌍 IQ" tvg-logo="", Marjaeyat TV Arabic
 https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8
-#EXTINF:0001 tvg-id="pWcgyQ1N65tvlP" tvg-chno="3427" group-title="🇮🇶 Irak" tvg-logo="", Marjaeyat TV English
+#EXTINF:0001 tvg-id="pWcgyQ1N65tvlP" tvg-chno="3427" group-title="🌍 IQ" tvg-logo="", Marjaeyat TV English
 https://livefa.marjaeyattv.com/mtv_en/playlist.m3u8
-#EXTINF:0001 tvg-id="NA2Yy8jnyc36WT" tvg-chno="3428" group-title="🇮🇶 Irak" tvg-logo="", Marjaeyat TV Persian
+#EXTINF:0001 tvg-id="NA2Yy8jnyc36WT" tvg-chno="3428" group-title="🌍 IQ" tvg-logo="", Marjaeyat TV Persian
 https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
-#EXTINF:0001 tvg-id="O7kNo7GEugTsdZ" tvg-chno="3429" group-title="🇮🇶 Irak" tvg-logo="", Mixkurdy
+#EXTINF:0001 tvg-id="O7kNo7GEugTsdZ" tvg-chno="3429" group-title="🌍 IQ" tvg-logo="", Mixkurdy
 https://avr.host247.net/live/Mix-kurdy/playlist.m3u8
-#EXTINF:0001 tvg-id="Z1xarEkNQ77Icp" tvg-chno="3430" group-title="🇮🇶 Irak" tvg-logo="", Payam TV
+#EXTINF:0001 tvg-id="Z1xarEkNQ77Icp" tvg-chno="3430" group-title="🌍 IQ" tvg-logo="", Payam TV
 https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
-#EXTINF:0001 tvg-id="uW9T6p9CIkSP3A" tvg-chno="3431" group-title="🇮🇶 Irak" tvg-logo="", Rudaw TV
+#EXTINF:0001 tvg-id="uW9T6p9CIkSP3A" tvg-chno="3431" group-title="🌍 IQ" tvg-logo="", Rudaw TV
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
-#EXTINF:0001 tvg-id="PhXDu5yXp9uaMZ" tvg-chno="3432" group-title="🇮🇶 Irak" tvg-logo="", Samarra TV
+#EXTINF:0001 tvg-id="PhXDu5yXp9uaMZ" tvg-chno="3432" group-title="🌍 IQ" tvg-logo="", Samarra TV
 https://live.bradosti.net/live/samaraweb_playlist.m3u8
-#EXTINF:0001 tvg-id="5tvpIjV4plOKmq" tvg-chno="3433" group-title="🇮🇶 Irak" tvg-logo="", Shams TV
+#EXTINF:0001 tvg-id="5tvpIjV4plOKmq" tvg-chno="3433" group-title="🌍 IQ" tvg-logo="", Shams TV
 https://stream.shams.tv/hls/stream.m3u8
-#EXTINF:0001 tvg-id="KMzVAKGUvyz4eh" tvg-chno="3434" group-title="🇮🇶 Irak" tvg-logo="", Waar TV
+#EXTINF:0001 tvg-id="KMzVAKGUvyz4eh" tvg-chno="3434" group-title="🌍 IQ" tvg-logo="", Waar TV
 https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8
-#EXTINF:0001 tvg-id="1BItbbUxYfR9by" tvg-chno="3435" group-title="🇮🇶 Irak" tvg-logo="", Zagros TV
+#EXTINF:0001 tvg-id="1BItbbUxYfR9by" tvg-chno="3435" group-title="🌍 IQ" tvg-logo="", Zagros TV
 https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8
-#EXTINF:0001 tvg-id="cM31twBg1gSzK3" tvg-chno="3436" group-title="🇮🇶 Irak" tvg-logo="", Zarok TV Sorani
+#EXTINF:0001 tvg-id="cM31twBg1gSzK3" tvg-chno="3436" group-title="🌍 IQ" tvg-logo="", Zarok TV Sorani
 https://zindisorani.zaroktv.com.tr/hls/stream.m3u8
-#EXTINF:0001 tvg-id="eJjlISOoTDWS4E" tvg-chno="3437" group-title="🇱🇧 Lübnan" tvg-logo="", Aghani Aghani TV
+#EXTINF:0001 tvg-id="eJjlISOoTDWS4E" tvg-chno="3437" group-title="🌍 LB" tvg-logo="", Aghani Aghani TV
 https://cdn.streamlane.tv/hls/aghanitv/index.m3u8
-#EXTINF:0001 tvg-id="tJW0Zmlfbe64by" tvg-chno="3438" group-title="🇱🇧 Lübnan" tvg-logo="", Al Ittihad TV
+#EXTINF:0001 tvg-id="tJW0Zmlfbe64by" tvg-chno="3438" group-title="🌍 LB" tvg-logo="", Al Ittihad TV
 https://live.alittihad.tv:444/ittihad/index.m3u8
-#EXTINF:0001 tvg-id="yvnNcHzCVW1CCG" tvg-chno="3439" group-title="🇱🇧 Lübnan" tvg-logo="", Al Jadeed
+#EXTINF:0001 tvg-id="yvnNcHzCVW1CCG" tvg-chno="3439" group-title="🌍 LB" tvg-logo="", Al Jadeed
 https://185.9.2.18/chid_391/mono.m3u8
-#EXTINF:0001 tvg-id="h1ncAaz3z6G5rC" tvg-chno="3440" group-title="🇱🇧 Lübnan" tvg-logo="", Al Mayadeen TV
+#EXTINF:0001 tvg-id="h1ncAaz3z6G5rC" tvg-chno="3440" group-title="🌍 LB" tvg-logo="", Al Mayadeen TV
 https://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="SJ1fJzR4YH5Qub" tvg-chno="3441" group-title="🇱🇧 Lübnan" tvg-logo="", Al-Iman TV
+#EXTINF:0001 tvg-id="SJ1fJzR4YH5Qub" tvg-chno="3441" group-title="🌍 LB" tvg-logo="", Al-Iman TV
 https://svs.itworkscdn.net/alimanlive/imantv.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="adH0u7bdwEN6Q4" tvg-chno="3442" group-title="🇱🇧 Lübnan" tvg-logo="", Al-Manar
+#EXTINF:0001 tvg-id="adH0u7bdwEN6Q4" tvg-chno="3442" group-title="🌍 LB" tvg-logo="", Al-Manar
 https://edge.fastpublish.me/live/index.m3u8
-#EXTINF:0001 tvg-id="oHpWSCiwHvXaJw" tvg-chno="3443" group-title="🇱🇧 Lübnan" tvg-logo="", Assirat TV
+#EXTINF:0001 tvg-id="oHpWSCiwHvXaJw" tvg-chno="3443" group-title="🌍 LB" tvg-logo="", Assirat TV
 https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8
-#EXTINF:0001 tvg-id="o4YWqt8qnKLyde" tvg-chno="3444" group-title="🇱🇧 Lübnan" tvg-logo="", Charity TV
+#EXTINF:0001 tvg-id="o4YWqt8qnKLyde" tvg-chno="3444" group-title="🌍 LB" tvg-logo="", Charity TV
 https://652930de05533.streamlock.net/live/ngrp:livestream_all/playlist.m3u8
-#EXTINF:0001 tvg-id="zbc7OvMJjNYiAj" tvg-chno="3445" group-title="🇱🇧 Lübnan" tvg-logo="", Future TV
+#EXTINF:0001 tvg-id="zbc7OvMJjNYiAj" tvg-chno="3445" group-title="🌍 LB" tvg-logo="", Future TV
 https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="svC7kYWZwwTnpS" tvg-chno="3446" group-title="🇱🇧 Lübnan" tvg-logo="", Lana TV
+#EXTINF:0001 tvg-id="svC7kYWZwwTnpS" tvg-chno="3446" group-title="🌍 LB" tvg-logo="", Lana TV
 https://cdn.streamlane.tv/hls/ltv/master.m3u8
-#EXTINF:0001 tvg-id="OZojwzo0g4hoz6" tvg-chno="3447" group-title="🇱🇧 Lübnan" tvg-logo="", mfm
+#EXTINF:0001 tvg-id="OZojwzo0g4hoz6" tvg-chno="3447" group-title="🌍 LB" tvg-logo="", mfm
 https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8
-#EXTINF:0001 tvg-id="chS5L1lWnmt9Lq" tvg-chno="3448" group-title="🇱🇧 Lübnan" tvg-logo="", Nour Al Koddass
+#EXTINF:0001 tvg-id="chS5L1lWnmt9Lq" tvg-chno="3448" group-title="🌍 LB" tvg-logo="", Nour Al Koddass
 https://svs.itworkscdn.net/nour1satlive/livestream/playlist.m3u8
-#EXTINF:0001 tvg-id="jTdu7ZWaX25z1l" tvg-chno="3449" group-title="🇱🇧 Lübnan" tvg-logo="", Nour Al Sharq
+#EXTINF:0001 tvg-id="jTdu7ZWaX25z1l" tvg-chno="3449" group-title="🌍 LB" tvg-logo="", Nour Al Sharq
 https://svs.itworkscdn.net/nour8satlive/livestream/playlist.m3u8
-#EXTINF:0001 tvg-id="EhaJazdic4rGmR" tvg-chno="3450" group-title="🇱🇧 Lübnan" tvg-logo="", Noursat
+#EXTINF:0001 tvg-id="EhaJazdic4rGmR" tvg-chno="3450" group-title="🌍 LB" tvg-logo="", Noursat
 https://svs.itworkscdn.net/nour4satlive/livestream/playlist.m3u8
-#EXTINF:0001 tvg-id="ZBLEdJObtRX5b1" tvg-chno="3451" group-title="🇱🇧 Lübnan" tvg-logo="", Noursat English
+#EXTINF:0001 tvg-id="ZBLEdJObtRX5b1" tvg-chno="3451" group-title="🌍 LB" tvg-logo="", Noursat English
 https://svs.itworkscdn.net/noursatenglive/noursateng.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="emIP3T2eF8irvD" tvg-chno="3452" group-title="🇱🇧 Lübnan" tvg-logo="", One TV
+#EXTINF:0001 tvg-id="emIP3T2eF8irvD" tvg-chno="3452" group-title="🌍 LB" tvg-logo="", One TV
 https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8
-#EXTINF:0001 tvg-id="gnuuMkH7mNSzfZ" tvg-chno="3453" group-title="🇱🇧 Lübnan" tvg-logo="", OneFM
+#EXTINF:0001 tvg-id="gnuuMkH7mNSzfZ" tvg-chno="3453" group-title="🌍 LB" tvg-logo="", OneFM
 https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8
-#EXTINF:0001 tvg-id="2IP0NHvFLY6hEX" tvg-chno="3454" group-title="🇱🇧 Lübnan" tvg-logo="", Palestine Al Yawm
+#EXTINF:0001 tvg-id="2IP0NHvFLY6hEX" tvg-chno="3454" group-title="🌍 LB" tvg-logo="", Palestine Al Yawm
 https://live.paltodaytv.com/paltv/live/playlist_sfm4s.m3u8
-#EXTINF:0001 tvg-id="rcAVPicFrfGwrS" tvg-chno="3455" group-title="🇱🇧 Lübnan" tvg-logo="", Red TV Lebanon
+#EXTINF:0001 tvg-id="rcAVPicFrfGwrS" tvg-chno="3455" group-title="🌍 LB" tvg-logo="", Red TV Lebanon
 https://live.kwikmotion.com/redtvlive/redtv.smil/playlist.m3u8
-#EXTINF:0001 tvg-id="ijRgoOGCkEYlhK" tvg-chno="3456" group-title="🇱🇧 Lübnan" tvg-logo="", UNews
+#EXTINF:0001 tvg-id="ijRgoOGCkEYlhK" tvg-chno="3456" group-title="🌍 LB" tvg-logo="", UNews
 https://cdn.catiacast.video/abr/9436b5ab3c1171ab04a59af11951292f/playlist.m3u8
-#EXTINF:0001 tvg-id="fWdgIuiyR31OcO" tvg-chno="3457" group-title="🇱🇧 Lübnan" tvg-logo="", Voice of Lebanon
+#EXTINF:0001 tvg-id="fWdgIuiyR31OcO" tvg-chno="3457" group-title="🌍 LB" tvg-logo="", Voice of Lebanon
 https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8
 #EXTINF:0001 tvg-id="JVUe7nnKCNgESR" tvg-chno="3458" group-title="🇪🇸 İspanya" tvg-logo="", 3Cat Cameres del temps
 https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8
@@ -7599,89 +7599,89 @@ https://hlspackager.akamaized.net/live/DB/RONAHI_TV/HLS/RONAHI_TV.m3u8
 https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
 #EXTINF:0001 tvg-id="juxXjhcoxJLbzK" tvg-chno="3948" group-title="🌍 SY" tvg-logo="", Welat TV
 https://stream.badinan.xyz/welat/tv/playlist.m3u8
-#EXTINF:0001 tvg-id="mXKZDdnCvaD0Ng" tvg-chno="3949" group-title="🇵🇰 Pakistan" tvg-logo="", 92 News HD
+#EXTINF:0001 tvg-id="mXKZDdnCvaD0Ng" tvg-chno="3949" group-title="🌍 PK" tvg-logo="", 92 News HD
 https://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8
-#EXTINF:0001 tvg-id="BG3WWAjyFpp31n" tvg-chno="3950" group-title="🇵🇰 Pakistan" tvg-logo="", ABN News
+#EXTINF:0001 tvg-id="BG3WWAjyFpp31n" tvg-chno="3950" group-title="🌍 PK" tvg-logo="", ABN News
 https://vodzong.mjunoon.tv:8087/streamtest/ABN-161/playlist.m3u8
-#EXTINF:0001 tvg-id="zGAV8bRJNSfMxb" tvg-chno="3951" group-title="🇵🇰 Pakistan" tvg-logo="", BSTV
+#EXTINF:0001 tvg-id="zGAV8bRJNSfMxb" tvg-chno="3951" group-title="🌍 PK" tvg-logo="", BSTV
 https://lbgo.bozztv.com/ssh101/ssh101/bstv/playlist.m3u8
-#EXTINF:0001 tvg-id="U0CRP1XJWZMip7" tvg-chno="3952" group-title="🇵🇰 Pakistan" tvg-logo="", Discover Pakistan
+#EXTINF:0001 tvg-id="U0CRP1XJWZMip7" tvg-chno="3952" group-title="🌍 PK" tvg-logo="", Discover Pakistan
 https://livecdn.live247stream.com/discoverpakistan/web/playlist.m3u8
-#EXTINF:0001 tvg-id="m2To9haRzcjc8z" tvg-chno="3953" group-title="🇵🇰 Pakistan" tvg-logo="", Dunya News
+#EXTINF:0001 tvg-id="m2To9haRzcjc8z" tvg-chno="3953" group-title="🌍 PK" tvg-logo="", Dunya News
 https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8
-#EXTINF:0001 tvg-id="sUwagTdL1WG5o2" tvg-chno="3954" group-title="🇵🇰 Pakistan" tvg-logo="", Fazal TV
+#EXTINF:0001 tvg-id="sUwagTdL1WG5o2" tvg-chno="3954" group-title="🌍 PK" tvg-logo="", Fazal TV
 https://cdn9.live247stream.com/punjabitvcanada/tv/playlist.m3u8
-#EXTINF:0001 tvg-id="MODjjERDzpT3OS" tvg-chno="3955" group-title="🇵🇰 Pakistan" tvg-logo="", Filmax
+#EXTINF:0001 tvg-id="MODjjERDzpT3OS" tvg-chno="3955" group-title="🌍 PK" tvg-logo="", Filmax
 https://s3.ideationtec.live/Filmax/Filmax.m3u8
-#EXTINF:0001 tvg-id="IGkGdoXwnCTsO2" tvg-chno="3956" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands Kids Club TV Arabic
+#EXTINF:0001 tvg-id="IGkGdoXwnCTsO2" tvg-chno="3956" group-title="🌍 PK" tvg-logo="", God Stands Kids Club TV Arabic
 https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8
-#EXTINF:0001 tvg-id="X2mzfNA1EyPeME" tvg-chno="3957" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands Kids Club TV Chinese
+#EXTINF:0001 tvg-id="X2mzfNA1EyPeME" tvg-chno="3957" group-title="🌍 PK" tvg-logo="", God Stands Kids Club TV Chinese
 https://online.godstands.tv:5443/WebRTCApp/streams/KidsChinese.m3u8
-#EXTINF:0001 tvg-id="97TDYmlPdbsepe" tvg-chno="3958" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands Kids Club TV English
+#EXTINF:0001 tvg-id="97TDYmlPdbsepe" tvg-chno="3958" group-title="🌍 PK" tvg-logo="", God Stands Kids Club TV English
 https://online.godstands.tv:5443/WebRTCApp/streams/kidsenglish.m3u8
-#EXTINF:0001 tvg-id="oXC3NCXK3UzLO5" tvg-chno="3959" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands Kids Club TV Urdu
+#EXTINF:0001 tvg-id="oXC3NCXK3UzLO5" tvg-chno="3959" group-title="🌍 PK" tvg-logo="", God Stands Kids Club TV Urdu
 https://online.godstands.tv:5443/WebRTCApp/streams/KidsUrdu.m3u8
-#EXTINF:0001 tvg-id="TmKO7eJbzWWIRg" tvg-chno="3960" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands TV Arabic
+#EXTINF:0001 tvg-id="TmKO7eJbzWWIRg" tvg-chno="3960" group-title="🌍 PK" tvg-logo="", God Stands TV Arabic
 https://online.godstands.tv:5443/WebRTCApp/streams/Arabic.m3u8
-#EXTINF:0001 tvg-id="NcmIJl0QEk2Pmg" tvg-chno="3961" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands TV Chinese
+#EXTINF:0001 tvg-id="NcmIJl0QEk2Pmg" tvg-chno="3961" group-title="🌍 PK" tvg-logo="", God Stands TV Chinese
 https://online.godstands.tv:5443/WebRTCApp/streams/chineselive.m3u8
-#EXTINF:0001 tvg-id="GzFin24wHyjwSS" tvg-chno="3962" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands TV English
+#EXTINF:0001 tvg-id="GzFin24wHyjwSS" tvg-chno="3962" group-title="🌍 PK" tvg-logo="", God Stands TV English
 https://online.godstands.tv:5443/WebRTCApp/streams/EnglishStreaming.m3u8
-#EXTINF:0001 tvg-id="v05zRUt0wtjOm3" tvg-chno="3963" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands TV Hindi
+#EXTINF:0001 tvg-id="v05zRUt0wtjOm3" tvg-chno="3963" group-title="🌍 PK" tvg-logo="", God Stands TV Hindi
 https://online.godstands.tv:5443/WebRTCApp/streams/HindiStreaming.m3u8
-#EXTINF:0001 tvg-id="gmAnyp0vi78tWo" tvg-chno="3964" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands TV Main
+#EXTINF:0001 tvg-id="gmAnyp0vi78tWo" tvg-chno="3964" group-title="🌍 PK" tvg-logo="", God Stands TV Main
 https://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8
-#EXTINF:0001 tvg-id="udYM5OktKE92Dh" tvg-chno="3965" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands TV Punjabi
+#EXTINF:0001 tvg-id="udYM5OktKE92Dh" tvg-chno="3965" group-title="🌍 PK" tvg-logo="", God Stands TV Punjabi
 https://online.godstands.tv:5443/WebRTCApp/streams/PunjabiStreaming.m3u8
-#EXTINF:0001 tvg-id="5jBZcISN5C325C" tvg-chno="3966" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands TV Tagalog
+#EXTINF:0001 tvg-id="5jBZcISN5C325C" tvg-chno="3966" group-title="🌍 PK" tvg-logo="", God Stands TV Tagalog
 https://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8
-#EXTINF:0001 tvg-id="MJZCJdg9pFYsCd" tvg-chno="3967" group-title="🇵🇰 Pakistan" tvg-logo="", God Stands TV Urdu
+#EXTINF:0001 tvg-id="MJZCJdg9pFYsCd" tvg-chno="3967" group-title="🌍 PK" tvg-logo="", God Stands TV Urdu
 https://online.godstands.tv:5443/WebRTCApp/streams/UrduStreaming.m3u8
-#EXTINF:0001 tvg-id="y7f5txzCbtS5vm" tvg-chno="3968" group-title="🇵🇰 Pakistan" tvg-logo="", Grace Network
+#EXTINF:0001 tvg-id="y7f5txzCbtS5vm" tvg-chno="3968" group-title="🌍 PK" tvg-logo="", Grace Network
 https://livecdn.live247stream.com/grace/tv/playlist.m3u8
-#EXTINF:0001 tvg-id="TuY2V6p7ao7BEP" tvg-chno="3969" group-title="🇵🇰 Pakistan" tvg-logo="", Isaac TV
+#EXTINF:0001 tvg-id="TuY2V6p7ao7BEP" tvg-chno="3969" group-title="🌍 PK" tvg-logo="", Isaac TV
 https://livecdn.live247stream.com/isaac/tv/playlist.m3u8
-#EXTINF:0001 tvg-id="OkQ04QjkopDSrH" tvg-chno="3970" group-title="🇵🇰 Pakistan" tvg-logo="", Jeremiah TV
+#EXTINF:0001 tvg-id="OkQ04QjkopDSrH" tvg-chno="3970" group-title="🌍 PK" tvg-logo="", Jeremiah TV
 https://x.streamablecloud.com/stream/hls/jeremiahtv/index.m3u8
-#EXTINF:0001 tvg-id="keDnMBwKoBk3De" tvg-chno="3971" group-title="🇵🇰 Pakistan" tvg-logo="", JooMusic
+#EXTINF:0001 tvg-id="keDnMBwKoBk3De" tvg-chno="3971" group-title="🌍 PK" tvg-logo="", JooMusic
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
-#EXTINF:0001 tvg-id="8aAcpwzM4vGEQS" tvg-chno="3972" group-title="🇵🇰 Pakistan" tvg-logo="", Joshua TV
+#EXTINF:0001 tvg-id="8aAcpwzM4vGEQS" tvg-chno="3972" group-title="🌍 PK" tvg-logo="", Joshua TV
 https://livecdn.live247stream.com/joshua/tv/playlist.m3u8
-#EXTINF:0001 tvg-id="0DyoG3XduwwwLj" tvg-chno="3973" group-title="🇵🇰 Pakistan" tvg-logo="", King TV
+#EXTINF:0001 tvg-id="0DyoG3XduwwwLj" tvg-chno="3973" group-title="🌍 PK" tvg-logo="", King TV
 https://streamer12.vdn.dstreamone.net/kingtv/kingtv/playlist.m3u8
-#EXTINF:0001 tvg-id="C3sLhVrqf1lZz5" tvg-chno="3974" group-title="🇵🇰 Pakistan" tvg-logo="", KTN News
+#EXTINF:0001 tvg-id="C3sLhVrqf1lZz5" tvg-chno="3974" group-title="🌍 PK" tvg-logo="", KTN News
 https://vodzong.mjunoon.tv:8087/streamtest/KTNNews-151/playlist.m3u8
-#EXTINF:0001 tvg-id="ey0C6dKSzvDUaH" tvg-chno="3975" group-title="🇵🇰 Pakistan" tvg-logo="", Lahore News
+#EXTINF:0001 tvg-id="ey0C6dKSzvDUaH" tvg-chno="3975" group-title="🌍 PK" tvg-logo="", Lahore News
 https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8
-#EXTINF:0001 tvg-id="OgLxSC2tuxXw6J" tvg-chno="3976" group-title="🇵🇰 Pakistan" tvg-logo="", M News
+#EXTINF:0001 tvg-id="OgLxSC2tuxXw6J" tvg-chno="3976" group-title="🌍 PK" tvg-logo="", M News
 https://cdn.rabta.stream/M-News/index.m3u8
-#EXTINF:0001 tvg-id="hQwO2hX6QgN3n6" tvg-chno="3977" group-title="🇵🇰 Pakistan" tvg-logo="", M Sports
+#EXTINF:0001 tvg-id="hQwO2hX6QgN3n6" tvg-chno="3977" group-title="🌍 PK" tvg-logo="", M Sports
 https://cdn.rabta.stream/M-Sports/index.m3u8
-#EXTINF:0001 tvg-id="0YXdU5lN1xFzdX" tvg-chno="3978" group-title="🇵🇰 Pakistan" tvg-logo="", Madani Channel English
+#EXTINF:0001 tvg-id="0YXdU5lN1xFzdX" tvg-chno="3978" group-title="🌍 PK" tvg-logo="", Madani Channel English
 https://streaming.madanichannel.tv/static/streaming-playlists/hls/c6a600b0-82cb-454a-8953-2bb2bb372edc/master.m3u8
-#EXTINF:0001 tvg-id="XNoYUMV4eTzrsQ" tvg-chno="3979" group-title="🇵🇰 Pakistan" tvg-logo="", Madani Channel Urdu
+#EXTINF:0001 tvg-id="XNoYUMV4eTzrsQ" tvg-chno="3979" group-title="🌍 PK" tvg-logo="", Madani Channel Urdu
 https://streaming.madanichannel.tv/static/streaming-playlists/hls/b9790f10-cb0d-4e30-82bf-84a756234e58/master.m3u8
-#EXTINF:0001 tvg-id="zYIClJMSMxWG01" tvg-chno="3980" group-title="🇵🇰 Pakistan" tvg-logo="", Minimax
+#EXTINF:0001 tvg-id="zYIClJMSMxWG01" tvg-chno="3980" group-title="🌍 PK" tvg-logo="", Minimax
 https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
-#EXTINF:0001 tvg-id="S1n88rMuz1tEg9" tvg-chno="3981" group-title="🇵🇰 Pakistan" tvg-logo="", Neo News
+#EXTINF:0001 tvg-id="S1n88rMuz1tEg9" tvg-chno="3981" group-title="🌍 PK" tvg-logo="", Neo News
 https://vodzong.mjunoon.tv:8087/streamtest/Neo-110/playlist.m3u8
-#EXTINF:0001 tvg-id="Dn8J2Ex2jjyZWp" tvg-chno="3982" group-title="🇵🇰 Pakistan" tvg-logo="", News One
+#EXTINF:0001 tvg-id="Dn8J2Ex2jjyZWp" tvg-chno="3982" group-title="🌍 PK" tvg-logo="", News One
 https://vodzong.mjunoon.tv:8087/streamtest/NEWS1-128/playlist.m3u8
-#EXTINF:0001 tvg-id="SgbKpnUMcIpXd6" tvg-chno="3983" group-title="🇵🇰 Pakistan" tvg-logo="", Peace TV Urdu
+#EXTINF:0001 tvg-id="SgbKpnUMcIpXd6" tvg-chno="3983" group-title="🌍 PK" tvg-logo="", Peace TV Urdu
 https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8
-#EXTINF:0001 tvg-id="qYVU4HXVDlQp2P" tvg-chno="3984" group-title="🇵🇰 Pakistan" tvg-logo="", PMI TV
+#EXTINF:0001 tvg-id="qYVU4HXVDlQp2P" tvg-chno="3984" group-title="🌍 PK" tvg-logo="", PMI TV
 https://cdn.live247stream.com/pmi/tv/playlist.m3u8
-#EXTINF:0001 tvg-id="77LBTTq4JvQf4h" tvg-chno="3985" group-title="🇵🇰 Pakistan" tvg-logo="", Praise TV
+#EXTINF:0001 tvg-id="77LBTTq4JvQf4h" tvg-chno="3985" group-title="🌍 PK" tvg-logo="", Praise TV
 https://livecdn.live247stream.com/praise/tv/playlist.m3u8
-#EXTINF:0001 tvg-id="eEl9GNsGZ69KhR" tvg-chno="3986" group-title="🇵🇰 Pakistan" tvg-logo="", PTV Sports
+#EXTINF:0001 tvg-id="eEl9GNsGZ69KhR" tvg-chno="3986" group-title="🌍 PK" tvg-logo="", PTV Sports
 https://tvsen7.aynascope.net/Sports1/index.m3u8
-#EXTINF:0001 tvg-id="HxH54ypKcC1Xvq" tvg-chno="3987" group-title="🇵🇰 Pakistan" tvg-logo="", Samaa TV
+#EXTINF:0001 tvg-id="HxH54ypKcC1Xvq" tvg-chno="3987" group-title="🌍 PK" tvg-logo="", Samaa TV
 https://vodzong.mjunoon.tv:8087/streamtest/SAMAA-173/playlist.m3u8
-#EXTINF:0001 tvg-id="WXuOh2YwSDNDLT" tvg-chno="3988" group-title="🇵🇰 Pakistan" tvg-logo="", Sky News Urdu
+#EXTINF:0001 tvg-id="WXuOh2YwSDNDLT" tvg-chno="3988" group-title="🌍 PK" tvg-logo="", Sky News Urdu
 https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8
-#EXTINF:0001 tvg-id="oy323hi3qdqwPY" tvg-chno="3989" group-title="🇵🇰 Pakistan" tvg-logo="", Such TV
+#EXTINF:0001 tvg-id="oy323hi3qdqwPY" tvg-chno="3989" group-title="🌍 PK" tvg-logo="", Such TV
 https://video.primexsports.com/suchnews/live/playlist.m3u8
-#EXTINF:0001 tvg-id="LBVPGHScrFCXER" tvg-chno="3990" group-title="🇵🇰 Pakistan" tvg-logo="", Zindagi TV
+#EXTINF:0001 tvg-id="LBVPGHScrFCXER" tvg-chno="3990" group-title="🌍 PK" tvg-logo="", Zindagi TV
 https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8
 #EXTINF:0001 tvg-id="efuDySoKxpVOBQ" tvg-chno="3991" group-title="🌍 VG" tvg-logo="", CBN Gospel
 https://59d39900ebfb8.streamlock.net/ccbn/ccbn/playlist.m3u8
@@ -7689,33 +7689,33 @@ https://59d39900ebfb8.streamlock.net/ccbn/ccbn/playlist.m3u8
 https://5790d294af2dc.streamlock.net/CBNVI/CBNVI/playlist.m3u8
 #EXTINF:0001 tvg-id="HQd1a5NUxyiDpk" tvg-chno="3993" group-title="🌍 GM" tvg-logo="", QTV Gambia
 https://player.qtv.gm/hls/live.stream.m3u8
-#EXTINF:0001 tvg-id="Zpcb6dPZj431wJ" tvg-chno="3994" group-title="🇵🇭 Filipinler" tvg-logo="", Abante TV
+#EXTINF:0001 tvg-id="Zpcb6dPZj431wJ" tvg-chno="3994" group-title="🌍 PH" tvg-logo="", Abante TV
 https://amg19223-amg19223c12-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c12-amgplt0352/playlist.m3u8
-#EXTINF:0001 tvg-id="jJ5KY3frn8Mets" tvg-chno="3995" group-title="🇵🇭 Filipinler" tvg-logo="", Bilyonaryo News Channel
+#EXTINF:0001 tvg-id="jJ5KY3frn8Mets" tvg-chno="3995" group-title="🌍 PH" tvg-logo="", Bilyonaryo News Channel
 https://amg19223-amg19223c11-amgplt0352.playout.now3.amagi.tv/playlist/amg19223-amg19223c11-amgplt0352/playlist.m3u8
-#EXTINF:0001 tvg-id="5ylmup4ChZMQ5g" tvg-chno="3996" group-title="🇵🇭 Filipinler" tvg-logo="", Hype TV
+#EXTINF:0001 tvg-id="5ylmup4ChZMQ5g" tvg-chno="3996" group-title="🌍 PH" tvg-logo="", Hype TV
 https://hypetvphbydtmmbs.itunerworldwide.workers.dev/master.live.m3u8
-#EXTINF:0001 tvg-id="VsGOkYCrhM3lob" tvg-chno="3997" group-title="🇵🇭 Filipinler" tvg-logo="", INC Radio
+#EXTINF:0001 tvg-id="VsGOkYCrhM3lob" tvg-chno="3997" group-title="🌍 PH" tvg-logo="", INC Radio
 https://stream-243529.castr.net/6842a712b68c56f675d988f1/live_b60a96e056fc11f084c05f5d0649296b/rewind-1800.m3u8
-#EXTINF:0001 tvg-id="4kmi2bWEnJ5k7S" tvg-chno="3998" group-title="🇵🇭 Filipinler" tvg-logo="", INC TV
+#EXTINF:0001 tvg-id="4kmi2bWEnJ5k7S" tvg-chno="3998" group-title="🌍 PH" tvg-logo="", INC TV
 https://stream-243529.castr.net/6842a712b68c56f675d988f1/live_f5ac22b0566511f0805217b960326aaa/rewind-1800.m3u8
-#EXTINF:0001 tvg-id="681XV5aGJin4Gd" tvg-chno="3999" group-title="🇵🇭 Filipinler" tvg-logo="", INTRAVEL Philippines
+#EXTINF:0001 tvg-id="681XV5aGJin4Gd" tvg-chno="3999" group-title="🌍 PH" tvg-logo="", INTRAVEL Philippines
 https://amg00861-amg00861c10-firetv-us-4726.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:0001 tvg-id="50fISDUbgXCYss" tvg-chno="4000" group-title="🇵🇭 Filipinler" tvg-logo="", Living Asia Channel
+#EXTINF:0001 tvg-id="50fISDUbgXCYss" tvg-chno="4000" group-title="🌍 PH" tvg-logo="", Living Asia Channel
 https://cdn.vegasplus.us/vegas/lac/playlist.m3u8
-#EXTINF:0001 tvg-id="vX2Vm81TXt010f" tvg-chno="4001" group-title="🇵🇭 Filipinler" tvg-logo="", Premier Sports
+#EXTINF:0001 tvg-id="vX2Vm81TXt010f" tvg-chno="4001" group-title="🌍 PH" tvg-logo="", Premier Sports
 https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8
-#EXTINF:0001 tvg-id="ZSj74UmnkvuvdN" tvg-chno="4002" group-title="🇵🇭 Filipinler" tvg-logo="", Premier Sports 2
+#EXTINF:0001 tvg-id="ZSj74UmnkvuvdN" tvg-chno="4002" group-title="🌍 PH" tvg-logo="", Premier Sports 2
 https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8
-#EXTINF:0001 tvg-id="aSbh31FN0fGHrR" tvg-chno="4003" group-title="🇵🇭 Filipinler" tvg-logo="", PTN
+#EXTINF:0001 tvg-id="aSbh31FN0fGHrR" tvg-chno="4003" group-title="🌍 PH" tvg-logo="", PTN
 https://sdtvnetworkph.sanmateocable.workers.dev/master.live.m3u8
-#EXTINF:0001 tvg-id="U4qFQGhb2lylGn" tvg-chno="4004" group-title="🇵🇭 Filipinler" tvg-logo="", Sine Plus
+#EXTINF:0001 tvg-id="U4qFQGhb2lylGn" tvg-chno="4004" group-title="🌍 PH" tvg-logo="", Sine Plus
 https://sineplusph.itunerworldwide.workers.dev/master.live.m3u8
-#EXTINF:0001 tvg-id="2gkarGO4fauZPH" tvg-chno="4005" group-title="🇵🇭 Filipinler" tvg-logo="", SMNI
+#EXTINF:0001 tvg-id="2gkarGO4fauZPH" tvg-chno="4005" group-title="🌍 PH" tvg-logo="", SMNI
 https://stream.kdlc.click/hls/0/stream.m3u8
-#EXTINF:0001 tvg-id="wTn8t48jb6lXBN" tvg-chno="4006" group-title="🇵🇭 Filipinler" tvg-logo="", Star Television
+#EXTINF:0001 tvg-id="wTn8t48jb6lXBN" tvg-chno="4006" group-title="🌍 PH" tvg-logo="", Star Television
 https://startelevisionph.itunerworldwide.workers.dev/master.live.m3u8
-#EXTINF:0001 tvg-id="25KpPpidlrPZ8K" tvg-chno="4007" group-title="🇵🇭 Filipinler" tvg-logo="", Star TV Philippines
+#EXTINF:0001 tvg-id="25KpPpidlrPZ8K" tvg-chno="4007" group-title="🌍 PH" tvg-logo="", Star TV Philippines
 https://startvphilippines.itunerworldwide.workers.dev/master.live.m3u8
 #EXTINF:0001 tvg-id="Tx7xS4U2MUhtO1" tvg-chno="4008" group-title="🌍 BZ" tvg-logo="", Guadalupe Media
 https://streamer1.nexgen.bz/GUADALUPE_MEDIA/index.m3u8
@@ -10777,11 +10777,11 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883098
 #EXTINF:0001 tvg-id="YRWHSN7GJpzMLf" tvg-chno="5540" group-title="🌍 ER" tvg-logo="", ERi-TV 1
 https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8
-#EXTINF:0001 tvg-id="jyTWdinG00DuQy" tvg-chno="5541" group-title="🇮🇸 İzlanda" tvg-logo="", RUV
+#EXTINF:0001 tvg-id="jyTWdinG00DuQy" tvg-chno="5541" group-title="🌍 IS" tvg-logo="", RUV
 https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl.m3u8
-#EXTINF:0001 tvg-id="N9DCid3vSfoS8E" tvg-chno="5542" group-title="🇮🇸 İzlanda" tvg-logo="", RUV 2
+#EXTINF:0001 tvg-id="N9DCid3vSfoS8E" tvg-chno="5542" group-title="🌍 IS" tvg-logo="", RUV 2
 https://ruvlive.akamaized.net/out/v1/2ff7673de40f419fa5164498fae89089/index.m3u8
-#EXTINF:0001 tvg-id="W8Hc7h8stwrkfe" tvg-chno="5543" group-title="🇮🇸 İzlanda" tvg-logo="", Visir
+#EXTINF:0001 tvg-id="W8Hc7h8stwrkfe" tvg-chno="5543" group-title="🌍 IS" tvg-logo="", Visir
 https://live.visir.is/hls-live/visir.smil/playlist.m3u8
 #EXTINF:0001 tvg-id="9v7vzS3xsxjDYS" tvg-chno="5544" group-title="🌍 KH" tvg-logo="", Apsara TV11
 https://live.ams.com.kh/app/stream/playlist.m3u8
@@ -12171,453 +12171,219 @@ https://server.zillarbarta.com/zillarbarta/index.m3u8
 https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
 #EXTINF:0001 tvg-id="R9UIEd40h1hSAD" tvg-chno="6237" group-title="🌍 TD" tvg-logo="", Tele Tchad
 https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal",TRT 1
-https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal",ATV
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal",A2
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="A2TV.tr@SD",A2TV (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal",TV8
-https://tv8-live.daioncdn.net/tv8/tv8.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",A Haber
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",NTV
-https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",Haber Global
-https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",Habertürk
-https://tv.ensonhaber.com/haberturk/haberturk.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",TGRT Haber
-https://canli.tgrthaber.com/tgrt.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber",Halk TV
-https://halktv-live.daioncdn.net/halktv/halktv.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor",A Spor
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor",HT Spor
-https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor",TJK TV
-https://tjktv-live.tjk.org/tjktv.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="4UTV.tr@SD",4U TV (720p)
-https://hls.4utv.live/hls/stream.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="360.tr@SD",360 TV (720p) [Not 24/7]
-https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AfroturkTV.tr@SD",Afroturk TV (1080p)
-https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AksuTV.tr@SD",Aksu TV (720p)
-https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AlZahraTVTurkic.tr@SD",Al-Zahra TV Turkic (720p) [Not 24/7]
-https://live.al-zahratv.com/live/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AlanyaPostaTV.tr@SD",Alanya Posta TV (1080p)
-https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AlmahriahTV.tr@SD",Almahriah TV (576p)
-https://starmenajo.com/hls/almahriah/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AltasTV.tr@SD",Altas TV (1080p)
-https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="AnadoluNetTV.tr@SD",Anadolu Net TV (1080p)
-https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ArasTV.tr@SD",ARAS TV (576p) [Not 24/7]
-http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BenguturkTV.tr@SD",Benguturk TV (1080p)
-http://185.234.111.229:8000/play/a05u
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BenguturkTV.tr@SD",BENGÜTÜRK TV (720p) [Not 24/7]
-https://tv.ensonhaber.com/benguturk/benguturk.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="BeyazTV.tr@SD",Beyaz TV (720p) [Not 24/7]
-https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BirTV.tr@SD",Bir TV (720p)
-https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="BloombergHT.tr@SD",Bloomberg HT (720p) [Not 24/7]
-https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BloombergHT.tr@SD",BloombergHT (720p)
-https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BRTV.tr@SD",BRTV (720p) [Geo-blocked]
-https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ASTV.tr@SD",Bursa AS TV (900p)
-https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ASTV.tr@SD",Bursa AS TV (720p) [Geo-blocked]
-https://waw2.artiyerelmedya.net/astv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BursaTV.tr@SD",Bursa TV (720p) [Not 24/7]
-https://win1.yayin.com.tr/bursatv/bursatv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="CayTV.tr@SD",Cay TV (720p)
-https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="CekmekoyTV.tr@SD",Cekmeköy TV (1080p)
-https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="CiftciTV.tr@SD",Çiftçi TV (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="CNBCe.tr@SD",CNBC-e
-https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DenizPostasiTV.tr@SD",Deniz Postası TV (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DHA.tr@SD",DHA (720p) [Not 24/7]
-https://603c568fccdf5.streamlock.net/live/dhaweb1_C5efC/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DisneyJr.tr@SD",Disney Jr. (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/disneyjunior/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DiyanetTV.tr@SD",Diyanet TV (1080p)
-https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DiyarTV.tr@SD",Diyar TV (720p)
-https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="DostTV.tr@SD",Dost TV (576p)
-https://dost.stream.emsal.im/tv/live.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="DreamTurk.tr@SD",Dream Türk (720p)
-https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="EdessaTV.tr@SD",Edessa TV (1080p)
-https://canli.edessatv.com/hls/stream.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ERTV.tr@SD",Er TV (1080p) [Geo-blocked]
-https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ErzurumWebTV.tr@SD",Erzurum Web TV (720p)
-https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ESTV.tr@SD",ES TV (720p)
-https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ETVKayseri.tr@SD",ETV Kayseri (720p)
-https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ETVManisa.tr@SD",ETV Manisa (1080p) [Not 24/7]
-https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="EuroD.tr@SD",Euro D (720p)
-https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FBTV.tr@SD",FB TV
-http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FinansTurkTV.tr@SD",Finans Turk TV (720p)
-https://yayin30.haber100.com/live/finansturk/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FlashHaberTV.tr@SD",Flash Haber TV
-https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FortunaTV.tr@HD",Fortuna TV (1080p)
-https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="FortunaTV.tr@SD",Fortuna TV (720p)
-https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="GuneydoguTV.tr@SD",Guneydogu TV (720p)
-https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="GZT.tr@SD",GZT (1080p)
-https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Haber61TV.tr@SD",Haber61 TV (720p) [Not 24/7]
-https://cdn-haber61tv.yayin.com.tr/haber61tv/smil:haber61tv.smil/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Haber61TV.tr@SD",Haber61 TV (720p) [Not 24/7]
-https://win8.yayin.com.tr/haber61tv/smil:haber61tv.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="HunatTV.tr@SD",Hunat TV (720p) [Geo-blocked]
-https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="HunatTV.tr@SD",Hunat TV (480p) [Not 24/7]
-https://59cba4d34b678.streamlock.net/canlitv/hunattv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="IcelTV.tr@SD",Icel TV (720p) [Not 24/7]
-https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="IlkeTV.tr@HD",Ilke TV (1080p)
-https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal3.tr@SD",Kanal 3 (1080p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal3.tr@SD",Kanal 3 (1080p) [Not 24/7]
-https://waw2.artiyerelmedya.net/kanal3/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal3.tr@SD",Kanal 3 (720p) [Not 24/7]
-http://stream.taksimbilisim.com:1935/kanal3/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal3.tr@SD",Kanal 3 (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="Kanal7.tr@SD",Kanal 7 (1080p) [Not 24/7]
-https://kanal7-live.daioncdn.net/kanal7/kanal7.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="ATV.tr@SD",ATV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="ATVAlanya.tr@SD",ATV Alanya (1080p)
+https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="ATVAvrupa.tr@SD",ATV Avrupa (576p)
+https://flaskapihls-atv-avrupa-trkvzlive.onrender.com/hls_stream/master.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="Kanal7.tr@SD",Kanal 7 (720p)
 https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="Kanal7Avrupa.tr@SD",Kanal 7 Avrupa (720p) [Not 24/7]
-https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal12.tr@SD",Kanal 12 (720p)
-https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal15.tr@SD",Kanal 15 (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal23.tr@SD",Kanal 23 (1080p)
-https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal23.tr@SD",Kanal 23 (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal26.tr@SD",Kanal 26 (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal32.tr@SD",Kanal 32 (720p) [Not 24/7]
-https://edge1.socialsmart.tv/kanal32/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal33.tr@SD",Kanal 33 (720p) [Not 24/7]
-https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal34.tr@SD",Kanal 34 (720p) [Not 24/7]
-https://vdo.digitalbox.xyz:3266/live/kanal34tvlive.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Kanal58.tr@SD",KANAL 58 (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="KanalD.tr@SD",Kanal D (1080p)
 https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="KanalDDrama.tr@SD",Kanal D Drama (1080p)
-http://190.93.224.42/KANAL-D-DRAMA/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="KanalDDrama.tr@SD",Kanal D Drama (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KanalFirat.tr@SD",Kanal Firat (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KanalHayat.tr@SD",Kanal Hayat (1080p)
-https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KanalV.tr@SD",Kanal V (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KayTV.tr@SD",Kay TV (576p) [Geo-blocked]
-https://live.artidijitalmedya.com/artidijital_kaytv/kaytv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KentTurk.tr@SD",Kent Türk TV (1080p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KentTurk.tr@SD",Kent Türk TV (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_38kenttv/38kenttv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KocaeliTV.tr@SD",Kocaeli TV (1080p)
-https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="KonyaOlayTV.tr@SD",Konya Olay TV (720p)
-https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="KralPopTV.tr@SD",KRAL Pop TV (720p)
-https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LalegulTV.tr@SD",Lalegul TV (1080p)
-https://lbl.netmedya.net/hls/lalegultv.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LalegulTV.tr@SD",Lalegül TV (720p) [Not 24/7]
-http://lalegultv.netmedya.net/hls/lalegultv.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LalegulTV.tr@SD",Lalegül TV (720p) [Not 24/7]
-http://lalegultv.netmedya.net/lalegul-tv/lalegultv.stream/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LifeTV.tr@SD",Life TV (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LineTV.tr@SD",Line TV (720p) [Not 24/7]
-https://edge1.socialsmart.tv/linetv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="LuysTV.tr@SD",Luys TV (1080p)
-https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MaviKaradenizTV.tr@SD",MaviKaradeniz (1080p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="MedMuzik.tr@SD",Med Muzik (1080p)
-http://54.36.110.140/live3/live3.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MekameleenTV.tr@SD",Mekameleen TV (1080p)
-https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MeltemTV.tr@SD",Meltem TV (1080p)
-https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MercanTV.tr@SD",Mercan TV (576p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaCocuk.tr@SD",Minika Cocuk (720p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaCocuk.tr@SD",Minika Cocuk (576p)
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaGo.tr@SD",Minika Go (720p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaGo.tr@SD",Minika Go (576p)
-http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MovieSmartTurk.tr@SD",MovieSmart Turk (576p)
-http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="MTurkTV.tr@SD",MTürk TV (1080p)
-https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="NationalGeographic.tr@SD",National Geographic (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/natgeohd/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="NationalGeographicWild.tr@SD",National Geographic Wild (1080p) [Geo-blocked]
-https://saran-live.ercdn.net/natgeowild/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="NaturalTV.tr@SD",Natural TV (720p) [Not 24/7]
-http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="NaturalTV.tr@SD",Natural TV (720p) [Not 24/7]
-https://edge1.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="NOWTV.tr@SD",NOW TV (720p)
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="NOWTV.tr@SD",NOW TV
-http://116.202.238.88/FOXTV_TR/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1Ask.tr@SD",Number 1 Ask (720p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="StarTV.tr@SD",Star TV (720p)
+https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="TRT1.tr@SD",TRT 1 (1440p)
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="AHaber.tr@SD",A Haber (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="HalkTV.tr@SD",Halk TV (1080p)
+https://halktv-live.daioncdn.net/halktv/halktv.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="NTV.tr@SD",NTV
+https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="TGRTHaber.tr@SD",TGRT Haber (720p)
+https://canli.tgrthaber.com/tgrt.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="TRTHaber.tr@SD",TRT Haber (720p)
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="TVNET.tr@SD",TVNET (1080p)
+https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="ASpor.tr@SD",A Spor (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="HTSporTV.tr@SD",HTSpor TV (1080p)
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="TJKTV.tr@SD",TJK TV (1080p)
+https://tjktv-live.tjk.org/tjktv.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="TRTSpor.tr@SD",TRT Spor (720p)
+https://corestream.siteyaptim.live/trt-spor/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaCocuk.tr@SD",Minika Cocuk (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="MinikaGo.tr@SD",Minika Go (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="TRTCocuk.tr@SD",TRT Cocuk (1440p)
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="TRTDiyanetCocuk.tr@SD",TRT Diyanet Çocuk (720p)
+https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Belgesel" tvg-id="TRTBelgesel.tr@SD",TRT Belgesel (720p)
+https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="KralPopTV.tr@SD",KRAL Pop TV (720p)
+https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="Number1Ask.tr@SD",Number 1 Ask (720p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1Damar.tr@SD",Number 1 Damar (720p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="Number1Damar.tr@SD",Number 1 Damar (720p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1Dance.tr@SD",Number 1 Dance (720p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="Number1Dance.tr@SD",Number 1 Dance (720p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1TV.tr@SD",Number 1 TV (720p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="Number1TV.tr@SD",Number 1 TV (720p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Number1TV.tr@SD",Number 1 TV (720p)
-https://mn-nl.mncdn.com/blutv_nr12/live.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="OlayTurkTV.tr@SD",Olay Türk TV Kayseri (720p) [Geo-blocked]
-https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="On4TV.tr@SD",On4 TV (1080p)
-https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerDance.tr@SD",Power Dance (1080p)
-https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerLove.tr@SD",Power Love (1080p)
-https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="PowerTurkTV.tr@SD",Power Turk (1080p) [Not 24/7]
-https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="PowerTurkAkustik.tr@SD",Power Türk Akustik (1080p)
 https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="PowerTurkSlow.tr@SD",Power Türk Slow (1080p)
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="PowerTurkTaptaze.tr@SD",Power Türk Taptaze (1080p)
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerTV.tr@SD",Power TV (1080p)
-https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerTV.tr@SD",Power TV (720p)
-https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerTurkTV.tr@SD",PowerTurk TV
-https://powerturk.blutv.com/blutv_powerturk/powerturk_sd.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="PowerTurkTV.tr@SD",PowerTürk TV (720p)
-https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="QafTV.tr@SD",Qaf TV (1080p)
-https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="SSport.tr@SD",S Sport (720p)
-https://corestream.siteyaptim.live/s-sport/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="SSport2.tr@SD",S Sport 2 (720p)
-https://corestream.siteyaptim.live/s-sport2/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="SSport2.tr@SD",S Sport 2
-https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Sat7Turk.cy@SD",Sat7 Türk (1080p)
-https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="BricveSatrancTV.tr@SD",Satranç TV (480p) [Not 24/7]
-http://139.162.182.79/live/test/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SemerkandTV.tr@SD",Semerkand TV (1080p) [Not 24/7]
-https://b01c02nl.mediatriple.net/videoonlylive/mtisvwurbfcyslive/broadcast_58d915bd40efc.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SercemTV.tr@HD",Sercem TV (1080p)
-https://canli.sercemtv.com.tr/hls/0/stream.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="StarTV.tr@SD",Star TV (720p)
-https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SunRTV.tr@SD",Sun RTV (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SunRTV.tr@SD",Sun RTV (720p) [Not 24/7]
-https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TBMMTV.tr@SD",TBMM TV (720p)
-https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Tele1.tr@SD",Tele 1 (1080p)
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TempoTV.tr@SD",Tempo TV (720p)
-https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Belgesel" tvg-id="TGRTBelgesel.tr@SD",TGRT Belgesel TV (576p) [Not 24/7]
-https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Tivi6.tr@SD",Tivi 6 (720p)
-https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TonTV.tr@SD",Ton TV (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="",Torba TV (720p) [Not 24/7]
-https://59cba4d34b678.streamlock.net/canlitv/torbatv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="24TV.tr@SD",TR24 TV (720p) [Not 24/7]
-https://tv.ensonhaber.com/tv24/tv24.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRT2.tr@SD",TRT 2 (1440p) [Geo-blocked]
-https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRT3.tr@SD",TRT 3 (720p)
-https://tv-trt3.live.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTArabi.tr@SD",TRT Arabi (1080p) [Not 24/7]
-https://tv-trtarabi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTAvaz.tr@SD",TRT Avaz (720p)
-https://tv-trtavaz.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Belgesel" tvg-id="TRTBelgesel.tr@SD",TRT Belgesel (720p)
-https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="TRTCocuk.tr@SD",TRT Cocuk (1440p)
-https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Çocuk" tvg-id="TRTDiyanetCocuk.tr@SD",TRT Diyanet Çocuk (720p)
-https://tv-trtdiyanetcocuk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRTEBAIlkokul.tr@SD",TRT EBA Ilkokul (720p)
-https://tv-e-okul00.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRTEBALise.tr@SD",TRT EBA Lise (720p)
-https://tv-e-okul02.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TRTEBA.tr@SD",TRT EBA Ortaokul (720p)
-https://tv-e-okul01.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Haber" tvg-id="TRTHaber.tr@SD",TRT Haber (720p)
-https://tv-trthaber.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTKurdi.tr@SD",TRT Kurdî (720p)
-https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="TRTMuzik.tr@SD",TRT Muzik
-https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Müzik" tvg-id="TRTMuzik.tr@SD",TRT Müzik (720p)
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="TRTSporYildiz.tr@SD",TRT Spor Yildiz (1440p) [Geo-blocked]
-https://trt.daioncdn.net/trtspor-yildiz/master.m3u8?app=web&platform=trtspor
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTAvaz.tr@SD",TRT Avaz (720p)
+https://tv-trtavaz.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTKurdi.tr@SD",TRT Kurdî (720p)
+https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTTurk.tr@SD",TRT Türk (720p)
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • TRT Diğer" tvg-id="TRTWorld.tr@SD",TRT World (1080p) [Not 24/7]
-https://tv-trtworld.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TurkHaberTV.tr@SD",TürkHaber (720p)
-https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV1.tr@SD",TV 1 (720p)
-https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV4.tr@SD",TV4 (720p)
-https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV8.tr@SD",TV 8 (1080p)
-https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="24TV.tr@SD",TV 24 (720p)
-https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV41.tr@SD",TV 41 (720p) [Not 24/7]
-http://stream.taksimbilisim.com:1935/tv41/bant1/TV41.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV41.tr@SD",TV 41 (720p) [Not 24/7]
-http://stream.taksimbilisim.com:1935/tv41/smil:tv41.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV41.tr@SD",TV 41 (720p) [Not 24/7]
-https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV42.tr@SD",TV 42
-https://canli.tv42.com.tr/memfs/d936e417-c4bd-4d42-89a2-02f289892d1d.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV52.tr@SD",TV 52 (720p) [Not 24/7]
-https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TV264.tr@SD",TV 264 (1080p)
-https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TVDen.tr@SD",TV Den (576p) [Not 24/7]
-http://canli.tvden.com.tr/hls/live.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="TVNET.tr@SD",TVNET (1080p)
-https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="UlkeTV.tr@SD",Ulke TV
-http://217.174.229.138:8000/play/a0el
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="UrfaNatikTV.tr@SD",Urfa Natik TV (720p)
-https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="Van65TV.tr@SD",Van 65 TV
-https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="VavTV.tr@SD",Vav TV
-https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ZarokTV.tr@SD",Zarok TV (720p)
-https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
-#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Spor" tvg-id="TRTSpor.tr@SD",TRT Spor (720p)
-https://corestream.siteyaptim.live/trt-spor/index.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="ShowTurk.tr@SD",Show Turk (1080p)
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="4UTV.tr@SD",4U TV (720p)
+https://hls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="AfroturkTV.tr@SD",Afroturk TV (1080p)
+https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="AksuTV.tr@SD",Aksu TV (720p)
+https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="AlanyaPostaTV.tr@SD",Alanya Posta TV (1080p)
+https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="AlmahriahTV.tr@SD",Almahriah TV (576p)
+https://starmenajo.com/hls/almahriah/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="AltasTV.tr@SD",Altas TV (1080p)
+https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="AnadoluNetTV.tr@SD",Anadolu Net TV (1080p)
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="BirTV.tr@SD",Bir TV (720p)
+https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="BloombergHT.tr@SD",BloombergHT (720p)
+https://ciner-live.daioncdn.net/bloomberght/bloomberght.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="ASTV.tr@SD",Bursa AS TV (900p)
+https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="CayTV.tr@SD",Cay TV (720p)
+https://edge1.socialsmart.tv/caytv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="CekmekoyTV.tr@SD",Cekmeköy TV (1080p)
+https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="CNBCe.tr@SD",CNBC-e
+https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="DiyanetTV.tr@SD",Diyanet TV (1080p)
+https://eustr73.mediatriple.net/videoonlylive/mtikoimxnztxlive/broadcast_5e3bf95a47e07.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="DiyarTV.tr@SD",Diyar TV (720p)
+https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="DostTV.tr@SD",Dost TV (576p)
+https://dost.stream.emsal.im/tv/live.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="DreamTurk.tr@SD",Dream Türk (720p)
+https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="EdessaTV.tr@SD",Edessa TV (1080p)
+https://canli.edessatv.com/hls/stream.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="ErzurumWebTV.tr@SD",Erzurum Web TV (720p)
+https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="ESTV.tr@SD",ES TV (720p)
+https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="ETVKayseri.tr@SD",ETV Kayseri (720p)
+https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="EuroD.tr@SD",Euro D (720p)
+https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="FinansTurkTV.tr@SD",Finans Turk TV (720p)
+https://yayin30.haber100.com/live/finansturk/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="FlashHaberTV.tr@SD",Flash Haber TV
+https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="FortunaTV.tr@HD",Fortuna TV (1080p)
+https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="FortunaTV.tr@SD",Fortuna TV (720p)
+https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="GuneydoguTV.tr@SD",Guneydogu TV (720p)
+https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="GZT.tr@SD",GZT (1080p)
+https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="IlkeTV.tr@HD",Ilke TV (1080p)
+https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="Kanal12.tr@SD",Kanal 12 (720p)
+https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="Kanal23.tr@SD",Kanal 23 (1080p)
+https://cdn-kanal23.yayin.com.tr/kanal23/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="KanalHayat.tr@SD",Kanal Hayat (1080p)
+https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="KocaeliTV.tr@SD",Kocaeli TV (1080p)
+https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="KonyaOlayTV.tr@SD",Konya Olay TV (720p)
+https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="LalegulTV.tr@SD",Lalegul TV (1080p)
+https://lbl.netmedya.net/hls/lalegultv.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="LuysTV.tr@SD",Luys TV (1080p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="MekameleenTV.tr@SD",Mekameleen TV (1080p)
+https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="MeltemTV.tr@SD",Meltem TV (1080p)
+https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="MTurkTV.tr@SD",MTürk TV (1080p)
+https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="NationalGeographic.tr@SD",National Geographic
+https://nord.ayakkabiparti.lol/natgeo/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="NationalGeographicWild.tr@SD",National Geographic Wild
+https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="On4TV.tr@SD",On4 TV (1080p)
+https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="PowerDance.tr@SD",Power Dance (1080p)
+https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="PowerLove.tr@SD",Power Love (1080p)
+https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="PowerTV.tr@SD",Power TV (1080p)
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="PowerTurkTV.tr@SD",PowerTürk TV (720p)
+https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="QafTV.tr@SD",Qaf TV (1080p)
+https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="Sat7Turk.cy@SD",Sat7 Türk (1080p)
+https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="SercemTV.tr@HD",Sercem TV (1080p)
+https://canli.sercemtv.com.tr/hls/0/stream.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="ShowTurk.tr@SD",Show Turk (1080p)
 https://raw.githubusercontent.com/bnyusuf67-crypto/streams/refs/heads/main/streams/shturk.m3u8
-#EXTINF:-1 group-title="🇹🇷 Türkiye • Diğer" tvg-id="SozcuTV.tr@SD",Sozcu TV (1080p)
-http://5.178.103.239:55/yt1/szctv.m3u8
-#EXTINF:0001 tvg-id="lHa4V9RdrTKUbj" tvg-chno="1987" group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-logo="", ATV Alanya
-https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
-#EXTINF:0001 tvg-id="OULTM0gM1sr5Ul" tvg-chno="1988" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", BBC Earth Turkiye
-https://nord.ayakkabiparti.lol/bbc/index.m3u8
-#EXTINF:0001 tvg-id="Lp2HSyk6TUB8Wd" tvg-chno="1989" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Box Office 1
-https://nord.ayakkabiparti.lol/box1/index.m3u8
-#EXTINF:0001 tvg-id="rBWQKggGNEhC62" tvg-chno="1990" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Box Office 2
-https://nord.ayakkabiparti.lol/box2/index.m3u8
-#EXTINF:0001 tvg-id="wkMHuYhE60CfLP" tvg-chno="1991" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Box Office 3
-https://nord.ayakkabiparti.lol/box3/index.m3u8
-#EXTINF:0001 tvg-id="gcitZzRCddaZzJ" tvg-chno="1992" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Movies Stars
-https://nord.ayakkabiparti.lol/bsaction1/index.m3u8
-#EXTINF:0001 tvg-id="7vDbUXN6wMyfUG" tvg-chno="1993" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", beIN Movies Turk
-https://nord.ayakkabiparti.lol/bsturk/index.m3u8
-#EXTINF:0001 tvg-id="srU5BUChRvVkhn" tvg-chno="1994" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bi Kanal
-https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
-#EXTINF:0001 tvg-id="Z7tHup27v1j2Td" tvg-chno="1996" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bodrum Kent TV
-https://edge2.taksimbilisim.com/bodrumkenttv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="lnPH0Jssl2BDkS" tvg-chno="1997" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Bric ve Satranc TV
-https://139.162.182.79/live/test/index.m3u8
-#EXTINF:0001 tvg-id="g52lNlgT4qykk6" tvg-chno="2000" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Cem TV
-https://panel.5gtvhosting.com/hls/cemtv/cemtv.m3u8
-#EXTINF:0001 tvg-id="nqxj96I7x3VyQ2" tvg-chno="2002" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Cine 1
-https://canliyayin.cine1.com.tr/memfs/cbaef080-a742-4644-9e9e-2b9f6a5103c3_output_0.m3u8
-#EXTINF:0001 tvg-id="7jyQg4ihSASAyo" tvg-chno="2008" group-title="🇹🇷 TÜRKSAT • Spor" tvg-logo="", Ekol Sports
-https://ekoltv-live.ercdn.net/ekolsport/ekolsport.m3u8
-#EXTINF:0001 tvg-id="gSMvZveXTsgLFU" tvg-chno="2009" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Ekol TV
-https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8
-#EXTINF:0001 tvg-id="6TzIP2eJ3m8bpX" tvg-chno="2010" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Elsharq TV
-https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8
-#EXTINF:0001 tvg-id="NaLDKK2n9zWTIs" tvg-chno="2011" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Erciyes TV
-https://live.artidijitalmedya.com/artidijital_erciyestv/erciyestv/playlist.m3u8
-#EXTINF:0001 tvg-id="4WUKZJPvirxz3S" tvg-chno="2018" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", FRT TV
-https://edge1.taksimbilisim.com/frttv/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="1YeqEExY1ZHarD" tvg-chno="2029" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal 19
-https://live.euromediacenter.com/kanal19/tracks-v1a1/playlist.m3u8
-#EXTINF:0001 tvg-id="HqIl2YxOsapx3V" tvg-chno="2035" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Avrupa
-https://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v2a1/playlist.m3u8
-#EXTINF:0001 tvg-id="s5TJFofoYPgAud" tvg-chno="2036" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal B
-https://tv.kanalb.tr/hls/kanalb/index.m3u8
-#EXTINF:0001 tvg-id="oVWM3Lwlb8W6WS" tvg-chno="2039" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Plus
-https://live.artidijitalmedya.com/artidijital_kanalplus/kanalplus/mpeg/playlist.m3u8
-#EXTINF:0001 tvg-id="ZpyGz1uKyGaQ8R" tvg-chno="2040" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Kanal Urfa
-https://edge2.taksimbilisim.com/kanalurfa/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="eSS3Rjhr7Bc3Fu" tvg-chno="2042" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Karadeniz TV
-https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8
-#EXTINF:0001 tvg-id="mtrakHpwzJnbET" tvg-chno="2051" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Malatya Vuslat TV
-https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8
-#EXTINF:0001 tvg-id="BO4YypoB7kcaVn" tvg-chno="2060" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Neo Haber
-https://edge2.taksimbilisim.com/neohaber/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="4uzKD8gUrU9s8R" tvg-chno="2072" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Rehber TV
-https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/playlist.m3u8
-#EXTINF:0001 tvg-id="h0LixAqfar2ZLy" tvg-chno="2073" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Ruha TV
-https://ruhatv.radyotelekom.com.tr:3515/live/ruhatvlive.m3u8
-#EXTINF:0001 tvg-id="e6ku1z7iZYh6lv" tvg-chno="2078" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Show Max
-https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax.m3u8
-#EXTINF:0001 tvg-id="1GHn7hBwkPvtBl" tvg-chno="2079" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Sonmez TV
-https://sonmeztv.ozelip.com.tr:3826/live/sonmeztvlive.m3u8
-#EXTINF:0001 tvg-id="pTUvBY4x4L3ji9" tvg-chno="2083" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Telenews
-https://cdn-telenews.yayin.com.tr/telenews/tracks-v1a1/playlist.m3u8
-#EXTINF:0001 tvg-id="DvCN8WstHjmxKR" tvg-chno="2089" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Trakya Turk
-https://live.euromediacenter.com/trakyaturk/tracks-v1a1/playlist.m3u8
-#EXTINF:0001 tvg-id="MhRzY1TKeTMMWB" tvg-chno="2101" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TurkHaber TV
-https://edge2.taksimbilisim.com/turkhaber/bant1/playlist.m3u8
-#EXTINF:0001 tvg-id="kNlSvYLttCaBWF" tvg-chno="2103" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 8.5
-https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk.m3u8
-#EXTINF:0001 tvg-id="W5plAUUYqWIZ2k" tvg-chno="2106" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TV 100
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TBMMTV.tr@SD",TBMM TV (720p)
+https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="Tele1.tr@SD",Tele 1 (1080p)
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TempoTV.tr@SD",Tempo TV (720p)
+https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="Tivi6.tr@SD",Tivi 6 (720p)
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TRT3.tr@SD",TRT 3 (720p)
+https://tv-trt3.live.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TRTEBAIlkokul.tr@SD",TRT EBA Ilkokul (720p)
+https://tv-e-okul00.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TRTEBALise.tr@SD",TRT EBA Lise (720p)
+https://tv-e-okul02.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TRTEBA.tr@SD",TRT EBA Ortaokul (720p)
+https://tv-e-okul01.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TurkHaberTV.tr@SD",TürkHaber (720p)
+https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TV1.tr@SD",TV 1 (720p)
+https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TV100.tr@SD",TV 100
 https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
-#EXTINF:0001 tvg-id="Dti0xsuIDuqqFU" tvg-chno="2110" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", TYT Turk
-https://tytturk-live.ercdn.net/tytturk/tytturk.m3u8
-#EXTINF:0001 tvg-id="HU7t21P03xeEXV" tvg-chno="2114" group-title="🇹🇷 Türkiye • Diğer" tvg-logo="", Viasat History
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="24TV.tr@SD",TV 24 (720p)
+https://turkmedya-live.ercdn.net/tv24/tv24.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TV264.tr@SD",TV 264 (1080p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TV42.tr@SD",TV 42
+https://canli.tv42.com.tr/memfs/d936e417-c4bd-4d42-89a2-02f289892d1d.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TV8.tr@SD",TV 8 (1080p)
+https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="TV4.tr@SD",TV4 (720p)
+https://turkmedya-live.ercdn.net/tv4/tv4.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="UrfaNatikTV.tr@SD",Urfa Natik TV (720p)
+https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="Van65TV.tr@SD",Van 65 TV
+https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="VavTV.tr@SD",Vav TV
+https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="ViasatHistory.tr@SD",Viasat History (720p)
 https://nord.ayakkabiparti.lol/viasathistory/index.m3u8
+#EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Diğer" tvg-id="ZarokTV.tr@SD",Zarok TV (720p)
+https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8

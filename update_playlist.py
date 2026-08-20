@@ -2,6 +2,8 @@ import urllib.request
 from urllib.parse import urljoin
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from html.parser import HTMLParser
+from difflib import SequenceMatcher
 import re
 import unicodedata
 
@@ -50,7 +52,22 @@ TURKEY_SOURCES = [
 
 
 # ============================================================
-# TÜRKİYE YEDEK KAYNAKLARI
+# KINGOFSAT - FTA UYDU LİSTELERİ
+# ============================================================
+
+ASTRA_KINGOFSAT = (
+    "https://en.kingofsat.net/"
+    "tv.php?filtre=Clear&ordre=freq&pos=19.2E"
+)
+
+HOTBIRD_KINGOFSAT = (
+    "https://en.kingofsat.net/"
+    "tv.php?filtre=Clear&ordre=freq&pos=13E"
+)
+
+
+# ============================================================
+# TÜRKİYE YEDEKLERİ
 # ============================================================
 
 FALLBACKS = {
@@ -130,7 +147,8 @@ FALLBACKS = {
         ),
         (
             "Habertürk",
-            "https://tv.ensonhaber.com/haberturk/haberturk.m3u8",
+            "https://tv.ensonhaber.com/"
+            "haberturk/haberturk.m3u8",
             720,
         ),
     ],
@@ -148,7 +166,8 @@ FALLBACKS = {
         (
             "CNN Türk",
             "https://mn-nl.mncdn.com/"
-            "blutv_cnnturk/smil:cnnturk_sd.smil/playlist.m3u8",
+            "blutv_cnnturk/"
+            "smil:cnnturk_sd.smil/playlist.m3u8",
             480,
         ),
     ],
@@ -228,16 +247,11 @@ BLOCKED_WORDS = [
     "MOVIESMART",
     "MOVIE SMART",
     "SMART SPOR",
-    "SKY SPORT",
-    "SKY CINEMA",
-    "CANAL+",
-    "CANAL PLUS",
-    "POLsat SPORT PREMIUM",
 ]
 
 
 # ============================================================
-# DÜNYA ÜLKE İSİMLERİ
+# ÜLKE İSİMLERİ
 # ============================================================
 
 COUNTRIES = {
@@ -314,158 +328,6 @@ COUNTRIES = {
 }
 
 
-# ============================================================
-# ASTRA 19.2E
-#
-# FTA / serbest yayın tarafında sık görülen kanallar.
-# Stream mevcutsa Astra.m3u'ya girer.
-# ============================================================
-
-ASTRA_CHANNELS = [
-    "DAS ERSTE",
-    "ARD",
-    "ZDF",
-    "ZDF NEO",
-    "ZDF INFO",
-    "3SAT",
-    "ARTE",
-    "PHOENIX",
-    "ONE",
-    "TAGESSCHAU24",
-    "ARD ALPHA",
-
-    "BR FERNSEHEN",
-    "HR FERNSEHEN",
-    "MDR",
-    "NDR",
-    "RBB",
-    "SWR",
-    "WDR",
-
-    "SAT.1",
-    "SAT1",
-    "PROSIEBEN",
-    "PRO 7",
-    "KABEL EINS",
-    "KABEL1",
-
-    "RTL",
-    "RTL ZWEI",
-    "RTL2",
-    "VOX",
-    "SUPER RTL",
-    "NITRO",
-    "RTL UP",
-
-    "N-TV",
-    "NTV DE",
-    "WELT",
-
-    "SPORT1",
-    "EUROSPORT 1",
-
-    "SERVUS TV",
-    "SERVUSTV",
-    "ORF 1",
-    "ORF 2",
-    "ORF III",
-
-    "PULS 4",
-    "ATV2",
-
-    "SRF INFO",
-
-    "DELUXE MUSIC",
-    "SCHLAGER DELUXE",
-    "MTV",
-
-    "QVC",
-    "HSE",
-    "HSE24",
-
-    "BIBEL TV",
-    "K-TV",
-]
-
-
-# ============================================================
-# HOTBIRD 13E
-#
-# FTA / açık yayınlarda sık görülen uluslararası kanallar.
-# ============================================================
-
-HOTBIRD_CHANNELS = [
-    "TVP POLONIA",
-    "TV POLONIA",
-    "TVP INFO",
-    "TVP WORLD",
-
-    "POLONIA 1",
-    "TELE 5",
-
-    "RAI 1",
-    "RAI 2",
-    "RAI 3",
-    "RAI NEWS 24",
-    "RAI STORIA",
-    "RAI SCUOLA",
-    "RAI SPORT",
-
-    "MEDIASET ITALIA",
-    "TGCOM24",
-
-    "TV5MONDE",
-    "TV5 MONDE",
-    "FRANCE 24",
-
-    "EURONEWS",
-
-    "BBC WORLD NEWS",
-    "BBC NEWS",
-
-    "CNN INTERNATIONAL",
-
-    "AL JAZEERA",
-    "AL JAZEERA ENGLISH",
-
-    "DW",
-    "DW ENGLISH",
-    "DEUTSCHE WELLE",
-
-    "NHK WORLD",
-    "CGTN",
-    "CGTN DOCUMENTARY",
-
-    "TRT WORLD",
-    "TRT TURK",
-    "TRT ARABI",
-    "TRT AVAZ",
-
-    "PRESS TV",
-    "IRIB",
-    "IRAN INTERNATIONAL",
-
-    "AL ARABIYA",
-    "AL HADATH",
-
-    "FRANCE 24 ARABIC",
-
-    "TVE INTERNACIONAL",
-    "RTVE",
-    "24 HORAS",
-
-    "RTP INTERNACIONAL",
-    "RTP INTERNATIONAL",
-
-    "TBN",
-    "GOD TV",
-]
-
-
-# ============================================================
-# HTTP
-# ============================================================
-
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 "
@@ -475,22 +337,6 @@ HEADERS = {
     ),
     "Accept": "*/*",
 }
-
-
-def download(url, timeout=20):
-    request = urllib.request.Request(
-        url,
-        headers=HEADERS
-    )
-
-    with urllib.request.urlopen(
-        request,
-        timeout=timeout
-    ) as response:
-        return response.read().decode(
-            "utf-8",
-            errors="replace"
-        )
 
 
 # ============================================================
@@ -507,23 +353,13 @@ def normalize(text):
         "Ü": "U",
         "Ö": "O",
         "Ç": "C",
-        "Ä": "A",
-        "Ö": "O",
-        "Ü": "U",
         "ß": "SS",
-        "É": "E",
-        "È": "E",
-        "À": "A",
-        "Á": "A",
     }
 
     for old, new in replacements.items():
         text = text.replace(old, new)
 
-    text = unicodedata.normalize(
-        "NFKD",
-        text
-    )
+    text = unicodedata.normalize("NFKD", text)
 
     text = "".join(
         c for c in text
@@ -539,8 +375,69 @@ def normalize(text):
     return text.strip()
 
 
+def match_name(text):
+    text = normalize(text)
+
+    text = re.sub(
+        r"\([^)]*\)",
+        "",
+        text
+    )
+
+    text = re.sub(
+        r"\[[^\]]*\]",
+        "",
+        text
+    )
+
+    text = re.sub(
+        r"\bHD\b|\bSD\b|\bUHD\b|\b4K\b",
+        "",
+        text
+    )
+
+    text = re.sub(
+        r"\bGERMANY\b|\bITALIA\b|\bITALY\b",
+        "",
+        text
+    )
+
+    text = re.sub(
+        r"[^A-Z0-9]+",
+        " ",
+        text
+    )
+
+    return re.sub(
+        r"\s+",
+        " ",
+        text
+    ).strip()
+
+
 # ============================================================
-# M3U PARSER
+# DOWNLOAD
+# ============================================================
+
+def download(url, timeout=25):
+    req = urllib.request.Request(
+        url,
+        headers=HEADERS
+    )
+
+    with urllib.request.urlopen(
+        req,
+        timeout=timeout
+    ) as response:
+
+        return response.read().decode(
+            "utf-8",
+            errors="replace"
+        )
+
+
+# ============================================================
+# M3U
 # ============================================================
 
 def parse_entries(text, source="", score=0):
@@ -570,9 +467,7 @@ def parse_entries(text, source="", score=0):
 
         url = lines[j].strip()
 
-        if url.startswith(
-            ("http://", "https://")
-        ):
+        if url.startswith(("http://", "https://")):
             result.append({
                 "info": info,
                 "url": url,
@@ -593,40 +488,18 @@ def channel_name(info):
 
 
 def tvg_id(info):
-    match = re.search(
+    m = re.search(
         r'tvg-id="([^"]*)"',
         info,
         re.IGNORECASE
     )
 
-    if match:
-        return match.group(1).strip()
-
-    return ""
-
-
-# ============================================================
-# COUNTRY
-# ============================================================
-
-def famelack_country(info):
-    match = re.search(
-        r'group-title="famelack '
-        r'\(([^)]+)\) '
-        r'\[([^\]]+)\]',
-        info,
-        re.IGNORECASE
+    return (
+        m.group(1).strip()
+        if m
+        else ""
     )
 
-    if not match:
-        return None
-
-    return match.group(2).lower().strip()
-
-
-# ============================================================
-# GROUP-TITLE
-# ============================================================
 
 def replace_group(info, group):
     if 'group-title="' in info:
@@ -644,7 +517,148 @@ def replace_group(info, group):
 
 
 # ============================================================
-# TÜRKİYE GRUPLARI
+# FAMELACK ÜLKE
+# ============================================================
+
+def famelack_country(info):
+    m = re.search(
+        r'group-title="famelack \(([^)]+)\) \[([^\]]+)\]',
+        info,
+        re.IGNORECASE
+    )
+
+    if not m:
+        return None
+
+    return m.group(2).lower().strip()
+
+
+# ============================================================
+# KINGOFSAT HTML PARSER
+# ============================================================
+
+class TableParser(HTMLParser):
+
+    def __init__(self):
+        super().__init__()
+
+        self.rows = []
+        self.current_row = []
+        self.current_cell = []
+        self.in_row = False
+        self.in_cell = False
+
+    def handle_starttag(self, tag, attrs):
+
+        if tag == "tr":
+            self.in_row = True
+            self.current_row = []
+
+        elif tag in ("td", "th") and self.in_row:
+            self.in_cell = True
+            self.current_cell = []
+
+    def handle_data(self, data):
+
+        if self.in_cell:
+            self.current_cell.append(data)
+
+    def handle_endtag(self, tag):
+
+        if tag in ("td", "th") and self.in_cell:
+
+            text = " ".join(
+                self.current_cell
+            )
+
+            text = re.sub(
+                r"\s+",
+                " ",
+                text
+            ).strip()
+
+            self.current_row.append(
+                text
+            )
+
+            self.in_cell = False
+
+        elif tag == "tr" and self.in_row:
+
+            if self.current_row:
+                self.rows.append(
+                    self.current_row
+                )
+
+            self.in_row = False
+
+
+def kingofsat_fta_names(url):
+
+    print(
+        "KingOfSat indiriliyor:",
+        url
+    )
+
+    html = download(
+        url,
+        timeout=30
+    )
+
+    parser = TableParser()
+    parser.feed(html)
+
+    names = set()
+
+    for row in parser.rows:
+
+        clean_row = [
+            re.sub(r"\s+", " ", x).strip()
+            for x in row
+        ]
+
+        for index, cell in enumerate(clean_row):
+
+            enc = normalize(cell)
+
+            if enc not in (
+                "FTA",
+                "CLEAR",
+                "FREE",
+                "FREE TO AIR",
+                "FREI",
+            ):
+                continue
+
+            # KingOfSat tablosunda:
+            # Name | Country | Category | Packages | Encryption
+            # Dolayısıyla Encryption'dan 4 hücre gerisi kanal adı.
+            if index >= 4:
+
+                name = clean_row[index - 4]
+
+                if (
+                    name
+                    and len(name) >= 2
+                    and normalize(name)
+                    not in (
+                        "NAME",
+                        "CHANNEL",
+                        "CHANNEL NAME",
+                    )
+                ):
+                    names.add(name)
+
+    print(
+        "KingOfSat FTA kanal adı:",
+        len(names)
+    )
+
+    return names
+
+
+# ============================================================
+# TÜRKİYE
 # ============================================================
 
 def turkey_group(name):
@@ -723,10 +737,6 @@ def turkey_group(name):
     return "Türkiye • Diğer"
 
 
-# ============================================================
-# BAD ENTRY
-# ============================================================
-
 def rejected(info):
     n = normalize(info)
 
@@ -743,19 +753,15 @@ def rejected(info):
     return False
 
 
-# ============================================================
-# ÇÖZÜNÜRLÜK
-# ============================================================
-
 def resolution_score(info):
-    match = re.search(
+    m = re.search(
         r"\((\d{3,4})P\)",
         info.upper()
     )
 
-    if match:
+    if m:
         return int(
-            match.group(1)
+            m.group(1)
         )
 
     if "4K" in info.upper():
@@ -764,11 +770,30 @@ def resolution_score(info):
     return 0
 
 
-# ============================================================
-# MASTER PLAYLIST → SABİT VARYANT
-# ============================================================
+def clean_identity(info):
+    tid = tvg_id(info)
+
+    if tid:
+
+        tid = tid.split("@")[0]
+
+        return re.sub(
+            r"[^A-Z0-9]",
+            "",
+            normalize(tid)
+        )
+
+    return re.sub(
+        r"[^A-Z0-9]",
+        "",
+        normalize(
+            channel_name(info)
+        )
+    )
+
 
 def resolve_variant(url):
+
     try:
         text = download(
             url,
@@ -782,6 +807,7 @@ def resolve_variant(url):
         variants = []
 
         for i, line in enumerate(lines):
+
             if not line.startswith(
                 "#EXT-X-STREAM-INF:"
             ):
@@ -834,75 +860,83 @@ def resolve_variant(url):
                 "bandwidth": bandwidth,
             })
 
-        # Media playlist, master değil.
         if not variants:
             return url, 0
 
         exact = [
-            x for x in variants
-            if x["height"] == 1080
+            v for v in variants
+            if v["height"] == TARGET_HEIGHT
         ]
 
         if exact:
+
             exact.sort(
-                key=lambda x: x["bandwidth"],
+                key=lambda v: v["bandwidth"],
                 reverse=True
             )
 
             return (
                 exact[0]["url"],
-                1080
+                exact[0]["height"]
             )
 
-        below = [
-            x for x in variants
-            if 0 < x["height"] < 1080
+        lower = [
+            v for v in variants
+            if 0 < v["height"] < TARGET_HEIGHT
         ]
 
-        if below:
-            below.sort(
-                key=lambda x: (
-                    x["height"],
-                    x["bandwidth"]
+        if lower:
+
+            lower.sort(
+                key=lambda v: (
+                    v["height"],
+                    v["bandwidth"]
                 ),
                 reverse=True
             )
 
             return (
-                below[0]["url"],
-                below[0]["height"]
+                lower[0]["url"],
+                lower[0]["height"]
             )
 
-        above = [
-            x for x in variants
-            if x["height"] > 1080
+        higher = [
+            v for v in variants
+            if v["height"] > TARGET_HEIGHT
         ]
 
-        if above:
-            above.sort(
-                key=lambda x: (
-                    x["height"],
-                    x["bandwidth"]
+        if higher:
+
+            higher.sort(
+                key=lambda v: (
+                    v["height"],
+                    v["bandwidth"]
                 ),
                 reverse=True
             )
 
             return (
-                above[0]["url"],
-                above[0]["height"]
+                higher[0]["url"],
+                higher[0]["height"]
             )
 
-        return url, 0
+        variants.sort(
+            key=lambda v: v["bandwidth"],
+            reverse=True
+        )
+
+        return (
+            variants[0]["url"],
+            0
+        )
 
     except Exception:
+
         return None, 0
 
 
-# ============================================================
-# STREAM TEST
-# ============================================================
-
 def stream_works(url):
+
     try:
         text = download(
             url,
@@ -916,36 +950,16 @@ def stream_works(url):
 
 
 # ============================================================
-# TURKEY: ID
-# ============================================================
-
-def clean_identity(info):
-    tid = tvg_id(info)
-
-    if tid:
-        tid = tid.split("@")[0]
-        return normalize(
-            tid
-        ).replace(".", "").replace("-", "")
-
-    return re.sub(
-        r"[^A-Z0-9]",
-        "",
-        normalize(
-            channel_name(info)
-        )
-    )
-
-
-# ============================================================
-# TURKIYE KAYNAKLARINI TOPLA
+# TÜRKİYE KAYNAKLARI
 # ============================================================
 
 turkey_candidates = []
 
 
 for source, url, score in TURKEY_SOURCES:
+
     try:
+
         print(
             "Türkiye kaynağı:",
             source
@@ -962,6 +976,7 @@ for source, url, score in TURKEY_SOURCES:
         )
 
     except Exception as error:
+
         print(
             source,
             "alınamadı:",
@@ -969,7 +984,6 @@ for source, url, score in TURKEY_SOURCES:
         )
 
 
-# FALLBACK
 for identity, alternatives in FALLBACKS.items():
 
     for name, url, resolution in alternatives:
@@ -988,11 +1002,8 @@ for identity, alternatives in FALLBACKS.items():
         })
 
 
-# ============================================================
-# TURKIYE: ÇALIŞAN EN İYİ KANALI SEÇ
-# ============================================================
-
 def analyze_turkey(entry):
+
     if rejected(
         entry["info"]
     ):
@@ -1013,7 +1024,7 @@ def analyze_turkey(entry):
         )
     )
 
-    # Show TV master olarak kalsın.
+    # Show TV master kalsın.
     if identity == "SHOWTVTR":
 
         if not stream_works(
@@ -1073,6 +1084,7 @@ with ThreadPoolExecutor(
     for future in as_completed(
         futures
     ):
+
         result = future.result()
 
         if result:
@@ -1094,9 +1106,7 @@ for entry in turkey_usable:
     by_identity.setdefault(
         entry["identity"],
         []
-    ).append(
-        entry
-    )
+    ).append(entry)
 
 
 turkey_selected = []
@@ -1111,13 +1121,11 @@ for identity, alternatives in by_identity.items():
 
     winner = alternatives[0]
 
-    group = turkey_group(
-        winner["name"]
-    )
-
     winner["info"] = replace_group(
         winner["info"],
-        group
+        turkey_group(
+            winner["name"]
+        )
     )
 
     turkey_selected.append(
@@ -1127,10 +1135,8 @@ for identity, alternatives in by_identity.items():
 
 turkey_selected.sort(
     key=lambda x: (
-        x["info"],
-        normalize(
-            x["name"]
-        )
+        turkey_group(x["name"]),
+        normalize(x["name"])
     )
 )
 
@@ -1157,7 +1163,7 @@ TURKEY_OUTPUT.write_text(
 
 
 # ============================================================
-# FAMELACK DÜNYA KAYNAĞINI İNDİR
+# DÜNYA
 # ============================================================
 
 print(
@@ -1174,10 +1180,6 @@ world_entries = parse_entries(
     50
 )
 
-
-# ============================================================
-# DUNYA.M3U
-# ============================================================
 
 world_output = [
     "#EXTM3U"
@@ -1209,13 +1211,11 @@ for entry in world_entries:
     else:
         group = "🌍 Diğer"
 
-    info = replace_group(
-        info,
-        group
-    )
-
     world_output.extend([
-        info,
+        replace_group(
+            info,
+            group
+        ),
         url
     ])
 
@@ -1233,157 +1233,234 @@ WORLD_OUTPUT.write_text(
 
 
 # ============================================================
+# KINGOFSAT FTA LİSTELERİ
+# ============================================================
+
+try:
+
+    astra_fta_names = kingofsat_fta_names(
+        ASTRA_KINGOFSAT
+    )
+
+except Exception as error:
+
+    print(
+        "Astra KingOfSat hatası:",
+        error
+    )
+
+    astra_fta_names = set()
+
+
+try:
+
+    hotbird_fta_names = kingofsat_fta_names(
+        HOTBIRD_KINGOFSAT
+    )
+
+except Exception as error:
+
+    print(
+        "Hotbird KingOfSat hatası:",
+        error
+    )
+
+    hotbird_fta_names = set()
+
+
+# ============================================================
 # UYDU EŞLEŞTİRME
 # ============================================================
 
-def matches_satellite(
-    channel_name_text,
+def similarity(a, b):
+
+    return SequenceMatcher(
+        None,
+        a,
+        b
+    ).ratio()
+
+
+def satellite_match(
+    stream_name,
     satellite_names
 ):
-    n = normalize(
-        channel_name_text
+
+    stream = match_name(
+        stream_name
     )
 
-    # Çözünürlük vb temizle
-    n = re.sub(
-        r"\([^)]*\)",
-        "",
-        n
-    )
+    if len(stream) < 2:
+        return None
 
-    n = re.sub(
-        r"\[[^\]]*\]",
-        "",
-        n
-    )
+    best_name = None
+    best_score = 0.0
 
-    for candidate in satellite_names:
 
-        c = normalize(
-            candidate
+    for sat_name in satellite_names:
+
+        sat = match_name(
+            sat_name
         )
 
+        if len(sat) < 2:
+            continue
+
+
+        # Tam eşleşme
+        if stream == sat:
+            return sat_name
+
+
+        # Birinin diğerini içermesi
         if (
-            n == c
-            or n.startswith(c + " ")
-            or c.startswith(n + " ")
+            len(stream) >= 4
+            and len(sat) >= 4
+            and (
+                stream in sat
+                or sat in stream
+            )
         ):
-            return True
 
-    return False
+            score = 0.93
+
+        else:
+
+            score = similarity(
+                stream,
+                sat
+            )
+
+
+        if score > best_score:
+
+            best_score = score
+            best_name = sat_name
+
+
+    # Yanlış eşleşmeleri azaltmak için eşik.
+    if best_score >= 0.86:
+        return best_name
+
+
+    return None
 
 
 # ============================================================
-# HOTBIRD.M3U
+# HOTBIRD / ASTRA OLUŞTURUCU
 # ============================================================
 
-hotbird_output = [
-    "#EXTM3U"
-]
+def build_satellite_playlist(
+    satellite_names,
+    group_name,
+    output_path
+):
 
-hotbird_seen = set()
+    matches = []
+
+    seen_stream_names = set()
+    seen_urls = set()
 
 
-for entry in world_entries:
+    for entry in world_entries:
 
-    info = entry["info"]
-    url = entry["url"]
+        info = entry["info"]
+        url = entry["url"]
 
-    name = channel_name(
-        info
+        name = channel_name(
+            info
+        )
+
+        if not name:
+            continue
+
+
+        matched_sat_name = satellite_match(
+            name,
+            satellite_names
+        )
+
+        if not matched_sat_name:
+            continue
+
+
+        if url in seen_urls:
+            continue
+
+
+        normalized_name = match_name(
+            name
+        )
+
+        if normalized_name in seen_stream_names:
+            continue
+
+
+        new_info = replace_group(
+            info,
+            group_name
+        )
+
+
+        matches.append({
+            "info": new_info,
+            "url": url,
+            "name": name,
+            "satellite_name": matched_sat_name,
+        })
+
+
+        seen_urls.add(
+            url
+        )
+
+        seen_stream_names.add(
+            normalized_name
+        )
+
+
+    matches.sort(
+        key=lambda x: normalize(
+            x["name"]
+        )
     )
 
-    if not matches_satellite(
-        name,
-        HOTBIRD_CHANNELS
-    ):
-        continue
 
-    if rejected(
-        info
-    ):
-        continue
+    output = [
+        "#EXTM3U"
+    ]
 
-    if url in hotbird_seen:
-        continue
 
-    info = replace_group(
-        info,
-        "Hotbird 13°E"
-    )
+    for item in matches:
 
-    hotbird_output.extend([
-        info,
-        url
-    ])
+        output.extend([
+            item["info"],
+            item["url"]
+        ])
 
-    hotbird_seen.add(
-        url
+
+    output_path.write_text(
+        "\n".join(
+            output
+        ) + "\n",
+        encoding="utf-8"
     )
 
 
-HOTBIRD_OUTPUT.write_text(
-    "\n".join(
-        hotbird_output
-    ) + "\n",
-    encoding="utf-8"
+    return matches
+
+
+hotbird_matches = build_satellite_playlist(
+    hotbird_fta_names,
+    "Hotbird 13°E",
+    HOTBIRD_OUTPUT
 )
 
 
-# ============================================================
-# ASTRA.M3U
-# ============================================================
-
-astra_output = [
-    "#EXTM3U"
-]
-
-astra_seen = set()
-
-
-for entry in world_entries:
-
-    info = entry["info"]
-    url = entry["url"]
-
-    name = channel_name(
-        info
-    )
-
-    if not matches_satellite(
-        name,
-        ASTRA_CHANNELS
-    ):
-        continue
-
-    if rejected(
-        info
-    ):
-        continue
-
-    if url in astra_seen:
-        continue
-
-    info = replace_group(
-        info,
-        "Astra 19.2°E"
-    )
-
-    astra_output.extend([
-        info,
-        url
-    ])
-
-    astra_seen.add(
-        url
-    )
-
-
-ASTRA_OUTPUT.write_text(
-    "\n".join(
-        astra_output
-    ) + "\n",
-    encoding="utf-8"
+astra_matches = build_satellite_playlist(
+    astra_fta_names,
+    "Astra 19.2°E",
+    ASTRA_OUTPUT
 )
 
 
@@ -1405,26 +1482,32 @@ print(
 
 print(
     "Turkiye:",
-    len(turkey_selected),
-    "kanal"
+    len(turkey_selected)
 )
 
 print(
     "Dunya:",
-    len(world_seen),
-    "kanal"
+    len(world_seen)
 )
 
 print(
-    "Hotbird:",
-    len(hotbird_seen),
-    "kanal"
+    "KingOfSat Hotbird FTA:",
+    len(hotbird_fta_names)
 )
 
 print(
-    "Astra:",
-    len(astra_seen),
-    "kanal"
+    "Hotbird internet yayını eşleşen:",
+    len(hotbird_matches)
+)
+
+print(
+    "KingOfSat Astra FTA:",
+    len(astra_fta_names)
+)
+
+print(
+    "Astra internet yayını eşleşen:",
+    len(astra_matches)
 )
 
 print(

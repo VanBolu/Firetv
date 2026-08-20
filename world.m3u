@@ -12187,8 +12187,6 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="NOWTV.tr@SD",NOW TV (720p)
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
-#EXTINF:-1 tvg-id="ShowTV.tr" group-title="🇹🇷 TÜRKSAT • Ulusal",Show TV
-https://ciner-live.daioncdn.net/showtv/showtv.m3u8
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="StarTV.tr@SD",Star TV (720p)
 https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
 #EXTINF:-1 group-title="🇹🇷 TÜRKSAT • Ulusal" tvg-id="TRT1.tr@SD",TRT 1 (1440p)

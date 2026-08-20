@@ -38,22 +38,18 @@ SOURCES = [
 ]
 
 
-# ============================================================
-# YEDEK KAYNAKLAR
-# ============================================================
-
 FALLBACKS = {
     "SHOWTVTR": [
         (
             "Show TV",
             "https://ciner-live.daioncdn.net/showtv/showtv.m3u8",
-            1080,
+            0,
         ),
         (
             "Show TV",
             "https://ciner.daioncdn.net/showtv/showtv.m3u8"
             "?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558",
-            1080,
+            0,
         ),
     ],
 
@@ -127,7 +123,7 @@ FALLBACKS = {
             "Bloomberg HT",
             "https://ciner-live.daioncdn.net/"
             "bloomberght/bloomberght.m3u8",
-            1080,
+            0,
         ),
     ],
 
@@ -510,21 +506,6 @@ GROUP_ORDER = {
 }
 
 
-def replace_group(info, group):
-    if 'group-title="' in info:
-        return re.sub(
-            r'group-title="[^"]*"',
-            f'group-title="{group}"',
-            info
-        )
-
-    return info.replace(
-        "#EXTINF:-1",
-        f'#EXTINF:-1 group-title="{group}"',
-        1
-    )
-
-
 def make_extinf(
     name,
     identity,
@@ -569,22 +550,7 @@ def test_stream(url):
         return False
 
 
-# ============================================================
-# MASTER PLAYLIST ANALİZİ
-# ============================================================
-
 def inspect_hls(url):
-    """
-    Dönen değer:
-    {
-        "working": True/False,
-        "is_master": True/False,
-        "variants": [
-            {"url": ..., "height": ..., "bandwidth": ...}
-        ]
-    }
-    """
-
     try:
         text = download(
             url,
@@ -599,7 +565,6 @@ def inspect_hls(url):
             }
 
         lines = text.splitlines()
-
         variants = []
 
         for i, line in enumerate(lines):
@@ -678,15 +643,6 @@ def choose_fixed_variant(
     original_url,
     advertised_resolution
 ):
-    """
-    Tüm kanallar için:
-    1) URL master ise varyantları çıkar.
-    2) 1080p varsa onu seç.
-    3) 1080p yoksa 1080p altındaki en yüksek kaliteyi seç.
-    4) sadece >1080 varsa en yüksek olanı seç.
-    5) media playlist ise mevcut URL'yi kullan.
-    """
-
     info = inspect_hls(
         original_url
     )
@@ -695,23 +651,19 @@ def choose_fixed_variant(
         return None
 
     if not info["is_master"]:
-
         return {
             "url": original_url,
             "height": advertised_resolution,
-            "fixed": True,
         }
 
     variants = info["variants"]
 
-    # Tam 1080
     exact_1080 = [
         v for v in variants
         if v["height"] == TARGET_HEIGHT
     ]
 
     if exact_1080:
-
         exact_1080.sort(
             key=lambda v: v["bandwidth"],
             reverse=True
@@ -722,10 +674,8 @@ def choose_fixed_variant(
         return {
             "url": winner["url"],
             "height": 1080,
-            "fixed": True,
         }
 
-    # 1080 altındaki en yüksek çözünürlük
     lower = [
         v for v in variants
         if (
@@ -735,7 +685,6 @@ def choose_fixed_variant(
     ]
 
     if lower:
-
         lower.sort(
             key=lambda v: (
                 v["height"],
@@ -749,17 +698,14 @@ def choose_fixed_variant(
         return {
             "url": winner["url"],
             "height": winner["height"],
-            "fixed": True,
         }
 
-    # Yalnızca 1080 üzeri varsa
     higher = [
         v for v in variants
         if v["height"] > TARGET_HEIGHT
     ]
 
     if higher:
-
         higher.sort(
             key=lambda v: (
                 v["height"],
@@ -773,23 +719,19 @@ def choose_fixed_variant(
         return {
             "url": winner["url"],
             "height": winner["height"],
-            "fixed": True,
         }
 
-    # Çözünürlük bilgisi olmayan varyantlar
     variants.sort(
         key=lambda v: v["bandwidth"],
         reverse=True
     )
 
     if variants:
-
         winner = variants[0]
 
         return {
             "url": winner["url"],
             "height": advertised_resolution,
-            "fixed": True,
         }
 
     return None
@@ -806,7 +748,7 @@ for source_name, url, score in SOURCES:
 
     try:
         print(
-            "Kaynak indiriliyor:",
+            "Kaynak:",
             source_name
         )
 
@@ -821,6 +763,7 @@ for source_name, url, score in SOURCES:
         )
 
     except Exception as error:
+
         print(
             source_name,
             "alınamadı:",
@@ -829,7 +772,7 @@ for source_name, url, score in SOURCES:
 
 
 # ============================================================
-# FALLBACKLERİ EKLE
+# FALLBACKLER
 # ============================================================
 
 for identity, alternatives in FALLBACKS.items():
@@ -888,15 +831,29 @@ for entry in all_candidates:
 # BÜTÜN STREAMLERİ ANALİZ ET
 # ============================================================
 
-print(
-    "Toplam aday:",
-    len(filtered)
-)
-
 analysis_results = {}
 
 
 def analyze_candidate(entry):
+
+    # Show TV için master URL'yi olduğu gibi koru.
+    if entry["identity"] == "SHOWTVTR":
+
+        if test_stream(
+            entry["url"]
+        ):
+            return (
+                entry["url"],
+                {
+                    "url": entry["url"],
+                    "height": 0,
+                }
+            )
+
+        return (
+            entry["url"],
+            None
+        )
 
     fixed = choose_fixed_variant(
         entry["url"],
@@ -907,6 +864,12 @@ def analyze_candidate(entry):
         entry["url"],
         fixed
     )
+
+
+print(
+    "Toplam aday:",
+    len(filtered)
+)
 
 
 with ThreadPoolExecutor(
@@ -934,6 +897,7 @@ with ThreadPoolExecutor(
         completed += 1
 
         if completed % 20 == 0:
+
             print(
                 "Analiz:",
                 completed,
@@ -943,7 +907,7 @@ with ThreadPoolExecutor(
 
 
 # ============================================================
-# GERÇEK SABİT ÇÖZÜNÜRLÜĞE GÖRE PUANLA
+# PUANLA
 # ============================================================
 
 usable = []
@@ -961,13 +925,16 @@ for entry in filtered:
     fixed_url = result["url"]
     real_height = result["height"]
 
-    # Son varyant gerçekten açılıyor mu?
-    if not test_stream(
-        fixed_url
-    ):
-        continue
+    # Show TV master URL için ikinci sabit varyant testi yok.
+    if entry["identity"] != "SHOWTVTR":
+
+        if not test_stream(
+            fixed_url
+        ):
+            continue
 
     entry["fixed_url"] = fixed_url
+
     entry["real_resolution"] = (
         real_height
         if real_height
@@ -980,8 +947,6 @@ for entry in filtered:
         else 0
     )
 
-    # Öncelik:
-    # gerçek çözünürlük -> kaynak güvenilirliği
     entry["rank"] = (
         entry["real_resolution"] * 100
         + entry["source_score"]
@@ -992,7 +957,7 @@ for entry in filtered:
 
 
 # ============================================================
-# HER KANAL İÇİN EN İYİ SABİT STREAM
+# KANAL BAŞINA EN İYİ KAYNAK
 # ============================================================
 
 by_channel = {}
@@ -1024,14 +989,34 @@ for identity, alternatives in by_channel.items():
 
     winner["group"] = group
 
-    winner["info"] = make_extinf(
-        winner["name"],
-        identity,
-        group,
-        winner["real_resolution"]
-    )
 
-    selected.append(winner)
+    # --------------------------------------------------------
+    # SHOW TV
+    # --------------------------------------------------------
+
+    if identity == "SHOWTVTR":
+
+        winner["name"] = "Show TV"
+
+        winner["info"] = make_extinf(
+            "Show TV",
+            "SHOWTVTR",
+            "🇹🇷 TÜRKSAT • Ulusal",
+            0
+        )
+
+    else:
+
+        winner["info"] = make_extinf(
+            winner["name"],
+            identity,
+            group,
+            winner["real_resolution"]
+        )
+
+    selected.append(
+        winner
+    )
 
 
 # ============================================================
@@ -1069,7 +1054,9 @@ for entry in selected:
 
 
 TURKEY_OUTPUT.write_text(
-    "\n".join(turkey_output) + "\n",
+    "\n".join(
+        turkey_output
+    ) + "\n",
     encoding="utf-8"
 )
 
@@ -1117,7 +1104,9 @@ try:
             url
         ])
 
-        world_seen.add(url)
+        world_seen.add(
+            url
+        )
 
 except Exception as error:
 
@@ -1143,7 +1132,9 @@ for entry in selected:
 
 
 WORLD_OUTPUT.write_text(
-    "\n".join(world_output) + "\n",
+    "\n".join(
+        world_output
+    ) + "\n",
     encoding="utf-8"
 )
 

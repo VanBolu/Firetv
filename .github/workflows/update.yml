@@ -13,7 +13,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
 
+    # Bir daha 3-4 saat çalışmasını engeller.
+    timeout-minutes: 60
+
     steps:
+
       - name: Repository'yi al
         uses: actions/checkout@v4
         with:
@@ -26,28 +30,30 @@ jobs:
 
       - name: FFmpeg kur
         run: |
-          sudo apt-get update
+          sudo apt-get update -qq
           sudo apt-get install -y ffmpeg
 
-      - name: FFmpeg kontrol
+      - name: FFprobe kontrol
         run: |
-          ffmpeg -version
-          ffprobe -version
+          ffprobe -version | head -n 1
 
       - name: Playlistleri oluştur
-        run: python update_playlist.py
+        run: |
+          python -u update_playlist.py
 
       - name: Oluşturulan dosyaları kontrol et
         run: |
-          echo "Oluşturulan M3U dosyaları:"
-          ls -lh *.m3u
+          echo ""
+          echo "=== DOSYALAR ==="
+          ls -lh Turkiye.m3u Dunya.m3u Hotbird.m3u Astra.m3u
 
           echo ""
-          echo "Kanal sayıları:"
-          echo "Turkiye: $(( $(wc -l < Turkiye.m3u) / 2 ))"
-          echo "Dunya: $(( $(wc -l < Dunya.m3u) / 2 ))"
-          echo "Hotbird: $(( $(wc -l < Hotbird.m3u) / 2 ))"
-          echo "Astra: $(( $(wc -l < Astra.m3u) / 2 ))"
+          echo "=== KANAL SAYILARI ==="
+
+          echo "Turkiye: $(( ($(wc -l < Turkiye.m3u) - 1) / 2 ))"
+          echo "Dunya: $(( ($(wc -l < Dunya.m3u) - 1) / 2 ))"
+          echo "Hotbird: $(( ($(wc -l < Hotbird.m3u) - 1) / 2 ))"
+          echo "Astra: $(( ($(wc -l < Astra.m3u) - 1) / 2 ))"
 
       - name: Playlistleri GitHub'a kaydet
         run: |

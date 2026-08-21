@@ -9,11 +9,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: iptv-playlist-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
 
-    timeout-minutes: 45
+    # Maksimum 6 saat.
+    # İşlem 40 dakikada biterse 40 dakikada kapanır.
+    timeout-minutes: 360
 
     steps:
 
@@ -32,18 +38,13 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg
 
-      - name: Gerekli araçları kontrol et
+      - name: Araçları kontrol et
         run: |
-          echo "Python:"
           python --version
-
-          echo "FFprobe:"
           ffprobe -version | head -n 1
-
-          echo "Curl:"
           curl --version | head -n 1
 
-      - name: Playlistleri oluştur
+      - name: Playlistleri detaylı oluştur
         run: |
           python -u update_playlist.py
 
@@ -82,7 +83,7 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Auto-update IPTV playlists"
+          git commit -m "Auto-update detailed IPTV playlists"
 
           git pull --rebase origin main
 

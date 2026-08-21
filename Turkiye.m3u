@@ -6,15 +6,11 @@ https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/trac
 #EXTINF:-1 group-title="Türkiye • Haber",A Haber
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",A News HD
-https://estrella-news-oando.amagi.tv/playlistR1080p.m3u8
+https://rta-tv.akamaized.net/live/SD/RTA-2/RTA/RTA-2-avc1_5800000=10002.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Ada TV
-https://yayin1.canlitv.fun/live/kibrisadatv.stream/chunklist_w582530473.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",Agro TV turkey
-https://restr2.bgtv.bg/agro/hls/agro.m3u8
+https://yayin1.canlitv.fun/live/kibrisadatv.stream/chunklist_w315520603.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Akit TV HD
 https://everest.pa-hosting.de:3591/live/joseflive.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",Aksu TV K.Maraş
-https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/chunks.m3u8?nimblesessionid=3754707243
 #EXTINF:-1 group-title="Türkiye • Diğer",Al Ekhbaria
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/manifest/video/1080p2400kbps/video.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Al Hadath
@@ -23,16 +19,14 @@ https://av.alarabiya.net/alarabiapublish/alhadath.smil/alarabiapublish/alhadath_
 https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/saudi_quran-avc1_600000=2-mp4a_145600_ara=3.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Al Sunnah Al Nabawiyah TV
 https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/saudi_sunnah-avc1_600000=2-mp4a_145600_ara=3.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",Altaş TV Ordu
-https://edge2.taksimbilisim.com:443/altastv/bant1/chunks.m3u8?nimblesessionid=445418913
+#EXTINF:-1 group-title="Türkiye • Diğer",ASFTV
+https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8?nimblesessionid=3756462615
 #EXTINF:-1 group-title="Türkiye • Diğer",ASTV
-https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8?nimblesessionid=3754707238
+https://live.artidijitalmedya.com/artidijital_astv/astv/chunks.m3u8?nimblesessionid=3756462615
 #EXTINF:-1 group-title="Türkiye • Ulusal",ATV Avrupa
 https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/atvavrupa_576p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Ayaz TV
 https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/AyazTV_2500k.m3u8
-#EXTINF:-1 group-title="Türkiye • Spor",beIN Sports Haber HD
-https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Bengü Türk TV
 https://ensonhaber-live.ercdn.net/benguturk/benguturk_720p.m3u8
 #EXTINF:-1 group-title="Türkiye • Ulusal",Beyaz TV HD
@@ -40,15 +34,15 @@ https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",BI Kanal
 https://bikanal-live.ercdn.net/bikanal/bikanal_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Bir TV
-https://edge2.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=445418908
+https://edge1.taksimbilisim.com:443/birtv/bant1/chunks.m3u8?nimblesessionid=1674019376
 #EXTINF:-1 group-title="Türkiye • Haber",Bloomberg HT HD
 https://ensonhaber-live.ercdn.net/bloomberght/bloomberght_720p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",BRT 2 HD
-https://edge.kuzeykibrissmart.tv/brt2hd/bant1/chunks.m3u8?nimblesessionid=210309019
+https://edge.kuzeykibrissmart.tv/brt2hd/bant1/chunks.m3u8?nimblesessionid=210480889
 #EXTINF:-1 group-title="Türkiye • Diğer",Can TV
-https://cantv.streamguys1.com/cantv/cantv19hls/chunks.m3u8?nimblesessionid=32344921
+https://cantv.streamguys1.com/cantv/cantv19hls/chunks.m3u8?nimblesessionid=32365458
 #EXTINF:-1 group-title="Türkiye • Diğer",Cay TV (Rize)
-https://edge2.taksimbilisim.com:443/caytv/bant1/chunks.m3u8?nimblesessionid=445418915
+https://edge1.taksimbilisim.com:443/caytv/bant1/chunks.m3u8?nimblesessionid=1674019397
 #EXTINF:-1 group-title="Türkiye • Diğer",Cem TV
 https://panel.5gtvhosting.com/hls/cemtv/cemtv.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",CGTN Documentary HD
@@ -56,27 +50,21 @@ https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master1080p.m3
 #EXTINF:-1 group-title="Türkiye • Diğer",CGTN HD
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",CIFTCI TV
-https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8?nimblesessionid=3754707384
+https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/chunks.m3u8?nimblesessionid=3756462616
 #EXTINF:-1 group-title="Türkiye • Haber",CNN Türk HD
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785946507/ei/Kw1zav__HO2J6dsPhN_I0A8/ip/85.105.233.142/id/So984pRSlKo.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr6---sn-u0g3uxax3-pnuy.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AZFlqhM-sDX7AAh8sbTmtjmAnTCF4he-3qp3Yzm2Ft_V6-Rt3g7F3HpMJA3aNyrVilVhW0IbtXbXhAT8/spc/KBGBcj00y5y64WhDjutv8zcPetdxZuaY8TqBcvq3ux3E6KElwQ/vprv/1/reg/0/playlist_type/DVR/initcwndbps/1906250/met/1785924907,/mh/aO/mm/44/mn/sn-u0g3uxax3-pnuy/ms/lva/mv/m/mvi/6/pl/22/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1785924526/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRQIhAMf13Kzlm-B5qZQGoA1SFG9NEQBAL1CSJ8dwy-ObCjXyAiAcTIRYpLR0DxZU21CiMTqQmBTHJUgTDR5N1aLAzeQyKg%3D%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAPwC1O5AObnfZh5ucVcXeBtjXlj3AP6kQQTIUmoURPyVAiEAiGNge2AgNTgVQijcsiG1IesOhj7c7f3pt58a1L5l9Fc%3D/playlist/index.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",Disney Junior Turkey
-http://23.237.104.106:8080/USA_DISNEY_JUNIOR/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",Domashniy International
-http://stream.mcquack.net/227/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1&token=b5464c24b6ffc59cd590d1e39f224228
 #EXTINF:-1 group-title="Türkiye • Diğer",Dost TV
 https://dost.stream.emsal.im/tv/live.m3u8
 #EXTINF:-1 group-title="Türkiye • Müzik",Dream Turk
 https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/track_4_1250/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Edessa TV
 https://canli.edessatv.com/hls/0/stream.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",Egemax TV
-https://cdn4.yayin.com.tr/maxtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Ekol TV
 https://ekoltv-live.ercdn.net/ekoltv/ekoltv_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",ER TV
-https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/chunks.m3u8?nimblesessionid=3754707377
+https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/chunks.m3u8?nimblesessionid=3756462629
 #EXTINF:-1 group-title="Türkiye • Diğer",ES TV (Turkey)
-https://live.artidijitalmedya.com/artidijital_estv/estv/chunks.m3u8?nimblesessionid=3754707375
+https://live.artidijitalmedya.com/artidijital_estv/estv/chunks.m3u8?nimblesessionid=3756462618
 #EXTINF:-1 group-title="Türkiye • Diğer",Euro D
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/track_4_1000/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",FM TV
@@ -84,7 +72,7 @@ https://s2.tvdatta.com:3307/hybrid/play.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Freedom
 https://dash4.antik.sk/live/test_uatv/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Guneydogu TV
-https://edge2.taksimbilisim.com:443/gtv/bant1/chunks.m3u8?nimblesessionid=445419926
+https://edge1.taksimbilisim.com:443/gtv/bant1/chunks.m3u8?nimblesessionid=1674025154
 #EXTINF:-1 group-title="Türkiye • Diğer",GZT HD
 https://gzttv-live.lg.mncdn.com/gzttv/gzttv/chunklist.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber",Haber Global HD
@@ -94,85 +82,79 @@ https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/haberturktv/haberturktv_1080p.m3
 #EXTINF:-1 group-title="Türkiye • Haber",Halk TV
 https://halktv-live.daioncdn.net/halktv/halktv_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Spor",HT Spor HD
-https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=8oo9b0ilsz77&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
+https://ciner.daioncdn.net/ht-spor/ht-spor_1080p.m3u8?ex=0&sid=8ooyoe4xg0rm&app=d5539841-018b-48b4-80fe-8bac2ffc3d5e&ce=2
 #EXTINF:-1 group-title="Türkiye • Diğer",Ilke TV
 https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Izvestia
 https://igi-hls.cdnvideo.ru/igi/igi_tcode/tracks-v1a1/mono.ts.m3u8?hls_proxy_host=06356f05f0a86f5bff53697210849f42
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal 1
-https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/chunks.m3u8?nimblesessionid=3754707389
+https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/chunks.m3u8?nimblesessionid=3756462654
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal 12
-https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/chunks.m3u8?nimblesessionid=3754707389
+https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/chunks.m3u8?nimblesessionid=3756462654
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal 15
-https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/chunks.m3u8?nimblesessionid=3754707379
+https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/chunks.m3u8?nimblesessionid=3756462658
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal 23
 https://cdn-kanal23.yayin.com.tr/kanal23/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal 26
-https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/chunks.m3u8?nimblesessionid=3754707373
+https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/chunks.m3u8?nimblesessionid=3756462686
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal 3 (Afyon)
-https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/chunks.m3u8?nimblesessionid=3754707366
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/chunks.m3u8?nimblesessionid=3756462659
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal 32
-https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/chunks.m3u8?nimblesessionid=3754707366
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/chunks.m3u8?nimblesessionid=3756462659
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal 33
-https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/chunks.m3u8?nimblesessionid=3754707366
+https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/chunks.m3u8?nimblesessionid=3756462659
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal 58
-https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8?nimblesessionid=3754707383
+https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/chunks.m3u8?nimblesessionid=3756462681
 #EXTINF:-1 group-title="Türkiye • Ulusal",Kanal 7 Avrupa HD
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/chunklist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal Avrupa
 https://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v2a1/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal B
-https://tv.kanalb.tr/hls/kanalb/1_2/index.m3u8?tkn=4052489211
+https://tv.kanalb.tr/hls/kanalb/1_2/index.m3u8?tkn=2147739557
 #EXTINF:-1 group-title="Türkiye • Ulusal",Kanal D HD
-https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=8oo9bat5xel1&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+https://demiroren.daioncdn.net/kanald/kanald_1080p.m3u8?&sid=8ooyorqnfraj&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal Firat
-https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8?nimblesessionid=3754707393
-#EXTINF:-1 group-title="Türkiye • Diğer",Kanal T
-https://edge.kuzeykibrissmart.tv/kanalt/bant1/chunks.m3u8?nimblesessionid=210309022
+https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/chunks.m3u8?nimblesessionid=3756462683
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal Urfa
-https://edge2.taksimbilisim.com:443/kanalurfa/bant1/chunks.m3u8?nimblesessionid=445418919
+https://edge2.taksimbilisim.com:443/kanalurfa/bant1/chunks.m3u8?nimblesessionid=445583141
 #EXTINF:-1 group-title="Türkiye • Diğer",Kanal V
-https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/chunks.m3u8?nimblesessionid=3754707385
+https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/chunks.m3u8?nimblesessionid=3756462704
 #EXTINF:-1 group-title="Türkiye • Diğer",Karadeniz TV
 https://panel.5gtvhosting.com/hls/karadeniztv/karadeniztv.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",Kon TV
-https://stream8.cinerama.uz/1497/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",KTV (Kibris)
-https://d1pz8zear993v8.cloudfront.net/hlsme/stream_3.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Lalegul TV
 https://lbl.netmedya.net/hls/lalegultv.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Line TV
-https://edge2.taksimbilisim.com:443/linetv/bant1/chunks.m3u8?nimblesessionid=445418922
+https://edge2.taksimbilisim.com:443/linetv/bant1/chunks.m3u8?nimblesessionid=445583148
 #EXTINF:-1 group-title="Türkiye • Diğer",Luys TV
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/mt_0.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Meltem TV
-http://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
+https://vhxyrsly.rocketcdn.com/meltemtv/chunklist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Mercan TV
-https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/chunks.m3u8?nimblesessionid=3754707480
+https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/chunks.m3u8?nimblesessionid=3756462766
 #EXTINF:-1 group-title="Türkiye • Diğer",MK TV
-https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8?nimblesessionid=3754707485
+https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/chunks.m3u8?nimblesessionid=3756462731
 #EXTINF:-1 group-title="Türkiye • Diğer",Moskva 24
 https://stream.smotrim.ru/hls/givc8/playlist_5.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",National Geographic HD Turkey
 http://138.121.15.230:9002/NAT-GEO/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Neo Haber
-https://edge2.taksimbilisim.com:443/neohaber/bant1/chunks.m3u8?nimblesessionid=445418925
+https://edge2.taksimbilisim.com:443/neohaber/bant1/chunks.m3u8?nimblesessionid=445583154
 #EXTINF:-1 group-title="Türkiye • Ulusal",Now HD
 https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber",NTV HD
-https://salam-us-iptp-81.rtbcdn.ru/dive/river-6-602.rtbcdn.ru/coBUh8C2k6rzTkMO2XaD1Q/stream/genetta-315.m9.rutube.ru/XhxSQuiwM-GUnOgivsCtHQ/1787926047/c37cd74192c6bc3d6cd6077c0c4fd686/1080p_stream.m3u8
+https://salam-us-iptp-81.rtbcdn.ru/dive/river-6-602.rtbcdn.ru/eYCWYAQicwjGglDTWmNLbA/stream/genetta-315.m9.rutube.ru/eXzRnBcmhKcUf-obu6oMuw/1787943038/c37cd74192c6bc3d6cd6077c0c4fd686/1080p_stream.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber",NTV Mir
 http://5.188.159.128:8070/ntvmir_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber",NTV Styl
 http://hls127.freeott.top:8080/NTV_STIL_TV/tracks-v1a1l1/mono.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Peretz International
-http://stream.mcquack.net/121/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1&token=eb148c3c7fd21f6e2dca66fcd5ff387c
+http://stream.mcquack.net/121/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1&token=eb9b1e5e6b479ffba2268cd43c2e976b
 #EXTINF:-1 group-title="Türkiye • Diğer",Rehber TV
 https://cdn4.yayin.com.tr/rehbertv/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Ren TV International
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
+https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/chunklist_b4128000.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",RTR Planeta
-https://stream.smotrim.ru/hls/planeta_rtr_euro/playlist_4.m3u8
+https://stream.smotrim.ru/hls/planeta_rtr_usa/playlist_4.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Sat7 Türk
 https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/sat7turkpublish/sat7turk_source/chunks.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Semerkand HD
@@ -182,13 +164,17 @@ https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Showmax HD
 https://rmtftbjlne.turknet.ercdn.net/bpeytmnqyp/showmax/showmax_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Ulusal",Star TV
-http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=C6lwemzzGCvpIg7NBtgElQ&e=1787408761
+http://dygvideo.dygdigital.com/live/hls/live_1080p3000000kbps/index.m3u8?st=QEFIQwnWq6rTftcW2flXkQ&e=1787425998
 #EXTINF:-1 group-title="Türkiye • Diğer",Start Air
-http://stream.mcquack.net/128/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1&token=ee3a283ce0a01f39dbbc0c613e0067f2
+http://stream.mcquack.net/128/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1&token=a376c631b57fbecba7d9b4cf3da2fca4
+#EXTINF:-1 group-title="Türkiye • Diğer",Start World
+https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",STS International
 http://178.134.1.158:8081/CTC/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Sun RTV
-https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/chunks.m3u8?nimblesessionid=3754707579
+https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/chunks.m3u8?nimblesessionid=3756462817
+#EXTINF:-1 group-title="Türkiye • Diğer",T.A.Y TV
+https://v2.siar.us/tatv/live.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Tele 1 HD
 https://tele1-live.ercdn.net/tele1/tele1_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Telenews
@@ -196,25 +182,21 @@ https://cdn-telenews.yayin.com.tr/telenews/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber",TGRT Haber
 https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TH Türk Haber
-https://edge1.taksimbilisim.com:443/turkhaber/bant1/chunks.m3u8?nimblesessionid=1673494339
+https://edge2.taksimbilisim.com:443/turkhaber/bant1/chunks.m3u8?nimblesessionid=445585805
 #EXTINF:-1 group-title="Türkiye • Diğer",Tivi6
-https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/chunks.m3u8?nimblesessionid=3754707587
+https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/chunks.m3u8?nimblesessionid=3756462847
 #EXTINF:-1 group-title="Türkiye • Spor",TJK TV HD
 https://tjktv-live.tjk.org/tjktv_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TNT international
-https://cdn15.live-tv.cloud/ua_infinitas_tv/inter-abr/inter/720/chunks.m3u8?nimblesessionid=20704752
-#EXTINF:-1 group-title="Türkiye • Ulusal",TRT 1 HD
-https://tv-trt1.medya.trt.com.tr/master_1080.m3u8
+https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT-avc1_2000000=6-mp4a_256000_rus=4.m3u8
 #EXTINF:-1 group-title="Türkiye • Spor",TRT 3 Spor
 https://corestream.siteyaptim.live/trt-spor/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TRT 4K
 https://av.hellasnet.tv/rst/trt/main_stream.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TRT Arabi HD
 https://tv-trtarabi.medya.trt.com.tr/master_1080.m3u8
-#EXTINF:-1 group-title="Türkiye • Çocuk",TRT Çocuk HD
-https://tv-trtcocuk.medya.trt.com.tr/master_1080.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",TRT Diyanet HD
-https://tv-trtdiyanetcocuk.medya.trt.com.tr/master_1080.m3u8
+#EXTINF:-1 group-title="Türkiye • Diğer",TRT Avaz HD
+https://tv-trtavaz.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TRT Eba TV
 https://tv-e-okul01.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="Türkiye • Haber",TRT Haber HD
@@ -232,15 +214,13 @@ https://tv-trtturk.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TRT World HD
 https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TV 1
-https://edge2.taksimbilisim.com:443/tv1/bant1/chunks.m3u8?nimblesessionid=445420454
+https://edge2.taksimbilisim.com:443/tv1/bant1/chunks.m3u8?nimblesessionid=445585807
 #EXTINF:-1 group-title="Türkiye • Diğer",TV 100 HD
 https://ensonhaber-live.ercdn.net/tv100/tv100_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TV 264
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/mt_0.m3u8
-#EXTINF:-1 group-title="Türkiye • Diğer",TV 3 (Turkey)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TV 41
-https://live.artidijitalmedya.com/artidijital_tv41/tv41/chunks.m3u8?nimblesessionid=3754707586
+https://live.artidijitalmedya.com/artidijital_tv41/tv41/chunks.m3u8?nimblesessionid=3756462924
 #EXTINF:-1 group-title="Türkiye • Diğer",TV 52 (Ordu)
 https://edge2.taksimbilisim.com/tv52/bant1/chunks.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TV 8.5 HD
@@ -248,18 +228,16 @@ https://rkhubpaomb.turknet.ercdn.net/fwjkgpasof/tv8bucuk/tv8bucuk_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TV Den
 https://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TV Kayseri
-https://live.artidijitalmedya.com/artidijital_etv/etv/chunks.m3u8?nimblesessionid=3754707386
+https://live.artidijitalmedya.com/artidijital_etv/etv/chunks.m3u8?nimblesessionid=3756462621
 #EXTINF:-1 group-title="Türkiye • Diğer",TV Net HD
 https://tvnet-live.lg.mncdn.com/tvnet/tvnet/chunklist.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",TYT Türk
 https://tytturk-live.ercdn.net/tytturk/tytturk_1080p.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Ülke TV HD
 https://livetv.radyotvonline.net/kanal7live/ulketv/chunklist.m3u8
+#EXTINF:-1 group-title="Türkiye • Haber",Ulusal Kanal
+https://internettv.guventechnology.com/hls/ulusaltv/index.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",Van TV
 http://sivantv.livebox.co.in/sivantvhls/sivan.m3u8
 #EXTINF:-1 group-title="Türkiye • Diğer",VAN65
-https://live.artidijitalmedya.com/artidijital_van65/van65/chunks.m3u8?nimblesessionid=3754707589
-#EXTINF:-1 group-title="Türkiye • Diğer",Yeni Kocaeli TV
-https://edge2.taksimbilisim.com:443/kocaelitv/bant1/chunks.m3u8?nimblesessionid=445418921
-#EXTINF:-1 group-title="Türkiye • Diğer",Zarok TV Kurmanci
-https://zindikurmanci.zaroktv.com.tr/hls/0/stream.m3u8
+https://live.artidijitalmedya.com/artidijital_van65/van65/chunks.m3u8?nimblesessionid=3756462925

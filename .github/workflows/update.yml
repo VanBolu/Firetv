@@ -13,8 +13,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
 
-    # Bir daha 3-4 saat çalışmasını engeller.
-    timeout-minutes: 60
+    timeout-minutes: 45
 
     steps:
 
@@ -33,9 +32,16 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg
 
-      - name: FFprobe kontrol
+      - name: Gerekli araçları kontrol et
         run: |
+          echo "Python:"
+          python --version
+
+          echo "FFprobe:"
           ffprobe -version | head -n 1
+
+          echo "Curl:"
+          curl --version | head -n 1
 
       - name: Playlistleri oluştur
         run: |
@@ -45,7 +51,12 @@ jobs:
         run: |
           echo ""
           echo "=== DOSYALAR ==="
-          ls -lh Turkiye.m3u Dunya.m3u Hotbird.m3u Astra.m3u
+
+          ls -lh \
+            Turkiye.m3u \
+            Dunya.m3u \
+            Hotbird.m3u \
+            Astra.m3u
 
           echo ""
           echo "=== KANAL SAYILARI ==="
@@ -60,7 +71,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Turkiye.m3u Dunya.m3u Hotbird.m3u Astra.m3u
+          git add \
+            Turkiye.m3u \
+            Dunya.m3u \
+            Hotbird.m3u \
+            Astra.m3u
 
           if git diff --cached --quiet; then
             echo "Playlistlerde değişiklik yok."

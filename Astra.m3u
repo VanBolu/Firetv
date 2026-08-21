@@ -4,15 +4,15 @@ http://customized-cdn.net/invalidurlstream1/streamPlaylist.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",A la Une HD
 http://145.239.5.177/329/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",a.tv
-http://stream.mcquack.net/36/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1&token=261cbb67734eed5cb317f450e069ea87
+http://stream.mcquack.net/36/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1&token=b4ab9889ffe666f9b938719a67462b70
 #EXTINF:-1 group-title="Astra 19.2°E",Al Jazeera English HD
 https://live-hls-apps-aje-fa.getaj.net/AJE/01.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",ALT_Deluxe Lounge
-https://jmp2.uk/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/b376be32-40c4-4bfa-a831-4557ae654dd4/0.m3u8
+https://jmp2.uk/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/a0946143-7b8b-4b66-b8dd-24ce0d671264/0.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",ALT_Deluxe Rap
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/6a882372c50ce_33669365_2608211007_5.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",ALT_Just Fishing
-https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-acf50795-c2e6-44a7-8abf-2bad1a986eac&deviceId=7fafb25b-ef4b-4745-a756-2b290af99902&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
+https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-068b708d-604f-4eb8-b046-ec273f7a4a70&deviceId=7552b405-31ef-4d1f-b8cb-a1d7dc46bf17&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
 #EXTINF:-1 group-title="Astra 19.2°E",ARD-alpha HD
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master1080p5000.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Arirang TV HD
@@ -22,21 +22,21 @@ http://145.239.5.177/300/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",BBC News HD
 http://23.237.104.106:8080/USA_BBC_NEWS/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Bibel TV HD
-https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/bibint01/bibint01.stream_1/chunks.m3u8?nimblesessionid=1363940155
+https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/bibint01/bibint01.stream_1/chunks.m3u8?nimblesessionid=1364008158
 #EXTINF:-1 group-title="Astra 19.2°E",Bloomberg Europe
 https://liveprodeuwest.global.ssl.fastly.net/eu1/Channel-EUTVqvs-AWS-ireland-2/Source-EUTVqvs-10000-1-sknn1p-BP-HD-4-KZVY3t6YToC2_live.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Canal Sur Andalucia
-https://dfk2a268yviz9.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/cbf06486-bda7-4d6a-aaef-c9f188f00229/0.m3u8
+https://dfk2a268yviz9.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/378e71f8-37cb-4b1a-96f2-3dfacfaf6313/0.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Canal+ Promo
 https://www.desde-paraguay.com/pro.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Canal+ UHD
-http://15.204.246.24:8080/Canal13HD/tracks-v1a1/mono.m3u8
+https://5ca3e84a76d30.streamlock.net/tves/videotves/chunklist_w947701106.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",CGTN Documentary
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master1080p.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",CGTN HD
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master1080p.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",CNews HD
-https://live.eu-north-1a.cf.dmcdn.net/sec2(fqY1QM0Jo4JS16_X4oS3fq9TeyVyzf-EJIbGtF0fNkLgUJCB4mMJEy0ngYMYXgodOmVL3abZ05Uox-_FuTlh7MuTWWgUo0ri5rXzlpI47wSSMfmOE-nDpp-0n4FabzHb)/dm/3/x3b68jn/d/live-1080@60.m3u8?startdate=2026-07-07T08%3A07%3A42%2B0000#cell=lcf-eu-north-1a
+https://live.eu-north-1a.cf.dmcdn.net/sec2(Z3hgpDmM1ztemuPJQUGIu5ndNClWv_cAWRzkQZ6GtRgFjlf_tXo56ViyCfcoMz5Pn-3cWFv6AAtYgTBhUDLzu2MKctZyW0smB4o3mOSCJg0CBfoSr3hq_QEaM70PFA4n)/dm/3/x3b68jn/d/live-1080@60.m3u8?startdate=2026-07-07T08%3A07%3A42%2B0000#cell=lcf-eu-north-1a
 #EXTINF:-1 group-title="Astra 19.2°E",CNN International Europe
 https://vodcdn.bamboo-cloud.com/livehls/68c62ff406304403a60cd7f3/index-f2-v1-a1.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Das Erste HD
@@ -48,15 +48,15 @@ https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/6a88662d26e0b_1
 #EXTINF:-1 group-title="Astra 19.2°E",Deluxe Rap
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/6a882372c50ce_33669365_2608211007_5.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Die Neue Zeit TV
-https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/chunklist_w819496492_b2000000_slde.m3u8
+https://bild-und-ton.stream/die-neue-zeit-tv-live/smil:dnz-de.smil/chunklist_w713402088_b2000000_slde.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Dokusat
-https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/chunks.m3u8?nimblesessionid=69050336
+https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/chunks.m3u8?nimblesessionid=69068927
 #EXTINF:-1 group-title="Astra 19.2°E",DW English HD
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream05/streamPlaylist.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",DYN Sport Mix
-https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-62e1f712-2424-4e9d-b149-e94664ecccde&deviceId=190cbe7a-1c56-4e8e-851a-2dfa8069bce2&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
+https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-6453c6a5-bbef-4be5-9c54-ce1158e54b8e&deviceId=6b44f5c2-24d6-4492-b62d-b38906369063&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
 #EXTINF:-1 group-title="Astra 19.2°E",Euronews German
-https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-ed74cd9f-02a2-465e-9744-97af5bf46625&deviceId=a5a19e41-251e-47a8-bb21-0f126497edba&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
+https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-5feb1faa-3b8d-4e75-be0b-c6cd008f3bc5&deviceId=8b2eaa8d-bd85-4447-9618-1e76c81a3b5a&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
 #EXTINF:-1 group-title="Astra 19.2°E",EWTN Europe
 https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/v0nfsplw/720/chunklist.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Franken Plus HD
@@ -78,27 +78,29 @@ https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/master_576_1p25.m3u
 #EXTINF:-1 group-title="Astra 19.2°E",intv
 https://stream-243529.castr.net/6842a712b68c56f675d988f1/live_f5ac22b0566511f0805217b960326aaa/tracks-v1a1/rewind-1800.ts.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Just Fishing
-https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-acf50795-c2e6-44a7-8abf-2bad1a986eac&deviceId=7fafb25b-ef4b-4745-a756-2b290af99902&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
+https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-068b708d-604f-4eb8-b046-ec273f7a4a70&deviceId=7552b405-31ef-4d1f-b8cb-a1d7dc46bf17&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
 #EXTINF:-1 group-title="Astra 19.2°E",Juwelo HD
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/7441/6a81e73445aae_12812347_2608160437_3_3.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",KiKa HD
-https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master-1080p-5000.m3u8
+https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8
+#EXTINF:-1 group-title="Astra 19.2°E",Krone TV
+https://hms.pfs.gdn/hms/v1/broadcast/one/primary/tracks-v1a1/mono.m3u8?token=ArK392xgind4FiBDIA0jmA:6vCGWviJBjb5PpTKObYce-Zbjc5cToCLfBHjm1-wz5Rdfo8LuSUL3xKlbAaGE-eF4G4zjRf3gioZdHO07yd-DkmtFF40dIcETCx_mvyvIOrAlSGsfgzGt1Os-8vIAtSwP2xH7-z7403dCCsr_5m9SaP8pe-qqsA6Pb_YTtpwxkTVJo647NrKkIVWFg8mEDeb3_iu8DM4Cj3jSMBQUuxFjJk5hu-_g3juK_b7ZRCO6pM
 #EXTINF:-1 group-title="Astra 19.2°E",LT1
-https://ms02.w24.at/R9Partner/lt1.smil/chunklist_w314020427_b2176000_slger.m3u8
+https://ms02.w24.at/R9Partner/lt1.smil/chunklist_w1053117408_b2176000_slger.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Melodie TV
 https://183.bozztv.com/ssh101/ssh101/melodietvlive/chunks.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",MTV
 http://198.58.104.90:8989/mtv/index.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",münchen.tv HD
-https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/chunks.m3u8?nimblesessionid=1363940180
+https://muenchentv.iptv-playoutcenter.de/muenchentv/muenchentv.stream_1/chunks.m3u8?nimblesessionid=1364008190
 #EXTINF:-1 group-title="Astra 19.2°E",n-tv
-https://salam-us-iptp-81.rtbcdn.ru/dive/river-6-602.rtbcdn.ru/eYCWYAQicwjGglDTWmNLbA/stream/genetta-315.m9.rutube.ru/eXzRnBcmhKcUf-obu6oMuw/1787943038/c37cd74192c6bc3d6cd6077c0c4fd686/1080p_stream.m3u8
+https://salam-us-iptp-81.rtbcdn.ru/dive/river-6-602.rtbcdn.ru/cxE-doLDva3EvYKdbvpPQg/stream/genetta-315.m9.rutube.ru/nysx1i01l-B0WU9ch8-RLA/1787948307/c37cd74192c6bc3d6cd6077c0c4fd686/1080p_stream.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",n-tv Austria
-http://tv1.intv.mk:1935/live/intv/chunklist_w657775090.m3u8
+http://tv1.intv.mk:1935/live/intv/chunklist_w453740438.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",N24 Doku
-https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-4235b21a-8fd6-472d-849b-48c4ca179d0d&deviceId=b81b8e6f-43de-491b-b283-bef2c63573ca&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
+https://jmp2.uk/3063648/playlist.m3u8?sid=SAMSUNG-TVPLUS-011dc4e0-038b-4f05-bb51-7afd0ac5ae5a&deviceId=11a88f49-f86c-48e9-83e9-5c57f8e7d2c0&authToken=eyJhbGciOiJIUzI1NiIsImtpZCI6IjhmMDFjYzNiLTM3YTgtNGJlNC05MGQwLTk2YzBmNDI0YTQwMyIsInR5cCI6IkpXVCJ9.eyJwYXJ0bmVyIjoic2Ftc3VuZ3R2cGx1cyIsImZlYXR1cmVzIjp7Im11bHRpUG9kQWRzIjp7ImNvaG9ydCI6IiIsImVuYWJsZWQiOnRydWV9LCJzdGl0Y2hlckhsc05nIjp7ImRlbXV4ZWRBdWRpbyI6ImRpc2FibGVkIn0sInN0aXRjaGVySGxzTmdWbGwiOnsiZW5hYmxlZCI6dHJ1ZX0sInN0aXRjaGVyUGFydG5lclNob3dTbGF0ZSI6eyJlbmFibGVkIjp0cnVlfX0sImlzcyI6InNlcnZpY2UtcGFydG5lci1hdXRoLnBsdXRvLnR2Iiwic3ViIjoicHJpOnYxOnBsdXRvOmRldmljZXM6YzJGdGMzVnVaM1IyY0d4MWN3PT0iLCJhdWQiOiIqLnBsdXRvLnR2IiwiZXhwIjoxNzg3Mzc2NDQ4LCJpYXQiOjE3ODcyOTAwNDgsImp0aSI6IjRlNzVkNjU5LWY0ZjItNGYzZi04NjUwLTU2ZjVhZDYwOWIxZSJ9.QKvsOKv-ro80K6kbhMgWPDngvjmV6PWoXADgP5iX1G4
 #EXTINF:-1 group-title="Astra 19.2°E",Niederbayern TV HD
-https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/chunklist_w1866387372_b3628000.m3u8
+https://stream03.welocal.stream/stream/sat-nby/ngrp:sat-nby.stream_all/chunklist_w1846737582_b3628000.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",One HD
 https://2-fss-1.streamhoster.com/pl_148/201830-1293592-1/chunklist.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Pearl.tv HD
@@ -114,7 +116,7 @@ https://qvcde-live.akamaized.net/hls/live/2097104/qby/1/1.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Regio TV
 https://dash2.antik.sk/live/test_regio_tv/playlist.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",RIC
-https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8?nimblesessionid=540378593
+https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8?nimblesessionid=540412058
 #EXTINF:-1 group-title="Astra 19.2°E",RTL Television
 http://45.224.97.181:9999/TC/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Sachsen Eins
@@ -130,15 +132,15 @@ http://euvia.cdn.ses-ps.com/HLS-Live/stream1/streamPlaylist.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",SR Fernsehen HD
 https://srfs.akamaized.net/hls/live/689649/srfsgeo/master-720p-3328.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Stimmungsgarten TV
-https://stimmungsgartentv.iptv-playoutcenter.de/stimmungsgartentv/stimmungsgartentv-all/stimmungsgartentv/stimmungsgartentv1/chunks.m3u8?nimblesessionid=69050764
+https://stimmungsgartentv.iptv-playoutcenter.de/stimmungsgartentv/stimmungsgartentv-all/stimmungsgartentv/stimmungsgartentv1/chunks.m3u8?nimblesessionid=69068988
 #EXTINF:-1 group-title="Astra 19.2°E",Super RTL
 https://forsizero.github.io/iptv/m3u/superrtlhd.m3u
 #EXTINF:-1 group-title="Astra 19.2°E",Tagesschau 24 HD
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master-720p-3328.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Telesur English
-https://mblenmain01.telesur.ultrabase.net/mblivev3/hd/chunklist_w1247316883.m3u8
+https://mblenmain01.telesur.ultrabase.net/mblivev3/hd/chunklist_w1094928471.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Telesur HD
-https://mblenmain01.telesur.ultrabase.net/mblivev3/hd/chunklist_w1247316883.m3u8
+https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",TRT World HD
 https://tv-trtworld.medya.trt.com.tr/master_1080.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",TV Monaco
@@ -146,6 +148,6 @@ https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-
 #EXTINF:-1 group-title="Astra 19.2°E",TV5 Monde Europe HD
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/TV5/default/TV5-audio_210600_fre=210400-video=5154400.m3u8
 #EXTINF:-1 group-title="Astra 19.2°E",Volksmusik TV
-https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/chunks.m3u8?nimblesessionid=540378599
+https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/chunks.m3u8?nimblesessionid=540412062
 #EXTINF:-1 group-title="Astra 19.2°E",Xplore
-https://amg00111-hearstmediaprod-xploreintlnl-samsungnl-rx86v.amagi.tv/ts-eu-w1-n2/playlist/amg00111-hearstmediaprod-xploreintlnl-samsungnl/cb51391c6570668a84cc2163d1d37bdd844c3bdd0b61cb3071aa468320c64d0dd0e8f692f042bb615d821edf370b7000596f9904df2d5594da79a005617c107df83c8341f1a1c3f27fea25184fd0682334a0575185714341cde80e0d964fcd13673dc979a3d2afefc764d3291081d81afa227cc9f48e30134262c421a46fc7983df2a1f1271a9b39b39424c11ada77c5b031b8fe26c8d18802c81cc428a84587a5cabeda1583829061b46f6a5378a09f8e7e65b3b1e924b41b2c3db6844f8806d933acd0b2f34b2e8f444213d4f0d88044f114cb8520925a46d16bb5409e398667ab46f2af1ed2cdc1bf482268f190bb00eb7e2714ecef10d62475025ccf120ef03eae728d8b/154/1920x1080_8048040/index.m3u8
+https://amg00111-hearstmediaprod-xploreintlnl-samsungnl-rx86v.amagi.tv/ts-eu-w1-n2/playlist/amg00111-hearstmediaprod-xploreintlnl-samsungnl/cb543d1a7e6c648d98d4366fcef043a1f93d1fde1d6988693eb5518975d30b58d6bba297ea4bef7555cb168b7c0b6c075c7a991fd6291c95d828fd52307d1170989fba1967a828218a2dd0bd1b934b3463807207eb5b0666d1ec08048433b16a7762826b4b63424139949f5c64b0c548d43f7ca188e5b8bae56b7da12f08a7f70bfdefbe1d55b233feec0e60adb99970b360fbaa6e91bdaa04dc07de668356ccc0a1d5970ab4bca567af56b6664f30480c89bf1e3db0fc9ffae3cee3449c4e166f75acd3b6eb5c3396420c7df5ecdfba77fb12c3b354eb0b1ab41a91438831c53ee459d58134c0a7d88e1716d9c503dca393c6d83877082609c67cb8c3e66b9056708b/157/1920x1080_8048040/index.m3u8
